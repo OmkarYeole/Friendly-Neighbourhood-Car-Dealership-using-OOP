@@ -5,22 +5,24 @@ import java.util.Random;
 
 
 public class Staff {
-    static String[] staffType = {"Intern", "Mechanic", "Salesperson"};
-    static ArrayList<String> names = new ArrayList<String>();
-    static ArrayList<String>[] staff = new ArrayList[3];
-    static ArrayList<String>[] staff_status = new ArrayList[3];
-    static ArrayList<String>[] dep_staff = new ArrayList[3];
-    static int[] normal_pay = {500, 1000, 1500};
-    static ArrayList<Integer>[] total_normal_pay = new ArrayList[3];
-    static ArrayList<Integer>[] bonus = new ArrayList[3];
-    static ArrayList<Integer>[] total_bonus = new ArrayList[3];
-    static ArrayList<Integer>[] dep_total_bonus = new ArrayList[3];
-    static ArrayList<Integer>[] dep_total_normal_pay = new ArrayList[3];
-    static ArrayList<Integer>[] salary = new ArrayList[3];
-    static ArrayList<Integer>[] total_salary = new ArrayList[3];
-    static ArrayList<Integer>[] dep_total_salary = new ArrayList[3];
-    static ArrayList<Integer>[] days_worked = new ArrayList[3];
-    static ArrayList<Integer>[] dep_days_worked = new ArrayList[3];
+    static String[] staffType = {"Intern", "Mechanic", "Salesperson","Driver"};
+    static ArrayList<String> names = new ArrayList<>();
+    static ArrayList<String>[] staff = new ArrayList[4];
+    static ArrayList<String>[] staff_status = new ArrayList[4];
+    static ArrayList<String>[] dep_staff = new ArrayList[4];
+    static int[] normal_pay = {500, 1000, 1500, 2000};
+    static ArrayList<Integer>[] total_normal_pay = new ArrayList[4];
+    static ArrayList<Integer>[] bonus = new ArrayList[4];
+    static ArrayList<Integer>[] total_bonus = new ArrayList[4];
+    static ArrayList<Integer>[] dep_total_bonus = new ArrayList[4];
+    static ArrayList<Integer>[] dep_total_normal_pay = new ArrayList[4];
+    static ArrayList<Integer>[] salary = new ArrayList[4];
+    static ArrayList<Integer>[] total_salary = new ArrayList[4];
+    static ArrayList<Integer>[] dep_total_salary = new ArrayList[4];
+    static ArrayList<Integer>[] days_worked = new ArrayList[4];
+    static ArrayList<Integer>[] dep_days_worked = new ArrayList[4];
+    static ArrayList<Integer> race_won = new ArrayList<>();//only for drivers
+    static ArrayList<Integer> dep_race_won = new ArrayList<>();//only for drivers
     static double prob = 0;
     static ArrayList<Integer> quit_status = new ArrayList<Integer>(3);
     static int bonus_val=0;//for individual bonus of any action
@@ -28,22 +30,24 @@ public class Staff {
 
     //Initializing the variables
     public void init() {
-        for (int i = 0; i < 3; i++) {
-            staff[i] = new ArrayList<String>();
-            staff_status[i] = new ArrayList<String>();
-            days_worked[i] = new ArrayList<Integer>();
-            total_bonus[i] = new ArrayList<Integer>();
-            bonus[i] = new ArrayList<Integer>();
-            total_normal_pay[i]= new ArrayList<Integer>();
-            salary[i] = new ArrayList<Integer>();
-            total_salary[i] = new ArrayList<Integer>();
-            dep_staff[i] = new ArrayList<String>();
-            dep_days_worked[i] = new ArrayList<Integer>();
-            dep_total_bonus[i] = new ArrayList<Integer>();
-            dep_total_normal_pay[i] = new ArrayList<Integer>();
-            dep_total_salary[i] = new ArrayList<Integer>();
+        for (int i = 0; i < 4; i++) {
+            staff[i] = new ArrayList<>();
+            staff_status[i] = new ArrayList<>();
+            days_worked[i] = new ArrayList<>();
+            total_bonus[i] = new ArrayList<>();
+            bonus[i] = new ArrayList<>();
+            total_normal_pay[i]= new ArrayList<>();
+            salary[i] = new ArrayList<>();
+            total_salary[i] = new ArrayList<>();
+            dep_staff[i] = new ArrayList<>();
+            dep_days_worked[i] = new ArrayList<>();
+            dep_total_bonus[i] = new ArrayList<>();
+            dep_total_normal_pay[i] = new ArrayList<>();
+            dep_total_salary[i] = new ArrayList<>();
             quit_status.add(0);
         }
+        race_won = new ArrayList<>();
+        dep_race_won = new ArrayList<>();
     }
     //The following method gives a set of names for staff
     public void add_names() {
@@ -77,7 +81,10 @@ public class Staff {
         staff[2].add("Shay");
         staff[2].add("Arno");
         staff[2].add("Jacob");
-        for (int i = 0; i < 3; i++) {
+        staff[3].add("Bayek");
+        staff[3].add("Alexios");
+        staff[3].add("Eivor");
+        for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 3; j++) {
                 staff_status[i].add("Active");
                 days_worked[i].add(0);
@@ -88,12 +95,15 @@ public class Staff {
                 total_salary[i].add(0);
             }
         }
+        for (int i = 0; i < 3; i++) {
+            race_won.add(0);
+        }
     }
     //method to maintain the staff data at the end of the day if any staff quits
     public void updateDepartedStaff() {
         //General case where any worker quits, he/she is removed from the staff list and added to departed staff list
         System.out.println("\nDay End");
-        for (int i = 0; i < 3; i++) {
+        for (int i = 0; i < 3; i++) { //Drivers do not quit so, not 4
             for (int j = 0; j < staff_status[i].size(); j++) {
                 prob = rand.nextDouble();
                 if (prob < 0.1) {
@@ -448,6 +458,124 @@ class Salesperson extends Staff{
     }
 }
 
+class Driver extends Staff{
+    int choice,pos;
+    ArrayList<Integer> positions,race_position;
+    ArrayList<String> vehicles_choice,race_vehicles;
+    Vehicle obj = new Vehicle();
+
+    public void getRaceVehicles(){
+        vehicles_choice = new ArrayList<>();
+        race_vehicles = new ArrayList<>();
+        choice = rand.nextInt(1,5);                 //selecting a vehicle other than regular or electric car
+        vehicles_choice = obj.vehicle[choice];
+        for (int i=0;i<vehicles_choice.size();i++){
+            if(obj.getCondition(vehicles_choice.get(i))!=0){    //condition to check if the vehicle is not broken
+                race_vehicles.add(vehicles_choice.get(i));
+            }
+            if(race_vehicles.size()==3){                        //If 3 vehicles already selected, stop
+                break;
+            }
+        }
+    }
+    //The vehicles in race_vehicles will be associated with the drivers (all names from staff[3]) having same index numbers
+    //for example, race_vehicles.get(i) will have a driver staff[3].get(i) and its count of races won will be race_won.get(i)
+    public void race(){
+        if (race_vehicles.size()!=0){
+            positions.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20));
+            race_position = new ArrayList<>();
+            for (int i=0;i<race_vehicles.size();i++){
+                pos=rand.nextInt(positions.size());
+                race_position.set(i,positions.get(pos));              //selecting a final position for vehicle
+                positions.remove(pos);                                //removing that position for other vehicles
+                if(race_position.get(i)<4){                           //If vehicle wins the race
+                    for (int j=0;j<vehicles_choice.size();j++){
+                        if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
+                            obj.race_won[choice].set(j,obj.race_won[choice].get(j)+1);//updating race won count for that vehicle
+                            race_won.set(i, race_won.get(i)+1);       //updating race won count for the driver of the vehicle
+                            getBonus(i,vehicles_choice.get(j));       //Giving bonus to driver
+                        }
+                    }
+                } else if (race_position.get(i)>15){                  //If vehicle gets damaged
+                    for (int j=0;j<vehicles_choice.size();j++){
+                        if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
+                            obj.condition[0].add(vehicles_choice.get(j));//update the condition of vehicle to broken
+                            obj.condition[obj.getCondition(vehicles_choice.get(j))].remove(obj.getCondition2(vehicles_choice.get(j)));//removing the previous condition
+                            prob=rand.nextDouble();
+                            if (prob<0.3){
+                                dep_staff[3].add(staff[3].get(j));    //The Driver is injured, he quits, and he is added to departed staff
+                                staff[3].remove(j);                   //removing the driver details from active drivers
+                                staff_status[3].remove(j);
+                                dep_days_worked[3].add(days_worked[3].get(j));
+                                days_worked[3].remove(j);
+                                dep_total_bonus[3].add(total_bonus[3].get(j));
+                                total_bonus[3].remove(j);
+                                bonus[3].remove(j);
+                                dep_total_normal_pay[3].add(total_normal_pay[3].get(j));
+                                total_normal_pay[3].remove(j);
+                                dep_total_salary[3].add(total_salary[3].get(j));
+                                total_salary[3].remove(j);
+                                salary[3].remove(j);
+                                dep_race_won.add(race_won.get(j));
+                                race_won.remove(j);
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+    public void getTotalDays(){
+        for(int j=0;j<staff[3].size();j++){
+            days_worked[3].set(j, days_worked[3].get(j)+1);  //Total days worked increases by 1 after each day a salesperson was active
+        }
+    }
+    public void getBonus(int k, String vehicle){
+        for(int i=1; i<5;i++){                               //So that General and Electric cars are not considered while getting Driver bonus
+            for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
+                if (Vehicle.vehicle[i].get(j).equals(vehicle)){
+                    bonus[3].set(k, bonus[3].get(k) + Vehicle.race_win_bonus[i]);  //Bonus is decided based on type of car
+                    bonus_val=Vehicle.race_win_bonus[i];
+                    break;
+                }
+            }
+        }
+    }
+    public void getSalary(){
+        for(int j=0;j<staff[3].size();j++){
+            salary[3].set(j, normal_pay[3]+bonus[3].get(j));//salary is calculated by adding bonus and normal pay for the day
+            if(Operation.budget-salary[3].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
+                Operation.budget=Operation.budget+250000;
+                Operation.added_money=Operation.added_money+250000;
+            }
+            Operation.budget=Operation.budget-salary[3].get(j);
+            total_normal_pay[3].set(j,total_normal_pay[3].get(j)+normal_pay[3]);
+            total_salary[3].set(j, total_salary[3].get(j)+salary[3].get(j));
+            total_bonus[3].set(j, total_bonus[3].get(j)+bonus[3].get(j));
+        }
+    }
+    public void addDriver(){
+        for(int i = 0; staff[3].size()<3; i++){      //If number of Drivers is less than 3, add new drivers
+            staff[3].add(getName());
+            System.out.println("Hired a new Driver "+(staff[3].get(staff[3].size()-1))+".");
+            staff_status[3].add("Active");
+            days_worked[3].add(0);
+            bonus[3].add(0);
+            total_bonus[3].add(0);
+            salary[3].add(0);
+            total_normal_pay[3].add(0);
+            total_salary[3].add(0);
+            race_won.add(0);
+        }
+        for (int i =0;i<staff.length;i++){
+            for (int j=0;j<staff[i].size();j++){
+                bonus[i].set(j,0);  //after the end of the day, initializing the bonus amount to 0 for the next day
+                quit_status.set(i,0);//after the end of the day, initializing quit status for the next day
+            }
+        }
+    }
+}
+
 class Vehicle{
     static ArrayList<String> car_names = new ArrayList<String>();
     static String[] carType = {"Car", "Pickup", "Performance Car"};
@@ -460,12 +588,14 @@ class Vehicle{
     static ArrayList<Integer>[] cost_price = new ArrayList[3];
     static ArrayList<Integer>[] sales_price = new ArrayList[3];
     static ArrayList<String>[] soldVehicles = new ArrayList[3];
+    static ArrayList<Integer>[] race_won = new ArrayList[6];
     static int[] max_sale_price = {0,0,0};
     String conditionSelected = "";
     Random rand= new Random();
     static int[] vehicle_wash_bonus = {50, 75, 100};
     static int[] vehicle_repair_bonus = {100, 125, 150};
     static int[] vehicle_sale_bonus = {150, 175, 200};
+    static int[] race_win_bonus = {0,200, 225, 250, 275, 0};
 
     //Initializing variables
     public void init2(){
@@ -850,7 +980,7 @@ class Buyer extends Staff{
     }
     //adds choice of vehicle to the buyer
     public void addBuyerChoice(int j){
-        int vehicleChoice = rand.nextInt(3);
+        int vehicleChoice = rand.nextInt(6);//now 6 vehicles instead of 3
         buyer_choice[j].add(vehicleChoice);
     }
     //getting the type of buyer
