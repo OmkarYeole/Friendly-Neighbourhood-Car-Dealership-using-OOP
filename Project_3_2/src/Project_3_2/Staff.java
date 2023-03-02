@@ -492,6 +492,7 @@ class Salesperson extends Staff{
             System.out.println("\nSelling");
             Operation.total_sales = 0;//Initializing the total sales at the beginning of the day
             Buyer buyer1 = new Buyer();
+            Vehicle[] vehicle_object = {new Car(),new Pickup(),new PerformanceCar(),new Motorcycles(),new MonsterTrucks(),new ElectricCar()};
             //Checks if there are any buyers present
             if (Buyer.buyer_no !=0){
                 for(int i = 0; i< Buyer.buyer_no; i++){
@@ -548,6 +549,11 @@ class Salesperson extends Staff{
                     //updating vehicles, budget, and conditions and cleanliness of vehicles
                     prob = rand.nextDouble();
                     if (prob < Buyer.buyer_prob[buyer_index1].get(buyer_index2)){
+                        Vehicle vecl = vehicle_object[buyer_choice];
+                        vecl = new ExtendedWarranty(vecl,buyer_choice,vehicle_choice);
+                        vecl = new Undercoating(vecl,buyer_choice,vehicle_choice);
+                        vecl = new RoadRescueCoverage(vecl,buyer_choice,vehicle_choice);
+                        vecl = new SatelliteRadio(vecl,buyer_choice,vehicle_choice);
                         Operation.budget = Operation.budget + Vehicle.sales_price[buyer_choice].get(vehicle_choice);//Sales price of car added to budget
                         Operation.total_sales = Operation.total_sales + Vehicle.sales_price[buyer_choice].get(vehicle_choice);//updated Total sales of the day
                         getBonus(index2, vehicle);    //Salesperson gets a bonus
@@ -1311,6 +1317,73 @@ class ElectricCar extends Vehicle{
         Operation.budget = Operation.budget - cost_price[5].get(vehicle[5].size()-1);
     }
 }
+
+abstract class Addon_purchaser extends Vehicle{
+    Vehicle vehicle;
+    int i, j;
+    abstract void addonPrice();
+}
+
+class ExtendedWarranty extends Addon_purchaser{
+    public ExtendedWarranty(Vehicle vehicle, int i, int j) {
+        this.vehicle = vehicle;
+        this.i = i;
+        this.j = j;
+    }
+    public void addonPrice(){
+        double prob = rand.nextDouble();
+        if(prob < 0.20){
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.2));
+        }
+
+    }
+}
+
+class Undercoating extends Addon_purchaser{
+    public Undercoating(Vehicle vehicle, int i, int j) {
+        this.vehicle = vehicle;
+        this.i = i;
+        this.j = j;
+    }
+    public void addonPrice(){
+        double prob = rand.nextDouble();
+        if(prob < 0.10){
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.05));
+        }
+
+    }
+}
+
+class RoadRescueCoverage extends Addon_purchaser{
+    public RoadRescueCoverage(Vehicle vehicle, int i, int j) {
+        this.vehicle = vehicle;
+        this.i = i;
+        this.j = j;
+    }
+    public void addonPrice(){
+        double prob = rand.nextDouble();
+        if(prob <0.05){
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.02));
+        }
+
+    }
+}
+
+class SatelliteRadio extends Addon_purchaser{
+    public SatelliteRadio(Vehicle vehicle, int i, int j) {
+        this.vehicle = vehicle;
+        this.i = i;
+        this.j = j;
+    }
+    public void addonPrice(){
+        double prob = rand.nextDouble();
+        if(prob < 0.40){
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.05));
+        }
+
+    }
+}
+
 class Buyer extends Staff{
     static ArrayList<String>[] buyers = new ArrayList[3];
     static ArrayList<Integer>[] buyer_choice = new ArrayList[3];
