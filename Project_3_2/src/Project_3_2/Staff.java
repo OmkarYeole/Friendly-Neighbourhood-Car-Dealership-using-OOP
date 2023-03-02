@@ -24,7 +24,7 @@ public class Staff {
     static ArrayList<Integer> race_won = new ArrayList<>();//only for drivers
     static ArrayList<Integer> dep_race_won = new ArrayList<>();//only for drivers
     static double prob = 0;
-    static ArrayList<Integer> quit_status = new ArrayList<Integer>(3);
+    static ArrayList<Integer> quit_status = new ArrayList<>(3);
     static int bonus_val=0;//for individual bonus of any action
     Random rand = new Random();
 
@@ -102,127 +102,257 @@ public class Staff {
     //method to maintain the staff data at the end of the day if any staff quits
     public void updateDepartedStaff() {
         //General case where any worker quits, he/she is removed from the staff list and added to departed staff list
-        System.out.println("\nDay End");
-        for (int i = 0; i < 3; i++) { //Drivers do not quit so, not 4
-            for (int j = 0; j < staff_status[i].size(); j++) {
-                prob = rand.nextDouble();
-                if (prob < 0.1) {
-                    if(quit_status.get(i)==0){//If one person from same staff type has already quit then another one will not quit for that day.
-                        System.out.println(staffType[i]+" " +staff[i].get(j)+" has quit the FNCD.");//printing staff status
-                        dep_staff[i].add(staff[i].get(j));//adding all staff details to departed staff list
-                        staff[i].remove(j);//removing the staff details after the staff quits and adding to departed staff list.
-                        staff_status[i].remove(j);
-                        dep_days_worked[i].add(days_worked[i].get(j));
-                        days_worked[i].remove(j);
-                        dep_total_bonus[i].add(total_bonus[i].get(j));
-                        total_bonus[i].remove(j);
-                        bonus[i].remove(j);
-                        dep_total_normal_pay[i].add(total_normal_pay[i].get(j));
-                        total_normal_pay[i].remove(j);
-                        dep_total_salary[i].add(total_salary[i].get(j));
-                        total_salary[i].remove(j);
-                        salary[i].remove(j);
-                        quit_status.set(i,1);//so that at the most only one from each staff type may quit
-                        j--;
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            System.out.println("\nDay End");
+            for (int i = 0; i < 3; i++) { //Drivers do not quit so, not 4
+                for (int j = 0; j < staff_status[i].size(); j++) {
+                    prob = rand.nextDouble();
+                    if (prob < 0.1) {
+                        if(quit_status.get(i)==0){//If one person from same staff type has already quit then another one will not quit for that day.
+                            System.out.println(staffType[i]+" " +staff[i].get(j)+" quit the FNCD.");//printing staff status
+                            dep_staff[i].add(staff[i].get(j));//adding all staff details to departed staff list
+                            staff[i].remove(j);//removing the staff details after the staff quits and adding to departed staff list.
+                            staff_status[i].remove(j);
+                            dep_days_worked[i].add(days_worked[i].get(j));
+                            days_worked[i].remove(j);
+                            dep_total_bonus[i].add(total_bonus[i].get(j));
+                            total_bonus[i].remove(j);
+                            bonus[i].remove(j);
+                            dep_total_normal_pay[i].add(total_normal_pay[i].get(j));
+                            total_normal_pay[i].remove(j);
+                            dep_total_salary[i].add(total_salary[i].get(j));
+                            total_salary[i].remove(j);
+                            salary[i].remove(j);
+                            quit_status.set(i,1);//so that at the most only one from each staff type may quit
+                            j--;
+                        }
                     }
                 }
             }
         }
     }
 }
+//Strategy Pattern
+interface WashBehavior{
+    void wash(int j);
+}
+class Chemical extends Intern implements WashBehavior{
+    public void wash(int j){
+        Vehicle obj = new Vehicle();
+        if(Vehicle.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[0].size());
+            vehicle_1 =  Vehicle.cleanliness[0].get(cleanliness_choice);
+            prob = rand.nextDouble();                   //probability for updating cleanliness
+            if (prob >= 0.1 && prob < 0.9) {
+                Vehicle.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method and made it "+Vehicle.carCleanliness[1]);
+                Vehicle.cleanliness[0].remove(cleanliness_choice);
+            } else if (prob >= 0.9) {
+                Vehicle.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
+                Intern.getBonus(j,vehicle_1);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method and made it "+Vehicle.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
+                Vehicle.cleanliness[0].remove(cleanliness_choice);
+            } else{
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method but it was still "+Vehicle.carCleanliness[0]);
+            }
+            prob = rand.nextDouble();                   //probability for updating condition
+            if (prob < 0.1){
+                System.out.println("The "+vehicle_1+" has become Broken");
+                obj.updateCondition(0,vehicle_1);         //Update condition to 'Broken'
+            }
+        }
+        if(Vehicle.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[1].size());
+            vehicle_2 =  Vehicle.cleanliness[1].get(cleanliness_choice);
+            prob = rand.nextDouble();
+            if (prob < 0.1) {
+                Vehicle.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method but made it "+Vehicle.carCleanliness[0]);
+                Vehicle.cleanliness[1].remove(cleanliness_choice);
+            } else if(prob >= 0.8) {
+                Vehicle.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
+                Intern.getBonus(j,vehicle_2);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method and made it "+Vehicle.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
+                Vehicle.cleanliness[1].remove(cleanliness_choice);
+            } else{
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method but it was still "+Vehicle.carCleanliness[1]);
+            }
+            prob = rand.nextDouble();                   //probability for updating condition
+            if (prob < 0.1){
+                System.out.println("The "+vehicle_2+" has become Broken");
+                obj.updateCondition(0,vehicle_2);         //Update condition to 'Broken'
+            }
+        }
+    }
+}
+class ElbowGrease extends Intern implements WashBehavior{
+    public void wash(int j){
+        Vehicle obj = new Vehicle();
+        if(Vehicle.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[0].size());
+            vehicle_1 =  Vehicle.cleanliness[0].get(cleanliness_choice);
+            prob = rand.nextDouble();                   //probability for updating cleanliness
+            if (prob >= 0.25 && prob < 0.95) {
+                Vehicle.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method and made it "+Vehicle.carCleanliness[1]);
+                Vehicle.cleanliness[0].remove(cleanliness_choice);
+            } else if (prob >= 0.95) {
+                Vehicle.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
+                Intern.getBonus(j,vehicle_1);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method and made it "+Vehicle.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
+                Vehicle.cleanliness[0].remove(cleanliness_choice);
+            } else{
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method but it was still "+Vehicle.carCleanliness[0]);
+            }
+            prob = rand.nextDouble();                   //probability for updating condition
+            if (prob < 0.1){
+                System.out.println("The "+vehicle_1+" has become Like New");
+                obj.updateCondition(2,vehicle_1);         //Update condition to 'Like New'
+            }
+        }
+        if(Vehicle.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[1].size());
+            vehicle_2 =  Vehicle.cleanliness[1].get(cleanliness_choice);
+            prob = rand.nextDouble();
+            if (prob < 0.15) {
+                Vehicle.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method but made it "+Vehicle.carCleanliness[0]);
+                Vehicle.cleanliness[1].remove(cleanliness_choice);
+            } else if(prob >= 0.85) {
+                Vehicle.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
+                Intern.getBonus(j,vehicle_2);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method and made it "+Vehicle.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
+                Vehicle.cleanliness[1].remove(cleanliness_choice);
+            } else{
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method but it was still "+Vehicle.carCleanliness[1]);
+            }
+            prob = rand.nextDouble();                   //probability for updating condition
+            if (prob < 0.1){
+                System.out.println("The "+vehicle_2+" has become Like New");
+                obj.updateCondition(2,vehicle_2);         //Update condition to 'Like New'
+            }
+        }
+    }
+}
+class Detailed extends Intern implements WashBehavior{
+    public void wash(int j){
+        Vehicle obj = new Vehicle();
+        if(Vehicle.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[0].size());
+            vehicle_1 =  Vehicle.cleanliness[0].get(cleanliness_choice);
+            prob = rand.nextDouble();                   //probability for updating cleanliness
+            if (prob >= 0.2 && prob < 0.8) {
+                Vehicle.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method and made it "+Vehicle.carCleanliness[1]);
+                Vehicle.cleanliness[0].remove(cleanliness_choice);
+            } else if (prob >= 0.8) {
+                Vehicle.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
+                Intern.getBonus(j,vehicle_1);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method and made it "+Vehicle.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
+                Vehicle.cleanliness[0].remove(cleanliness_choice);
+            } else{
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method but it was still "+Vehicle.carCleanliness[0]);
+            }
+        }
+        if(Vehicle.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[1].size());
+            vehicle_2 =  Vehicle.cleanliness[1].get(cleanliness_choice);
+            prob = rand.nextDouble();
+            if (prob < 0.05) {
+                Vehicle.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method but made it "+Vehicle.carCleanliness[0]);
+                Vehicle.cleanliness[1].remove(cleanliness_choice);
+            } else if(prob >= 0.6) {
+                Vehicle.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
+                Intern.getBonus(j,vehicle_2);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method and made it "+Vehicle.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
+                Vehicle.cleanliness[1].remove(cleanliness_choice);
+            } else{
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method but it was still "+Vehicle.carCleanliness[1]);
+            }
+        }
+    }
+}
 //Example of Inheritance
 class Intern extends Staff{
+//    String[] wash_method = {"Chemical", "Elbow Grease", "Detailed"};
     int cleanliness_choice;
     String vehicle_1,vehicle_2;
+    WashBehavior washBehavior;
     //primary method for intern to wash vehicles and update cleanliness of cars
-    public void wash(){
-        System.out.println("\nWashing");
-        for (int j=0;j<staff[0].size();j++){
-            if(Vehicle.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
-                cleanliness_choice = rand.nextInt( Vehicle.cleanliness[0].size());
-                vehicle_1 =  Vehicle.cleanliness[0].get(cleanliness_choice);
-                prob = rand.nextDouble();
-                if (prob >= 0.1 && prob < 0.9) {
-                    Vehicle.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
-                    System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+vehicle_1+" and made it "+Vehicle.carCleanliness[1]);
-                    Vehicle.cleanliness[0].remove(cleanliness_choice);
-                } else if (prob >= 0.9) {
-                    Vehicle.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
-                    getBonus(j,vehicle_1);                  //Intern gets bonus
-                    System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+vehicle_1+" and made it "+Vehicle.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
-                    Vehicle.cleanliness[0].remove(cleanliness_choice);
-                } else{
-                    System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+vehicle_1+" but it was still "+Vehicle.carCleanliness[0]);
+    public void setWashBehavior(){
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            System.out.println("\nWashing");
+            for (int j=0;j<staff[0].size();j++){
+                int i = rand.nextInt(3);
+                if (i==0){
+                    washBehavior = new Chemical();
+                } else if (i==1) {
+                    washBehavior = new ElbowGrease();
+                } else {
+                    washBehavior = new Detailed();
                 }
-            }
-            if(Vehicle.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
-                cleanliness_choice = rand.nextInt( Vehicle.cleanliness[1].size());
-                vehicle_2 =  Vehicle.cleanliness[1].get(cleanliness_choice);
-                prob = rand.nextDouble();
-                if (prob < 0.05) {
-                    Vehicle.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
-                    System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+vehicle_2+" but made it "+Vehicle.carCleanliness[0]);
-                    Vehicle.cleanliness[1].remove(cleanliness_choice);
-                } else if(prob >= 0.7) {
-                    Vehicle.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
-                    getBonus(j,vehicle_2);                  //Intern gets bonus
-                    System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+vehicle_2+" and made it "+Vehicle.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
-                    Vehicle.cleanliness[1].remove(cleanliness_choice);
-                } else{
-                    System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+vehicle_2+" but it was still "+Vehicle.carCleanliness[1]);
-                }
+                washBehavior.wash(j);
             }
         }
     }
     //Getting total days worked
     public void getTotalDays(){
-        for(int j=0;j<staff[0].size();j++){
-            days_worked[0].set(j, days_worked[0].get(j)+1);//Total days worked increases by 1 after each day an intern was active
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int j=0;j<staff[0].size();j++){
+                days_worked[0].set(j, days_worked[0].get(j)+1);//Total days worked increases by 1 after each day an intern was active
+            }
         }
     }
     //Calculating the bonus
-    public void getBonus(int k, String vehicle){
-        for(int i=0; i<3;i++){
-            for(int j = 0; j<  Vehicle.vehicle[i].size(); j++) {
-                if ( Vehicle.vehicle[i].get(j).equals(vehicle)){
-                    bonus[0].set(k, bonus[0].get(k) +  Vehicle.vehicle_wash_bonus[i]);//Bonus is decided based on type of car
-                    bonus_val = Vehicle.vehicle_wash_bonus[i];
-                    break;
+    public static void getBonus(int k, String vehicle){
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int i=0; i<6;i++){
+                for(int j = 0; j<  Vehicle.vehicle[i].size(); j++) {
+                    if ( Vehicle.vehicle[i].get(j).equals(vehicle)){
+                        bonus[0].set(k, bonus[0].get(k) +  Vehicle.vehicle_wash_bonus[i]);//Bonus is decided based on type of car
+                        bonus_val = Vehicle.vehicle_wash_bonus[i];
+                        break;
+                    }
                 }
             }
         }
     }
     //Calculating the salary based on normal pay and bonus play
     public void getSalary(){
-        for(int j=0;j<staff[0].size();j++){
-            salary[0].set(j, normal_pay[0]+bonus[0].get(j));    //salary is calculated by adding bonus and normal pay for the day
-            if(Operation.budget-salary[0].get(j)<=0){           //If we run out of budget, $250000 is added to the budget
-                Operation.budget=Operation.budget+250000;
-                Operation.added_money=Operation.added_money+250000;
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int j=0;j<staff[0].size();j++){
+                salary[0].set(j, normal_pay[0]+bonus[0].get(j));    //salary is calculated by adding bonus and normal pay for the day
+                if(Operation.budget-salary[0].get(j)<=0){           //If we run out of budget, $250000 is added to the budget
+                    Operation.budget=Operation.budget+250000;
+                    Operation.added_money=Operation.added_money+250000;
+                }
+                Operation.budget=Operation.budget-salary[0].get(j); //Salary is reduced from the budget
+                total_normal_pay[0].set(j,total_normal_pay[0].get(j)+normal_pay[0]);
+                total_salary[0].set(j, total_salary[0].get(j)+salary[0].get(j));
+                total_bonus[0].set(j, total_bonus[0].get(j)+bonus[0].get(j));
             }
-            Operation.budget=Operation.budget-salary[0].get(j); //Salary is reduced from the budget
-            total_normal_pay[0].set(j,total_normal_pay[0].get(j)+normal_pay[0]);
-            total_salary[0].set(j, total_salary[0].get(j)+salary[0].get(j));
-            total_bonus[0].set(j, total_bonus[0].get(j)+bonus[0].get(j));
         }
     }
     //Adding a new intern
     public void addIntern(){
-        for(int i = 0; staff[0].size()<3; i++){      //If number of Interns is less than 3, add new interns
-            staff[0].add(getName());
-            System.out.println("Hired a new Intern "+(staff[0].get(staff[0].size()-1))+".");
-            staff_status[0].add("Active");
-            days_worked[0].add(0);
-            bonus[0].add(0);
-            total_bonus[0].add(0);
-            salary[0].add(0);
-            total_normal_pay[0].add(0);
-            total_salary[0].add(0);
-        }
-        for (int i =0;i<staff.length;i++){
-            for (int j=0;j<staff[i].size();j++){
-                bonus[i].set(j,0);  //after the end of the day, initializing the bonus amount to 0 for the next day
-                quit_status.set(i,0);//after the end of the day, initializing quit status for the next day
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            while(staff[0].size()<3){      //If number of Interns is less than 3, add new interns
+                staff[0].add(getName());
+                System.out.println("Hired a new Intern "+(staff[0].get(staff[0].size()-1))+".");
+                staff_status[0].add("Active");
+                days_worked[0].add(0);
+                bonus[0].add(0);
+                total_bonus[0].add(0);
+                salary[0].add(0);
+                total_normal_pay[0].add(0);
+                total_salary[0].add(0);
+            }
+            for (int i =0;i<staff.length;i++){
+                for (int j=0;j<staff[i].size();j++){
+                    bonus[i].set(j,0);  //after the end of the day, initializing the bonus amount to 0 for the next day
+                    quit_status.set(i,0);//after the end of the day, initializing quit status for the next day
+                }
             }
         }
     }
@@ -231,41 +361,43 @@ class Intern extends Staff{
     public void dropIntern(){
         //Special cases where Mechanic or Salesperson Quits and Intern replaces him/her
         //and then dropped from Intern array
-        if(staff[1].size()<3){ //If Mechanic quits
-            staff[1].add(staff[0].get(0));//Intern is promoted to Mechanic
-            staff[0].remove(0);
-            staff_status[1].add(staff_status[0].get(0));//Intern details are added to Mechanic
-            staff_status[0].remove(0);            //and then removed from Intern list
-            days_worked[1].add(days_worked[0].get(0));
-            days_worked[0].remove(0);
-            total_bonus[1].add(total_bonus[0].get(0));
-            total_bonus[0].remove(0);
-            bonus[1].add(bonus[0].get(0));
-            bonus[0].remove(0);
-            salary[1].add(salary[0].get(0));
-            salary[0].remove(0);
-            total_normal_pay[1].add(total_normal_pay[0].get(0));
-            total_normal_pay[0].remove(0);
-            total_salary[1].add(total_salary[0].get(0));
-            total_salary[0].remove(0);
-        }
-        if (staff[2].size()<3){ //If Salesperson quits
-            staff[2].add(staff[0].get(0)); //Intern is promoted to Salesperson
-            staff[0].remove(0);
-            staff_status[2].add(staff_status[0].get(0)); //Intern details are added to Salesperson
-            staff_status[0].remove(0);             //and then removed from Intern list
-            days_worked[2].add(days_worked[0].get(0));
-            days_worked[0].remove(0);
-            total_bonus[2].add(total_bonus[0].get(0));
-            total_bonus[0].remove(0);
-            bonus[2].add(bonus[0].get(0));
-            bonus[0].remove(0);
-            salary[2].add(salary[0].get(0));
-            salary[0].remove(0);
-            total_normal_pay[2].add(total_normal_pay[0].get(0));
-            total_normal_pay[0].remove(0);
-            total_salary[2].add(total_salary[0].get(0));
-            total_salary[0].remove(0);
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            if(staff[1].size()<3){ //If Mechanic quits
+                staff[1].add(staff[0].get(0));//Intern is promoted to Mechanic
+                staff[0].remove(0);
+                staff_status[1].add(staff_status[0].get(0));//Intern details are added to Mechanic
+                staff_status[0].remove(0);            //and then removed from Intern list
+                days_worked[1].add(days_worked[0].get(0));
+                days_worked[0].remove(0);
+                total_bonus[1].add(total_bonus[0].get(0));
+                total_bonus[0].remove(0);
+                bonus[1].add(bonus[0].get(0));
+                bonus[0].remove(0);
+                salary[1].add(salary[0].get(0));
+                salary[0].remove(0);
+                total_normal_pay[1].add(total_normal_pay[0].get(0));
+                total_normal_pay[0].remove(0);
+                total_salary[1].add(total_salary[0].get(0));
+                total_salary[0].remove(0);
+            }
+            if (staff[2].size()<3){ //If Salesperson quits
+                staff[2].add(staff[0].get(0)); //Intern is promoted to Salesperson
+                staff[0].remove(0);
+                staff_status[2].add(staff_status[0].get(0)); //Intern details are added to Salesperson
+                staff_status[0].remove(0);             //and then removed from Intern list
+                days_worked[2].add(days_worked[0].get(0));
+                days_worked[0].remove(0);
+                total_bonus[2].add(total_bonus[0].get(0));
+                total_bonus[0].remove(0);
+                bonus[2].add(bonus[0].get(0));
+                bonus[0].remove(0);
+                salary[2].add(salary[0].get(0));
+                salary[0].remove(0);
+                total_normal_pay[2].add(total_normal_pay[0].get(0));
+                total_normal_pay[0].remove(0);
+                total_salary[2].add(total_salary[0].get(0));
+                total_salary[0].remove(0);
+            }
         }
     }
 }
@@ -274,26 +406,23 @@ class Mechanic extends Staff {
     String vehicle;
     //primary method for mechanic to repair cars and update condition and cleanliness
     public void repair(){
-        System.out.println("\nRepairing");
-        Vehicle obj = new Vehicle();
-        for (int j=0;j<staff[1].size();j++){
-            for(int k=0;k<2;k++){
-                index = rand.nextInt(2);     //we don't want to select a 'like new' car for repairing
-                if(obj.condition[index].size()==0){//If there is no car from selected condition (eg. Broken)
-                    if (index==0){
-                        index=1;                   //If the selected condition was 'Broken' then select condition 'Used'
-                        if(obj.condition[index].size()!=0){
-                            repair_update(j,obj);
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            System.out.println("\nRepairing");
+            Vehicle obj = new Vehicle();
+            for (int j=0;j<staff[1].size();j++){
+                for(int k=0;k<2;k++){
+                    index = rand.nextInt(2);     //we don't want to select a 'like new' car for repairing
+                    if(Vehicle.condition[index].size()==0){//If there is no car from selected condition (eg. Broken)
+                        if (index==0){
+                            index=1;                   //If the selected condition was 'Broken' then select condition 'Used'
+                        }
+                        else{
+                            index=0;                   //If the selected condition was 'Used' then select condition 'Broken'
                         }
                     }
-                    else{
-                        index=0;                   //If the selected condition was 'Used' then select condition 'Broken'
-                        if(obj.condition[index].size()!=0){
-                            repair_update(j,obj);
-                        }
+                    if(Vehicle.condition[index].size()!=0){  //If there is a car from selected condition, repair it
+                        repair_update(j,obj);
                     }
-                }else {                            //If there is a car from selected condition, repair it
-                    repair_update(j,obj);
                 }
             }
         }
@@ -301,50 +430,56 @@ class Mechanic extends Staff {
     // a method which decides whether the car was fixed and condition was updated
     // along with degrading the car cleanliness
     public void repair_update(int j,Vehicle obj){
-        vehicle_choice = rand.nextInt(obj.condition[index].size());
-        vehicle = obj.condition[index].get(vehicle_choice);
+        vehicle_choice = rand.nextInt(Vehicle.condition[index].size());
+        vehicle = Vehicle.condition[index].get(vehicle_choice);
         prob = rand.nextDouble();
         if (prob < 0.8) {
-            getBonus(j, vehicle);    //Mechanic gets bonus if car condition level is fixed to next condition (eg. from dirty to clean)
-            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+obj.carCondition[obj.getCondition(vehicle)]+ " "+vehicle+" and made it "+obj.carCondition[obj.getCondition(vehicle)+1]+" (and earned a bonus of $"+bonus_val+")");
-            obj.condition[index+1].add(vehicle);
+            getBonus(j, vehicle);    //Mechanic gets bonus if car condition level is fixed to next condition (e.g. from dirty to clean)
+            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+" and made it "+Vehicle.carCondition[obj.getCondition(vehicle)+1]+" (and earned a bonus of $"+bonus_val+")");
+            Vehicle.condition[index+1].add(vehicle);
             //Example of Delegation
             obj.updateSalesPrice(index,vehicle); //when condition of car is fixed to next level, its sales prices is updated
-            obj.condition[index].remove(vehicle_choice);
+            Vehicle.condition[index].remove(vehicle_choice);
         } else{
-            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+obj.carCondition[obj.getCondition(vehicle)]+ " "+vehicle+" but it was still "+obj.carCondition[obj.getCondition(vehicle)]);
+            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+" but it was still "+Vehicle.carCondition[obj.getCondition(vehicle)]);
         }
         obj.updateCleanliness(vehicle); //Degrade the cleanliness by one level
-        System.out.println(" and the vehicle became "+obj.carCleanliness[obj.getCleanliness(vehicle)]);
+        System.out.println(" and the vehicle became "+Vehicle.carCleanliness[obj.getCleanliness(vehicle)]);
     }
 
     public void getTotalDays(){
-        for(int j=0;j<staff[1].size();j++){
-            days_worked[1].set(j, days_worked[1].get(j)+1); //Total days worked increases by 1 after each day a mechanic was active
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int j=0;j<staff[1].size();j++){
+                days_worked[1].set(j, days_worked[1].get(j)+1); //Total days worked increases by 1 after each day a mechanic was active
+            }
         }
     }
     public void getBonus(int k, String vehicle){
-        for(int i=0; i<3;i++){
-            for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
-                if (Vehicle.vehicle[i].get(j).equals(vehicle)) {
-                    bonus[1].set(k, bonus[1].get(k) + Vehicle.vehicle_repair_bonus[i]); //Bonus is decided based on type of car
-                    bonus_val=Vehicle.vehicle_repair_bonus[i];
-                    break;
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int i=0; i<6;i++){
+                for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
+                    if (Vehicle.vehicle[i].get(j).equals(vehicle)) {
+                        bonus[1].set(k, bonus[1].get(k) + Vehicle.vehicle_repair_bonus[i]); //Bonus is decided based on type of car
+                        bonus_val=Vehicle.vehicle_repair_bonus[i];
+                        break;
+                    }
                 }
             }
         }
     }
     public void getSalary(){
-        for(int j=0;j<staff[1].size();j++){
-            salary[1].set(j, normal_pay[1]+bonus[1].get(j));//salary is calculated by adding bonus and normal pay for the day
-            if(Operation.budget-salary[1].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
-                Operation.budget=Operation.budget+250000;
-                Operation.added_money=Operation.added_money+250000;
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int j=0;j<staff[1].size();j++){
+                salary[1].set(j, normal_pay[1]+bonus[1].get(j));//salary is calculated by adding bonus and normal pay for the day
+                if(Operation.budget-salary[1].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
+                    Operation.budget=Operation.budget+250000;
+                    Operation.added_money=Operation.added_money+250000;
+                }
+                Operation.budget=Operation.budget-salary[1].get(j);
+                total_normal_pay[1].set(j,total_normal_pay[1].get(j)+normal_pay[1]);
+                total_salary[1].set(j, total_salary[1].get(j)+salary[1].get(j));
+                total_bonus[1].set(j, total_bonus[1].get(j)+bonus[1].get(j));
             }
-            Operation.budget=Operation.budget-salary[1].get(j);
-            total_normal_pay[1].set(j,total_normal_pay[1].get(j)+normal_pay[1]);
-            total_salary[1].set(j, total_salary[1].get(j)+salary[1].get(j));
-            total_bonus[1].set(j, total_bonus[1].get(j)+bonus[1].get(j));
         }
     }
 }
@@ -353,107 +488,115 @@ class Salesperson extends Staff{
     String salesperson,buyer,vehicle;
     //primary method for salespersons to sell cars
     public void sale(){
-        System.out.println("\nSelling");
-        Operation.total_sales = 0;//Initializing the total sales at the beginning of the day
-        Buyer buyer1 = new Buyer();
-        //Checks if there are any buyers present
-        if (buyer1.buyer_no !=0){
-            for(int i=0;i<buyer1.buyer_no;i++){
-                index2 = rand.nextInt(staff[2].size());
-                salesperson = staff[2].get(index2);   //Salesperson is randomly assigned
-                buyer="Buyer"+(i+1);
-                buyer_index1=buyer1.getBuyerIndex1(buyer);
-                buyer_index2=buyer1.getBuyerIndex2(buyer);
-                buyer_choice= buyer1.buyer_choice[buyer_index1].get(buyer_index2);
-                Vehicle obj= new Vehicle();
-                obj.VehicleTopPrice();      //getting car with top sales price from buyers choice
-                if(obj.max_sale_price[buyer_choice] != 0){
-                    for(int j = 0; j< obj.sales_price[buyer_choice].size(); j++){
-                        if(obj.sales_price[buyer_choice].get(j)== obj.max_sale_price[buyer_choice]){
-                            vehicle= obj.vehicle[buyer_choice].get(j);
-                            vehicle_choice=j;
-                            if(obj.getCondition(vehicle)==2){   //checking the condition of the car to be Like New
-                                //add 10% chance to buyer
-                                buyer1.buyer_prob[buyer_index1].set(buyer_index2,(buyer1.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            System.out.println("\nSelling");
+            Operation.total_sales = 0;//Initializing the total sales at the beginning of the day
+            Buyer buyer1 = new Buyer();
+            //Checks if there are any buyers present
+            if (Buyer.buyer_no !=0){
+                for(int i = 0; i< Buyer.buyer_no; i++){
+                    index2 = rand.nextInt(staff[2].size());
+                    salesperson = staff[2].get(index2);   //Salesperson is randomly assigned
+                    buyer="Buyer"+(i+1);
+                    buyer_index1=buyer1.getBuyerIndex1(buyer);
+                    buyer_index2=buyer1.getBuyerIndex2(buyer);
+                    buyer_choice= Buyer.buyer_choice[buyer_index1].get(buyer_index2);
+                    Vehicle obj= new Vehicle();
+                    obj.VehicleTopPrice();      //getting car with top sales price from buyers choice
+                    if(Vehicle.max_sale_price[buyer_choice] != 0){
+                        for(int j = 0; j< Vehicle.sales_price[buyer_choice].size(); j++){
+                            if(Vehicle.sales_price[buyer_choice].get(j)== Vehicle.max_sale_price[buyer_choice]){
+                                vehicle= Vehicle.vehicle[buyer_choice].get(j);
+                                vehicle_choice=j;
+                                if(obj.getCondition(vehicle)==2){   //checking the condition of the car to be Like New
+                                    //add 10% chance to buyer
+                                    Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                }
+                                if(obj.getCleanliness(vehicle)==2){   //checking the cleanliness of the car to be Sparkling
+                                    //add 10% chance to buyer
+                                    Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                }
+                                break;
                             }
-                            if(obj.getCleanliness(vehicle)==2){   //checking the cleanliness of the car to be Sparkling
-                                //add 10% chance to buyer
-                                buyer1.buyer_prob[buyer_index1].set(buyer_index2,(buyer1.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                        }
+                    }else{             //If Buyer's choice is not found, the vehicle top price from rest of the cars is selected
+                        buyer_choice=obj.totalVehicleTopPrice();
+                        for(int j = 0; j< Vehicle.sales_price[buyer_choice].size(); j++){
+                            if(Vehicle.sales_price[buyer_choice].get(j)== Vehicle.max_sale_price[buyer_choice]){
+                                vehicle= Vehicle.vehicle[buyer_choice].get(j);
+                                vehicle_choice=j;
+                                if(obj.getCondition(vehicle)==2){    //checking the condition of the car to be Like New
+                                    //add 10% chance to buyer
+                                    Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                }
+                                if(obj.getCleanliness(vehicle)==2){  //checking the cleanliness of the car to be Sparkling
+                                    //add 10% chance to buyer
+                                    Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                }
+                                //now reducing 20% chance from buyer due to unavailability of buyer's choice of car
+                                if(Buyer.buyer_prob[buyer_index1].get(buyer_index2)>=0.2){
+                                    Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)-0.2));
+                                }else {
+                                    //if buyer has less than 20% chance of buying, reducing the by 20% would result in negative value.
+                                    // Hence, we are making it zero.
+                                    Buyer.buyer_prob[buyer_index1].set(buyer_index2,0.0);
+                                }
+                                break;
                             }
-                            break;
                         }
                     }
-                }else{             //If Buyer's choice is not found, the vehicle top price from rest of the cars is selected
-                    buyer_choice=obj.totalVehicleTopPrice();
-                    for(int j = 0; j< obj.sales_price[buyer_choice].size(); j++){
-                        if(obj.sales_price[buyer_choice].get(j)== obj.max_sale_price[buyer_choice]){
-                            vehicle= obj.vehicle[buyer_choice].get(j);
-                            vehicle_choice=j;
-                            if(obj.getCondition(vehicle)==2){    //checking the condition of the car to be Like New
-                                //add 10% chance to buyer
-                                buyer1.buyer_prob[buyer_index1].set(buyer_index2,(buyer1.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
-                            }
-                            if(obj.getCleanliness(vehicle)==2){  //checking the cleanliness of the car to be Sparkling
-                                //add 10% chance to buyer
-                                buyer1.buyer_prob[buyer_index1].set(buyer_index2,(buyer1.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
-                            }
-                            //now reducing 20% chance from buyer due to unavailability of buyer's choice of car
-                            if(buyer1.buyer_prob[buyer_index1].get(buyer_index2)>=0.2){
-                                buyer1.buyer_prob[buyer_index1].set(buyer_index2,(buyer1.buyer_prob[buyer_index1].get(buyer_index2)-0.2));
-                            }else {
-                                //if buyer has less than 20% chance of buying, reducing the by 20% would result in negative value.
-                                // Hence, we are making it zero.
-                                buyer1.buyer_prob[buyer_index1].set(buyer_index2,0.0);
-                            }
-                            break;
-                        }
+                    //updating vehicles, budget, and conditions and cleanliness of vehicles
+                    prob = rand.nextDouble();
+                    if (prob < Buyer.buyer_prob[buyer_index1].get(buyer_index2)){
+                        Operation.budget = Operation.budget + Vehicle.sales_price[buyer_choice].get(vehicle_choice);//Sales price of car added to budget
+                        Operation.total_sales = Operation.total_sales + Vehicle.sales_price[buyer_choice].get(vehicle_choice);//updated Total sales of the day
+                        getBonus(index2, vehicle);    //Salesperson gets a bonus
+                        Vehicle.soldVehicles[buyer_choice].add(vehicle); //Car is added to list of sold vehicles
+                        System.out.println("salesperson "+salesperson +" has sold a "+Vehicle.carCleanliness[obj.getCleanliness(vehicle)]+" "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[buyer_choice] +" "+ vehicle +" to "+buyer+" for $"+Vehicle.sales_price[buyer_choice].get(vehicle_choice)+" (and earned a bonus of $"+bonus_val+")");
+                        Vehicle.vehicle[buyer_choice].remove(vehicle_choice); //Car is removed from Vehicles in stock
+                        Vehicle.status[buyer_choice].remove(vehicle_choice);
+                        Vehicle.condition[obj.getCondition(vehicle)].remove(obj.getCondition2(vehicle));
+                        Vehicle.cleanliness[obj.getCleanliness(vehicle)].remove(obj.getCleanliness2(vehicle));
+                        Vehicle.cost_price[buyer_choice].remove(vehicle_choice);
+                        Vehicle.sales_price[buyer_choice].remove(vehicle_choice);
                     }
-                }
-                //updating vehicles, budget, and conditions and cleanliness of vehicles
-                prob = rand.nextDouble();
-                if (prob < Buyer.buyer_prob[buyer_index1].get(buyer_index2)){
-                    Operation.budget = Operation.budget + obj.sales_price[buyer_choice].get(vehicle_choice);//Sales price of car added to budget
-                    Operation.total_sales = Operation.total_sales + obj.sales_price[buyer_choice].get(vehicle_choice);//updated Total sales of the day
-                    getBonus(index2, vehicle);    //Salesperson gets a bonus
-                    obj.soldVehicles[buyer_choice].add(vehicle); //Car is added to list of sold vehicles
-                    System.out.println("salesperson "+salesperson +" has sold a "+obj.carCleanliness[obj.getCleanliness(vehicle)]+" "+obj.carCondition[obj.getCondition(vehicle)]+" "+obj.carType[buyer_choice] +" "+ vehicle +" to "+buyer+" for $"+obj.sales_price[buyer_choice].get(vehicle_choice)+" (and earned a bonus of $"+bonus_val+")");
-                    obj.vehicle[buyer_choice].remove(vehicle_choice); //Car is removed from Vehicles in stock
-                    obj.status[buyer_choice].remove(vehicle_choice);
-                    obj.condition[obj.getCondition(vehicle)].remove(obj.getCondition2(vehicle));
-                    obj.cleanliness[obj.getCleanliness(vehicle)].remove(obj.getCleanliness2(vehicle));
-                    obj.cost_price[buyer_choice].remove(vehicle_choice);
-                    obj.sales_price[buyer_choice].remove(vehicle_choice);
                 }
             }
         }
     }
     public void getTotalDays(){
-        for(int j=0;j<staff[2].size();j++){
-            days_worked[2].set(j, days_worked[2].get(j)+1);  //Total days worked increases by 1 after each day a salesperson was active
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int j=0;j<staff[2].size();j++){
+                days_worked[2].set(j, days_worked[2].get(j)+1);  //Total days worked increases by 1 after each day a salesperson was active
+            }
         }
     }
     public void getBonus(int k, String vehicle){
-        for(int i=0; i<3;i++){
-            for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
-                if (Vehicle.vehicle[i].get(j).equals(vehicle)){
-                    bonus[2].set(k, bonus[2].get(k) + Vehicle.vehicle_sale_bonus[i]);  //Bonus is decided based on type of car
-                    bonus_val=Vehicle.vehicle_sale_bonus[i];
-                    break;
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int i=0; i<6;i++){
+                for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
+                    if (Vehicle.vehicle[i].get(j).equals(vehicle)){
+                        bonus[2].set(k, bonus[2].get(k) + Vehicle.vehicle_sale_bonus[i]);  //Bonus is decided based on type of car
+                        bonus_val=Vehicle.vehicle_sale_bonus[i];
+                        break;
+                    }
                 }
             }
         }
     }
     public void getSalary(){
-        for(int j=0;j<staff[2].size();j++){
-            salary[2].set(j, normal_pay[2]+bonus[2].get(j));//salary is calculated by adding bonus and normal pay for the day
-            if(Operation.budget-salary[2].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
-                Operation.budget=Operation.budget+250000;
-                Operation.added_money=Operation.added_money+250000;
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for(int j=0;j<staff[2].size();j++){
+                salary[2].set(j, normal_pay[2]+bonus[2].get(j));//salary is calculated by adding bonus and normal pay for the day
+                if(Operation.budget-salary[2].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
+                    Operation.budget=Operation.budget+250000;
+                    Operation.added_money=Operation.added_money+250000;
+                }
+                Operation.budget=Operation.budget-salary[2].get(j);
+                total_normal_pay[2].set(j,total_normal_pay[2].get(j)+normal_pay[2]);
+                total_salary[2].set(j, total_salary[2].get(j)+salary[2].get(j));
+                total_bonus[2].set(j, total_bonus[2].get(j)+bonus[2].get(j));
             }
-            Operation.budget=Operation.budget-salary[2].get(j);
-            total_normal_pay[2].set(j,total_normal_pay[2].get(j)+normal_pay[2]);
-            total_salary[2].set(j, total_salary[2].get(j)+salary[2].get(j));
-            total_bonus[2].set(j, total_bonus[2].get(j)+bonus[2].get(j));
         }
     }
 }
@@ -461,63 +604,70 @@ class Salesperson extends Staff{
 class Driver extends Staff{
     int choice,pos;
     ArrayList<Integer> positions,race_position;
-    ArrayList<String> vehicles_choice,race_vehicles;
+    ArrayList<String> vehicles_choice,race_vehicles,injured_drivers;
     Vehicle obj = new Vehicle();
 
-    public void getRaceVehicles(){
-        vehicles_choice = new ArrayList<>();
-        race_vehicles = new ArrayList<>();
-        choice = rand.nextInt(1,5);                 //selecting a vehicle other than regular or electric car
-        vehicles_choice = obj.vehicle[choice];
-        for (int i=0;i<vehicles_choice.size();i++){
-            if(obj.getCondition(vehicles_choice.get(i))!=0){    //condition to check if the vehicle is not broken
-                race_vehicles.add(vehicles_choice.get(i));
-            }
-            if(race_vehicles.size()==3){                        //If 3 vehicles already selected, stop
-                break;
+    public void getRaceVehicles(){      //All methods in Driver will check for day to be Wednesday or Sunday
+        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
+           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            System.out.println("\nRacing");
+            vehicles_choice = new ArrayList<>();
+            race_vehicles = new ArrayList<>();
+            injured_drivers = new ArrayList<>();
+            choice = rand.nextInt(1,5);                 //selecting a vehicle other than regular or electric car
+            vehicles_choice = Vehicle.vehicle[choice];
+            for (int i=0;i<vehicles_choice.size();i++){
+                if(obj.getCondition(vehicles_choice.get(i))!=0){    //condition to check if the vehicle is not broken
+                    race_vehicles.add(vehicles_choice.get(i));
+                }
+                if(race_vehicles.size()==3){                        //If 3 vehicles already selected, stop
+                    break;
+                }
             }
         }
     }
     //The vehicles in race_vehicles will be associated with the drivers (all names from staff[3]) having same index numbers
     //for example, race_vehicles.get(i) will have a driver staff[3].get(i) and its count of races won will be race_won.get(i)
     public void race(){
-        if (race_vehicles.size()!=0){
-            positions.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20));
-            race_position = new ArrayList<>();
-            for (int i=0;i<race_vehicles.size();i++){
-                pos=rand.nextInt(positions.size());
-                race_position.set(i,positions.get(pos));              //selecting a final position for vehicle
-                positions.remove(pos);                                //removing that position for other vehicles
-                if(race_position.get(i)<4){                           //If vehicle wins the race
-                    for (int j=0;j<vehicles_choice.size();j++){
-                        if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
-                            obj.race_won[choice].set(j,obj.race_won[choice].get(j)+1);//updating race won count for that vehicle
-                            race_won.set(i, race_won.get(i)+1);       //updating race won count for the driver of the vehicle
-                            getBonus(i,vehicles_choice.get(j));       //Giving bonus to driver
+        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
+           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            positions = new ArrayList<>();
+            if (race_vehicles.size()!=0){
+                positions.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20));
+                race_position = new ArrayList<>();
+                for (int i=0;i<race_vehicles.size();i++){
+                    pos=rand.nextInt(positions.size());
+                    race_position.add(positions.get(pos));              //selecting a final position for vehicle
+                    positions.remove(pos);                                //removing that position for other vehicles
+                    if(race_position.get(i)<4){                           //If vehicle wins the race
+                        for (int j=0;j<vehicles_choice.size();j++){
+                            if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
+                                Vehicle.race_won[choice].set(j,Vehicle.race_won[choice].get(j)+1);//updating race won count for that vehicle
+                                race_won.set(i, race_won.get(i)+1);       //updating race won count for the driver of the vehicle
+                                getBonus(i,vehicles_choice.get(j));       //Giving bonus to driver
+                                System.out.println(staffType[3]+" "+staff[3].get(i)+" Won the race with the "+Vehicle.carType[choice]+" "+race_vehicles.get(i)+" (and earned a bonus of $"+bonus_val+")");
+                                break;
+                            }
                         }
-                    }
-                } else if (race_position.get(i)>15){                  //If vehicle gets damaged
-                    for (int j=0;j<vehicles_choice.size();j++){
-                        if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
-                            obj.condition[0].add(vehicles_choice.get(j));//update the condition of vehicle to broken
-                            obj.condition[obj.getCondition(vehicles_choice.get(j))].remove(obj.getCondition2(vehicles_choice.get(j)));//removing the previous condition
-                            prob=rand.nextDouble();
-                            if (prob<0.3){
-                                dep_staff[3].add(staff[3].get(j));    //The Driver is injured, he quits, and he is added to departed staff
-                                staff[3].remove(j);                   //removing the driver details from active drivers
-                                staff_status[3].remove(j);
-                                dep_days_worked[3].add(days_worked[3].get(j));
-                                days_worked[3].remove(j);
-                                dep_total_bonus[3].add(total_bonus[3].get(j));
-                                total_bonus[3].remove(j);
-                                bonus[3].remove(j);
-                                dep_total_normal_pay[3].add(total_normal_pay[3].get(j));
-                                total_normal_pay[3].remove(j);
-                                dep_total_salary[3].add(total_salary[3].get(j));
-                                total_salary[3].remove(j);
-                                salary[3].remove(j);
-                                dep_race_won.add(race_won.get(j));
-                                race_won.remove(j);
+                    } else if (race_position.get(i)>15){                  //If vehicle gets damaged
+                        for (int j=0;j<vehicles_choice.size();j++){
+                            if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
+                                Vehicle.condition[0].add(vehicles_choice.get(j));//update the condition of vehicle to broken
+                                Vehicle.condition[obj.getCondition(vehicles_choice.get(j))].remove(obj.getCondition2(vehicles_choice.get(j)));//removing the previous condition
+                                System.out.println(staffType[3]+" "+staff[3].get(i)+" did not win the race with the "+Vehicle.carType[choice]+" "+race_vehicles.get(i)+" and the Vehicle became Broken ");
+                                prob=rand.nextDouble();
+                                if (prob<0.3){
+                                    injured_drivers.add(staff[3].get(i)); //The Driver is injured, and he is added to injured drivers
+                                    System.out.println("The Driver "+staff[3].get(i)+" got injured and quit the FNCD");
+                                }
+                                break;
+                            }
+                        }
+                    } else {
+                        for (int j=0;j<vehicles_choice.size();j++) {
+                            if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
+                                System.out.println(staffType[3]+" "+staff[3].get(i)+" did not win the race with the "+Vehicle.carType[choice]+" "+race_vehicles.get(i));
+                                break;
                             }
                         }
                     }
@@ -526,60 +676,101 @@ class Driver extends Staff{
         }
     }
     public void getTotalDays(){
-        for(int j=0;j<staff[3].size();j++){
-            days_worked[3].set(j, days_worked[3].get(j)+1);  //Total days worked increases by 1 after each day a salesperson was active
+        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
+           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            for(int j=0;j<staff[3].size();j++){
+                days_worked[3].set(j, days_worked[3].get(j)+1);  //Total days worked increases by 1 after each day a salesperson was active
+            }
         }
     }
     public void getBonus(int k, String vehicle){
-        for(int i=1; i<5;i++){                               //So that General and Electric cars are not considered while getting Driver bonus
-            for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
-                if (Vehicle.vehicle[i].get(j).equals(vehicle)){
-                    bonus[3].set(k, bonus[3].get(k) + Vehicle.race_win_bonus[i]);  //Bonus is decided based on type of car
-                    bonus_val=Vehicle.race_win_bonus[i];
-                    break;
+        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
+           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            for(int i=1; i<5;i++){                               //So that General and Electric cars are not considered while getting Driver bonus
+                for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
+                    if (Vehicle.vehicle[i].get(j).equals(vehicle)){
+                        bonus[3].set(k, bonus[3].get(k) + Vehicle.race_win_bonus[i]);  //Bonus is decided based on type of car
+                        bonus_val=Vehicle.race_win_bonus[i];
+                        break;
+                    }
                 }
             }
         }
     }
     public void getSalary(){
-        for(int j=0;j<staff[3].size();j++){
-            salary[3].set(j, normal_pay[3]+bonus[3].get(j));//salary is calculated by adding bonus and normal pay for the day
-            if(Operation.budget-salary[3].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
-                Operation.budget=Operation.budget+250000;
-                Operation.added_money=Operation.added_money+250000;
+        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
+           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            for(int j=0;j<staff[3].size();j++){
+                salary[3].set(j, normal_pay[3]+bonus[3].get(j));//salary is calculated by adding bonus and normal pay for the day
+                if(Operation.budget-salary[3].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
+                    Operation.budget=Operation.budget+250000;
+                    Operation.added_money=Operation.added_money+250000;
+                }
+                Operation.budget=Operation.budget-salary[3].get(j);
+                total_normal_pay[3].set(j,total_normal_pay[3].get(j)+normal_pay[3]);
+                total_salary[3].set(j, total_salary[3].get(j)+salary[3].get(j));
+                total_bonus[3].set(j, total_bonus[3].get(j)+bonus[3].get(j));
             }
-            Operation.budget=Operation.budget-salary[3].get(j);
-            total_normal_pay[3].set(j,total_normal_pay[3].get(j)+normal_pay[3]);
-            total_salary[3].set(j, total_salary[3].get(j)+salary[3].get(j));
-            total_bonus[3].set(j, total_bonus[3].get(j)+bonus[3].get(j));
         }
     }
     public void addDriver(){
-        for(int i = 0; staff[3].size()<3; i++){      //If number of Drivers is less than 3, add new drivers
-            staff[3].add(getName());
-            System.out.println("Hired a new Driver "+(staff[3].get(staff[3].size()-1))+".");
-            staff_status[3].add("Active");
-            days_worked[3].add(0);
-            bonus[3].add(0);
-            total_bonus[3].add(0);
-            salary[3].add(0);
-            total_normal_pay[3].add(0);
-            total_salary[3].add(0);
-            race_won.add(0);
+        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
+           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            while(staff[3].size()<3){      //If number of Drivers is less than 3, add new drivers
+                staff[3].add(getName());
+                System.out.println("Hired a new Driver "+(staff[3].get(staff[3].size()-1))+".");
+                staff_status[3].add("Active");
+                days_worked[3].add(0);
+                bonus[3].add(0);
+                total_bonus[3].add(0);
+                salary[3].add(0);
+                total_normal_pay[3].add(0);
+                total_salary[3].add(0);
+                race_won.add(0);
+            }
+            for (int i =0;i<staff.length;i++){
+                for (int j=0;j<staff[i].size();j++){
+                    bonus[i].set(j,0);  //after the end of the day, initializing the bonus amount to 0 for the next day
+                    quit_status.set(i,0);//after the end of the day, initializing quit status for the next day
+                }
+            }
         }
-        for (int i =0;i<staff.length;i++){
-            for (int j=0;j<staff[i].size();j++){
-                bonus[i].set(j,0);  //after the end of the day, initializing the bonus amount to 0 for the next day
-                quit_status.set(i,0);//after the end of the day, initializing quit status for the next day
+    }
+    public void dropDriver(){
+        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
+           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            for (int i=0;i< staff[3].size();i++){
+                for (int j=0;j<injured_drivers.size();j++) {
+                    if (injured_drivers.get(j).equals(staff[3].get(i))) {
+                        dep_staff[3].add(staff[3].get(i));    //The injured Driver quits, and he is added to departed staff
+                        staff[3].remove(i);                   //removing the driver details from active drivers
+                        injured_drivers.remove(j);
+                        staff_status[3].remove(i);
+                        dep_days_worked[3].add(days_worked[3].get(i));
+                        days_worked[3].remove(i);
+                        dep_total_bonus[3].add(total_bonus[3].get(i));
+                        total_bonus[3].remove(i);
+                        bonus[3].remove(i);
+                        dep_total_normal_pay[3].add(total_normal_pay[3].get(i));
+                        total_normal_pay[3].remove(i);
+                        dep_total_salary[3].add(total_salary[3].get(i));
+                        total_salary[3].remove(i);
+                        salary[3].remove(i);
+                        dep_race_won.add(race_won.get(i));
+                        race_won.remove(i);
+                        i--;
+                        break;
+                    }
+                }
             }
         }
     }
 }
 
 class Vehicle{
-    static ArrayList<String> car_names = new ArrayList<String>();
-    static ArrayList<String> monster_truck_names = new ArrayList<String>();
-    static String[] carType = {"Car", "Pickup", "Performance Car","Motorcycles","MonsterTrucks","ElectricCars"};
+    static ArrayList<String> car_names = new ArrayList<>();
+    static ArrayList<String> monster_truck_names = new ArrayList<>();
+    static String[] carType = {"Car", "Pickup", "Performance Car","Motorcycle","Monster Truck","Electric Car"};
     static String[] carCondition = {"Broken", "Used", "Like New"};
     static String[] carCleanliness = {"Dirty","Clean","Sparkling"};
     static ArrayList<String>[] vehicle = new ArrayList[6];
@@ -603,14 +794,16 @@ class Vehicle{
     //Initializing variables
     public void init2(){
         for(int i = 0; i < vehicle.length; i++){
-            vehicle[i] = new ArrayList<String>();
-            condition[i] = new ArrayList<String>();
-            cleanliness[i] = new ArrayList<String>();
-            status[i] = new ArrayList<String>();
-            cost_price[i] = new ArrayList<Integer>();
-            sales_price[i] = new ArrayList<Integer>();
-            soldVehicles[i] = new ArrayList<String>();
-            race_won[i] = new ArrayList<Integer>();
+            vehicle[i] = new ArrayList<>();
+            status[i] = new ArrayList<>();
+            cost_price[i] = new ArrayList<>();
+            sales_price[i] = new ArrayList<>();
+            soldVehicles[i] = new ArrayList<>();
+            race_won[i] = new ArrayList<>();
+        }
+        for(int j = 0;j < 3;j++){
+            condition[j] = new ArrayList<>();
+            cleanliness[j] = new ArrayList<>();
         }
     }
 
@@ -693,6 +886,7 @@ class Vehicle{
                 setCondition(vehicle[i].get(j));
                 setCleanliness(vehicle[i].get(j));
                 status[i].add("In Stock");
+                race_won[i].add(0);
             }
         }
         //Initially added cost price and sales price using the logic sales price = cost price*2
@@ -716,52 +910,50 @@ class Vehicle{
     }
     //when the count of a vehicle type is less than 4, new vehicle is purchased
     public void addVehicle() {
-        for (int i = 0; i < 6; i++) {
-            for (int j = 0; vehicle[i].size() < 4; j++) {
-                if(i == 4){
-                    vehicle[i].add(getMonsterTruckName());
-                    //int num = 1;
-                    /*String name = getMonsterTruckName();
-                    String last_char = name.substring(name.length()-1);
-                    if(isNumeric(last_char)){                //if already a name exists more than once, eg. "Viper 1"
-                        name = name+" "+Integer.toString(Integer.parseInt(last_char+1));  //so now, adding new name as "Viper 2"
+        if(Operation.day_count!=7 && Operation.day_count!=14 && Operation.day_count!=21 && Operation.day_count!=28) {
+            for (int i = 0; i < 6; i++) {
+                while (vehicle[i].size() < 4) {
+                    if (i == 4) {
+                        vehicle[i].add(getMonsterTruckName());
+                        //int num = 1;
+                        /*String name = getMonsterTruckName();
+                        String last_char = name.substring(name.length()-1);
+                        if(isNumeric(last_char)){                //if already a name exists more than once, e.g. "Viper 1"
+                            name = name+" "+Integer.toString(Integer.parseInt(last_char+1));  //so now, adding new name as "Viper 2"
+                        }
+                        else if(!name.equals(vehicle[i].get(j))){
+                            vehicle[i].add(vehicle[i].size()-1, name);
+                        }
+                        else {                                    //name exists once, eg."Viper"
+                            name = name+" 1";                   //so now, adding new name as "Viper 1"
+                        }*/
                     }
-                    else if(!name.equals(vehicle[i].get(j))){
-                        vehicle[i].add(vehicle[i].size()-1, name);
+                    else{
+                        vehicle[i].add(getcarName());
                     }
-                    else {                                    //name exists once, eg."Viper"
-                        name = name+" 1";                   //so now, adding new name as "Viper 1"
+                    setCondition(vehicle[i].get(vehicle[i].size()-1));
+                    setCleanliness(vehicle[i].get(vehicle[i].size()-1));
+                    status[i].add("In Stock");
+                    if(i == 0){
+                        Car c = new Car();
+                        c.buyVehicle();
+                    } else if(i == 1){
+                        Pickup p = new Pickup();
+                        p.buyVehicle();
+                    } else if(i == 2){
+                        PerformanceCar pc = new PerformanceCar();
+                        pc.buyVehicle();
+                    } else if (i == 3) {
+                        Motorcycles mc = new Motorcycles();
+                        mc.buyVehicle();
+                    } else if (i == 4) {
+                        MonsterTrucks mt = new MonsterTrucks();
+                        mt.buyVehicle();
                     }
-                }
-                else{
-                    vehicle[i].add(getcarName());
-                    */
-                }
-                else{
-                    vehicle[i].add(getcarName());
-                }
-                setCondition(vehicle[i].get(vehicle[i].size()-1));
-                setCleanliness(vehicle[i].get(vehicle[i].size()-1));
-                status[i].add("In Stock");
-                if(i == 0){
-                    Car c = new Car();
-                    c.buyVehicle();
-                } else if(i == 1){
-                    Pickup p = new Pickup();
-                    p.buyVehicle();
-                } else if(i == 2){
-                    PerformanceCar pc = new PerformanceCar();
-                    pc.buyVehicle();
-                } else if (i == 3) {
-                    Motorcycles mc = new Motorcycles();
-                    mc.buyVehicle();
-                } else if (i == 4) {
-                    MonsterTrucks mt = new MonsterTrucks();
-                    mt.buyVehicle();
-                }
-                else{
-                    ElectricCar ec = new ElectricCar();
-                    ec.buyVehicle();
+                    else{
+                        ElectricCar ec = new ElectricCar();
+                        ec.buyVehicle();
+                    }
                 }
             }
         }
@@ -784,17 +976,31 @@ class Vehicle{
         double prob = rand.nextDouble();
         if (prob < 0.60) {
             cleanliness[0].add(chosenVehicle);//list of Dirty vehicle
-        } else if (prob >= 0.60 && prob < 0.95) {
+        } else if (prob < 0.95) {
             cleanliness[1].add(chosenVehicle);//list of Clean vehicle
         } else {
             cleanliness[2].add(chosenVehicle);//list of Sparkling vehicle
         }
     }
+    //Finding the type of Vehicle
+    public int getCarType(String vehicle1){
+        //initializing to a value which is different from potential values of index (i.e. 0,1,2)
+        int condition_index=10;
+        for(int i=0; i<6;i++) {
+            for (int j = 0; j < vehicle[i].size(); j++) {
+                if (vehicle[i].get(j).equals(vehicle1)) {
+                    condition_index = i;
+                    break;
+                }
+            }
+        }
+        return condition_index;
+    }
     //Finding the condition type of vehicle
     public int getCondition(String vehicle){
         //initializing to a value which is different from potential values of index (i.e. 0,1,2)
         int condition_index=10;
-        for(int i=0; i<6;i++) {
+        for(int i=0; i<3;i++) {
             for (int j = 0; j < condition[i].size(); j++) {
                 if (condition[i].get(j).equals(vehicle)) {
                     condition_index = i;
@@ -808,7 +1014,7 @@ class Vehicle{
     public int getCondition2(String vehicle){
         //initializing to a value which is different from potential values of index (i.e. 0,1,2)
         int condition_index=10;
-        for(int i=0; i<6;i++) {
+        for(int i=0; i<3;i++) {
             for (int j = 0; j < condition[i].size(); j++) {
                 if (condition[i].get(j).equals(vehicle)) {
                     condition_index = j;
@@ -822,7 +1028,7 @@ class Vehicle{
     public int getCleanliness(String vehicle){
         //initializing to a value which is different from potential values of index (i.e. 0,1,2)
         int cleanliness_index=10;
-        for(int i=0; i<6;i++) {
+        for(int i=0; i<3;i++) {
             for (int j = 0; j < cleanliness[i].size(); j++) {
                 if (cleanliness[i].get(j).equals(vehicle)) {
                     cleanliness_index = i;
@@ -836,7 +1042,7 @@ class Vehicle{
     public int getCleanliness2(String vehicle){
         //initializing to a value which is different from potential values of index (i.e. 0,1,2)
         int cleanliness_index=10;
-        for(int i=0; i<6;i++) {
+        for(int i=0; i<3;i++) {
             for (int j = 0; j < cleanliness[i].size(); j++) {
                 if (cleanliness[i].get(j).equals(vehicle)) {
                     cleanliness_index = j;
@@ -896,17 +1102,28 @@ class Vehicle{
     }
     //update the cleanliness of vehicle to degrade by one level if not already dirty
     public void updateCleanliness(String req_vehicle){
-        for(int i=0; i<6;i++){
+        for(int i=0; i<3;i++){
             for(int j=0; j<cleanliness[i].size();j++){
                 if(cleanliness[i].get(j).equals(req_vehicle)){
-                    if(i==0){
-                        break;
-                    }
-                    else{
-                        cleanliness[i-1].add(req_vehicle);
+                    if (i != 0) {
+                        cleanliness[i - 1].add(req_vehicle);
                         cleanliness[i].remove(j);
-                        break;
                     }
+                    break;
+                }
+            }
+        }
+    }
+    //update the condition of vehicle to desired one if it's not already in that condition
+    public void updateCondition(int index, String req_vehicle){
+        for(int i=0; i<3;i++){
+            for(int j=0; j<condition[i].size();j++){
+                if(condition[i].get(j).equals(req_vehicle)){  //searching for current condition
+                    if (i != index) {                         //if it's not already in desired condition
+                        condition[index].add(req_vehicle);    //update the condition
+                        condition[i].remove(j);
+                    }
+                    break;
                 }
             }
         }
@@ -1021,15 +1238,14 @@ class Motorcycles extends Vehicle{
 
     double engine_size_gen = 0.0;
     public double setEngineSize(){
-        double set_eng_size = rand.nextGaussian()*300+700;
-        return set_eng_size;
+        return rand.nextGaussian()*300+700;
     }
     public void buyVehicle(){
         int cp1 = rand.nextInt(10000, 20001);
         cost_price[3].add(cp1);
         sales_price[3].add(cp1 * 2);
         // Setting the Engine size for Motorcycles using truncated Normal Distribution with mean 700 and std dev 300.
-        for (int i = 0; engine_size.size() < 4; i++) {
+        while (engine_size.size() < 4) {
             engine_size_gen = setEngineSize();
             if(engine_size_gen>=50){
                 engine_size.add(engine_size_gen);
@@ -1074,7 +1290,7 @@ class ElectricCar extends Vehicle{
 
         // Assigning a range for the Electric Cars based on their condition
         int range_select = rand.nextInt(60, 401);
-        for (int i = 0; range.size() < 4; i++) {
+        while (range.size() < 4) {
             if(getCondition(vehicle[5].get(vehicle[5].size()-1))==2){
                 range.add(range_select+100);
             }
@@ -1104,21 +1320,23 @@ class Buyer extends Staff{
     //initializing the variables
     public void init3() {
         for (int i = 0; i < buyers.length; i++) {
-            buyers[i] = new ArrayList<String>();
-            buyer_choice[i] = new ArrayList<Integer>();
-            buyer_prob[i] = new ArrayList<Double>();
+            buyers[i] = new ArrayList<>();
+            buyer_choice[i] = new ArrayList<>();
+            buyer_prob[i] = new ArrayList<>();
         }
     }
     //adding the number of buyers according to the day of the week
     //1= Monday, 2=Tuesday and so on
-    //No buyers will be added on 7=Sunday as FNCD would be closed on Sunday
-    public void addBuyer(int i) {
-        if ((i<=4)||(i>7 && i<=11)||(i>14 && i<=18)||(i>21 && i<=25)||(i>28 && i<=30)){
+    //No buyers will be added on 7=Sunday as FNCD would be closed for selling on Sunday
+    public void addBuyer() {
+        if ((Operation.day_count<=4)||(Operation.day_count>7 && Operation.day_count<=11)||(Operation.day_count>14 && Operation.day_count<=18)
+            ||(Operation.day_count>21 && Operation.day_count<=25)||(Operation.day_count>28 && Operation.day_count<=30)){
             buyer_no = rand.nextInt(0, 6);
             for (int j = 0; j < buyer_no; j++) {
                 addBuyerType(j);
             }
-        } else if (i==5||i==6||i==12||i==13||i==19||i==20||i==26||i==27 ) {
+        } else if (Operation.day_count==5 ||Operation.day_count==6 ||Operation.day_count==12||Operation.day_count==13||
+                   Operation.day_count==19||Operation.day_count==20||Operation.day_count==26||Operation.day_count==27) {
             buyer_no = rand.nextInt(2, 9);
             for (int j = 0; j < buyer_no; j++) {
                 addBuyerType(j);
@@ -1127,7 +1345,7 @@ class Buyer extends Staff{
     }
     //randomly adding buyer type to buyers
     public void addBuyerType(int j){
-        int prob = 0;
+        int prob;
         prob = rand.nextInt(3);
         if(prob == 0){
             buyers[0].add("Buyer"+ (j+1));
@@ -1182,6 +1400,7 @@ class Buyer extends Staff{
 class Operation extends Staff{
     static int budget = 500000;
     static int total_sales = 0;
+    static int day_count;
     static int added_money=0;
     static ArrayList<Integer> day = new ArrayList<>();
     //printing the summary of staff
@@ -1190,39 +1409,48 @@ class Operation extends Staff{
         System.out.println("List of Staff:");
         System.out.println("Interns: "+staff[0]);
         System.out.println("Mechanics: "+staff[1]);
-        System.out.println("Salespersons: "+staff[2]+"\n");
+        System.out.println("Salespersons: "+staff[2]);
+        System.out.println("Drivers: "+staff[3]+"\n");
         System.out.println("Status of Staff:");
         System.out.println("Interns: "+staff_status[0]);
         System.out.println("Mechanics: "+staff_status[1]);
-        System.out.println("Salespersons: "+staff_status[2]+"\n");
+        System.out.println("Salespersons: "+staff_status[2]);
+        System.out.println("Drivers: "+staff_status[3]+"\n");
         System.out.println("Total Days worked by Staff:");
         System.out.println("Interns: "+days_worked[0]);
         System.out.println("Mechanics: "+days_worked[1]);
-        System.out.println("Salespersons: "+days_worked[2]+"\n");
+        System.out.println("Salespersons: "+days_worked[2]);
+        System.out.println("Drivers: "+days_worked[3]+"\n");
         System.out.println("Total Bonus of Staff:");
         System.out.println("Interns: "+total_bonus[0]);
         System.out.println("Mechanics: "+total_bonus[1]);
-        System.out.println("Salespersons: "+total_bonus[2]+"\n");
+        System.out.println("Salespersons: "+total_bonus[2]);
+        System.out.println("Drivers: "+total_bonus[3]+"\n");
         System.out.println("Total Normal Pay of Staff:");
         System.out.println("Interns: "+total_normal_pay[0]);
         System.out.println("Mechanics: "+total_normal_pay[1]);
-        System.out.println("Salespersons: "+total_normal_pay[2]+"\n");
+        System.out.println("Salespersons: "+total_normal_pay[2]);
+        System.out.println("Drivers: "+total_normal_pay[3]+"\n");
         System.out.println("List of Departed Staff:");
         System.out.println("Interns: "+dep_staff[0]);
         System.out.println("Mechanics: "+dep_staff[1]);
-        System.out.println("Salespersons: "+dep_staff[2]+"\n");
+        System.out.println("Salespersons: "+dep_staff[2]);
+        System.out.println("Drivers: "+dep_staff[3]+"\n");
         System.out.println("Total Days worked by Departed Staff:");
         System.out.println("Interns: "+dep_days_worked[0]);
         System.out.println("Mechanics: "+dep_days_worked[1]);
-        System.out.println("Salespersons: "+dep_days_worked[2]+"\n");
+        System.out.println("Salespersons: "+dep_days_worked[2]);
+        System.out.println("Drivers: "+dep_days_worked[3]+"\n");
         System.out.println("Total Bonus of Departed Staff:");
         System.out.println("Interns: "+dep_total_bonus[0]);
         System.out.println("Mechanics: "+dep_total_bonus[1]);
-        System.out.println("Salespersons: "+dep_total_bonus[2]+"\n");
+        System.out.println("Salespersons: "+dep_total_bonus[2]);
+        System.out.println("Drivers: "+dep_total_bonus[3]+"\n");
         System.out.println("Total Normal Pay of Departed Staff:");
         System.out.println("Interns: "+dep_total_normal_pay[0]);
         System.out.println("Mechanics: "+dep_total_normal_pay[1]);
-        System.out.println("Salespersons: "+dep_total_normal_pay[2]+"\n");
+        System.out.println("Salespersons: "+dep_total_normal_pay[2]);
+        System.out.println("Drivers: "+dep_total_normal_pay[3]+"\n");
     }
     //main method
     public static void main(String[] args) {
@@ -1235,36 +1463,39 @@ class Operation extends Staff{
         Mechanic mec1 = new Mechanic();
         Salesperson sal1 = new Salesperson();
         Buyer buy1 = new Buyer();
+        Driver dri1 = new Driver();
         Vehicle vel1 = new Vehicle();
         vel1.init2();
         vel1.add_vehicle_names();
+        vel1.add_MonsterTruck_names();
         vel1.addVehicles();
         Operation op1 = new Operation();
-        for (int i=1;i<31;i++){
-            if(i==7 || i==14 || i==21 || i==28) {
-                //Do nothing as it is Sunday
-            }
-            else{
-                buy1.init3();
-                System.out.println("\n***Day "+i+"***");//Display Day Number
-                System.out.println("\nCurrent Budget: "+budget);
-                buy1.addBuyer(i);
-                int1.wash();
-                mec1.repair();
-                sal1.sale();
-                int1.getSalary();
-                int1.getTotalDays();
-                mec1.getSalary();
-                mec1.getTotalDays();
-                sal1.getSalary();
-                sal1.getTotalDays();
-                staff1.updateDepartedStaff();
-                int1.dropIntern();
-                int1.addIntern();
-                vel1.addVehicle();
-                System.out.println("Total sales for the day: "+Operation.total_sales);
-                System.out.println("Remaining Budget: "+Operation.budget);
-            }
+        for (day_count=3;day_count<4;day_count++){
+            buy1.init3();
+            System.out.println("\n***Day "+day_count+"***");//Display Day Number
+            System.out.println("\nCurrent Budget: "+budget);
+            buy1.addBuyer();
+            int1.setWashBehavior();
+            mec1.repair();
+            sal1.sale();
+            dri1.getRaceVehicles();
+            dri1.race();
+            int1.getSalary();
+            int1.getTotalDays();
+            mec1.getSalary();
+            mec1.getTotalDays();
+            sal1.getSalary();
+            sal1.getTotalDays();
+            dri1.getSalary();
+            dri1.getTotalDays();
+            staff1.updateDepartedStaff();
+            int1.dropIntern();
+            int1.addIntern();
+            dri1.dropDriver();
+            dri1.addDriver();
+            vel1.addVehicle();
+            System.out.println("Total sales for the day: "+Operation.total_sales);
+            System.out.println("Remaining Budget: "+Operation.budget);
         }
         op1.Print();
         vel1.Print2();
