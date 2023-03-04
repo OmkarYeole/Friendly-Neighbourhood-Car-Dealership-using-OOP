@@ -493,6 +493,10 @@ class Salesperson extends Staff{
                                 //add 10% chance to buyer
                                 Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
+                            if(Vehicle.race_won[buyer_choice].get(vehicle_choice)>=1){ //checking the count of races won by vehicle
+                                //add 10% chance to buyer
+                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                            }
                             break;
                         }
                     }
@@ -507,6 +511,10 @@ class Salesperson extends Staff{
                                 Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
                             if(obj.getCleanliness(vehicle)==2){  //checking the cleanliness of the car to be Sparkling
+                                //add 10% chance to buyer
+                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                            }
+                            if(Vehicle.race_won[buyer_choice].get(vehicle_choice)>=1){ //checking the count of races won by vehicle
                                 //add 10% chance to buyer
                                 Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
