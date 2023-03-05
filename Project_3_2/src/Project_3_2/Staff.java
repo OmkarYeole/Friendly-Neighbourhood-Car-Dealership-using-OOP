@@ -1488,7 +1488,7 @@ class Buyer extends Staff{
         return buyer_index2;
     }
 }
-//Obs start
+//Observer Pattern
 interface Publisher{
     public void registerSubscriber(Subscriber s);
     public void removeSubscriber(Subscriber s);
