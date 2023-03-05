@@ -1,0 +1,25 @@
+Current Budget: 1815132
+
+Washing
+Intern Evelyn washed a Dirty Car Land Rover Range Rover using Elbow Grease method and made it Clean
+Intern Evelyn washed a Clean Pickup Ford Escape using Elbow Grease method but it was still Clean
+Intern Madison washed a Dirty Motorcycle Toyota Corolla Cross using Elbow Grease method and made it Clean
+Intern Madison washed a Clean Pickup Ford Escape using Elbow Grease method but it was still Clean
+Intern Isla washed a Clean Pickup Ford Escape using Detailed method but it was still Clean
+
+Repairing
+Mechanic Bianca repaired a Broken Motorcycle Toyota Corolla Cross and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Bianca repaired a Used Motorcycle Toyota Corolla Cross but it was still Used and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Motorcycle Toyota Corolla Cross and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Selling
+Sales Price of the Electric Car Toyota Camry increased from $172500 to $207000 after adding on Extended Warranty
+Sales Price of the Electric Car Toyota Camry increased from $207000 to $217350 after adding on Satellite Radio
+Salesperson Janine has sold a Clean Like New Electric Car Toyota Camry to Buyer1 for $217350 (and earned a bonus of $200)
+
+Day End
+Intern Evelyn quit the FNCD
+Hired a new Intern Mikayla
+Bought Electric Car Lamborghini Aventador for $38642
+
+Total sales for the day: 217350

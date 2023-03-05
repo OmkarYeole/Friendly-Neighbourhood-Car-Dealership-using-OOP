@@ -1,0 +1,20 @@
+Current Budget: 2181894
+
+Washing
+Intern Madison washed a Dirty Car Audi A4 using Chemical method and made it Clean
+Intern Madison washed a Clean Car Audi A4 using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Isla washed a Dirty Performance Car Ford Bronco using Chemical method and made it Clean
+Intern Isla washed a Clean Car Land Rover Range Rover using Chemical method but it was still Clean
+Intern Mikayla washed a Dirty Electric Car Lamborghini Aventador using Elbow Grease method and made it Clean
+Intern Mikayla washed a Clean Pickup Ford Escape using Elbow Grease method but it was still Clean
+
+Repairing
+Mechanic Bianca repaired a Used Performance Car Ford Bronco and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+
+Selling
+Salesperson Janine has sold a Sparkling Like New Electric Car Honda Odyssey to Buyer3 for $159645 (and earned a bonus of $200)
+
+Day End
+Bought Electric Car GMC Sierra for $37945
+
+Total sales for the day: 159645

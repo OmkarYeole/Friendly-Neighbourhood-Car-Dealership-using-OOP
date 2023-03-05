@@ -1,0 +1,32 @@
+Current Budget: 1494290
+
+Washing
+Intern Mackenzie washed a Dirty Car Bentley Continental GT using Chemical method and made it Clean
+Intern Mackenzie washed a Clean Car Bentley Continental GT using Chemical method but made it Dirty
+The Bentley Continental GT has become Broken
+Intern Emma washed a Dirty Pickup Lexus RX using Elbow Grease method but it was still Dirty
+Intern Emma washed a Clean Performance Car Honda HR-V using Elbow Grease method but it was still Clean
+Intern Elliot washed a Dirty Motorcycle Dodge Charger using Chemical method and made it Clean
+Intern Elliot washed a Clean Performance Car Honda HR-V using Chemical method and made it Sparkling (and earned bonus of $100)
+The Honda HR-V has become Broken
+
+Repairing
+Mechanic Edward repaired a Used Car Porsche 911 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Car Bentley Continental GT but it was still Broken and the vehicle became Dirty
+Mechanic Bianca repaired a Broken Performance Car Honda HR-V and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Bianca repaired a Broken Car Bentley Continental GT and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Eleanor repaired a Used Car Bentley Continental GT and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Eleanor repaired a Used Performance Car Honda HR-V but it was still Used and the vehicle became Dirty
+
+Selling
+
+Racing
+Driver Bayek finished the race at position 16 with the Motorcycle Porsche Taycan and the Vehicle became Broken 
+Driver Eivor finished the race at position 20 with the Motorcycle Nissan Pathfinder and the Vehicle became Broken 
+Driver Charlotte finished the race at position 14 with the Motorcycle Jeep Grand Wagoneer
+
+Day End
+Mechanic Eleanor quit the FNCD
+Hired a new Intern Evelyn
+
+Total sales for the day: 0

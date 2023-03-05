@@ -1,0 +1,24 @@
+Current Budget: 2378521
+
+Washing
+Intern Isla washed a Dirty Electric Car GMC Sierra using Chemical method and made it Clean
+Intern Isla washed a Clean Performance Car Ford Bronco using Chemical method but it was still Clean
+Intern Mikayla washed a Clean Electric Car GMC Sierra using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Ava washed a Clean Motorcycle Toyota Corolla Cross using Elbow Grease method but it was still Clean
+
+Repairing
+
+Selling
+Salesperson Janine has sold a Sparkling Like New Monster Truck Swamp Thing to Buyer2 for $79500 (and earned a bonus of $175)
+
+Racing
+Driver Bayek finished the race at position 9 with the Performance Car Audi RS7
+Driver Eivor finished the race at position 13 with the Performance Car BMW M8
+Driver Charlotte finished the race at position 20 with the Performance Car Nissan Kicks and the Vehicle became Broken 
+
+Day End
+Salesperson Shay quit the FNCD
+Hired a new Intern Alyssa
+Bought Monster Truck Shell Camino for $33515
+
+Total sales for the day: 79500

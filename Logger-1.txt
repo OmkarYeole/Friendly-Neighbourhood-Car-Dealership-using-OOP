@@ -1,0 +1,28 @@
+Current Budget: 500000
+
+Washing
+Intern Desmond washed a Dirty Electric Car Mercedes-AMG GT 4-Door Coupe using Chemical method and made it Clean
+The Mercedes-AMG GT 4-Door Coupe has become Broken
+Intern Desmond washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
+Intern Altair washed a Dirty Car Kia Forte using Elbow Grease method and made it Clean
+Intern Altair washed a Clean Pickup Ford Ranger using Elbow Grease method but it was still Clean
+Intern Ezio washed a Dirty Monster Truck Sudden Impact using Chemical method and made it Clean
+Intern Ezio washed a Clean Performance Car Audi RS7 using Chemical method but it was still Clean
+The Audi RS7 has become Broken
+
+Repairing
+Mechanic Haytham repaired a Broken Car Hyundai Elantra and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Electric Car Mercedes-AMG GT 4-Door Coupe and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Performance Car Audi RS7 but it was still Broken and the vehicle became Dirty
+Mechanic Conner repaired a Broken Pickup Ram 1500 Classic and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Car Kia Forte and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+
+Selling
+Sales Price of the Electric Car Mercedes-AMG GT 4-Door Coupe increased from $114483 to $120207 after adding on Undercoating
+Salesperson Arno has sold a Dirty Used Electric Car Mercedes-AMG GT 4-Door Coupe to Buyer1 for $120207 (and earned a bonus of $200)
+
+Day End
+Bought Electric Car Toyota Camry for $23000
+
+Total sales for the day: 120207

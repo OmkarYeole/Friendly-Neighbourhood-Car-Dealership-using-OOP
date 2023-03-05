@@ -1,0 +1,21 @@
+Current Budget: 1469065
+
+Washing
+Intern Emma washed a Dirty Car Bentley Continental GT using Chemical method but it was still Dirty
+Intern Emma washed a Clean Monster Truck Snake Bite using Chemical method but it was still Clean
+Intern Elliot washed a Dirty Electric Car Toyota Camry using Detailed method but it was still Dirty
+Intern Elliot washed a Clean Monster Truck Snake Bite using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Evelyn washed a Dirty Pickup Lexus RX using Elbow Grease method and made it Clean
+Intern Evelyn washed a Clean Motorcycle Jeep Grand Wagoneer using Elbow Grease method and made it Sparkling (and earned bonus of $50)
+
+Repairing
+
+Selling
+Salesperson Shay has sold a Dirty Like New Performance Car Honda HR-V to Buyer1 for $148556 (and earned a bonus of $200)
+
+Day End
+Intern Emma quit the FNCD
+Hired a new Intern Madison
+Bought Performance Car Nissan Kicks for $21269
+
+Total sales for the day: 148556

@@ -1,0 +1,28 @@
+Current Budget: 1984440
+
+Washing
+Intern Madison washed a Dirty Motorcycle Toyota Corolla Cross using Detailed method and made it Clean
+Intern Madison washed a Clean Performance Car Honda CR-V using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Isla washed a Dirty Electric Car Lamborghini Aventador using Elbow Grease method and made it Clean
+Intern Isla washed a Clean Motorcycle Dodge Charger using Elbow Grease method and made it Sparkling (and earned bonus of $50)
+Intern Mikayla washed a Clean Pickup Audi Q5 using Elbow Grease method but it was still Clean
+
+Repairing
+Mechanic Bianca repaired a Used Electric Car Lamborghini Aventador and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+
+Selling
+Sales Price of the Car Porsche 911 increased from $45266 to $54319 after adding on Extended Warranty
+Salesperson Arno has sold a Sparkling Like New Car Porsche 911 to Buyer2 for $54319 (and earned a bonus of $150)
+Sales Price of the Performance Car Honda CR-V increased from $179977 to $188975 after adding on Undercoating
+Salesperson Arno has sold a Sparkling Like New Performance Car Honda CR-V to Buyer3 for $188975 (and earned a bonus of $200)
+
+Racing
+Driver Bayek finished the race at position 8 with the Motorcycle Porsche Taycan
+Driver Eivor finished the race at position 12 with the Motorcycle Jeep Grand Wagoneer
+Driver Charlotte finished the race at position 7 with the Motorcycle Dodge Charger
+
+Day End
+Bought Car Audi A4 for $11136
+Bought Performance Car Ford Bronco for $19054
+
+Total sales for the day: 243294

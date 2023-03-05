@@ -1,0 +1,28 @@
+Current Budget: 2409231
+
+Washing
+Intern Mikayla washed a Dirty Monster Truck Shell Camino using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Mikayla washed a Clean Motorcycle Toyota Corolla Cross using Detailed method but it was still Clean
+Intern Ava washed a Clean Pickup Ford Escape using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Alyssa washed a Clean Electric Car Lamborghini Aventador using Detailed method but made it Dirty
+
+Repairing
+Mechanic Bianca repaired a Broken Performance Car Nissan Kicks and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Bianca repaired a Used Performance Car Nissan Kicks and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+
+Selling
+Salesperson Janine has sold a Sparkling Like New Pickup Ford Escape to Buyer3 for $40590 (and earned a bonus of $175)
+Salesperson Isla has sold a Dirty Like New Electric Car Lamborghini Aventador to Buyer4 for $120757 (and earned a bonus of $200)
+Sales Price of the Pickup Audi Q5 increased from $39093 to $46911 after adding on Extended Warranty
+Salesperson Madison has sold a Sparkling Like New Pickup Audi Q5 to Buyer5 for $46911 (and earned a bonus of $175)
+
+Day End
+Mechanic Mackenzie quit the FNCD
+Salesperson Janine quit the FNCD
+Hired a new Intern Brielle
+Hired a new Intern Scarlett
+Bought Pickup Porsche Cayenne for $38952
+Bought Pickup Kia Telluride for $14958
+Bought Electric Car Ford EcoSport for $36596
+
+Total sales for the day: 208258

@@ -1,0 +1,30 @@
+Current Budget: 3071192
+
+Washing
+Intern Alyssa washed a Dirty Performance Car Ford Bronco using Elbow Grease method but it was still Dirty
+Intern Alyssa washed a Clean Motorcycle Toyota Corolla Cross using Elbow Grease method but it was still Clean
+The Toyota Corolla Cross has become Like New
+Intern Brielle washed a Dirty Motorcycle Cadillac Escalade using Chemical method but it was still Dirty
+Intern Brielle washed a Clean Pickup Porsche Cayenne using Chemical method and made it Sparkling (and earned bonus of $75)
+The Porsche Cayenne has become Broken
+Intern Scarlett washed a Dirty Monster Truck El Toro Loco using Elbow Grease method but it was still Dirty
+Intern Scarlett washed a Clean Pickup Kia Telluride using Elbow Grease method but it was still Clean
+
+Repairing
+Mechanic Bianca repaired a Broken Electric Car Mercedes-Benz GLS and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Bianca repaired a Used Electric Car Mercedes-Benz GLS and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Elliot repaired a Broken Pickup Porsche Cayenne and made it Used (and earned a bonus of $125) and the vehicle became Clean
+Mechanic Elliot repaired a Broken Motorcycle Cadillac Escalade and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Motorcycle Cadillac Escalade and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Pickup Porsche Cayenne and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+
+Selling
+
+Racing
+Driver Bayek finished the race at position 14 with the Monster Truck Bear Foot 1979
+Driver Eivor finished the race at position 5 with the Monster Truck Maximum Destruction Max-D
+Driver Charlotte finished the race at position 10 with the Monster Truck Shell Camino
+
+Day End
+
+Total sales for the day: 0

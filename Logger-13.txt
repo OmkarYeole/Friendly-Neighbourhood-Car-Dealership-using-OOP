@@ -1,0 +1,25 @@
+Current Budget: 1503965
+
+Washing
+Intern Eleanor washed a Dirty Car Bentley Continental GT using Detailed method but it was still Dirty
+Intern Eleanor washed a Clean Electric Car Audi R8 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Mackenzie washed a Dirty Motorcycle Nissan Pathfinder using Chemical method and made it Clean
+Intern Mackenzie washed a Clean Car Rolls-Royce Ghost using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Emma washed a Dirty Electric Car Toyota Camry using Detailed method but it was still Dirty
+Intern Emma washed a Clean Pickup Lexus RX using Detailed method but it was still Clean
+
+Repairing
+Mechanic Edward repaired a Used Pickup Lexus RX and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Car Bentley Continental GT and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Motorcycle Dodge Charger but it was still Broken and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Car Porsche 911 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Bianca repaired a Broken Motorcycle Dodge Charger and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Bianca repaired a Used Motorcycle Dodge Charger and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Selling
+
+Day End
+Mechanic Desmond quit the FNCD
+Hired a new Intern Elliot
+
+Total sales for the day: 0

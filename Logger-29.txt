@@ -1,0 +1,19 @@
+Current Budget: 3055367
+
+Washing
+Intern Alyssa washed a Dirty Pickup Porsche Cayenne using Chemical method but it was still Dirty
+Intern Alyssa washed a Clean Performance Car Nissan Altima using Chemical method but it was still Clean
+Intern Brielle washed a Dirty Pickup Porsche Cayenne using Elbow Grease method and made it Clean
+Intern Brielle washed a Clean Pickup Kia Telluride using Elbow Grease method but it was still Clean
+Intern Scarlett washed a Dirty Motorcycle Cadillac Escalade using Chemical method and made it Clean
+Intern Scarlett washed a Clean Performance Car Nissan Altima using Chemical method but it was still Clean
+
+Repairing
+
+Selling
+Salesperson Ava has sold a Clean Like New Pickup Porsche Cayenne to Buyer1 for $146070 (and earned a bonus of $175)
+
+Day End
+Bought Pickup Maserati Levante for $7817
+
+Total sales for the day: 146070

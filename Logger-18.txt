@@ -1,0 +1,22 @@
+Current Budget: 1571902
+
+Washing
+Intern Evelyn washed a Dirty Performance Car Honda CR-V using Elbow Grease method and made it Clean
+Intern Evelyn washed a Clean Motorcycle Porsche Taycan using Elbow Grease method and made it Sparkling (and earned bonus of $50)
+Intern Madison washed a Dirty Performance Car Nissan Kicks using Detailed method and made it Clean
+Intern Madison washed a Clean Performance Car Nissan Kicks using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Isla washed a Dirty Pickup Audi Q5 using Chemical method and made it Clean
+Intern Isla washed a Clean Electric Car Honda Odyssey using Chemical method but made it Dirty
+
+Repairing
+Mechanic Bianca repaired a Broken Performance Car Honda CR-V and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Bianca repaired a Used Performance Car Honda CR-V and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+
+Selling
+Sales Price of the Motorcycle Nissan Pathfinder increased from $61237 to $64298 after adding on Satellite Radio
+Salesperson Janine has sold a Dirty Like New Motorcycle Nissan Pathfinder to Buyer2 for $64298 (and earned a bonus of $150)
+
+Day End
+Bought Motorcycle Ferrari F8 Tributo for $8210
+
+Total sales for the day: 64298

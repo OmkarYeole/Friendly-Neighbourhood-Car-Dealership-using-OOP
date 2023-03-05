@@ -1,0 +1,25 @@
+Current Budget: 1008233
+
+Washing
+Intern Bianca washed a Dirty Motorcycle Porsche Taycan using Detailed method but it was still Dirty
+Intern Bianca washed a Clean Monster Truck Sudden Impact using Detailed method but it was still Clean
+Intern Audrey washed a Dirty Monster Truck Bear Foot F-150 using Detailed method and made it Clean
+Intern Audrey washed a Clean Car Hyundai Elantra using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Isabella washed a Dirty Motorcycle Aston Martin Vantage using Detailed method but it was still Dirty
+Intern Isabella washed a Clean Motorcycle Chevrolet Traverse using Detailed method but it was still Clean
+
+Repairing
+Mechanic Edward repaired a Used Performance Car Audi RS7 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Electric Car Honda Odyssey and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Car Chevrolet Spark and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Performance Car Honda CR-V and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Altair repaired a Used Car Nissan Rogue Sport and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Selling
+Salesperson Jacob has sold a Dirty Like New Car Chevrolet Spark to Buyer2 for $52871 (and earned a bonus of $150)
+
+Day End
+Bought Car Kia Sorento for $6778
+
+Total sales for the day: 52871

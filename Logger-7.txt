@@ -1,0 +1,30 @@
+Current Budget: 1044351
+
+Washing
+Intern Bianca washed a Dirty Pickup Ram 1500 Classic using Elbow Grease method and made it Clean
+Intern Bianca washed a Clean Monster Truck Bear Foot F-150 using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Audrey washed a Dirty Electric Car Audi R8 using Detailed method and made it Clean
+Intern Audrey washed a Clean Monster Truck Sudden Impact using Detailed method but it was still Clean
+Intern Isabella washed a Dirty Car Nissan Sentra using Elbow Grease method and made it Clean
+Intern Isabella washed a Clean Monster Truck Sudden Impact using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+
+Repairing
+Mechanic Edward repaired a Used Electric Car Toyota Camry and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Car Kia Sorento and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Performance Car Honda HR-V and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Motorcycle Aston Martin Vantage and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Motorcycle Porsche Taycan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Car Kia Sorento and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Selling
+
+Racing
+Driver Bayek finished the race at position 19 with the Monster Truck Swamp Thing and the Vehicle became Broken 
+Driver Alexios finished the race at position 10 with the Monster Truck Sudden Impact
+Driver Eivor finished the race at position 13 with the Monster Truck USA-1
+
+Day End
+Intern Audrey quit the FNCD
+Hired a new Intern Skylar
+
+Total sales for the day: 0

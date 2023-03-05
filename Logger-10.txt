@@ -1,0 +1,37 @@
+Current Budget: 1294702
+
+Washing
+Intern Bianca washed a Dirty Monster Truck Snake Bite using Detailed method and made it Clean
+Intern Bianca washed a Clean Motorcycle Chevrolet Blazer using Detailed method but it was still Clean
+Intern Skylar washed a Dirty Car Kia Sorento using Detailed method and made it Clean
+Intern Skylar washed a Clean Car Nissan Sentra using Detailed method but it was still Clean
+Intern Janine washed a Dirty Car Nissan Rogue Sport using Chemical method and made it Clean
+Intern Janine washed a Clean Car Nissan Rogue Sport using Chemical method but it was still Clean
+The Nissan Rogue Sport has become Broken
+
+Repairing
+Mechanic Edward repaired a Broken Car Nissan Rogue Sport and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Pickup Audi Q5 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Pickup Audi Q5 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Car Nissan Rogue Sport but it was still Used and the vehicle became Dirty
+Mechanic Altair repaired a Used Car Nissan Rogue Sport and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Selling
+Sales Price of the Car Nissan Rogue Sport increased from $67433 to $70804 after adding on Satellite Radio
+Salesperson Arno has sold a Dirty Like New Car Nissan Rogue Sport to Buyer1 for $70804 (and earned a bonus of $150)
+
+Racing
+Driver Bayek finished the race at position 11 with the Motorcycle Porsche Taycan
+Driver Alexios finished the race at position 20 with the Motorcycle Chevrolet Traverse and the Vehicle became Broken 
+Driver Alexios got injured and quit the FNCD
+Driver Eivor finished the race at position 18 with the Motorcycle Chevrolet Blazer and the Vehicle became Broken 
+
+Day End
+Mechanic Altair quit the FNCD
+Salesperson Jacob quit the FNCD
+Hired a new Intern Eleanor
+Hired a new Intern Mackenzie
+Hired a new Driver Charlotte
+Bought Car Rolls-Royce Ghost for $18173
+
+Total sales for the day: 70804

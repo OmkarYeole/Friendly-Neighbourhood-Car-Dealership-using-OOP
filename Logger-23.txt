@@ -1,0 +1,28 @@
+Current Budget: 2294194
+
+Washing
+Intern Madison washed a Dirty Performance Car Ford Bronco using Elbow Grease method but it was still Dirty
+Intern Madison washed a Clean Pickup Audi Q5 using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Isla washed a Dirty Performance Car Ford Bronco using Chemical method and made it Clean
+Intern Isla washed a Clean Electric Car GMC Sierra using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Mikayla washed a Clean Motorcycle Toyota Corolla Cross using Detailed method but it was still Clean
+
+Repairing
+Mechanic Bianca repaired a Used Electric Car GMC Sierra but it was still Used and the vehicle became Clean
+Mechanic Bianca repaired a Used Electric Car GMC Sierra but it was still Used and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Electric Car GMC Sierra and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+
+Selling
+Sales Price of the Car Nissan Sentra increased from $39602 to $47522 after adding on Extended Warranty
+Sales Price of the Car Nissan Sentra increased from $47522 to $49898 after adding on Satellite Radio
+Salesperson Janine has sold a Sparkling Like New Car Nissan Sentra to Buyer1 for $49898 (and earned a bonus of $150)
+Sales Price of the Monster Truck Sudden Impact increased from $87318 to $91683 after adding on Satellite Radio
+Salesperson Arno has sold a Sparkling Like New Monster Truck Sudden Impact to Buyer4 for $91683 (and earned a bonus of $175)
+
+Day End
+Salesperson Arno quit the FNCD
+Hired a new Intern Ava
+Bought Car Audi Q7 for $15231
+Bought Monster Truck Maximum Destruction Max-D for $32373
+
+Total sales for the day: 141581

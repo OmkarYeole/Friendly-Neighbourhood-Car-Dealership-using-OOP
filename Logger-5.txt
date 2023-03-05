@@ -1,0 +1,31 @@
+Current Budget: 986662
+
+Washing
+Intern Altair washed a Dirty Performance Car Honda CR-V using Detailed method and made it Clean
+Intern Altair washed a Clean Monster Truck Swamp Thing using Detailed method but it was still Clean
+Intern Bianca washed a Dirty Car Hyundai Elantra using Elbow Grease method and made it Clean
+Intern Bianca washed a Clean Pickup BMW X7 using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Anna washed a Dirty Monster Truck USA-1 using Chemical method and made it Clean
+Intern Anna washed a Clean Electric Car Honda Odyssey using Chemical method but made it Dirty
+The Honda Odyssey has become Broken
+
+Repairing
+Mechanic Haytham repaired a Used Motorcycle McLaren Artura but it was still Used and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Performance Car Audi RS7 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Electric Car Honda Odyssey and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Performance Car Honda CR-V and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Monster Truck USA-1 but it was still Broken and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Monster Truck USA-1 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+
+Selling
+Sales Price of the Motorcycle McLaren Artura increased from $46668 to $47601 after adding on Road Rescue Coverage
+Salesperson Arno has sold a Dirty Used Motorcycle McLaren Artura to Buyer2 for $47601 (and earned a bonus of $150)
+
+Day End
+Intern Anna quit the FNCD
+Mechanic Haytham quit the FNCD
+Hired a new Intern Audrey
+Hired a new Intern Isabella
+Bought Motorcycle Chevrolet Blazer for $16230
+
+Total sales for the day: 47601

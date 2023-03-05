@@ -1,0 +1,22 @@
+Current Budget: 1478740
+
+Washing
+Intern Emma washed a Dirty Car Porsche 911 using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Emma washed a Clean Monster Truck Swamp Thing using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Elliot washed a Dirty Electric Car Toyota Camry using Chemical method but it was still Dirty
+Intern Elliot washed a Clean Electric Car Honda Odyssey using Chemical method but it was still Clean
+Intern Evelyn washed a Dirty Pickup Audi Q5 using Detailed method but it was still Dirty
+Intern Evelyn washed a Clean Performance Car Honda CR-V using Detailed method but made it Dirty
+
+Repairing
+Mechanic Edward repaired a Used Performance Car Honda HR-V and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Motorcycle Porsche Taycan and made it Used (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Bianca repaired a Broken Motorcycle Nissan Pathfinder and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Bianca repaired a Used Motorcycle Porsche Taycan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Motorcycle Nissan Pathfinder and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Selling
+
+Day End
+
+Total sales for the day: 0

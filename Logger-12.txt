@@ -1,0 +1,30 @@
+Current Budget: 1369264
+
+Washing
+Intern Janine washed a Dirty Car Rolls-Royce Ghost using Elbow Grease method but it was still Dirty
+Intern Janine washed a Clean Pickup Ford Ranger using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Eleanor washed a Dirty Electric Car Honda Odyssey using Detailed method and made it Clean
+Intern Eleanor washed a Clean Monster Truck Bear Foot 1979 using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Mackenzie washed a Dirty Car Rolls-Royce Ghost using Chemical method and made it Clean
+Intern Mackenzie washed a Clean Performance Car Audi RS7 using Chemical method and made it Sparkling (and earned bonus of $100)
+
+Repairing
+
+Selling
+Sales Price of the Pickup Ford Ranger increased from $42836 to $51403 after adding on Extended Warranty
+Salesperson Arno has sold a Sparkling Like New Pickup Ford Ranger to Buyer1 for $51403 (and earned a bonus of $175)
+Sales Price of the Motorcycle Chevrolet Traverse increased from $41767 to $43855 after adding on Satellite Radio
+Salesperson Skylar has sold a Dirty Like New Motorcycle Chevrolet Traverse to Buyer2 for $43855 (and earned a bonus of $150)
+Salesperson Skylar has sold a Clean Like New Car Kia Sorento to Buyer7 for $50838 (and earned a bonus of $150)
+Sales Price of the Car Hyundai Elantra increased from $47767 to $50155 after adding on Satellite Radio
+Salesperson Shay has sold a Sparkling Like New Car Hyundai Elantra to Buyer8 for $50155 (and earned a bonus of $150)
+
+Day End
+Salesperson Skylar quit the FNCD
+Hired a new Intern Emma
+Bought Car Bentley Continental GT for $14429
+Bought Car Porsche 911 for $6035
+Bought Pickup Lexus RX for $25248
+Bought Motorcycle Dodge Charger for $5963
+
+Total sales for the day: 196251

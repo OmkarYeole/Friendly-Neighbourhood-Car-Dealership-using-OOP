@@ -1,0 +1,24 @@
+Current Budget: 1587027
+
+Washing
+Intern Elliot washed a Dirty Motorcycle Porsche Taycan using Chemical method and made it Clean
+Intern Elliot washed a Clean Motorcycle Porsche Taycan using Chemical method but it was still Clean
+Intern Evelyn washed a Dirty Electric Car Toyota Camry using Elbow Grease method and made it Clean
+Intern Evelyn washed a Clean Pickup GMC Canyon using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Madison washed a Dirty Car Bentley Continental GT using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Madison washed a Clean Pickup Lexus RX using Chemical method but it was still Clean
+
+Repairing
+
+Selling
+
+Racing
+Driver Bayek finished the race at position 11 with the Performance Car Audi RS7
+Driver Eivor finished the race at position 5 with the Performance Car BMW M8
+Driver Charlotte finished the race at position 18 with the Performance Car Honda CR-V and the Vehicle became Broken 
+
+Day End
+Mechanic Edward quit the FNCD
+Hired a new Intern Isla
+
+Total sales for the day: 0

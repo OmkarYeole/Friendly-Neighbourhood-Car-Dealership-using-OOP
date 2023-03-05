@@ -1,0 +1,29 @@
+Current Budget: 2759973
+
+Washing
+Intern Alyssa washed a Dirty Car Toyota Tundra using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Alyssa washed a Clean Car Audi Q7 using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Brielle washed a Dirty Performance Car Mazda CX-5 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
+Intern Brielle washed a Clean Performance Car Ford Bronco using Elbow Grease method but made it Dirty
+Intern Scarlett washed a Dirty Pickup Kia Telluride using Elbow Grease method and made it Clean
+Intern Scarlett washed a Clean Pickup Porsche Cayenne using Elbow Grease method but it was still Clean
+
+Repairing
+Mechanic Bianca repaired a Broken Performance Car Mazda CX-5 and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Bianca repaired a Used Monster Truck El Toro Loco and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Elliot repaired a Used Performance Car Mazda CX-5 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+
+Selling
+Sales Price of the Motorcycle Porsche Taycan increased from $48571 to $58285 after adding on Extended Warranty
+Sales Price of the Motorcycle Porsche Taycan increased from $58285 to $61199 after adding on Undercoating
+Salesperson Isla has sold a Sparkling Like New Motorcycle Porsche Taycan to Buyer1 for $61199 (and earned a bonus of $150)
+Salesperson Isla has sold a Dirty Like New Performance Car Mazda CX-5 to Buyer2 for $136162 (and earned a bonus of $200)
+Sales Price of the Electric Car Ford EcoSport increased from $171543 to $180120 after adding on Undercoating
+Salesperson Ava has sold a Dirty Like New Electric Car Ford EcoSport to Buyer3 for $180120 (and earned a bonus of $200)
+
+Day End
+Bought Performance Car Honda Ridgeline for $26119
+Bought Motorcycle Cadillac Escalade for $8621
+Bought Electric Car Mercedes-Benz GLS for $21347
+
+Total sales for the day: 377481

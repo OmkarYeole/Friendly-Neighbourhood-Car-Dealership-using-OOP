@@ -1,0 +1,32 @@
+Current Budget: 3184445
+
+Washing
+Intern Alyssa washed a Dirty Electric Car Mercedes-Benz GLS using Detailed method and made it Clean
+Intern Alyssa washed a Clean Motorcycle Toyota Corolla Cross using Detailed method but it was still Clean
+Intern Brielle washed a Dirty Monster Truck El Toro Loco using Detailed method but it was still Dirty
+Intern Brielle washed a Clean Monster Truck Maximum Destruction Max-D using Detailed method but it was still Clean
+Intern Scarlett washed a Dirty Monster Truck El Toro Loco using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Scarlett washed a Clean Motorcycle Cadillac Escalade using Chemical method but it was still Clean
+
+Repairing
+Mechanic Bianca repaired a Broken Pickup Maserati Levante but it was still Broken and the vehicle became Dirty
+Mechanic Bianca repaired a Broken Pickup Maserati Levante and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Elliot repaired a Used Pickup Maserati Levante and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+
+Selling
+Salesperson Madison has sold a Clean Like New Electric Car Mercedes-Benz GLS to Buyer1 for $160102 (and earned a bonus of $200)
+Sales Price of the Pickup Kia Telluride increased from $112185 to $134622 after adding on Extended Warranty
+Sales Price of the Pickup Kia Telluride increased from $134622 to $141353 after adding on Satellite Radio
+Salesperson Ava has sold a Clean Like New Pickup Kia Telluride to Buyer2 for $141353 (and earned a bonus of $175)
+Salesperson Madison has sold a Sparkling Like New Electric Car GMC Sierra to Buyer5 for $118580 (and earned a bonus of $200)
+
+Day End
+Intern Alyssa quit the FNCD
+Mechanic Elliot quit the FNCD
+Hired a new Intern Aubree
+Hired a new Intern Ellie
+Bought Pickup Kia Soul for $21748
+Bought Electric Car Chevrolet Corvette for $33992
+Bought Electric Car Jaguar F-Type for $30345
+
+Total sales for the day: 420035

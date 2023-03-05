@@ -1,0 +1,27 @@
+Current Budget: 1028501
+
+Washing
+Intern Bianca washed a Dirty Performance Car Honda HR-V using Detailed method and made it Clean
+Intern Bianca washed a Clean Car Nissan Sentra using Detailed method but it was still Clean
+Intern Isabella washed a Dirty Performance Car Audi RS7 using Chemical method and made it Clean
+Intern Isabella washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
+Intern Skylar washed a Dirty Motorcycle Chevrolet Blazer using Elbow Grease method and made it Clean
+Intern Skylar washed a Clean Performance Car Audi RS7 using Elbow Grease method but it was still Clean
+
+Repairing
+Mechanic Edward repaired a Broken Monster Truck Swamp Thing and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Monster Truck Swamp Thing and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Monster Truck USA-1 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+
+Selling
+Sales Price of the Monster Truck USA-1 increased from $144356 to $151573 after adding on Undercoating
+Salesperson Arno has sold a Dirty Like New Monster Truck USA-1 to Buyer1 for $151573 (and earned a bonus of $175)
+Salesperson Arno has sold a Sparkling Like New Monster Truck Bear Foot F-150 to Buyer5 for $106908 (and earned a bonus of $175)
+
+Day End
+Intern Isabella quit the FNCD
+Hired a new Intern Janine
+Bought Monster Truck Bear Foot 1979 for $25799
+Bought Monster Truck Snake Bite for $38914
+
+Total sales for the day: 258481

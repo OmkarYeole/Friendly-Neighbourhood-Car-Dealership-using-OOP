@@ -1,0 +1,37 @@
+Current Budget: 768409
+
+Washing
+Intern Altair washed a Dirty Performance Car BMW M8 using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Altair washed a Clean Pickup Ford Ranger using Chemical method but it was still Clean
+Intern Bianca washed a Dirty Motorcycle Porsche Taycan using Chemical method but it was still Dirty
+Intern Bianca washed a Clean Electric Car Honda Odyssey using Chemical method but it was still Clean
+Intern Anna washed a Dirty Monster Truck Sudden Impact using Chemical method and made it Clean
+Intern Anna washed a Clean Monster Truck USA-1 using Chemical method but it was still Clean
+
+Repairing
+Mechanic Haytham repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Car Chevrolet Spark and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Monster Truck USA-1 but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Broken Electric Car Toyota Camry and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Monster Truck Bear Foot F-150 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Motorcycle Porsche Taycan but it was still Used and the vehicle became Dirty
+
+Selling
+Sales Price of the Car Kia Forte increased from $58305 to $69966 after adding on Extended Warranty
+Salesperson Shay has sold a Dirty Used Car Kia Forte to Buyer1 for $69966 (and earned a bonus of $150)
+Salesperson Jacob has sold a Dirty Like New Motorcycle Mercedes-Benz S-Class to Buyer2 for $26312 (and earned a bonus of $150)
+Sales Price of the Performance Car Porsche Panamera increased from $85395 to $102474 after adding on Extended Warranty
+Salesperson Arno has sold a Dirty Like New Performance Car Porsche Panamera to Buyer3 for $102474 (and earned a bonus of $200)
+Sales Price of the Pickup Chevrolet Colorado increased from $73902 to $88682 after adding on Extended Warranty
+Salesperson Shay has sold a Dirty Like New Pickup Chevrolet Colorado to Buyer4 for $88682 (and earned a bonus of $175)
+
+Racing
+Driver Bayek finished the race at position 1 with the Performance Car BMW M8 and Won the race (and earned a bonus of $225)
+
+Day End
+Bought Car Nissan Rogue Sport for $11508
+Bought Pickup BMW X7 for $9746
+Bought Performance Car Honda HR-V for $10564
+Bought Motorcycle Chevrolet Traverse for $11138
+
+Total sales for the day: 287434
