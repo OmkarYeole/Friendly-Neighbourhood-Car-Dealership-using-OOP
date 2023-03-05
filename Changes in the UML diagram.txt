@@ -1,0 +1,32 @@
+Changes made in the UML diagram:
+
+
+a) The Staff class has some minor additions in the attributes like +race_won, +dep_race_won.
+ 
+b) The Intern class Inheriting from the Staff class has additional attributes +clean_outcome, +wash_method and +washbehavior. The original +wash() method has been replaced by +setWashBehavior().
+
+
+c) Mechanic and Salesperson classes have no changes.
+
+d) The Driver class has its +active_drivers attribute removed and new attributes like +choice, +pos, +positions, +race_position, +vehicles_choice, +race_vehicles, +injured_drivers have been added. The previous method +currentActiveDrivers() has been removed and new methods added are +getRaceVehicles(), +race(), +getTotalDays(), +getBonus(), +getSalary(), +addDriver(), +dropDriver(). 
+
+
+e) Strategy Pattern has been implemented with WashBehavior as the interface containing the +wash() method. This interface is implemented by three classes, Chemical, ElbowGrease, Detailed all of which have the +wash() method and these three classes are extending the Intern class .
+
+f) The Operation class has the attribute +day modified to +day_count and other attributes added are +Staff_money, +FNCD_money, +file_name and +writer. Some additional methods have been added which are +addedBudget(), +outputLogger().
+
+g) The Vehicle class has some new attributes added to it like, +monster_truck_names, +race_won, +max_sale_price, +conditionSelected, +lastOccurence, +range, +engine_size, +vehicle_wash_bonus, +race_win_bonus and +addon. Additional methods are also added to the Vehicle class which are +add_MonsterTruck_names(), +getMonsterTruckName(), +getCarType().
+
+h) The ElectricCar class has attributes +cost_price, +sales_price, +condition, +cleanliness, +range removed and implemented in the +buyVehicle() method. The method +rangeIncrement() has been remov ed and implemented in the buyVehicle() method itself.
+
+i) The MonsterTrucks class has attributes +cost_price, +sales_price, +condition, +cleanliness, +stage_name removed and implemented in the Vehicle class. The method +name_reuse() has been removed and implemented in the Vehicle class itself.
+
+j) The Motorcycles class has attributes +cost_price, +sales_price, +condition, +cleanliness, all these attributes have been removed and implemented in the buyVehicle() method. The attribute engine_size has been updated to engine_size_gen. The method +CalcEngineSize() is replaced with +setEngineSize(). 
+
+k) RaceEvents class has been removed and implemented in Driver class.
+
+l) Addon class has been removed. A decorator pattern has been implemented with Vehicle as the base component class. Addon_purchaser class is an abstract decorator class with attributes +i, +j and method +addonPrice() extending the Vehicle class. The abstract decorator class +Addon_purchaser() is extended by concrete decorator classes like ExtendedWarranty, Undercoating, RoadRescueCoverage, SatelliteRadio all having method +addonPrice().
+ 
+m) Logger and Tracker have been removed and implemented differently. Interface Publisher acts a subject with methods like +registerSubscriber(), +removeSubscriber(), +notifySubscriberAct(), +notifySubscriberWash(), +notifySubscriberRepair(), +notifySubscriberSell(), +notifySubscriberRace(), +notifySubscriberEnd() and +notifySubscriberTracker(). Interface Subscriber acts as an Observer with method +update(), +updateAct(), +updateWash(), +updateRepair(), +updateSell(), +updateRace(), +updateEnd().  A concrete subject class has been created FNCDdata with attributes +s, _subscribers and methods +FNCDdata(), +registerSubscriber(),
++removeSubscriber(), +dayAct(), +notifySubscriberAct(), +washOutcome(), +notifySubscriberWash(), +repairOutcome(), +notifySubscriberRepair(), +sellOutcome(),
++notifySubscriberSell(), +raceOutcome(), +notifySubscriberRace(), +dayEnd(), +notifySubscriberEnd(), +trackerOutcome(), +notifySubscriberTracker(). Two concrete observer classes have been created Logger with attribute +fncdData and methods +updateAct(), +updateWash(), +updateRepair(), +updateSell(), +updateRace(), +updateEnd(), +update() and Tracker class with attribute +fncdData and methods +update(), +updateAct(), +updateWash(), +updateRepair(), +updateSell(), +updateRace(), +updateEnd().
