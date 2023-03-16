@@ -1,28 +1,27 @@
 Current Budget: 500000
 
 Washing
-Intern Desmond washed a Dirty Electric Car Mercedes-AMG GT 4-Door Coupe using Chemical method and made it Clean
-The Mercedes-AMG GT 4-Door Coupe has become Broken
-Intern Desmond washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
-Intern Altair washed a Dirty Car Kia Forte using Elbow Grease method and made it Clean
-Intern Altair washed a Clean Pickup Ford Ranger using Elbow Grease method but it was still Clean
-Intern Ezio washed a Dirty Monster Truck Sudden Impact using Chemical method and made it Clean
-Intern Ezio washed a Clean Performance Car Audi RS7 using Chemical method but it was still Clean
-The Audi RS7 has become Broken
+Intern Desmond washed a Dirty Car Hyundai Sonata using Detailed method and made it Clean
+Intern Desmond washed a Clean Luxury Car Lexus LS using Detailed method but made it Dirty
+Intern Altair washed a Dirty Monster Truck Bear Foot F-150 using Elbow Grease method and made it Clean
+Intern Altair washed a Clean Performance Car BMW M8 using Elbow Grease method but it was still Clean
+Intern Ezio washed a Dirty Budget Car Hyundai Accent using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Ezio washed a Clean Monster Truck Rampage using Detailed method and made it Sparkling (and earned bonus of $75)
 
 Repairing
-Mechanic Haytham repaired a Broken Car Hyundai Elantra and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Electric Car Mercedes-AMG GT 4-Door Coupe and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Conner repaired a Broken Performance Car Audi RS7 but it was still Broken and the vehicle became Dirty
-Mechanic Conner repaired a Broken Pickup Ram 1500 Classic and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Car Kia Forte and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Super Car Bugatti Veyron and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Super Car Pagani Huayra and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Conner repaired a Used Pickup GMC Canyon and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Budget Car Suzuki Swift and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Used Performance Car BMW M8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling
-Sales Price of the Electric Car Mercedes-AMG GT 4-Door Coupe increased from $114483 to $120207 after adding on Undercoating
-Salesperson Arno has sold a Dirty Used Electric Car Mercedes-AMG GT 4-Door Coupe to Buyer1 for $120207 (and earned a bonus of $200)
+Salesperson Shay has sold a Sparkling Used Electric Car Rolls-Royce Cullinan to Buyer3 for $73946 (and earned a bonus of $200)
 
 Day End
-Bought Electric Car Toyota Camry for $23000
+Salesperson Shay quit the FNCD
+Hired a new Intern Jasmine
+Bought Electric Car Chrysler Pacifica for $17233
 
-Total sales for the day: 120207
+Total sales for the day: 73946

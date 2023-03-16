@@ -1,36 +1,29 @@
-Current Budget: 587407
+Current Budget: 546563
 
 Washing
-Intern Desmond washed a Dirty Pickup Ram 1500 Classic using Chemical method but it was still Dirty
-Intern Desmond washed a Clean Monster Truck Sudden Impact using Chemical method but it was still Clean
-Intern Altair washed a Dirty Performance Car Porsche Panamera using Chemical method and made it Clean
-Intern Altair washed a Clean Performance Car Porsche Panamera using Chemical method but it was still Clean
-Intern Ezio washed a Dirty Motorcycle Lamborghini Huracan using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Ezio washed a Clean Car Chevrolet Spark using Detailed method but it was still Clean
+Intern Altair washed a Dirty Pickup Nissan Frontier using Chemical method and made it Clean
+Intern Altair washed a Clean Electric Car Polestar 2 using Chemical method and made it Sparkling (and earned bonus of $100)
+The Polestar 2 has become Broken
+Intern Ezio washed a Dirty Super Car Pagani Huayra using Elbow Grease method but it was still Dirty
+Intern Ezio washed a Clean Car Chevrolet Spark using Elbow Grease method and made it Sparkling (and earned bonus of $50)
+Intern Jasmine washed a Dirty Luxury Car Acura RLX using Chemical method and made it Clean
+Intern Jasmine washed a Clean Budget Car Kia Rio using Chemical method but it was still Clean
 
 Repairing
-Mechanic Haytham repaired a Used Car Hyundai Elantra but it was still Used and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Electric Car BMW i8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Conner repaired a Broken Monster Truck Sudden Impact and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Conner repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Edward repaired a Used Electric Car Rolls-Royce Cullinan and made it Like New (and earned a bonus of $150) and the vehicle became Clean
-Mechanic Edward repaired a Used Monster Truck Sudden Impact and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Motorcycle McLaren Artura and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Pickup Ford Ranger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Conner repaired a Used Electric Car Rivian R1T and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Conner repaired a Used Budget Car Suzuki Swift and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Motorcycle Suzuki Hayabusa but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Used Monster Truck USA-1 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling
-Sales Price of the Electric Car BMW i8 increased from $123717 to $129902 after adding on Satellite Radio
-Salesperson Jacob has sold a Dirty Used Electric Car BMW i8 to Buyer2 for $129902 (and earned a bonus of $200)
-Sales Price of the Performance Car Mercedes-AMG GT increased from $79535 to $95442 after adding on Extended Warranty
-Salesperson Jacob has sold a Dirty Like New Performance Car Mercedes-AMG GT to Buyer3 for $95442 (and earned a bonus of $200)
-Sales Price of the Motorcycle Lamborghini Huracan increased from $32842 to $34484 after adding on Satellite Radio
-Salesperson Shay has sold a Sparkling Like New Motorcycle Lamborghini Huracan to Buyer4 for $34484 (and earned a bonus of $150)
+Salesperson Jacob has sold a Dirty Like New Electric Car Rivian R1T to Buyer1 for $62275 (and earned a bonus of $200)
+Sales Price of the Budget Car Suzuki Swift increased from $31950 to $38340 after adding on Extended Warranty
+Salesperson Desmond has sold a Dirty Like New Budget Car Suzuki Swift to Buyer2 for $38340 (and earned a bonus of $150)
 
 Day End
-Intern Ezio quit the FNCD
-Mechanic Conner quit the FNCD
-Hired a new Intern Bianca
-Hired a new Intern Anna
-Bought Performance Car Honda CR-V for $12798
-Bought Motorcycle Mercedes-Benz S-Class for $13156
-Bought Electric Car Honda Odyssey for $42572
+Bought Electric Car Nissan Pathfinder for $37948
+Bought Car Hyundai Sonata for $6660
 
-Total sales for the day: 259828
+Total sales for the day: 100615

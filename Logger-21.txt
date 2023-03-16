@@ -1,28 +1,32 @@
-Current Budget: 1984440
+Current Budget: 2741064
 
 Washing
-Intern Madison washed a Dirty Motorcycle Toyota Corolla Cross using Detailed method and made it Clean
-Intern Madison washed a Clean Performance Car Honda CR-V using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Isla washed a Dirty Electric Car Lamborghini Aventador using Elbow Grease method and made it Clean
-Intern Isla washed a Clean Motorcycle Dodge Charger using Elbow Grease method and made it Sparkling (and earned bonus of $50)
-Intern Mikayla washed a Clean Pickup Audi Q5 using Elbow Grease method but it was still Clean
+Intern Mila washed a Dirty Electric Car Ford EcoSport using Detailed method and made it Clean
+Intern Mila washed a Clean Luxury Car Jaguar XJ using Detailed method but it was still Clean
+Intern Leah washed a Dirty Performance Car Mercedes-AMG GT using Elbow Grease method and made it Clean
+Intern Leah washed a Clean Pickup Ram 1500 Classic using Elbow Grease method but it was still Clean
+Intern Emma washed a Dirty Pickup Honda Ridgeline using Elbow Grease method and made it Clean
+Intern Emma washed a Clean Monster Truck Swamp Thing using Elbow Grease method but it was still Clean
 
 Repairing
-Mechanic Bianca repaired a Used Electric Car Lamborghini Aventador and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Mikayla repaired a Broken Performance Car Ford Escape and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Performance Car Ford Escape and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Hannah repaired a Broken Motorcycle Lincoln Navigator and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Hannah repaired a Used Motorcycle Lincoln Navigator and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling
-Sales Price of the Car Porsche 911 increased from $45266 to $54319 after adding on Extended Warranty
-Salesperson Arno has sold a Sparkling Like New Car Porsche 911 to Buyer2 for $54319 (and earned a bonus of $150)
-Sales Price of the Performance Car Honda CR-V increased from $179977 to $188975 after adding on Undercoating
-Salesperson Arno has sold a Sparkling Like New Performance Car Honda CR-V to Buyer3 for $188975 (and earned a bonus of $200)
+Sales Price of the Performance Car Ford Escape increased from $84112 to $100934 after adding on Extended Warranty
+Sales Price of the Performance Car Ford Escape increased from $100934 to $105980 after adding on Satellite Radio
+Salesperson Amelia has sold a Dirty Like New Performance Car Ford Escape to Buyer1 for $105980 (and earned a bonus of $200)
 
 Racing
-Driver Bayek finished the race at position 8 with the Motorcycle Porsche Taycan
-Driver Eivor finished the race at position 12 with the Motorcycle Jeep Grand Wagoneer
-Driver Charlotte finished the race at position 7 with the Motorcycle Dodge Charger
+Driver Alexios finished the race at position 1 with the Pickup GMC Canyon and Won the race (and earned a bonus of $200)
+Driver Addison finished the race at position 7 with the Pickup Ram 1500 Classic
+Driver Ella finished the race at position 13 with the Pickup Nissan Frontier
 
 Day End
-Bought Car Audi A4 for $11136
-Bought Performance Car Ford Bronco for $19054
+Intern Leah quit the FNCD
+Hired a new Intern Emilia
+Bought Performance Car Chevrolet Equinox for $19813
 
-Total sales for the day: 243294
+Total sales for the day: 105980

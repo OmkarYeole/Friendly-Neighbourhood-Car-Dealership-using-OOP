@@ -1,24 +1,33 @@
-Current Budget: 1587027
+Current Budget: 2224076
 
 Washing
-Intern Elliot washed a Dirty Motorcycle Porsche Taycan using Chemical method and made it Clean
-Intern Elliot washed a Clean Motorcycle Porsche Taycan using Chemical method but it was still Clean
-Intern Evelyn washed a Dirty Electric Car Toyota Camry using Elbow Grease method and made it Clean
-Intern Evelyn washed a Clean Pickup GMC Canyon using Elbow Grease method and made it Sparkling (and earned bonus of $75)
-Intern Madison washed a Dirty Car Bentley Continental GT using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Madison washed a Clean Pickup Lexus RX using Chemical method but it was still Clean
+Intern Kylie washed a Dirty Monster Truck Swamp Thing using Chemical method and made it Clean
+Intern Kylie washed a Clean Motorcycle Aston Martin Vantage using Chemical method but it was still Clean
+Intern Hannah washed a Dirty Monster Truck The Felon using Elbow Grease method and made it Clean
+Intern Hannah washed a Clean Car Honda Accord using Elbow Grease method but it was still Clean
+Intern Olivia washed a Dirty Car Chevrolet Corvette using Elbow Grease method but it was still Dirty
+Intern Olivia washed a Clean Budget Car BMW M3 using Elbow Grease method but it was still Clean
 
 Repairing
+Mechanic Edward repaired a Used Super Car Land Rover Range Rover and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling
+Sales Price of the Performance Car BMW M8 increased from $72430 to $86916 after adding on Extended Warranty
+Sales Price of the Performance Car BMW M8 increased from $86916 to $91261 after adding on Undercoating
+Salesperson Eleanor has sold a Dirty Like New Performance Car BMW M8 to Buyer1 for $91261 (and earned a bonus of $200)
+Sales Price of the Motorcycle Jeep Cherokee increased from $57562 to $69074 after adding on Extended Warranty
+Sales Price of the Motorcycle Jeep Cherokee increased from $69074 to $72527 after adding on Satellite Radio
+Salesperson Amelia has sold a Dirty Like New Motorcycle Jeep Cherokee to Buyer2 for $72527 (and earned a bonus of $150)
 
 Racing
-Driver Bayek finished the race at position 11 with the Performance Car Audi RS7
-Driver Eivor finished the race at position 5 with the Performance Car BMW M8
-Driver Charlotte finished the race at position 18 with the Performance Car Honda CR-V and the Vehicle became Broken 
+Driver Alexios finished the race at position 3 with the Pickup GMC Canyon and Won the race (and earned a bonus of $200)
+Driver Addison finished the race at position 17 with the Pickup Ram 1500 Classic and the Vehicle became Broken 
+Driver Ella finished the race at position 13 with the Pickup Nissan Frontier
 
 Day End
 Mechanic Edward quit the FNCD
-Hired a new Intern Isla
+Hired a new Intern Ellie
+Bought Performance Car Dodge Charger for $16329
+Bought Motorcycle Kia Sorento for $8333
 
-Total sales for the day: 0
+Total sales for the day: 163788

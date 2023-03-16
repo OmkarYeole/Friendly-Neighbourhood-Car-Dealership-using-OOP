@@ -1,25 +1,27 @@
-Current Budget: 1815132
+Current Budget: 2581776
 
 Washing
-Intern Evelyn washed a Dirty Car Land Rover Range Rover using Elbow Grease method and made it Clean
-Intern Evelyn washed a Clean Pickup Ford Escape using Elbow Grease method but it was still Clean
-Intern Madison washed a Dirty Motorcycle Toyota Corolla Cross using Elbow Grease method and made it Clean
-Intern Madison washed a Clean Pickup Ford Escape using Elbow Grease method but it was still Clean
-Intern Isla washed a Clean Pickup Ford Escape using Detailed method but it was still Clean
+Intern Ellie washed a Dirty Pickup Ram 1500 Classic using Chemical method and made it Clean
+Intern Ellie washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
+Intern Bella washed a Dirty Performance Car Porsche 718 Cayman GT4 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
+The Porsche 718 Cayman GT4 has become Like New
+Intern Bella washed a Clean Super Car Rimac C2 using Elbow Grease method but it was still Clean
+Intern Mila washed a Dirty Budget Car Honda Fit using Chemical method and made it Clean
+Intern Mila washed a Clean Car Land Rover Defender using Chemical method and made it Sparkling (and earned bonus of $50)
 
 Repairing
-Mechanic Bianca repaired a Broken Motorcycle Toyota Corolla Cross and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Bianca repaired a Used Motorcycle Toyota Corolla Cross but it was still Used and the vehicle became Dirty
-Mechanic Mackenzie repaired a Used Motorcycle Toyota Corolla Cross and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling
-Sales Price of the Electric Car Toyota Camry increased from $172500 to $207000 after adding on Extended Warranty
-Sales Price of the Electric Car Toyota Camry increased from $207000 to $217350 after adding on Satellite Radio
-Salesperson Janine has sold a Clean Like New Electric Car Toyota Camry to Buyer1 for $217350 (and earned a bonus of $200)
+Sales Price of the Motorcycle Aston Martin Vantage increased from $52428 to $62913 after adding on Extended Warranty
+Salesperson Amelia has sold a Clean Like New Motorcycle Aston Martin Vantage to Buyer3 for $62913 (and earned a bonus of $150)
+Salesperson Eleanor has sold a Dirty Like New Performance Car Dodge Charger to Buyer4 for $122467 (and earned a bonus of $200)
 
 Day End
-Intern Evelyn quit the FNCD
-Hired a new Intern Mikayla
-Bought Electric Car Lamborghini Aventador for $38642
+Intern Ellie quit the FNCD
+Mechanic Kylie quit the FNCD
+Hired a new Intern Leah
+Hired a new Intern Emma
+Bought Performance Car Ford Escape for $11215
+Bought Motorcycle Lincoln Navigator for $5377
 
-Total sales for the day: 217350
+Total sales for the day: 185380

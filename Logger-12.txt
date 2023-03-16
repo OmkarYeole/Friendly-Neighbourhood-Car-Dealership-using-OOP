@@ -1,30 +1,40 @@
-Current Budget: 1369264
+Current Budget: 1550891
 
 Washing
-Intern Janine washed a Dirty Car Rolls-Royce Ghost using Elbow Grease method but it was still Dirty
-Intern Janine washed a Clean Pickup Ford Ranger using Elbow Grease method and made it Sparkling (and earned bonus of $75)
-Intern Eleanor washed a Dirty Electric Car Honda Odyssey using Detailed method and made it Clean
-Intern Eleanor washed a Clean Monster Truck Bear Foot 1979 using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Mackenzie washed a Dirty Car Rolls-Royce Ghost using Chemical method and made it Clean
-Intern Mackenzie washed a Clean Performance Car Audi RS7 using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Mikayla washed a Dirty Monster Truck Iron Outlaw using Elbow Grease method and made it Clean
+Intern Mikayla washed a Clean Luxury Car Jaguar XJ using Elbow Grease method but it was still Clean
+Intern Lucy washed a Dirty Luxury Car Rolls-Royce Phantom using Chemical method and made it Clean
+Intern Lucy washed a Clean Luxury Car Lexus LS using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Paisley washed a Dirty Pickup Rolls-Royce Ghost using Detailed method and made it Clean
+Intern Paisley washed a Clean Performance Car Audi RS7 using Detailed method and made it Sparkling (and earned bonus of $100)
 
 Repairing
+Mechanic Edward repaired a Used Luxury Car Jeep Gladiator and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Budget Car Dodge Grand Caravan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Electric Car Mercedes-AMG GT 4-Door Coupe but it was still Used and the vehicle became Dirty
+Mechanic Altair repaired a Used Luxury Car Rolls-Royce Phantom and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Eva repaired a Used Super Car Aston Martin Valkyrie and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eva repaired a Used Super Car McLaren 765LT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling
-Sales Price of the Pickup Ford Ranger increased from $42836 to $51403 after adding on Extended Warranty
-Salesperson Arno has sold a Sparkling Like New Pickup Ford Ranger to Buyer1 for $51403 (and earned a bonus of $175)
-Sales Price of the Motorcycle Chevrolet Traverse increased from $41767 to $43855 after adding on Satellite Radio
-Salesperson Skylar has sold a Dirty Like New Motorcycle Chevrolet Traverse to Buyer2 for $43855 (and earned a bonus of $150)
-Salesperson Skylar has sold a Clean Like New Car Kia Sorento to Buyer7 for $50838 (and earned a bonus of $150)
-Sales Price of the Car Hyundai Elantra increased from $47767 to $50155 after adding on Satellite Radio
-Salesperson Shay has sold a Sparkling Like New Car Hyundai Elantra to Buyer8 for $50155 (and earned a bonus of $150)
+Sales Price of the Budget Car Toyota RAV4 increased from $23169 to $24327 after adding on Satellite Radio
+Salesperson Eleanor has sold a Dirty Used Budget Car Toyota RAV4 to Buyer2 for $24327 (and earned a bonus of $150)
+Sales Price of the Electric Car Polestar 2 increased from $122711 to $128846 after adding on Undercoating
+Salesperson Eleanor has sold a Dirty Like New Electric Car Polestar 2 to Buyer3 for $128846 (and earned a bonus of $200)
+Sales Price of the Electric Car Nissan Pathfinder increased from $118590 to $124519 after adding on Satellite Radio
+Salesperson Eleanor has sold a Sparkling Like New Electric Car Nissan Pathfinder to Buyer5 for $124519 (and earned a bonus of $200)
+Sales Price of the Monster Truck Bear Foot F-150 increased from $106908 to $112253 after adding on Undercoating
+Sales Price of the Monster Truck Bear Foot F-150 increased from $112253 to $117865 after adding on Satellite Radio
+Salesperson Eleanor has sold a Dirty Like New Monster Truck Bear Foot F-150 to Buyer6 for $117865 (and earned a bonus of $175)
 
 Day End
-Salesperson Skylar quit the FNCD
-Hired a new Intern Emma
-Bought Car Bentley Continental GT for $14429
-Bought Car Porsche 911 for $6035
-Bought Pickup Lexus RX for $25248
-Bought Motorcycle Dodge Charger for $5963
+Mechanic Eva quit the FNCD
+Salesperson Penelope quit the FNCD
+Hired a new Intern Kylie
+Hired a new Intern Hannah
+Bought Monster Truck The Felon for $32652
+Bought Electric Car Honda Civic for $38172
+Bought Electric Car Ford Bronco for $28244
+Bought Car Land Rover Defender for $15805
 
-Total sales for the day: 196251
+Total sales for the day: 395557

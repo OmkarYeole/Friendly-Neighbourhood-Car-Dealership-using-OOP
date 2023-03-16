@@ -1,24 +1,39 @@
-Current Budget: 2378521
+Current Budget: 2896951
 
 Washing
-Intern Isla washed a Dirty Electric Car GMC Sierra using Chemical method and made it Clean
-Intern Isla washed a Clean Performance Car Ford Bronco using Chemical method but it was still Clean
-Intern Mikayla washed a Clean Electric Car GMC Sierra using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Ava washed a Clean Motorcycle Toyota Corolla Cross using Elbow Grease method but it was still Clean
+Intern Emilia washed a Dirty Budget Car Cadillac Escalade using Chemical method and made it Clean
+Intern Emilia washed a Clean Budget Car Toyota Yaris using Chemical method but made it Dirty
+The Toyota Yaris has become Broken
+Intern Maya washed a Dirty Pickup GMC Canyon using Elbow Grease method but it was still Dirty
+Intern Maya washed a Clean Car Honda Accord using Elbow Grease method but it was still Clean
+Intern Avery washed a Dirty Car Kia Forte using Elbow Grease method but it was still Dirty
+Intern Avery washed a Clean Budget Car Cadillac Escalade using Elbow Grease method but it was still Clean
+The Cadillac Escalade has become Like New
 
 Repairing
+Mechanic Mikayla repaired a Used Electric Car Ford Mustang and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Mikayla repaired a Broken Motorcycle Toyota Sienna and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Hannah repaired a Broken Budget Car Toyota Yaris but it was still Broken and the vehicle became Dirty
+Mechanic Hannah repaired a Used Motorcycle Toyota Sienna and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Bella repaired a Broken Budget Car Toyota Yaris and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Bella repaired a Used Budget Car Toyota Yaris and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling
-Salesperson Janine has sold a Sparkling Like New Monster Truck Swamp Thing to Buyer2 for $79500 (and earned a bonus of $175)
+Sales Price of the Electric Car Ford Mustang increased from $100895 to $121074 after adding on Extended Warranty
+Salesperson Mila has sold a Dirty Like New Electric Car Ford Mustang to Buyer2 for $121074 (and earned a bonus of $200)
+Sales Price of the Budget Car Toyota Yaris increased from $36618 to $43941 after adding on Extended Warranty
+Sales Price of the Budget Car Toyota Yaris increased from $43941 to $46138 after adding on Satellite Radio
+Salesperson Mila has sold a Dirty Like New Budget Car Toyota Yaris to Buyer4 for $46138 (and earned a bonus of $150)
 
 Racing
-Driver Bayek finished the race at position 9 with the Performance Car Audi RS7
-Driver Eivor finished the race at position 13 with the Performance Car BMW M8
-Driver Charlotte finished the race at position 20 with the Performance Car Nissan Kicks and the Vehicle became Broken 
+Driver Alexios finished the race at position 11 with the Pickup GMC Canyon
+Driver Addison finished the race at position 13 with the Pickup Ram 1500 Classic
+Driver Ella finished the race at position 12 with the Pickup Nissan Frontier
 
 Day End
-Salesperson Shay quit the FNCD
-Hired a new Intern Alyssa
-Bought Monster Truck Shell Camino for $33515
+Salesperson Lucy quit the FNCD
+Hired a new Intern Michael
+Bought Electric Car Porsche 911 for $24785
+Bought Car Land Rover Defender for $15805
 
-Total sales for the day: 79500
+Total sales for the day: 167212

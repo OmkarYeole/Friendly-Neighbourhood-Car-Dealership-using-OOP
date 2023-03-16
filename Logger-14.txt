@@ -1,32 +1,35 @@
-Current Budget: 1494290
+Current Budget: 2023623
 
 Washing
-Intern Mackenzie washed a Dirty Car Bentley Continental GT using Chemical method and made it Clean
-Intern Mackenzie washed a Clean Car Bentley Continental GT using Chemical method but made it Dirty
-The Bentley Continental GT has become Broken
-Intern Emma washed a Dirty Pickup Lexus RX using Elbow Grease method but it was still Dirty
-Intern Emma washed a Clean Performance Car Honda HR-V using Elbow Grease method but it was still Clean
-Intern Elliot washed a Dirty Motorcycle Dodge Charger using Chemical method and made it Clean
-Intern Elliot washed a Clean Performance Car Honda HR-V using Chemical method and made it Sparkling (and earned bonus of $100)
-The Honda HR-V has become Broken
+Intern Paisley washed a Dirty Super Car Rimac C2 using Chemical method and made it Clean
+Intern Paisley washed a Clean Budget Car Cadillac Escalade using Chemical method but made it Dirty
+Intern Kylie washed a Dirty Car Chevrolet Corvette using Detailed method but it was still Dirty
+Intern Kylie washed a Clean Super Car Nissan Kicks using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Hannah washed a Dirty Budget Car Cadillac Escalade using Elbow Grease method but it was still Dirty
+Intern Hannah washed a Clean Luxury Car Jeep Gladiator using Elbow Grease method and made it Sparkling (and earned bonus of $75)
 
 Repairing
-Mechanic Edward repaired a Used Car Porsche 911 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Car Bentley Continental GT but it was still Broken and the vehicle became Dirty
-Mechanic Bianca repaired a Broken Performance Car Honda HR-V and made it Used (and earned a bonus of $150) and the vehicle became Clean
-Mechanic Bianca repaired a Broken Car Bentley Continental GT and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Eleanor repaired a Used Car Bentley Continental GT and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Eleanor repaired a Used Performance Car Honda HR-V but it was still Used and the vehicle became Dirty
+Mechanic Edward repaired a Used Motorcycle Aston Martin Vantage and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Used Performance Car Chevrolet Trax and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Altair repaired a Used Electric Car Ford Bronco and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Altair repaired a Broken Pickup Mazda CX-5 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Budget Car Cadillac Escalade but it was still Used and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Pickup Mazda CX-5 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling
+Sales Price of the Pickup Mazda CX-5 increased from $94672 to $99405 after adding on Satellite Radio
+Salesperson Lucy has sold a Dirty Like New Pickup Mazda CX-5 to Buyer1 for $99405 (and earned a bonus of $175)
+Salesperson Lucy has sold a Dirty Like New Budget Car Dodge Grand Caravan to Buyer3 for $20202 (and earned a bonus of $150)
 
 Racing
-Driver Bayek finished the race at position 16 with the Motorcycle Porsche Taycan and the Vehicle became Broken 
-Driver Eivor finished the race at position 20 with the Motorcycle Nissan Pathfinder and the Vehicle became Broken 
-Driver Charlotte finished the race at position 14 with the Motorcycle Jeep Grand Wagoneer
+Driver Alexios finished the race at position 7 with the Motorcycle Aston Martin Vantage
+Driver Addison finished the race at position 8 with the Motorcycle McLaren Artura
+Driver Ella finished the race at position 9 with the Motorcycle Porsche Taycan
 
 Day End
-Mechanic Eleanor quit the FNCD
-Hired a new Intern Evelyn
+Intern Paisley quit the FNCD
+Hired a new Intern Olivia
+Bought Pickup Volvo XC90 for $31690
+Bought Car Land Rover Defender for $15805
 
-Total sales for the day: 0
+Total sales for the day: 119607

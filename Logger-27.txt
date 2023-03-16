@@ -1,29 +1,34 @@
-Current Budget: 2759973
+Current Budget: 3066693
 
 Washing
-Intern Alyssa washed a Dirty Car Toyota Tundra using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Alyssa washed a Clean Car Audi Q7 using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Brielle washed a Dirty Performance Car Mazda CX-5 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
-Intern Brielle washed a Clean Performance Car Ford Bronco using Elbow Grease method but made it Dirty
-Intern Scarlett washed a Dirty Pickup Kia Telluride using Elbow Grease method and made it Clean
-Intern Scarlett washed a Clean Pickup Porsche Cayenne using Elbow Grease method but it was still Clean
+Intern Lila washed a Dirty Budget Car Maserati Levante using Chemical method and made it Clean
+Intern Lila washed a Clean Monster Truck Iron Outlaw using Chemical method but made it Dirty
+Intern Sophia washed a Dirty Pickup GMC Canyon using Elbow Grease method and made it Clean
+Intern Sophia washed a Clean Motorcycle Suzuki Hayabusa using Elbow Grease method but it was still Clean
+Intern Ariel washed a Dirty Motorcycle Bugatti Chiron using Chemical method and made it Clean
+Intern Ariel washed a Clean Luxury Car Jaguar XJ using Chemical method but made it Dirty
 
 Repairing
-Mechanic Bianca repaired a Broken Performance Car Mazda CX-5 and made it Used (and earned a bonus of $150) and the vehicle became Clean
-Mechanic Bianca repaired a Used Monster Truck El Toro Loco and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Elliot repaired a Used Performance Car Mazda CX-5 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Hannah repaired a Used Performance Car Jeep Grand Cherokee but it was still Used and the vehicle became Dirty
+Mechanic Hannah repaired a Used Performance Car Jeep Grand Cherokee and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling
-Sales Price of the Motorcycle Porsche Taycan increased from $48571 to $58285 after adding on Extended Warranty
-Sales Price of the Motorcycle Porsche Taycan increased from $58285 to $61199 after adding on Undercoating
-Salesperson Isla has sold a Sparkling Like New Motorcycle Porsche Taycan to Buyer1 for $61199 (and earned a bonus of $150)
-Salesperson Isla has sold a Dirty Like New Performance Car Mazda CX-5 to Buyer2 for $136162 (and earned a bonus of $200)
-Sales Price of the Electric Car Ford EcoSport increased from $171543 to $180120 after adding on Undercoating
-Salesperson Ava has sold a Dirty Like New Electric Car Ford EcoSport to Buyer3 for $180120 (and earned a bonus of $200)
+Salesperson Avery has sold a Clean Like New Luxury Car Rolls-Royce Phantom to Buyer1 for $145327 (and earned a bonus of $175)
+Sales Price of the Motorcycle Toyota Sienna increased from $69135 to $72591 after adding on Satellite Radio
+Salesperson Emma has sold a Clean Like New Motorcycle Toyota Sienna to Buyer3 for $72591 (and earned a bonus of $150)
+Sales Price of the Car Kia Forte increased from $38870 to $40813 after adding on Satellite Radio
+Salesperson Avery has sold a Dirty Like New Car Kia Forte to Buyer4 for $40813 (and earned a bonus of $150)
+Sales Price of the Pickup Honda Ridgeline increased from $67155 to $70512 after adding on Satellite Radio
+Salesperson Genesis has sold a Clean Like New Pickup Honda Ridgeline to Buyer6 for $70512 (and earned a bonus of $175)
 
 Day End
-Bought Performance Car Honda Ridgeline for $26119
-Bought Motorcycle Cadillac Escalade for $8621
-Bought Electric Car Mercedes-Benz GLS for $21347
+Intern Lila quit the FNCD
+Mechanic Maya quit the FNCD
+Hired a new Intern Elliot
+Hired a new Intern Arianna
+Bought Car Mazda CX-30 for $6010
+Bought Pickup Toyota Corolla Cross for $16571
+Bought Motorcycle Mercedes-Benz S-Class for $16427
+Bought Car Mazda CX-30 for $6010
 
-Total sales for the day: 377481
+Total sales for the day: 329243

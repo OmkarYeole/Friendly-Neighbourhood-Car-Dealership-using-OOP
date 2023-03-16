@@ -1,37 +1,39 @@
-Current Budget: 1294702
+Current Budget: 1330910
 
 Washing
-Intern Bianca washed a Dirty Monster Truck Snake Bite using Detailed method and made it Clean
-Intern Bianca washed a Clean Motorcycle Chevrolet Blazer using Detailed method but it was still Clean
-Intern Skylar washed a Dirty Car Kia Sorento using Detailed method and made it Clean
-Intern Skylar washed a Clean Car Nissan Sentra using Detailed method but it was still Clean
-Intern Janine washed a Dirty Car Nissan Rogue Sport using Chemical method and made it Clean
-Intern Janine washed a Clean Car Nissan Rogue Sport using Chemical method but it was still Clean
-The Nissan Rogue Sport has become Broken
+Intern Amelia washed a Dirty Pickup Ford Ranger using Chemical method and made it Clean
+Intern Amelia washed a Clean Monster Truck Bear Foot F-150 using Chemical method but it was still Clean
+The Bear Foot F-150 has become Broken
+Intern Mikayla washed a Dirty Luxury Car Lexus LS using Elbow Grease method and made it Clean
+Intern Mikayla washed a Clean Performance Car Audi RS7 using Elbow Grease method but it was still Clean
+Intern Lucy washed a Dirty Electric Car Audi R8 using Chemical method and made it Clean
+Intern Lucy washed a Clean Super Car Nissan Kicks using Chemical method but it was still Clean
 
 Repairing
-Mechanic Edward repaired a Broken Car Nissan Rogue Sport and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Pickup Audi Q5 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Desmond repaired a Used Pickup Audi Q5 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Desmond repaired a Used Car Nissan Rogue Sport but it was still Used and the vehicle became Dirty
-Mechanic Altair repaired a Used Car Nissan Rogue Sport and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Monster Truck Bear Foot F-150 but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Used Motorcycle Aston Martin Vantage but it was still Used and the vehicle became Dirty
+Mechanic Altair repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Altair repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eva repaired a Broken Monster Truck Bear Foot F-150 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Eva repaired a Used Car Hyundai Sonata and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling
-Sales Price of the Car Nissan Rogue Sport increased from $67433 to $70804 after adding on Satellite Radio
-Salesperson Arno has sold a Dirty Like New Car Nissan Rogue Sport to Buyer1 for $70804 (and earned a bonus of $150)
+Salesperson Penelope has sold a Clean Like New Luxury Car Acura RLX to Buyer1 for $118750 (and earned a bonus of $175)
+Sales Price of the Car Nissan Sentra increased from $31680 to $33264 after adding on Satellite Radio
+Salesperson Eleanor has sold a Sparkling Used Car Nissan Sentra to Buyer2 for $33264 (and earned a bonus of $150)
+Sales Price of the Performance Car Ferrari SF90 Stradale increased from $139417 to $146387 after adding on Satellite Radio
+Salesperson Penelope has sold a Dirty Like New Performance Car Ferrari SF90 Stradale to Buyer3 for $146387 (and earned a bonus of $200)
 
 Racing
-Driver Bayek finished the race at position 11 with the Motorcycle Porsche Taycan
-Driver Alexios finished the race at position 20 with the Motorcycle Chevrolet Traverse and the Vehicle became Broken 
-Driver Alexios got injured and quit the FNCD
-Driver Eivor finished the race at position 18 with the Motorcycle Chevrolet Blazer and the Vehicle became Broken 
+Driver Bayek finished the race at position 20 with the Pickup Ford Ranger and the Vehicle became Broken 
+Driver Bayek got injured and quit the FNCD
+Driver Alexios finished the race at position 5 with the Pickup GMC Canyon
+Driver Addison finished the race at position 4 with the Pickup Ram 1500 Classic
 
 Day End
-Mechanic Altair quit the FNCD
-Salesperson Jacob quit the FNCD
-Hired a new Intern Eleanor
-Hired a new Intern Mackenzie
-Hired a new Driver Charlotte
-Bought Car Rolls-Royce Ghost for $18173
+Hired a new Driver Ella
+Bought Car Land Rover Defender for $15805
+Bought Performance Car Chevrolet Trax for $18721
+Bought Car Land Rover Defender for $15805
 
-Total sales for the day: 70804
+Total sales for the day: 298401
