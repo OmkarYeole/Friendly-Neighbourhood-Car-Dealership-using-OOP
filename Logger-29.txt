@@ -1,19 +1,39 @@
-Current Budget: 3055367
+Current Budget: 3373330
 
 Washing
-Intern Alyssa washed a Dirty Pickup Porsche Cayenne using Chemical method but it was still Dirty
-Intern Alyssa washed a Clean Performance Car Nissan Altima using Chemical method but it was still Clean
-Intern Brielle washed a Dirty Pickup Porsche Cayenne using Elbow Grease method and made it Clean
-Intern Brielle washed a Clean Pickup Kia Telluride using Elbow Grease method but it was still Clean
-Intern Scarlett washed a Dirty Motorcycle Cadillac Escalade using Chemical method and made it Clean
-Intern Scarlett washed a Clean Performance Car Nissan Altima using Chemical method but it was still Clean
+Intern Arianna washed a Dirty Performance Car Jeep Grand Cherokee using Elbow Grease method and made it Clean
+Intern Arianna washed a Clean Pickup GMC Canyon using Elbow Grease method but it was still Clean
+Intern Evelyn washed a Dirty Electric Car Porsche 911 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Evelyn washed a Clean Super Car Ferrari 812 Superfast using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Scarlett washed a Dirty Motorcycle Porsche Taycan using Detailed method and made it Clean
+Intern Scarlett washed a Clean Monster Truck The Felon using Detailed method but it was still Clean
 
 Repairing
+Mechanic Hannah repaired a Used Pickup Toyota Corolla Cross but it was still Used and the vehicle became Dirty
+Mechanic Hannah repaired a Used Motorcycle McLaren 720S but it was still Used and the vehicle became Dirty
+Mechanic Sophia repaired a Used Pickup Toyota Corolla Cross and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sophia repaired a Used Motorcycle McLaren 720S and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ariel repaired a Used Monster Truck Madusa and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ariel repaired a Used Car Subaru Forester and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling
-Salesperson Ava has sold a Clean Like New Pickup Porsche Cayenne to Buyer1 for $146070 (and earned a bonus of $175)
+Salesperson Genesis has sold a Dirty Like New Car Subaru Forester to Buyer1 for $36052 (and earned a bonus of $150)
+Sales Price of the Electric Car Ford Bronco increased from $88262 to $92675 after adding on Undercoating
+Salesperson Elliot has sold a Sparkling Like New Electric Car Ford Bronco to Buyer2 for $92675 (and earned a bonus of $200)
+Sales Price of the Pickup Toyota Corolla Cross increased from $124282 to $149138 after adding on Extended Warranty
+Sales Price of the Pickup Toyota Corolla Cross increased from $149138 to $156594 after adding on Undercoating
+Salesperson Elliot has sold a Dirty Like New Pickup Toyota Corolla Cross to Buyer3 for $156594 (and earned a bonus of $175)
+Sales Price of the Performance Car Chevrolet Equinox increased from $61917 to $65012 after adding on Satellite Radio
+Salesperson Elliot has sold a Clean Like New Performance Car Chevrolet Equinox to Buyer4 for $65012 (and earned a bonus of $200)
 
 Day End
-Bought Pickup Maserati Levante for $7817
+Mechanic Sophia quit the FNCD
+Salesperson Emma quit the FNCD
+Hired a new Intern Bianca
+Hired a new Intern Natalie
+Bought Car Jeep Grand Wagoneer for $7497
+Bought Pickup Mercedes-Benz GLS for $10372
+Bought Performance Car Subaru Outback for $19370
+Bought Electric Car Lexus RX for $38415
 
-Total sales for the day: 146070
+Total sales for the day: 350333

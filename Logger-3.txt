@@ -1,37 +1,37 @@
-Current Budget: 768409
+Current Budget: 589838
 
 Washing
-Intern Altair washed a Dirty Performance Car BMW M8 using Chemical method and made it Sparkling (and earned bonus of $100)
-Intern Altair washed a Clean Pickup Ford Ranger using Chemical method but it was still Clean
-Intern Bianca washed a Dirty Motorcycle Porsche Taycan using Chemical method but it was still Dirty
-Intern Bianca washed a Clean Electric Car Honda Odyssey using Chemical method but it was still Clean
-Intern Anna washed a Dirty Monster Truck Sudden Impact using Chemical method and made it Clean
-Intern Anna washed a Clean Monster Truck USA-1 using Chemical method but it was still Clean
+Intern Altair washed a Dirty Luxury Car Jaguar XJ using Elbow Grease method and made it Clean
+Intern Altair washed a Clean Monster Truck Sudden Impact using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Ezio washed a Dirty Electric Car Mercedes-AMG GT 4-Door Coupe using Elbow Grease method and made it Clean
+Intern Ezio washed a Clean Car Hyundai Sonata using Elbow Grease method but it was still Clean
+Intern Jasmine washed a Dirty Motorcycle Aston Martin Vantage using Elbow Grease method and made it Clean
+Intern Jasmine washed a Clean Budget Car Honda Fit using Elbow Grease method but it was still Clean
 
 Repairing
-Mechanic Haytham repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Car Chevrolet Spark and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Monster Truck USA-1 but it was still Broken and the vehicle became Dirty
-Mechanic Edward repaired a Broken Electric Car Toyota Camry and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Monster Truck Bear Foot F-150 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Desmond repaired a Used Motorcycle Porsche Taycan but it was still Used and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Motorcycle Lamborghini Huracan and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Car Hyundai Sonata and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Conner repaired a Used Super Car Aston Martin Valkyrie but it was still Used and the vehicle became Dirty
+Mechanic Conner repaired a Used Car Hyundai Elantra and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Pickup Chevrolet Colorado but it was still Used and the vehicle became Dirty
 
 Selling
-Sales Price of the Car Kia Forte increased from $58305 to $69966 after adding on Extended Warranty
-Salesperson Shay has sold a Dirty Used Car Kia Forte to Buyer1 for $69966 (and earned a bonus of $150)
-Salesperson Jacob has sold a Dirty Like New Motorcycle Mercedes-Benz S-Class to Buyer2 for $26312 (and earned a bonus of $150)
-Sales Price of the Performance Car Porsche Panamera increased from $85395 to $102474 after adding on Extended Warranty
-Salesperson Arno has sold a Dirty Like New Performance Car Porsche Panamera to Buyer3 for $102474 (and earned a bonus of $200)
-Sales Price of the Pickup Chevrolet Colorado increased from $73902 to $88682 after adding on Extended Warranty
-Salesperson Shay has sold a Dirty Like New Pickup Chevrolet Colorado to Buyer4 for $88682 (and earned a bonus of $175)
+Sales Price of the Pickup Chevrolet Colorado increased from $59120 to $62076 after adding on Satellite Radio
+Salesperson Arno has sold a Dirty Used Pickup Chevrolet Colorado to Buyer2 for $62076 (and earned a bonus of $175)
+Salesperson Desmond has sold a Dirty Like New Car Hyundai Elantra to Buyer3 for $31845 (and earned a bonus of $150)
 
 Racing
-Driver Bayek finished the race at position 1 with the Performance Car BMW M8 and Won the race (and earned a bonus of $225)
+Driver Bayek finished the race at position 18 with the Pickup Ford Ranger and the Vehicle became Broken 
+Driver Alexios finished the race at position 8 with the Pickup GMC Canyon
+Driver Eivor finished the race at position 9 with the Pickup Ram 1500 Classic
 
 Day End
-Bought Car Nissan Rogue Sport for $11508
-Bought Pickup BMW X7 for $9746
-Bought Performance Car Honda HR-V for $10564
-Bought Motorcycle Chevrolet Traverse for $11138
+Intern Jasmine quit the FNCD
+Mechanic Conner quit the FNCD
+Hired a new Intern Aubrey
+Hired a new Intern Penelope
+Bought Car Koenigsegg Jesko for $12794
+Bought Pickup Honda Odyssey for $10858
 
-Total sales for the day: 287434
+Total sales for the day: 93921

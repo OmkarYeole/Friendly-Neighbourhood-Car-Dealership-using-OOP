@@ -1,20 +1,20 @@
-Current Budget: 2181894
+Current Budget: 2811331
 
 Washing
-Intern Madison washed a Dirty Car Audi A4 using Chemical method and made it Clean
-Intern Madison washed a Clean Car Audi A4 using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Isla washed a Dirty Performance Car Ford Bronco using Chemical method and made it Clean
-Intern Isla washed a Clean Car Land Rover Range Rover using Chemical method but it was still Clean
-Intern Mikayla washed a Dirty Electric Car Lamborghini Aventador using Elbow Grease method and made it Clean
-Intern Mikayla washed a Clean Pickup Ford Escape using Elbow Grease method but it was still Clean
+Intern Mila washed a Dirty Luxury Car Nissan Quest using Chemical method but it was still Dirty
+Intern Mila washed a Clean Pickup Honda Ridgeline using Chemical method but it was still Clean
+Intern Emma washed a Dirty Pickup GMC Canyon using Elbow Grease method but it was still Dirty
+Intern Emma washed a Clean Budget Car Toyota Yaris using Elbow Grease method but it was still Clean
+Intern Emilia washed a Dirty Car Kia Forte using Detailed method but it was still Dirty
+Intern Emilia washed a Clean Pickup Nissan Frontier using Detailed method and made it Sparkling (and earned bonus of $75)
 
 Repairing
-Mechanic Bianca repaired a Used Performance Car Ford Bronco and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Performance Car Chevrolet Equinox and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling
-Salesperson Janine has sold a Sparkling Like New Electric Car Honda Odyssey to Buyer3 for $159645 (and earned a bonus of $200)
 
 Day End
-Bought Electric Car GMC Sierra for $37945
+Salesperson Eleanor quit the FNCD
+Hired a new Intern Maya
 
-Total sales for the day: 159645
+Total sales for the day: 0

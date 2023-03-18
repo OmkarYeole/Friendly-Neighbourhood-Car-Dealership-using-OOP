@@ -325,7 +325,7 @@ class Intern extends Staff{
     }
     //Calculating the bonus
     public static void getBonus(int k, String vehicle){
-        for(int i=0; i<6;i++){
+        for(int i=0; i<9;i++){//prj4
             for(int j = 0; j<  Vehicle.vehicle[i].size(); j++) {
                 if ( Vehicle.vehicle[i].get(j).equals(vehicle)){
                     bonus[0].set(k, bonus[0].get(k) +  Vehicle.vehicle_wash_bonus[i]);//Bonus is decided based on type of car
@@ -465,7 +465,7 @@ class Mechanic extends Staff {
         }
     }
     public static void getBonus(int k, String vehicle){
-        for(int i=0; i<6;i++){
+        for(int i=0; i<9;i++){//prj4
             for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
                 if (Vehicle.vehicle[i].get(j).equals(vehicle)) {
                     bonus[1].set(k, bonus[1].get(k) + Vehicle.vehicle_repair_bonus[i]); //Bonus is decided based on type of car
@@ -496,7 +496,7 @@ class Salesperson extends Staff{
         fnc.dayAct(3,0);//obs
         Operation.total_sales = 0;//Initializing the total sales at the beginning of the day
         Buyer buyer1 = new Buyer();
-        Vehicle[] vehicle_object = {new Car(),new Pickup(),new PerformanceCar(),new Motorcycles(),new MonsterTrucks(),new ElectricCar()};
+        Vehicle[] vehicle_object = {new Car(),new Pickup(),new PerformanceCar(),new Motorcycles(),new MonsterTrucks(),new ElectricCar(),new BudgetCar(),new LuxuryCar(),new SuperCar()};
         //Checks if there are any buyers present
         if (Buyer.buyer_no !=0){
             for(int i = 0; i< Buyer.buyer_no; i++){
@@ -589,7 +589,7 @@ class Salesperson extends Staff{
         }
     }
     public static void getBonus(int k, String vehicle){
-        for(int i=0; i<6;i++){
+        for(int i=0; i<9;i++){
             for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
                 if (Vehicle.vehicle[i].get(j).equals(vehicle)){
                     bonus[2].set(k, bonus[2].get(k) + Vehicle.vehicle_sale_bonus[i]);  //Bonus is decided based on type of car
@@ -613,7 +613,8 @@ class Salesperson extends Staff{
 }
 
 class Driver extends Staff{
-    int choice,pos;
+    int choice_index,choice,pos;//prj4
+    int[] race_choice = {1,2,3,4,7,8};//prj4
     ArrayList<Integer> positions;
     static ArrayList<Integer> race_position;
     ArrayList<String> vehicles_choice;
@@ -623,13 +624,14 @@ class Driver extends Staff{
 
     public void getRaceVehicles(FNCDdata fnc) throws IOException {      //All methods in Driver will check for day to be Wednesday or Sunday
         if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
             System.out.println("\nRacing");
             fnc.dayAct(4,0);//obs
             vehicles_choice = new ArrayList<>();
             race_vehicles = new ArrayList<>();
             injured_drivers = new ArrayList<>();
-            choice = rand.nextInt(1,5);                 //selecting a vehicle other than regular or electric car
+            choice_index = rand.nextInt(race_choice.length);        //selecting a vehicle eligible for racing//prj4
+            choice = race_choice[choice_index];//prj4
             vehicles_choice = Vehicle.vehicle[choice];
             for (int i=0;i<vehicles_choice.size();i++){
                 if(obj.getCondition(vehicles_choice.get(i))!=0){    //condition to check if the vehicle is not broken
@@ -645,7 +647,7 @@ class Driver extends Staff{
     //for example, race_vehicles.get(i) will have a driver staff[3].get(i) and its count of races won will be race_won.get(i)
     public void race(FNCDdata fnc) throws IOException {
         if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
             positions = new ArrayList<>();
             if (race_vehicles.size()!=0){
                 positions.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20));
@@ -696,7 +698,7 @@ class Driver extends Staff{
     }
     public void getTotalDays(){
         if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
             for(int j=0;j<staff[3].size();j++){
                 days_worked[3].set(j, days_worked[3].get(j)+1);  //Total days worked increases by 1 after each day a salesperson was active
             }
@@ -704,8 +706,8 @@ class Driver extends Staff{
     }
     public static void getBonus(int k, String vehicle){
         if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
-            for(int i=1; i<5;i++){                               //So that General and Electric cars are not considered while getting Driver bonus
+                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+            for(int i=0; i<9;i++){                               //prj4
                 for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
                     if (Vehicle.vehicle[i].get(j).equals(vehicle)){
                         bonus[3].set(k, bonus[3].get(k) + Vehicle.race_win_bonus[i]);  //Bonus is decided based on type of car
@@ -718,7 +720,7 @@ class Driver extends Staff{
     }
     public void getSalary(FNCDdata  fnc) throws IOException {
         if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
             for(int j=0;j<staff[3].size();j++){
                 salary[3].set(j, normal_pay[3]+bonus[3].get(j));//salary is calculated by adding bonus and normal pay for the day
                 Operation.addBudget(3,j,fnc);
@@ -732,7 +734,7 @@ class Driver extends Staff{
     }
     public void addDriver(FNCDdata fnc) throws IOException {
         if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
             while(staff[3].size()<3){      //If number of Drivers is less than 3, add new drivers
                 staff[3].add(getName());
                 System.out.println("Hired a new Driver "+(staff[3].get(staff[3].size()-1))+".");
@@ -756,7 +758,7 @@ class Driver extends Staff{
     }
     public void dropDriver(){
         if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-           Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
             for (int i=0;i< staff[3].size();i++){
                 for (int j=0;j<injured_drivers.size();j++) {
                     if (injured_drivers.get(j).equals(staff[3].get(i))) {
@@ -788,27 +790,27 @@ class Driver extends Staff{
 class Vehicle{
     static ArrayList<String> car_names = new ArrayList<>();
     static ArrayList<String> monster_truck_names = new ArrayList<>();
-    static String[] carType = {"Car", "Pickup", "Performance Car","Motorcycle","Monster Truck","Electric Car"};
+    static String[] carType = {"Car", "Pickup", "Performance Car","Motorcycle","Monster Truck","Electric Car","Budget Car","Luxury Car","Super Car"};//prj4
     static String[] carCondition = {"Broken", "Used", "Like New"};
     static String[] carCleanliness = {"Dirty","Clean","Sparkling"};
-    static ArrayList<String>[] vehicle = new ArrayList[6];
-    static ArrayList<Integer>[] race_won = new ArrayList[6];
-    static ArrayList<String>[] status = new ArrayList[6];
+    static ArrayList<String>[] vehicle = new ArrayList[9];//prj4
+    static ArrayList<Integer>[] race_won = new ArrayList[9];//prj4
+    static ArrayList<String>[] status = new ArrayList[9];//prj4
     static ArrayList<String>[] condition = new ArrayList[3];
     static ArrayList<String>[] cleanliness = new ArrayList[3];
-    static ArrayList<Integer>[] cost_price = new ArrayList[6];
-    static ArrayList<Integer>[] sales_price = new ArrayList[6];
-    static ArrayList<String>[] soldVehicles = new ArrayList[6];
-    static int[] max_sale_price = {0,0,0,0,0,0};
+    static ArrayList<Integer>[] cost_price = new ArrayList[9];//prj4
+    static ArrayList<Integer>[] sales_price = new ArrayList[9];//prj4
+    static ArrayList<String>[] soldVehicles = new ArrayList[9];//prj4
+    static int[] max_sale_price = {0,0,0,0,0,0,0,0,0};
     String conditionSelected = null;
     String lastOccurrence = null;
     static ArrayList<Integer> range = new ArrayList<>();
     static ArrayList<Double> engine_size = new ArrayList<>();
     Random rand= new Random();
-    static int[] vehicle_wash_bonus = {50, 75, 100, 50, 75, 100};
-    static int[] vehicle_repair_bonus = {100, 125, 150, 100, 125, 150};
-    static int[] vehicle_sale_bonus = {150, 175, 200, 150, 175, 200};
-    static int[] race_win_bonus = {0, 200, 225, 250, 275, 0};
+    static int[] vehicle_wash_bonus = {50, 75, 100, 50, 75, 100, 50, 75, 100};//prj4
+    static int[] vehicle_repair_bonus = {100, 125, 150, 100, 125, 150, 100, 125, 150};//prj4
+    static int[] vehicle_sale_bonus = {150, 175, 200, 150, 175, 200, 150, 175, 200};//prj4
+    static int[] race_win_bonus = {0, 200, 225, 250, 275, 0, 0, 0, 300};//prj4
     static String[] addon={"Extended Warranty","Undercoating","Road Rescue Coverage","Satellite Radio"};
 
     //Initializing variables
@@ -877,32 +879,17 @@ class Vehicle{
     }
     //Adding initial vehicles and data for the first day
     public void addVehicles(){
-        vehicle[0].add("Hyundai Elantra");
-        vehicle[0].add("Nissan Sentra");
-        vehicle[0].add("Chevrolet Spark");
-        vehicle[0].add("Kia Forte");
-        vehicle[1].add("Ford Ranger");
-        vehicle[1].add("GMC Canyon");
-        vehicle[1].add("Chevrolet Colorado");
-        vehicle[1].add("Ram 1500 Classic");
-        vehicle[2].add("Audi RS7");
-        vehicle[2].add("BMW M8");
-        vehicle[2].add("Mercedes-AMG GT");
-        vehicle[2].add("Porsche Panamera");
-        vehicle[3].add("Aston Martin Vantage");
-        vehicle[3].add("McLaren Artura");
-        vehicle[3].add("Lamborghini Huracan");
-        vehicle[3].add("Porsche Taycan");
-        vehicle[4].add("Swamp Thing");
-        vehicle[4].add("Sudden Impact");
-        vehicle[4].add("USA-1");
-        vehicle[4].add("Bear Foot F-150");
-        vehicle[5].add("Audi R8");
-        vehicle[5].add("BMW i8");
-        vehicle[5].add("Mercedes-AMG GT 4-Door Coupe");
-        vehicle[5].add("Rolls-Royce Cullinan");
-        for (int i = 0; i < 6; i++) {
-            for (int j = 0; j < 4; j++) {
+        vehicle[0].addAll(Arrays.asList("Hyundai Elantra","Nissan Sentra","Chevrolet Spark","Kia Forte","Honda Accord","Hyundai Sonata"));//prj4
+        vehicle[1].addAll(Arrays.asList("Ford Ranger","GMC Canyon","Chevrolet Colorado","Ram 1500 Classic","Nissan Frontier","Toyota Tacoma"));//prj4
+        vehicle[2].addAll(Arrays.asList("Audi RS7","BMW M8","Mercedes-AMG GT","Porsche Panamera","Ferrari SF90 Stradale","Porsche 718 Cayman GT4"));//prj4
+        vehicle[3].addAll(Arrays.asList("Aston Martin Vantage","McLaren Artura","Lamborghini Huracan","Porsche Taycan","Suzuki Hayabusa","Yamaha YZF-R6"));//prj4
+        vehicle[4].addAll(Arrays.asList("Swamp Thing","Sudden Impact","USA-1","Bear Foot F-150","Iron Outlaw","Rampage"));//prj4
+        vehicle[5].addAll(Arrays.asList("Audi R8","BMW i8","Mercedes-AMG GT 4-Door Coupe","Rolls-Royce Cullinan","Rivian R1T","Polestar 2"));//prj4
+        vehicle[6].addAll(Arrays.asList("Toyota Yaris","Honda Fit","Kia Rio","Hyundai Accent","Nissan Versa","Suzuki Swift"));//prj4
+        vehicle[7].addAll(Arrays.asList("Rolls-Royce Phantom","Lexus LS","BMW 7 Series","Jaguar XJ","Mercedes-Benz E-Class","Acura RLX"));//prj4
+        vehicle[8].addAll(Arrays.asList("Bugatti Veyron","McLaren 765LT","Ferrari 812 Superfast","Pagani Huayra","Aston Martin Valkyrie","Rimac C2"));//prj4
+        for (int i = 0; i < 9; i++) {//prj4
+            for (int j = 0; j < 6; j++) {//prj4
                 setCondition(vehicle[i].get(j));
                 setCleanliness(vehicle[i].get(j));
                 status[i].add("In Stock");
@@ -912,24 +899,30 @@ class Vehicle{
         //Initially added cost price and sales price using the logic sales price = cost price*2
         //But cost price is reduced according to the car condition So, after reducing the cost price, we added it to the list of cost price
         //And hence we see the difference between cost and sales price to be more that 2x for some cars
-        cost_price[0].addAll(Arrays.asList(12738, 15840, 14099, 15548));
-        cost_price[1].addAll(Arrays.asList(9138, 14950, 29560, 12342));
-        cost_price[2].addAll(Arrays.asList(24427, 28972, 15907, 27326));
-        cost_price[3].addAll(Arrays.asList(13981, 15556, 16421, 8289));
-        cost_price[4].addAll(Arrays.asList(10600, 23285, 38495, 28509));
-        cost_price[5].addAll(Arrays.asList(20170, 20619, 30528, 36973));
-        sales_price[0].addAll(Arrays.asList(25476, 39602, 28198, 38870));
-        sales_price[1].addAll(Arrays.asList(22846, 37376, 73902, 30856));
-        sales_price[2].addAll(Arrays.asList(61068, 72430, 63628, 68316));
-        sales_price[3].addAll(Arrays.asList(27962, 31112, 32842, 20724));
-        sales_price[4].addAll(Arrays.asList(42400, 46570, 76990, 57018));
-        sales_price[5].addAll(Arrays.asList(80682, 82478, 76322, 73946));
+        cost_price[0].addAll(Arrays.asList(12738, 15840, 14099, 15548, 13875, 6660));//prj4
+        cost_price[1].addAll(Arrays.asList(10138, 14950, 29560, 12342, 13175, 18538));//prj4
+        cost_price[2].addAll(Arrays.asList(24427, 28972, 15907, 27326, 37178, 24469));//prj4
+        cost_price[3].addAll(Arrays.asList(13981, 15556, 16421, 8289, 8417, 11666));//prj4
+        cost_price[4].addAll(Arrays.asList(10600, 23285, 38495, 28509, 19278, 26031));//prj4
+        cost_price[5].addAll(Arrays.asList(20170, 20619, 30528, 36973, 24910, 32723));//prj4
+        cost_price[6].addAll(Arrays.asList(7812, 5678, 8937, 9543, 6789, 8520));//prj4
+        cost_price[7].addAll(Arrays.asList(38754, 42678, 31905, 45621, 33987, 47500));//prj4
+        cost_price[8].addAll(Arrays.asList(51543, 49810, 44237, 58401, 46695, 58931));//prj4
+        sales_price[0].addAll(Arrays.asList(25476, 31680, 28198, 31096, 27750, 13320));//prj4
+        sales_price[1].addAll(Arrays.asList(20276, 29900, 59120, 24684, 26350, 37076));//prj4
+        sales_price[2].addAll(Arrays.asList(48854, 57944, 31814, 54652, 74356, 48938));//prj4
+        sales_price[3].addAll(Arrays.asList(27962, 31112, 32842, 16578, 16834, 23332));//prj4
+        sales_price[4].addAll(Arrays.asList(21200, 46570, 76990, 57018, 38556, 52062));//prj4
+        sales_price[5].addAll(Arrays.asList(40340, 41238, 61056, 73946, 49820, 65446));//prj4
+        sales_price[6].addAll(Arrays.asList(15624, 11356, 17874, 19086, 13578,17040));//prj4
+        sales_price[7].addAll(Arrays.asList(77508, 85356, 63810, 91242, 67974,95000));//prj4
+        sales_price[8].addAll(Arrays.asList(103086, 99620, 88474, 116802, 93390, 117862));//prj4
         Operation.budget =500000;//Initial Day 1 beginning budget
     }
-    //when the count of a vehicle type is less than 4, new vehicle is purchased
+    //when the count of a vehicle type is less than 6, new vehicle is purchased  //prj4
     public void addVehicle(FNCDdata fnc) throws IOException {
-        for (int i = 0; i < 6; i++) {
-            while (vehicle[i].size() < 4) {
+        for (int i = 0; i < 9; i++) {//prj4
+            while (vehicle[i].size() < 6) {//prj4
                 if (i == 4) {
                     String name = getMonsterTruckName();
                     for (int j = vehicle[i].size() - 1; j >= 0; j--) {
@@ -967,10 +960,19 @@ class Vehicle{
                 } else if (i == 4) {
                     MonsterTrucks mt = new MonsterTrucks();
                     mt.buyVehicle(fnc);
-                }
-                else{
+                } else if (i == 5) {
                     ElectricCar ec = new ElectricCar();
                     ec.buyVehicle(fnc);
+                } else if (i == 6) {//prj
+                    BudgetCar bc = new BudgetCar();
+                    bc.buyVehicle(fnc);
+                } else if (i == 7) {
+                    LuxuryCar lc = new LuxuryCar();
+                    lc.buyVehicle(fnc);
+                }
+                else{
+                    SuperCar sc = new SuperCar();
+                    sc.buyVehicle(fnc);
                 }
             }
         }
@@ -1003,7 +1005,7 @@ class Vehicle{
     public int getCarType(String vehicle1){
         //initializing to a value which is different from potential values of index (i.e. 0,1,2)
         int condition_index=10;
-        for(int i=0; i<6;i++) {
+        for(int i=0; i<9;i++) {//prj4
             for (int j = 0; j < vehicle[i].size(); j++) {
                 if (vehicle[i].get(j).equals(vehicle1)) {
                     condition_index = i;
@@ -1098,7 +1100,7 @@ class Vehicle{
     //update the sales price when condition of vehicle is fixed to next level
     public void updateSalesPrice(int index, String req_vehicle){
         if (index==0){
-            for(int i=0; i<6;i++) {
+            for(int i=0; i<9;i++) {//prj4
                 for (int j = 0; j < vehicle[i].size(); j++) {
                     if (vehicle[i].get(j).equals(req_vehicle)) {
                         sales_price[i].set(j, (int) (sales_price[i].get(j) * 1.5));
@@ -1107,7 +1109,7 @@ class Vehicle{
                 }
             }
         } else {
-            for(int i=0; i<6;i++) {
+            for(int i=0; i<9;i++) {//prj4
                 for (int j = 0; j < vehicle[i].size(); j++) {
                     if (vehicle[i].get(j).equals(req_vehicle)) {
                         sales_price[i].set(j, (int) (sales_price[i].get(j) * 1.25));
@@ -1153,7 +1155,10 @@ class Vehicle{
         System.out.println("Performance Car: "+vehicle[2]);
         System.out.println("Motorcycles: "+vehicle[3]);
         System.out.println("Monster Trucks: "+vehicle[4]);
-        System.out.println("Electric Cars: "+vehicle[5]+"\n");
+        System.out.println("Electric Cars: "+vehicle[5]);
+        System.out.println("Budget Cars: "+vehicle[6]);//prj4
+        System.out.println("Luxury Cars: "+vehicle[7]);//prj4
+        System.out.println("Super Cars: "+vehicle[8]+"\n");//prj4
         System.out.println("Condition of Vehicles:");
         System.out.println("Broken: "+condition[0]);
         System.out.println("Used: "+condition[1]);
@@ -1168,28 +1173,40 @@ class Vehicle{
         System.out.println("Performance Car: "+status[2]);
         System.out.println("Motorcycles: "+status[3]);
         System.out.println("Monster Trucks: "+status[4]);
-        System.out.println("Electric Cars: "+status[5]+"\n");
+        System.out.println("Electric Cars: "+status[5]);
+        System.out.println("Budget Cars: "+status[6]);//prj4
+        System.out.println("Luxury Cars: "+status[7]);//prj4
+        System.out.println("Super Cars: "+status[8]+"\n");//prj4
         System.out.println("Cost price of Vehicles:");
         System.out.println("Car: "+cost_price[0]);
         System.out.println("Pickup: "+cost_price[1]);
         System.out.println("Performance Car: "+cost_price[2]);
         System.out.println("Motorcycles: "+cost_price[3]);
         System.out.println("Monster Trucks: "+cost_price[4]);
-        System.out.println("Electric Cars: "+cost_price[5]+"\n");
+        System.out.println("Electric Cars: "+cost_price[5]);
+        System.out.println("Budget Cars: "+cost_price[6]);//prj4
+        System.out.println("Luxury Cars: "+cost_price[7]);//prj4
+        System.out.println("Super Cars: "+cost_price[8]+"\n");//prj4
         System.out.println("Sales price of Vehicles:");
         System.out.println("Car: "+sales_price[0]);
         System.out.println("Pickup: "+sales_price[1]);
         System.out.println("Performance Car: "+sales_price[2]);
         System.out.println("Motorcycles: "+sales_price[3]);
         System.out.println("Monster Trucks: "+sales_price[4]);
-        System.out.println("Electric Cars: "+sales_price[5]+"\n");
+        System.out.println("Electric Cars: "+sales_price[5]);
+        System.out.println("Budget Cars: "+sales_price[6]);//prj4
+        System.out.println("Luxury Cars: "+sales_price[7]);//prj4
+        System.out.println("Super Cars: "+sales_price[8]+"\n");//prj4
         System.out.println("List of Sold Vehicles:");
         System.out.println("Car: "+soldVehicles[0]);
         System.out.println("Pickup: "+soldVehicles[1]);
         System.out.println("Performance Car: "+soldVehicles[2]);
         System.out.println("Motorcycles: "+soldVehicles[3]);
         System.out.println("Monster Trucks: "+soldVehicles[4]);
-        System.out.println("Electric Cars: "+soldVehicles[5]+"\n");
+        System.out.println("Electric Cars: "+soldVehicles[5]);
+        System.out.println("Budget Cars: "+soldVehicles[6]);//prj4
+        System.out.println("Luxury Cars: "+soldVehicles[7]);//prj4
+        System.out.println("Super Cars: "+soldVehicles[8]+"\n");//prj4
         System.out.println("Total sales for the day: "+Operation.total_sales);
         System.out.println("Remaining Budget: "+Operation.budget);
     }
@@ -1259,7 +1276,7 @@ class Motorcycles extends Vehicle{
         cost_price[3].add(cp1);
         sales_price[3].add(cp1 * 2);
         // Setting the Engine size for Motorcycles using truncated Normal Distribution with mean 700 and std dev 300.
-        while (engine_size.size() < 4) {
+        while (engine_size.size() < 6) {//prj4
             engine_size_gen = setEngineSize();
             if(engine_size_gen>=50){
                 engine_size.add(engine_size_gen);
@@ -1302,7 +1319,7 @@ class ElectricCar extends Vehicle{
 
         // Assigning a range for the Electric Cars based on their condition
         int range_select = rand.nextInt(60, 401);
-        while (range.size() < 4) {
+        while (range.size() < 6) {//prj4
             if(getCondition(vehicle[5].get(vehicle[5].size()-1))==2){
                 range.add(range_select+100);
             }
@@ -1322,9 +1339,67 @@ class ElectricCar extends Vehicle{
         fnc.dayEnd(5,vehicle[5].size()-1,3);//obs
     }
 }
+
+class BudgetCar extends Vehicle {//prj4
+    // adding cost and sales price to the car
+    public void buyVehicle(FNCDdata fnc) throws IOException {
+        int cp1 = rand.nextInt(5000, 10001);
+        cost_price[6].add(cp1);
+        sales_price[6].add(cp1 * 2);
+        if(getCondition(vehicle[6].get(vehicle[6].size()-1))==0){//If vehicle is initially broken, reducing its cost price by 50%.
+            cost_price[6].set((vehicle[6].size()-1), (int)(cost_price[6].get(vehicle[6].size()-1)*0.5));
+        } else if (getCondition(vehicle[6].get(vehicle[6].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
+            cost_price[6].set((vehicle[6].size()-1), (int)(cost_price[6].get(vehicle[6].size()-1)*0.8));
+        }
+        Operation.addBudget(0,fnc);
+        Operation.budget = Operation.budget - cost_price[6].get(vehicle[6].size()-1);
+        System.out.println("Bought "+carType[6]+" "+vehicle[6].get(vehicle[6].size()-1)+" for $"+cost_price[6].get(cost_price[6].size()-1));
+        fnc.dayEnd(0,vehicle[6].size()-1,3);//obs
+    }
+
+}
+
+class LuxuryCar extends Vehicle {//prj4
+    // adding cost and sales price to the car
+    public void buyVehicle(FNCDdata fnc) throws IOException {
+        int cp1 = rand.nextInt(30000, 50001);
+        cost_price[7].add(cp1);
+        sales_price[7].add(cp1 * 2);
+        if(getCondition(vehicle[7].get(vehicle[7].size()-1))==0){//If vehicle is initially broken, reducing its cost price by 50%.
+            cost_price[7].set((vehicle[7].size()-1), (int)(cost_price[7].get(vehicle[7].size()-1)*0.5));
+        } else if (getCondition(vehicle[7].get(vehicle[7].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
+            cost_price[7].set((vehicle[7].size()-1), (int)(cost_price[7].get(vehicle[7].size()-1)*0.8));
+        }
+        Operation.addBudget(0,fnc);
+        Operation.budget = Operation.budget - cost_price[7].get(vehicle[7].size()-1);
+        System.out.println("Bought "+carType[7]+" "+vehicle[7].get(vehicle[7].size()-1)+" for $"+cost_price[7].get(cost_price[7].size()-1));
+        fnc.dayEnd(0,vehicle[7].size()-1,3);//obs
+    }
+
+}
+
+class SuperCar extends Vehicle {//prj4
+    // adding cost and sales price to the car
+    public void buyVehicle(FNCDdata fnc) throws IOException {
+        int cp1 = rand.nextInt(40000, 60001);
+        cost_price[8].add(cp1);
+        sales_price[8].add(cp1 * 2);
+        if(getCondition(vehicle[8].get(vehicle[8].size()-1))==0){//If vehicle is initially broken, reducing its cost price by 50%.
+            cost_price[8].set((vehicle[8].size()-1), (int)(cost_price[8].get(vehicle[8].size()-1)*0.5));
+        } else if (getCondition(vehicle[8].get(vehicle[8].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
+            cost_price[8].set((vehicle[8].size()-1), (int)(cost_price[8].get(vehicle[8].size()-1)*0.8));
+        }
+        Operation.addBudget(0,fnc);
+        Operation.budget = Operation.budget - cost_price[8].get(vehicle[8].size()-1);
+        System.out.println("Bought "+carType[8]+" "+vehicle[8].get(vehicle[8].size()-1)+" for $"+cost_price[8].get(cost_price[8].size()-1));
+        fnc.dayEnd(0,vehicle[8].size()-1,3);//obs
+    }
+
+}
+
 //Decorator Pattern
 abstract class Addon_purchaser extends Vehicle{
-//    Vehicle vehicle;
+    //    Vehicle vehicle;
     int i, j;
     abstract void addonPrice(FNCDdata fnc) throws IOException;
 }
@@ -1421,13 +1496,13 @@ class Buyer extends Staff{
     //Assuming same number of buyers will be added on 7=Sunday as on Monday-Thursday
     public void addBuyer() {
         if ((Operation.day_count<=4)||(Operation.day_count>=7 && Operation.day_count<=11)||(Operation.day_count>=14 && Operation.day_count<=18)
-            ||(Operation.day_count>=21 && Operation.day_count<=25)||(Operation.day_count>=28 && Operation.day_count<=30)){
+                ||(Operation.day_count>=21 && Operation.day_count<=25)||(Operation.day_count>=28 && Operation.day_count<=30)){
             buyer_no = rand.nextInt(0, 6);
             for (int j = 0; j < buyer_no; j++) {
                 addBuyerType(j);
             }
         } else if (Operation.day_count==5 ||Operation.day_count==6 ||Operation.day_count==12||Operation.day_count==13||
-                   Operation.day_count==19||Operation.day_count==20||Operation.day_count==26||Operation.day_count==27) {
+                Operation.day_count==19||Operation.day_count==20||Operation.day_count==26||Operation.day_count==27) {
             buyer_no = rand.nextInt(2, 9);
             for (int j = 0; j < buyer_no; j++) {
                 addBuyerType(j);
@@ -1456,7 +1531,7 @@ class Buyer extends Staff{
     }
     //adds choice of vehicle to the buyer
     public void addBuyerChoice(int j){
-        int vehicleChoice = rand.nextInt(6);//now 6 vehicles instead of 3
+        int vehicleChoice = rand.nextInt(9);//prj4
         buyer_choice[j].add(vehicleChoice);
     }
     //getting the type of buyer
@@ -1612,10 +1687,18 @@ class FNCDdata implements Publisher{
         s.update(s,i,j);        //Update the subscriber with the tracker activity
     }
 }
+//Singleton Pattern using a Lazy instantiation//prj4
 class Logger implements Subscriber{
-    Publisher fncdData;
-    public Logger(Publisher fncdData){
+    //    private static Publisher fncdData;
+    private static Logger logger;//prj4
+    private Logger(Publisher fncdData){//prj4
         fncdData.registerSubscriber(this);
+    }
+    public static Logger getInstance(Publisher fncdData){//prj4
+        if (logger==null) {
+            logger = new Logger(fncdData);
+        }
+        return logger;
     }
     public void updateAct(Subscriber s,int i,int j) throws IOException {
         if (i==0){
@@ -1697,10 +1780,16 @@ class Logger implements Subscriber{
         //Do nothing
     }
 }
+//Singleton Pattern using an Eager instantiation//prj4
 class Tracker implements Subscriber{
-    Publisher fncdData;
-    public Tracker(Publisher fncdData){
+    static Publisher fncdData;
+    static FNCDdata fnc = new FNCDdata();//obs//prj4
+    private static Tracker tracker = new Tracker(fnc);//prj4
+    private Tracker(Publisher fncdData){
         fncdData.registerSubscriber(this);
+    }//prj4
+    public static Tracker getInstance(){//prj4
+        return tracker;
     }
     public void update(Subscriber s,int i,int j) throws IOException {
         if(j==0){
@@ -1777,50 +1866,41 @@ class Operation extends Staff{
     public void Print(){
         System.out.println("\n***************SUMMARY***************");
         System.out.println("List of Staff:");
-        System.out.println("Interns: "+staff[0]);
-        System.out.println("Mechanics: "+staff[1]);
-        System.out.println("Salespersons: "+staff[2]);
-        System.out.println("Drivers: "+staff[3]+"\n");
-        System.out.println("Status of Staff:");
-        System.out.println("Interns: "+staff_status[0]);
-        System.out.println("Mechanics: "+staff_status[1]);
-        System.out.println("Salespersons: "+staff_status[2]);
-        System.out.println("Drivers: "+staff_status[3]+"\n");
-        System.out.println("Total Days worked by Staff:");
-        System.out.println("Interns: "+days_worked[0]);
-        System.out.println("Mechanics: "+days_worked[1]);
-        System.out.println("Salespersons: "+days_worked[2]);
-        System.out.println("Drivers: "+days_worked[3]+"\n");
-        System.out.println("Total Bonus of Staff:");
-        System.out.println("Interns: "+total_bonus[0]);
-        System.out.println("Mechanics: "+total_bonus[1]);
-        System.out.println("Salespersons: "+total_bonus[2]);
-        System.out.println("Drivers: "+total_bonus[3]+"\n");
-        System.out.println("Total Normal Pay of Staff:");
-        System.out.println("Interns: "+total_normal_pay[0]);
-        System.out.println("Mechanics: "+total_normal_pay[1]);
-        System.out.println("Salespersons: "+total_normal_pay[2]);
-        System.out.println("Drivers: "+total_normal_pay[3]+"\n");
-        System.out.println("List of Departed Staff:");
-        System.out.println("Interns: "+dep_staff[0]);
-        System.out.println("Mechanics: "+dep_staff[1]);
-        System.out.println("Salespersons: "+dep_staff[2]);
-        System.out.println("Drivers: "+dep_staff[3]+"\n");
-        System.out.println("Total Days worked by Departed Staff:");
-        System.out.println("Interns: "+dep_days_worked[0]);
-        System.out.println("Mechanics: "+dep_days_worked[1]);
-        System.out.println("Salespersons: "+dep_days_worked[2]);
-        System.out.println("Drivers: "+dep_days_worked[3]+"\n");
-        System.out.println("Total Bonus of Departed Staff:");
-        System.out.println("Interns: "+dep_total_bonus[0]);
-        System.out.println("Mechanics: "+dep_total_bonus[1]);
-        System.out.println("Salespersons: "+dep_total_bonus[2]);
-        System.out.println("Drivers: "+dep_total_bonus[3]+"\n");
-        System.out.println("Total Normal Pay of Departed Staff:");
-        System.out.println("Interns: "+dep_total_normal_pay[0]);
-        System.out.println("Mechanics: "+dep_total_normal_pay[1]);
-        System.out.println("Salespersons: "+dep_total_normal_pay[2]);
-        System.out.println("Drivers: "+dep_total_normal_pay[3]+"\n");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+staff[i]);
+        }
+        System.out.println("\nStatus of Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+staff_status[i]);
+        }
+        System.out.println("\nTotal Days worked by Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+days_worked[i]);
+        }
+        System.out.println("\nTotal Bonus of Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+total_bonus[i]);
+        }
+        System.out.println("\nTotal Normal Pay of Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+total_normal_pay[i]);
+        }
+        System.out.println("\nList of Departed Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+dep_staff[i]);
+        }
+        System.out.println("\nTotal Days worked by Departed Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+dep_days_worked[i]);
+        }
+        System.out.println("\nTotal Bonus of Departed Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+dep_total_bonus[i]);
+        }
+        System.out.println("\nTotal Normal Pay of Departed Staff:");
+        for (int i=0;i<4;i++){
+            System.out.println(staffType[i]+"s: "+dep_total_normal_pay[i]);
+        }
     }
     //main method
     public static void main(String[] args) throws IOException {
@@ -1840,9 +1920,9 @@ class Operation extends Staff{
         vel1.addVehicles();
         Operation op1 = new Operation();
         FNCDdata fnc1 = new FNCDdata();//obs
-        Tracker tra1 = new Tracker(fnc1);//obs
+        Tracker tra1 = Tracker.getInstance();//obs//prj4
         for (day_count=1;day_count<31;day_count++){
-            Logger log1 = new Logger(fnc1);//Obs
+            Logger log1 = Logger.getInstance(fnc1);//Obs//prj4
             outputLogger();
             buy1.init3();
             System.out.println("\n***Day "+day_count+"***");//Display Day Number
@@ -1875,7 +1955,7 @@ class Operation extends Staff{
             System.out.println("Remaining Budget: "+budget+"\n");
             fnc1.trackerOutcome(day_count,0);//obs
             fnc1.trackerOutcome(day_count,1);
-            fnc1.removeSubscriber(log1);//obs
+//            fnc1.removeSubscriber(log1);//obs
             writer.close();
         }
         op1.Print();

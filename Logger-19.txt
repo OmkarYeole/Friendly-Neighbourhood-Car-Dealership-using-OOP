@@ -1,27 +1,25 @@
-Current Budget: 1618390
+Current Budget: 2526158
 
 Washing
-Intern Evelyn washed a Dirty Performance Car Honda CR-V using Detailed method and made it Clean
-Intern Evelyn washed a Clean Motorcycle Dodge Charger using Detailed method but it was still Clean
-Intern Madison washed a Dirty Electric Car Honda Odyssey using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Madison washed a Clean Motorcycle Ferrari F8 Tributo using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Isla washed a Clean Electric Car Toyota Camry using Elbow Grease method but it was still Clean
+Intern Hannah washed a Dirty Electric Car Ford Bronco using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Hannah washed a Clean Monster Truck Swamp Thing using Detailed method but it was still Clean
+Intern Ellie washed a Dirty Electric Car Tesla Cybertruck using Chemical method and made it Clean
+Intern Ellie washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
+Intern Bella washed a Dirty Performance Car Porsche 718 Cayman GT4 using Detailed method but it was still Dirty
+Intern Bella washed a Clean Electric Car Audi R8 using Detailed method but it was still Clean
 
 Repairing
-Mechanic Bianca repaired a Broken Motorcycle Ferrari F8 Tributo and made it Used (and earned a bonus of $100) and the vehicle became Clean
-Mechanic Bianca repaired a Used Motorcycle Ferrari F8 Tributo but it was still Used and the vehicle became Dirty
-Mechanic Mackenzie repaired a Used Motorcycle Ferrari F8 Tributo and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Pickup Honda Ridgeline but it was still Used and the vehicle became Dirty
+Mechanic Altair repaired a Used Super Car GMC Acadia and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Pickup Honda Ridgeline but it was still Used and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Pickup Honda Ridgeline and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling
-Sales Price of the Pickup Lexus RX increased from $78900 to $94680 after adding on Extended Warranty
-Salesperson Arno has sold a Clean Like New Pickup Lexus RX to Buyer1 for $94680 (and earned a bonus of $175)
-Salesperson Arno has sold a Dirty Like New Motorcycle Ferrari F8 Tributo to Buyer3 for $61575 (and earned a bonus of $150)
-Sales Price of the Car Bentley Continental GT increased from $84547 to $86237 after adding on Road Rescue Coverage
-Salesperson Shay has sold a Sparkling Like New Car Bentley Continental GT to Buyer5 for $86237 (and earned a bonus of $150)
+Salesperson Eleanor has sold a Clean Like New Electric Car Mercedes-AMG GT 4-Door Coupe to Buyer3 for $114480 (and earned a bonus of $200)
 
 Day End
-Bought Car Land Rover Range Rover for $10271
-Bought Pickup Ford Escape for $20295
-Bought Motorcycle Toyota Corolla Cross for $5359
+Mechanic Altair quit the FNCD
+Hired a new Intern Mila
+Bought Electric Car Dodge Ram for $49287
 
-Total sales for the day: 242492
+Total sales for the day: 114480

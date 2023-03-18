@@ -1,19 +1,20 @@
-Current Budget: 1478740
+Current Budget: 2092412
 
 Washing
-Intern Emma washed a Dirty Car Porsche 911 using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Emma washed a Clean Monster Truck Swamp Thing using Chemical method and made it Sparkling (and earned bonus of $75)
-Intern Elliot washed a Dirty Electric Car Toyota Camry using Chemical method but it was still Dirty
-Intern Elliot washed a Clean Electric Car Honda Odyssey using Chemical method but it was still Clean
-Intern Evelyn washed a Dirty Pickup Audi Q5 using Detailed method but it was still Dirty
-Intern Evelyn washed a Clean Performance Car Honda CR-V using Detailed method but made it Dirty
+Intern Kylie washed a Dirty Motorcycle Yamaha YZF-R6 using Elbow Grease method and made it Clean
+Intern Kylie washed a Clean Monster Truck Iron Outlaw using Elbow Grease method but it was still Clean
+Intern Hannah washed a Dirty Budget Car BMW M3 using Chemical method and made it Clean
+Intern Hannah washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
+Intern Olivia washed a Dirty Electric Car BMW i8 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Olivia washed a Clean Monster Truck Iron Outlaw using Detailed method but it was still Clean
 
 Repairing
-Mechanic Edward repaired a Used Performance Car Honda HR-V and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Motorcycle Porsche Taycan and made it Used (and earned a bonus of $100) and the vehicle became Clean
-Mechanic Bianca repaired a Broken Motorcycle Nissan Pathfinder and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Bianca repaired a Used Motorcycle Porsche Taycan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Mackenzie repaired a Used Motorcycle Nissan Pathfinder and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Budget Car Maserati Levante but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Broken Budget Car Maserati Levante and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Budget Car Maserati Levante and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Budget Car Cadillac Escalade and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Electric Car Mercedes-AMG GT 4-Door Coupe and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Car Kia Forte and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling
 

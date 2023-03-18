@@ -1,25 +1,31 @@
-Current Budget: 1503965
+Current Budget: 1831814
 
 Washing
-Intern Eleanor washed a Dirty Car Bentley Continental GT using Detailed method but it was still Dirty
-Intern Eleanor washed a Clean Electric Car Audi R8 using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Mackenzie washed a Dirty Motorcycle Nissan Pathfinder using Chemical method and made it Clean
-Intern Mackenzie washed a Clean Car Rolls-Royce Ghost using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Emma washed a Dirty Electric Car Toyota Camry using Detailed method but it was still Dirty
-Intern Emma washed a Clean Pickup Lexus RX using Detailed method but it was still Clean
+Intern Paisley washed a Dirty Luxury Car Jeep Gladiator using Detailed method and made it Clean
+Intern Paisley washed a Clean Monster Truck Iron Outlaw using Detailed method but it was still Clean
+Intern Kylie washed a Dirty Super Car McLaren 765LT using Elbow Grease method and made it Clean
+Intern Kylie washed a Clean Car Honda Accord using Elbow Grease method but it was still Clean
+Intern Hannah washed a Dirty Budget Car Nissan Versa using Detailed method and made it Clean
+Intern Hannah washed a Clean Budget Car Nissan Versa using Detailed method and made it Sparkling (and earned bonus of $50)
 
 Repairing
-Mechanic Edward repaired a Used Pickup Lexus RX and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Used Car Bentley Continental GT and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Motorcycle Dodge Charger but it was still Broken and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Car Porsche 911 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Bianca repaired a Broken Motorcycle Dodge Charger and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Bianca repaired a Used Motorcycle Dodge Charger and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Used Budget Car Nissan Versa and made it Like New (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Edward repaired a Used Motorcycle Suzuki Hayabusa and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Car Kia Forte but it was still Used and the vehicle became Dirty
+Mechanic Altair repaired a Used Motorcycle Porsche Taycan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Luxury Car Nissan Quest and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Mikayla repaired a Used Electric Car Mercedes-AMG GT 4-Door Coupe but it was still Used and the vehicle became Dirty
 
 Selling
+Sales Price of the Electric Car Honda Civic increased from $95430 to $100201 after adding on Satellite Radio
+Salesperson Amelia has sold a Dirty Used Electric Car Honda Civic to Buyer1 for $100201 (and earned a bonus of $200)
+Sales Price of the Pickup Ford Ranger increased from $106923 to $128307 after adding on Extended Warranty
+Salesperson Amelia has sold a Dirty Like New Pickup Ford Ranger to Buyer3 for $128307 (and earned a bonus of $175)
+Salesperson Eleanor has sold a Clean Like New Budget Car Nissan Versa to Buyer4 for $25458 (and earned a bonus of $150)
 
 Day End
-Mechanic Desmond quit the FNCD
-Hired a new Intern Elliot
+Bought Pickup Mazda CX-5 for $12623
+Bought Electric Car Ford EcoSport for $32868
+Bought Car Land Rover Defender for $15805
 
-Total sales for the day: 0
+Total sales for the day: 253966

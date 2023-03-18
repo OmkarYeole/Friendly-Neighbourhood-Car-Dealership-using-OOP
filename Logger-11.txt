@@ -1,24 +1,25 @@
-Current Budget: 1331733
+Current Budget: 1560566
 
 Washing
-Intern Janine washed a Dirty Pickup GMC Canyon using Elbow Grease method and made it Clean
-Intern Janine washed a Clean Car Kia Sorento using Elbow Grease method but it was still Clean
-The Kia Sorento has become Like New
-Intern Eleanor washed a Dirty Monster Truck Swamp Thing using Detailed method and made it Clean
-Intern Eleanor washed a Clean Car Nissan Sentra using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Mackenzie washed a Dirty Performance Car Honda CR-V using Detailed method and made it Clean
-Intern Mackenzie washed a Clean Performance Car Honda HR-V using Detailed method but it was still Clean
+Intern Amelia washed a Dirty Luxury Car Nissan Quest using Chemical method and made it Clean
+Intern Amelia washed a Clean Performance Car Audi RS7 using Chemical method but it was still Clean
+Intern Mikayla washed a Dirty Monster Truck Swamp Thing using Chemical method and made it Clean
+Intern Mikayla washed a Clean Car Chevrolet Corvette using Chemical method but made it Dirty
+Intern Lucy washed a Dirty Car Kia Forte using Chemical method and made it Clean
+Intern Lucy washed a Clean Motorcycle McLaren Artura using Chemical method and made it Sparkling (and earned bonus of $50)
 
 Repairing
-Mechanic Edward repaired a Broken Motorcycle Chevrolet Traverse and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Used Motorcycle Chevrolet Traverse and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Motorcycle Chevrolet Blazer and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Desmond repaired a Used Motorcycle Chevrolet Blazer and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Pickup Ford Ranger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Luxury Car Jeep Gladiator and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Altair repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Altair repaired a Used Monster Truck Bear Foot F-150 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Eva repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Eva repaired a Used Budget Car Toyota RAV4 but it was still Used and the vehicle became Dirty
 
 Selling
-Salesperson Arno has sold a Dirty Like New Motorcycle Chevrolet Blazer to Buyer2 for $60862 (and earned a bonus of $150)
 
 Day End
-Bought Motorcycle Jeep Grand Wagoneer for $13731
+Salesperson Jacob quit the FNCD
+Hired a new Intern Paisley
 
-Total sales for the day: 60862
+Total sales for the day: 0

@@ -1,35 +1,26 @@
-Current Budget: 2516983
+Current Budget: 3011093
 
 Washing
-Intern Alyssa washed a Dirty Electric Car Ford EcoSport using Detailed method and made it Clean
-Intern Alyssa washed a Clean Car Land Rover Range Rover using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Brielle washed a Dirty Performance Car Nissan Kicks using Detailed method and made it Clean
-Intern Brielle washed a Clean Electric Car Ford EcoSport using Detailed method but made it Dirty
-Intern Scarlett washed a Dirty Electric Car Ford EcoSport using Chemical method and made it Clean
-The Ford EcoSport has become Broken
-Intern Scarlett washed a Clean Car Audi Q7 using Chemical method but it was still Clean
+Intern Michael washed a Dirty Motorcycle Toyota Sienna using Detailed method and made it Clean
+Intern Michael washed a Clean Budget Car Honda Fit using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Genesis washed a Dirty Motorcycle Porsche Taycan using Detailed method but it was still Dirty
+Intern Genesis washed a Clean Pickup Ram 1500 Classic using Detailed method but it was still Clean
+Intern Savannah washed a Dirty Luxury Car Rolls-Royce Phantom using Elbow Grease method and made it Clean
+Intern Savannah washed a Clean Performance Car Mercedes-AMG GT using Elbow Grease method but it was still Clean
 
 Repairing
-Mechanic Bianca repaired a Broken Electric Car Ford EcoSport but it was still Broken and the vehicle became Dirty
-Mechanic Bianca repaired a Broken Pickup Kia Telluride and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Elliot repaired a Broken Electric Car Ford EcoSport and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Elliot repaired a Used Pickup Kia Telluride and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Electric Car Ford EcoSport but it was still Used and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Electric Car Ford EcoSport and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling
-Sales Price of the Performance Car Audi RS7 increased from $114502 to $120227 after adding on Satellite Radio
-Salesperson Madison has sold a Sparkling Like New Performance Car Audi RS7 to Buyer2 for $120227 (and earned a bonus of $200)
-Sales Price of the Monster Truck Snake Bite increased from $77828 to $79384 after adding on Road Rescue Coverage
-Salesperson Madison has sold a Sparkling Like New Monster Truck Snake Bite to Buyer3 for $79384 (and earned a bonus of $175)
-Sales Price of the Performance Car Nissan Kicks increased from $79758 to $95709 after adding on Extended Warranty
-Salesperson Ava has sold a Clean Like New Performance Car Nissan Kicks to Buyer4 for $95709 (and earned a bonus of $200)
-Salesperson Madison has sold a Sparkling Like New Car Rolls-Royce Ghost to Buyer6 for $36346 (and earned a bonus of $150)
+Sales Price of the Performance Car Porsche Panamera increased from $68315 to $81978 after adding on Extended Warranty
+Salesperson Emma has sold a Sparkling Like New Performance Car Porsche Panamera to Buyer3 for $81978 (and earned a bonus of $200)
 
 Day End
-Bought Car Toyota Tundra for $13579
-Bought Performance Car Nissan Altima for $30485
-Bought Performance Car Mazda CX-5 for $18155
-Bought Monster Truck El Toro Loco for $16132
+Intern Savannah quit the FNCD
+Mechanic Mikayla quit the FNCD
+Salesperson Mila quit the FNCD
+Hired a new Intern Lila
+Hired a new Intern Sophia
+Hired a new Intern Ariel
+Bought Performance Car Jeep Grand Cherokee for $17128
 
-Total sales for the day: 331666
+Total sales for the day: 81978

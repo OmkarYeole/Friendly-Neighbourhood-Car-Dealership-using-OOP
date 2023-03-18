@@ -1,30 +1,40 @@
-Current Budget: 3071192
+Current Budget: 3311058
 
 Washing
-Intern Alyssa washed a Dirty Performance Car Ford Bronco using Elbow Grease method but it was still Dirty
-Intern Alyssa washed a Clean Motorcycle Toyota Corolla Cross using Elbow Grease method but it was still Clean
-The Toyota Corolla Cross has become Like New
-Intern Brielle washed a Dirty Motorcycle Cadillac Escalade using Chemical method but it was still Dirty
-Intern Brielle washed a Clean Pickup Porsche Cayenne using Chemical method and made it Sparkling (and earned bonus of $75)
-The Porsche Cayenne has become Broken
-Intern Scarlett washed a Dirty Monster Truck El Toro Loco using Elbow Grease method but it was still Dirty
-Intern Scarlett washed a Clean Pickup Kia Telluride using Elbow Grease method but it was still Clean
+Intern Ariel washed a Dirty Monster Truck Madusa using Chemical method and made it Clean
+The Madusa has become Broken
+Intern Ariel washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
+Intern Elliot washed a Dirty Luxury Car Jaguar XJ using Detailed method and made it Clean
+Intern Elliot washed a Clean Pickup GMC Canyon using Detailed method but it was still Clean
+Intern Arianna washed a Dirty Budget Car Nissan Rogue Sport using Detailed method but it was still Dirty
+Intern Arianna washed a Clean Monster Truck The Felon using Detailed method but it was still Clean
 
 Repairing
-Mechanic Bianca repaired a Broken Electric Car Mercedes-Benz GLS and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Bianca repaired a Used Electric Car Mercedes-Benz GLS and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Elliot repaired a Broken Pickup Porsche Cayenne and made it Used (and earned a bonus of $125) and the vehicle became Clean
-Mechanic Elliot repaired a Broken Motorcycle Cadillac Escalade and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Motorcycle Cadillac Escalade and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Pickup Porsche Cayenne and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Hannah repaired a Broken Pickup Toyota Corolla Cross and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Hannah repaired a Broken Monster Truck Madusa and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Michael repaired a Broken Car Mazda CX-30 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Michael repaired a Used Car Mazda CX-30 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Sophia repaired a Used Pickup Toyota Corolla Cross but it was still Used and the vehicle became Dirty
+Mechanic Sophia repaired a Used Luxury Car Chevrolet Traverse and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling
+Salesperson Genesis has sold a Dirty Like New Car Mazda CX-30 to Buyer1 for $45078 (and earned a bonus of $150)
+Sales Price of the Motorcycle McLaren Artura increased from $38890 to $40834 after adding on Undercoating
+Salesperson Avery has sold a Sparkling Like New Motorcycle McLaren Artura to Buyer2 for $40834 (and earned a bonus of $150)
+Salesperson Avery has sold a Clean Like New Motorcycle Mercedes-Benz S-Class to Buyer3 for $32854 (and earned a bonus of $150)
 
 Racing
-Driver Bayek finished the race at position 14 with the Monster Truck Bear Foot 1979
-Driver Eivor finished the race at position 5 with the Monster Truck Maximum Destruction Max-D
-Driver Charlotte finished the race at position 10 with the Monster Truck Shell Camino
+Driver Alexios finished the race at position 8 with the Motorcycle Porsche Taycan
+Driver Addison finished the race at position 11 with the Motorcycle Suzuki Hayabusa
+Driver Ella finished the race at position 14 with the Motorcycle Yamaha YZF-R6
 
 Day End
+Mechanic Michael quit the FNCD
+Salesperson Avery quit the FNCD
+Hired a new Intern Evelyn
+Hired a new Intern Scarlett
+Bought Car Subaru Forester for $11536
+Bought Motorcycle McLaren 720S for $13314
+Bought Motorcycle Honda CR-V for $15619
 
-Total sales for the day: 0
+Total sales for the day: 118766

@@ -1,24 +1,29 @@
-Current Budget: 996362
+Current Budget: 644282
 
 Washing
-Intern Altair washed a Dirty Car Hyundai Elantra using Elbow Grease method and made it Clean
-Intern Altair washed a Clean Pickup BMW X7 using Elbow Grease method but it was still Clean
-The BMW X7 has become Like New
-Intern Bianca washed a Dirty Monster Truck Swamp Thing using Detailed method and made it Clean
-Intern Bianca washed a Clean Car Hyundai Elantra using Detailed method but it was still Clean
-Intern Anna washed a Dirty Motorcycle Porsche Taycan using Detailed method but it was still Dirty
-Intern Anna washed a Clean Motorcycle Chevrolet Traverse using Detailed method but it was still Clean
+Intern Ezio washed a Dirty Performance Car Porsche Panamera using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Ezio washed a Clean Luxury Car Acura RLX using Chemical method but it was still Clean
+Intern Aubrey washed a Dirty Car Nissan Sentra using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Aubrey washed a Clean Luxury Car Mercedes-Benz E-Class using Detailed method but it was still Clean
+Intern Penelope washed a Dirty Motorcycle McLaren Artura using Detailed method and made it Clean
+Intern Penelope washed a Clean Luxury Car Mercedes-Benz E-Class using Detailed method and made it Sparkling (and earned bonus of $75)
 
 Repairing
-Mechanic Haytham repaired a Used Car Hyundai Elantra and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Motorcycle Aston Martin Vantage and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Used Monster Truck Bear Foot F-150 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Pickup Ford Ranger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Performance Car Honda HR-V and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Motorcycle McLaren Artura and made it Used (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Haytham repaired a Used Super Car Aston Martin Valkyrie but it was still Used and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Electric Car Chrysler Pacifica but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Broken Performance Car Ferrari SF90 Stradale and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Motorcycle Aston Martin Vantage and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Broken Electric Car Polestar 2 and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Altair repaired a Used Super Car Pagani Huayra and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling
+Salesperson Desmond has sold a Sparkling Like New Budget Car Hyundai Accent to Buyer3 for $19086 (and earned a bonus of $150)
+Salesperson Arno has sold a Sparkling Like New Budget Car Lamborghini Aventador to Buyer5 for $18584 (and earned a bonus of $150)
 
 Day End
+Intern Ezio quit the FNCD
+Hired a new Intern Audrey
+Bought Car Hyundai Sonata for $6660
+Bought Car Koenigsegg Jesko for $12794
 
-Total sales for the day: 0
+Total sales for the day: 37670
