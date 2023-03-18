@@ -1,37 +1,69 @@
-Current Budget: 589838
+Current Budget in North FNCD: 757510
+Current Budget in South FNCD: 556583
 
-Washing
-Intern Altair washed a Dirty Luxury Car Jaguar XJ using Elbow Grease method and made it Clean
-Intern Altair washed a Clean Monster Truck Sudden Impact using Elbow Grease method and made it Sparkling (and earned bonus of $75)
-Intern Ezio washed a Dirty Electric Car Mercedes-AMG GT 4-Door Coupe using Elbow Grease method and made it Clean
-Intern Ezio washed a Clean Car Hyundai Sonata using Elbow Grease method but it was still Clean
-Intern Jasmine washed a Dirty Motorcycle Aston Martin Vantage using Elbow Grease method and made it Clean
-Intern Jasmine washed a Clean Budget Car Honda Fit using Elbow Grease method but it was still Clean
+Washing in North FNCD
+Intern Desmond washed a Dirty Luxury Car Mercedes-Benz E-Class using Chemical method and made it Clean
+Intern Desmond washed a Clean Car Honda Accord using Chemical method but it was still Clean
+The Honda Accord has become Broken
+Intern Altair washed a Dirty Monster Truck Iron Outlaw using Elbow Grease method and made it Clean
+Intern Altair washed a Clean Luxury Car Jaguar XJ using Elbow Grease method but it was still Clean
+Intern Ezio washed a Dirty Budget Car Suzuki Swift using Chemical method and made it Clean
+Intern Ezio washed a Clean Budget Car Suzuki Swift using Chemical method and made it Sparkling (and earned bonus of $50)
 
-Repairing
-Mechanic Haytham repaired a Broken Motorcycle Lamborghini Huracan and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Car Hyundai Sonata and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Conner repaired a Used Super Car Aston Martin Valkyrie but it was still Used and the vehicle became Dirty
-Mechanic Conner repaired a Used Car Hyundai Elantra and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Used Pickup Chevrolet Colorado but it was still Used and the vehicle became Dirty
+Washing in South FNCD
+Intern Thibaut washed a Dirty Budget Car Kia Rio using Detailed method but it was still Dirty
+Intern Thibaut washed a Clean Pickup Toyota Tacoma using Detailed method but it was still Clean
+Intern Daniel washed a Dirty Performance Car Land Rover Defender using Elbow Grease method and made it Clean
+Intern Daniel washed a Clean Performance Car Ferrari SF90 Stradale using Elbow Grease method but it was still Clean
+Intern David washed a Dirty Pickup Ford Ranger using Detailed method but it was still Dirty
+Intern David washed a Clean Electric Car Rivian R1T using Detailed method but it was still Clean
 
-Selling
-Sales Price of the Pickup Chevrolet Colorado increased from $59120 to $62076 after adding on Satellite Radio
-Salesperson Arno has sold a Dirty Used Pickup Chevrolet Colorado to Buyer2 for $62076 (and earned a bonus of $175)
-Salesperson Desmond has sold a Dirty Like New Car Hyundai Elantra to Buyer3 for $31845 (and earned a bonus of $150)
+Repairing in North FNCD
+Mechanic Haytham repaired a Used Performance Car Ferrari SF90 Stradale and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Monster Truck Iron Outlaw and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Motorcycle Yamaha YZF-R6 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Pickup Chevrolet Colorado and made it Used (and earned a bonus of $125) and the vehicle became Clean
+Mechanic Edward repaired a Broken Budget Car Nissan Versa and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Dirty
 
-Racing
-Driver Bayek finished the race at position 18 with the Pickup Ford Ranger and the Vehicle became Broken 
-Driver Alexios finished the race at position 8 with the Pickup GMC Canyon
-Driver Eivor finished the race at position 9 with the Pickup Ram 1500 Classic
+Repairing in South FNCD
+Mechanic Antonio repaired a Broken Pickup Chevrolet Colorado and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Antonio repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ferland repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ferland repaired a Broken Monster Truck Rampage but it was still Broken and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Motorcycle Lamborghini Huracan but it was still Broken and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Car Hyundai Elantra and made it Used (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Intern Jasmine quit the FNCD
-Mechanic Conner quit the FNCD
-Hired a new Intern Aubrey
-Hired a new Intern Penelope
-Bought Car Koenigsegg Jesko for $12794
-Bought Pickup Honda Odyssey for $10858
+Selling in North FNCD
+Sales Price of the Budget Car Nissan Versa increased from $20367 to $24440 after adding on Extended Warranty
+Salesperson Jacob has sold a Dirty Used Budget Car Nissan Versa to Buyer3 for $24440 (and earned a bonus of $150)
 
-Total sales for the day: 93921
+Selling in South FNCD
+Sales Price of the Car Hyundai Elantra increased from $38214 to $40124 after adding on Satellite Radio
+Salesperson Luka has sold a Dirty Used Car Hyundai Elantra to Buyer3 for $40124 (and earned a bonus of $150)
+Sales Price of the Budget Car Hyundai Accent increased from $19086 to $20040 after adding on Satellite Radio
+Salesperson Luka has sold a Clean Like New Budget Car Hyundai Accent to Buyer5 for $20040 (and earned a bonus of $150)
+
+Racing in North FNCD
+Driver Bayek finished the race at position 7 with the Motorcycle Porsche Taycan
+Driver Alexios finished the race at position 11 with the Motorcycle Suzuki Hayabusa
+Driver Eivor finished the race at position 17 with the Motorcycle Yamaha YZF-R6 and the Vehicle became Broken 
+Driver Eivor got injured and quit the FNCD
+
+Racing in South FNCD
+Driver Vinicius finished the race at position 4 with the Monster Truck Sudden Impact
+Driver Karim finished the race at position 18 with the Monster Truck USA-1 and the Vehicle became Broken 
+Driver Carlo finished the race at position 14 with the Monster Truck Bear Foot F-150
+
+Day End in North FNCD
+Hired a new Driver Avery
+Bought Car Jeep Grand Cherokee for $13659
+
+Day End in South FNCD
+Mechanic Ferland quit the FNCD
+Hired a new Intern Mackenzie
+Bought Car Honda Civic for $8408
+Bought Car Honda Civic for $8408
+
+Total sales for the day in North FNCD: 24440
+Total sales for the day in South FNCD: 60164

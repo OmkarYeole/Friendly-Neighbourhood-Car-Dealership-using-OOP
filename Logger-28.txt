@@ -1,40 +1,65 @@
-Current Budget: 3311058
+Current Budget in North FNCD: 4192587
+Current Budget in South FNCD: 3999119
 
-Washing
-Intern Ariel washed a Dirty Monster Truck Madusa using Chemical method and made it Clean
-The Madusa has become Broken
-Intern Ariel washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
-Intern Elliot washed a Dirty Luxury Car Jaguar XJ using Detailed method and made it Clean
-Intern Elliot washed a Clean Pickup GMC Canyon using Detailed method but it was still Clean
-Intern Arianna washed a Dirty Budget Car Nissan Rogue Sport using Detailed method but it was still Dirty
-Intern Arianna washed a Clean Monster Truck The Felon using Detailed method but it was still Clean
+Washing in North FNCD
+Intern Riley washed a Dirty Electric Car Chevrolet Corvette using Chemical method and made it Clean
+Intern Riley washed a Clean Car Chevrolet Spark using Chemical method but it was still Clean
+Intern Elliot washed a Dirty Monster Truck Bear Foot Silverado using Elbow Grease method and made it Clean
+Intern Elliot washed a Clean Monster Truck Bear Foot Silverado using Elbow Grease method but it was still Clean
+Intern Emma washed a Dirty Electric Car Rivian R1T using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Emma washed a Clean Super Car Chevrolet Traverse using Chemical method but made it Dirty
 
-Repairing
-Mechanic Hannah repaired a Broken Pickup Toyota Corolla Cross and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Hannah repaired a Broken Monster Truck Madusa and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Michael repaired a Broken Car Mazda CX-30 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Michael repaired a Used Car Mazda CX-30 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Sophia repaired a Used Pickup Toyota Corolla Cross but it was still Used and the vehicle became Dirty
-Mechanic Sophia repaired a Used Luxury Car Chevrolet Traverse and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Washing in South FNCD
+Intern Mikayla washed a Dirty Luxury Car Dodge Durango using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Mikayla washed a Clean Pickup Rolls-Royce Ghost using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Melanie washed a Dirty Car Lexus LC 500 using Detailed method but it was still Dirty
+Intern Melanie washed a Clean Performance Car Jeep Gladiator using Detailed method but it was still Clean
+Intern Xavier washed a Dirty Super Car Aston Martin Valkyrie using Elbow Grease method and made it Clean
+Intern Xavier washed a Clean Motorcycle Tesla Model Y using Elbow Grease method and made it Sparkling (and earned bonus of $50)
 
-Selling
-Salesperson Genesis has sold a Dirty Like New Car Mazda CX-30 to Buyer1 for $45078 (and earned a bonus of $150)
-Sales Price of the Motorcycle McLaren Artura increased from $38890 to $40834 after adding on Undercoating
-Salesperson Avery has sold a Sparkling Like New Motorcycle McLaren Artura to Buyer2 for $40834 (and earned a bonus of $150)
-Salesperson Avery has sold a Clean Like New Motorcycle Mercedes-Benz S-Class to Buyer3 for $32854 (and earned a bonus of $150)
+Repairing in North FNCD
+Mechanic Sophia repaired a Broken Monster Truck Snake Bite but it was still Broken and the vehicle became Dirty
+Mechanic Sophia repaired a Broken Monster Truck Snake Bite and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Paisley repaired a Used Monster Truck Snake Bite and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Paisley repaired a Broken Luxury Car Subaru Forester and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Naomi repaired a Used Luxury Car Subaru Forester and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Naomi repaired a Used Performance Car Lincoln Navigator and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
-Racing
-Driver Alexios finished the race at position 8 with the Motorcycle Porsche Taycan
-Driver Addison finished the race at position 11 with the Motorcycle Suzuki Hayabusa
-Driver Ella finished the race at position 14 with the Motorcycle Yamaha YZF-R6
+Repairing in South FNCD
+Mechanic David repaired a Used Car Lexus LC 500 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Mechanic Michael quit the FNCD
-Salesperson Avery quit the FNCD
-Hired a new Intern Evelyn
-Hired a new Intern Scarlett
-Bought Car Subaru Forester for $11536
-Bought Motorcycle McLaren 720S for $13314
-Bought Motorcycle Honda CR-V for $15619
+Selling in North FNCD
 
-Total sales for the day: 118766
+Selling in South FNCD
+Sales Price of the Luxury Car Jeep Grand Wagoneer increased from $181158 to $190215 after adding on Satellite Radio
+Salesperson Toni has sold a Clean Like New Luxury Car Jeep Grand Wagoneer to Buyer1 for $190215 (and earned a bonus of $175)
+Sales Price of the Electric Car Toyota RAV4 increased from $96244 to $101056 after adding on Undercoating
+Salesperson Federico has sold a Clean Like New Electric Car Toyota RAV4 to Buyer2 for $101056 (and earned a bonus of $200)
+Sales Price of the Pickup Rolls-Royce Ghost increased from $62493 to $65617 after adding on Satellite Radio
+Salesperson Toni has sold a Sparkling Like New Pickup Rolls-Royce Ghost to Buyer3 for $65617 (and earned a bonus of $175)
+
+Racing in North FNCD
+Driver Bayek finished the race at position 1 with the Pickup Ford Ranger and Won the race (and earned a bonus of $200)
+Driver Avery finished the race at position 6 with the Pickup GMC Canyon
+Driver Ella finished the race at position 13 with the Pickup Ram 1500 Classic
+
+Racing in South FNCD
+Driver Karim finished the race at position 19 with the Motorcycle Aston Martin Vantage and the Vehicle became Broken 
+Driver Jaden finished the race at position 3 with the Motorcycle Porsche Taycan and Won the race (and earned a bonus of $250)
+Driver Kendall finished the race at position 13 with the Motorcycle Suzuki Hayabusa
+
+Day End in North FNCD
+Intern Elliot quit the FNCD
+Hired a new Intern Samantha
+
+Day End in South FNCD
+Intern Melanie quit the FNCD
+Mechanic Jasmine quit the FNCD
+Hired a new Intern Sarah
+Hired a new Intern Christian
+Bought Pickup Ford F-150 for $31400
+Bought Electric Car Jaguar F-Type for $32527
+Bought Car Lexus LC 500 for $15257
+
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 356888

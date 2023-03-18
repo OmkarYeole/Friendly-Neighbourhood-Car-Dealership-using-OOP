@@ -6,7 +6,8 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
-public class Staff {
+//For 2nd FNCD
+public class Staff2 {
     static String[] staffType = {"Intern", "Mechanic", "Salesperson","Driver"};
     static ArrayList<String> names = new ArrayList<>();
     static ArrayList<String>[] staff = new ArrayList[4];
@@ -54,15 +55,15 @@ public class Staff {
     //The following method gives a set of names for staff
     public void add_names() {
         names.addAll(Arrays.asList(
-                "Emma", "Olivia", "Ava", "Isabella", "Sophia", "Charlotte", "Mia", "Amelia", "Harper", "Evelyn",
-                "Abigail", "Emily", "Elizabeth", "Mila", "Ella", "Avery", "Sofia", "Camila", "Aria", "Scarlett",
-                "Victoria", "Madison", "Luna", "Grace", "Chloe", "Penelope", "Layla", "Riley", "Zoey", "Nora",
-                "Lily", "Eleanor", "Hannah", "Lillian", "Addison", "Aubrey", "Ellie", "Stella", "Natalie", "Leah",
-                "Audrey", "Savannah", "Brooklyn", "Bella", "Claire", "Skylar", "Lucy", "Paisley", "Eva", "Anna",
-                "Caroline", "Nova", "Genesis", "Emilia", "Kennedy", "Samantha", "Maya", "Willow", "Kinsley", "Naomi",
-                "Aaliyah", "Elena", "Gabriella", "Aurora", "Isla", "Janine", "Adeline", "Kaylee", "Arianna", "Avery",
-                "Alyssa", "Brielle", "Elliot", "Madalyn", "Hailey", "Mackenzie", "Payton", "Aubree", "Kylie", "Mikayla",
-                "Reagan", "Lila", "Ariel", "Gianna", "Sawyer", "Bianca", "Isabelle", "Jasmine", "Eliana", "Michael"));
+                "Adam", "Alexis", "Angel", "Ashley", "Brianna", "Cameron", "Carter", "Cecilia", "Chase", "Christian",
+                "Christopher", "Cole", "Connor", "Dakota", "Daniel", "David", "Dylan", "Elizabeth", "Ethan", "Evan",
+                "Faith", "Gabriel", "Gavin", "Grace", "Haley", "Hunter", "Isaac", "Jaden", "Jasmine", "Jason",
+                "Jayden", "Jocelyn", "Jordan", "Joseph", "Joshua", "Julia", "Justin", "Kaitlyn", "Katherine", "Kendall",
+                "Kevin", "Lauren", "Leah", "Logan", "Luis", "Luke", "Mackenzie", "Madison", "Makayla", "Maria",
+                "Mason", "Matthew", "Max", "Megan", "Melanie", "Melissa", "Mia", "Mikayla", "Miranda", "Natalie",
+                "Nathan", "Nicholas", "Oliver", "Olivia", "Oscar", "Paige", "Patrick", "Rachel", "Rebecca", "Riley",
+                "Ryan", "Samantha", "Santiago", "Sarah", "Savannah", "Sebastian", "Sierra", "Sophie", "Sydney", "Taylor",
+                "Tristan", "Tyler", "Valeria", "Victoria", "Vincent", "William", "Wyatt", "Xavier", "Zachary", "Shawn"));
     }
 
     public String getName() {
@@ -74,18 +75,18 @@ public class Staff {
     }
     //Adding initial staff members and their data for the first day
     public void addStaff() {
-        staff[0].add("Desmond");
-        staff[0].add("Altair");
-        staff[0].add("Ezio");
-        staff[1].add("Haytham");
-        staff[1].add("Conner");
-        staff[1].add("Edward");
-        staff[2].add("Shay");
-        staff[2].add("Arno");
-        staff[2].add("Jacob");
-        staff[3].add("Bayek");
-        staff[3].add("Alexios");
-        staff[3].add("Eivor");
+        staff[0].add("Thibaut");
+        staff[0].add("Daniel");
+        staff[0].add("David");
+        staff[1].add("Antonio");
+        staff[1].add("Ferland");
+        staff[1].add("Eduardo");
+        staff[2].add("Toni");
+        staff[2].add("Luka");
+        staff[2].add("Federico");
+        staff[3].add("Vinicius");
+        staff[3].add("Karim");
+        staff[3].add("Carlo");
         for (int i = 0; i < 4; i++) {
             for (int j = 0; j < 3; j++) {
                 staff_status[i].add("Active");
@@ -102,7 +103,7 @@ public class Staff {
         }
     }
     //method to maintain the staff data at the end of the day if any staff quits
-    public void updateDepartedStaff(FNCDdata fnc) throws IOException {
+    public void updateDepartedStaff(FNCDdata2 fnc) throws IOException {
         //General case where any worker quits, he/she is removed from the staff list and added to departed staff list
         for (int i = 0; i < 3; i++) { //Drivers do not quit so, it is not 4
             for (int j = 0; j < staff_status[i].size(); j++) {
@@ -133,187 +134,191 @@ public class Staff {
     }
 }
 //Strategy Pattern
-interface WashBehavior{
-    void wash(int j, FNCDdata fnc) throws IOException;
+interface WashBehavior2{
+    void wash(int j, FNCDdata2 fnc) throws IOException;
 }
-class Chemical extends Intern implements WashBehavior{
-    public void wash(int j, FNCDdata fnc) throws IOException {
-        Vehicle obj = new Vehicle();
-        if(Vehicle.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
-            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[0].size());
-            vehicle_1 =  Vehicle.cleanliness[0].get(cleanliness_choice);
+//For 2nd FNCD
+class Chemical2 extends Intern2 implements WashBehavior2{
+    public void wash(int j, FNCDdata2 fnc) throws IOException {
+        Vehicle2 obj = new Vehicle2();
+        if(Vehicle2.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle2.cleanliness[0].size());
+            vehicle_1 =  Vehicle2.cleanliness[0].get(cleanliness_choice);
             prob = rand.nextDouble();                   //probability for updating cleanliness
             if (prob >= 0.1 && prob < 0.9) {
-                Vehicle.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method and made it "+Vehicle.carCleanliness[1]);
+                Vehicle2.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method and made it "+Vehicle2.carCleanliness[1]);
                 fnc.washOutcome(0,j,0,obj,vehicle_1,0,0,1,0);//obs
-                Vehicle.cleanliness[0].remove(cleanliness_choice);
+                Vehicle2.cleanliness[0].remove(cleanliness_choice);
             } else if (prob >= 0.9) {
-                Vehicle.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
-                Intern.getBonus(j,vehicle_1);                  //Intern gets bonus
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method and made it "+Vehicle.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
+                Vehicle2.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
+                Intern2.getBonus(j,vehicle_1);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method and made it "+Vehicle2.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
                 fnc.washOutcome(0,j,0,obj,vehicle_1,0,0,2,bonus_val);//obs
-                Vehicle.cleanliness[0].remove(cleanliness_choice);
+                Vehicle2.cleanliness[0].remove(cleanliness_choice);
             } else{
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method but it was still "+Vehicle.carCleanliness[0]);
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Chemical method but it was still "+Vehicle2.carCleanliness[0]);
                 fnc.washOutcome(0,j,0,obj,vehicle_1,0,1,0,0);//obs
             }
             prob = rand.nextDouble();                   //probability for updating condition
             if (prob < 0.1){
                 System.out.println("The "+vehicle_1+" has become Broken");
-                fnc.washOutcome(vehicle_1,0);
+                fnc.washOutcome(vehicle_1,0,0);
                 obj.updateCondition(0,vehicle_1);         //Update condition to 'Broken'
             }
         }
-        if(Vehicle.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
-            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[1].size());
-            vehicle_2 =  Vehicle.cleanliness[1].get(cleanliness_choice);
+        if(Vehicle2.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle2.cleanliness[1].size());
+            vehicle_2 =  Vehicle2.cleanliness[1].get(cleanliness_choice);
             prob = rand.nextDouble();
             if (prob < 0.1) {
-                Vehicle.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method but made it "+Vehicle.carCleanliness[0]);
+                Vehicle2.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method but made it "+Vehicle2.carCleanliness[0]);
                 fnc.washOutcome(0,j,1,obj,vehicle_2,0,2,0,0);//obs
-                Vehicle.cleanliness[1].remove(cleanliness_choice);
+                Vehicle2.cleanliness[1].remove(cleanliness_choice);
             } else if(prob >= 0.8) {
-                Vehicle.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
-                Intern.getBonus(j,vehicle_2);                  //Intern gets bonus
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method and made it "+Vehicle.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
+                Vehicle2.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
+                Intern2.getBonus(j,vehicle_2);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method and made it "+Vehicle2.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
                 fnc.washOutcome(0,j,1,obj,vehicle_2,0,0,2,bonus_val);//obs
-                Vehicle.cleanliness[1].remove(cleanliness_choice);
+                Vehicle2.cleanliness[1].remove(cleanliness_choice);
             } else{
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method but it was still "+Vehicle.carCleanliness[1]);
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Chemical method but it was still "+Vehicle2.carCleanliness[1]);
                 fnc.washOutcome(0,j,1,obj,vehicle_2,0,1,1,0);//obs
             }
             prob = rand.nextDouble();                   //probability for updating condition
             if (prob < 0.1){
                 System.out.println("The "+vehicle_2+" has become Broken");
-                fnc.washOutcome(vehicle_2,0);
+                fnc.washOutcome(vehicle_2,0,0);
                 obj.updateCondition(0,vehicle_2);         //Update condition to 'Broken'
             }
         }
     }
 }
-class ElbowGrease extends Intern implements WashBehavior{
-    public void wash(int j, FNCDdata fnc) throws IOException {
-        Vehicle obj = new Vehicle();
-        if(Vehicle.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
-            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[0].size());
-            vehicle_1 =  Vehicle.cleanliness[0].get(cleanliness_choice);
+//For 2nd FNCD
+class ElbowGrease2 extends Intern2 implements WashBehavior2{
+    public void wash(int j, FNCDdata2 fnc) throws IOException {
+        Vehicle2 obj = new Vehicle2();
+        if(Vehicle2.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle2.cleanliness[0].size());
+            vehicle_1 =  Vehicle2.cleanliness[0].get(cleanliness_choice);
             prob = rand.nextDouble();                   //probability for updating cleanliness
             if (prob >= 0.25 && prob < 0.95) {
-                Vehicle.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method and made it "+Vehicle.carCleanliness[1]);
+                Vehicle2.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method and made it "+Vehicle2.carCleanliness[1]);
                 fnc.washOutcome(0,j,0,obj,vehicle_1,1,0,1,0);//obs
-                Vehicle.cleanliness[0].remove(cleanliness_choice);
+                Vehicle2.cleanliness[0].remove(cleanliness_choice);
             } else if (prob >= 0.95) {
-                Vehicle.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
-                Intern.getBonus(j,vehicle_1);                  //Intern gets bonus
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method and made it "+Vehicle.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
+                Vehicle2.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
+                Intern2.getBonus(j,vehicle_1);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method and made it "+Vehicle2.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
                 fnc.washOutcome(0,j,0,obj,vehicle_1,1,0,2,bonus_val);//obs
-                Vehicle.cleanliness[0].remove(cleanliness_choice);
+                Vehicle2.cleanliness[0].remove(cleanliness_choice);
             } else{
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method but it was still "+Vehicle.carCleanliness[0]);
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Elbow Grease method but it was still "+Vehicle2.carCleanliness[0]);
                 fnc.washOutcome(0,j,0,obj,vehicle_1,1,1,0,0);//obs
             }
             prob = rand.nextDouble();                   //probability for updating condition
             if (prob < 0.1){
                 System.out.println("The "+vehicle_1+" has become Like New");
-                fnc.washOutcome(vehicle_1,2);
+                fnc.washOutcome(vehicle_1,2,0);
                 obj.updateCondition(2,vehicle_1);         //Update condition to 'Like New'
             }
         }
-        if(Vehicle.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
-            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[1].size());
-            vehicle_2 =  Vehicle.cleanliness[1].get(cleanliness_choice);
+        if(Vehicle2.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle2.cleanliness[1].size());
+            vehicle_2 =  Vehicle2.cleanliness[1].get(cleanliness_choice);
             prob = rand.nextDouble();
             if (prob < 0.15) {
-                Vehicle.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method but made it "+Vehicle.carCleanliness[0]);
+                Vehicle2.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method but made it "+Vehicle2.carCleanliness[0]);
                 fnc.washOutcome(0,j,1,obj,vehicle_2,1,2,0,0);//obs
-                Vehicle.cleanliness[1].remove(cleanliness_choice);
+                Vehicle2.cleanliness[1].remove(cleanliness_choice);
             } else if(prob >= 0.85) {
-                Vehicle.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
-                Intern.getBonus(j,vehicle_2);                  //Intern gets bonus
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method and made it "+Vehicle.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
+                Vehicle2.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
+                Intern2.getBonus(j,vehicle_2);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method and made it "+Vehicle2.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
                 fnc.washOutcome(0,j,1,obj,vehicle_2,1,0,2,bonus_val);//obs
-                Vehicle.cleanliness[1].remove(cleanliness_choice);
+                Vehicle2.cleanliness[1].remove(cleanliness_choice);
             } else{
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method but it was still "+Vehicle.carCleanliness[1]);
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Elbow Grease method but it was still "+Vehicle2.carCleanliness[1]);
                 fnc.washOutcome(0,j,1,obj,vehicle_2,1,1,1,0);//obs
             }
             prob = rand.nextDouble();                   //probability for updating condition
             if (prob < 0.1){
                 System.out.println("The "+vehicle_2+" has become Like New");
-                fnc.washOutcome(vehicle_2,2);
+                fnc.washOutcome(vehicle_2,2,0);
                 obj.updateCondition(2,vehicle_2);         //Update condition to 'Like New'
             }
         }
     }
 }
-class Detailed extends Intern implements WashBehavior{
-    public void wash(int j, FNCDdata fnc) throws IOException {
-        Vehicle obj = new Vehicle();
-        if(Vehicle.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
-            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[0].size());
-            vehicle_1 =  Vehicle.cleanliness[0].get(cleanliness_choice);
+//For 2nd FNCD
+class Detailed2 extends Intern2 implements WashBehavior2{
+    public void wash(int j, FNCDdata2 fnc) throws IOException {
+        Vehicle2 obj = new Vehicle2();
+        if(Vehicle2.cleanliness[0].size()!=0){           //Checks if there is any 'Dirty' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle2.cleanliness[0].size());
+            vehicle_1 =  Vehicle2.cleanliness[0].get(cleanliness_choice);
             prob = rand.nextDouble();                   //probability for updating cleanliness
             if (prob >= 0.2 && prob < 0.8) {
-                Vehicle.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method and made it "+Vehicle.carCleanliness[1]);
+                Vehicle2.cleanliness[1].add(vehicle_1);  //update cleanliness to 'Clean'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method and made it "+Vehicle2.carCleanliness[1]);
                 fnc.washOutcome(0,j,0,obj,vehicle_1,2,0,1,0);//obs
-                Vehicle.cleanliness[0].remove(cleanliness_choice);
+                Vehicle2.cleanliness[0].remove(cleanliness_choice);
             } else if (prob >= 0.8) {
-                Vehicle.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
-                Intern.getBonus(j,vehicle_1);                  //Intern gets bonus
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method and made it "+Vehicle.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
+                Vehicle2.cleanliness[2].add(vehicle_1);  //Update cleanliness to 'Sparkling'
+                Intern2.getBonus(j,vehicle_1);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method and made it "+Vehicle2.carCleanliness[2]+" (and earned bonus of $"+bonus_val+")");
                 fnc.washOutcome(0,j,0,obj,vehicle_1,2,0,2,bonus_val);//obs
-                Vehicle.cleanliness[0].remove(cleanliness_choice);
+                Vehicle2.cleanliness[0].remove(cleanliness_choice);
             } else{
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[0]+" "+Vehicle.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method but it was still "+Vehicle.carCleanliness[0]);
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[0]+" "+Vehicle2.carType[obj.getCarType(vehicle_1)]+" "+vehicle_1+" using Detailed method but it was still "+Vehicle2.carCleanliness[0]);
                 fnc.washOutcome(0,j,0,obj,vehicle_1,2,1,0,0);//obs
             }
         }
-        if(Vehicle.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
-            cleanliness_choice = rand.nextInt( Vehicle.cleanliness[1].size());
-            vehicle_2 =  Vehicle.cleanliness[1].get(cleanliness_choice);
+        if(Vehicle2.cleanliness[1].size()!=0){           //Checks if there is any 'Clean' vehicle present, then only intern can wash it
+            cleanliness_choice = rand.nextInt( Vehicle2.cleanliness[1].size());
+            vehicle_2 =  Vehicle2.cleanliness[1].get(cleanliness_choice);
             prob = rand.nextDouble();
             if (prob < 0.05) {
-                Vehicle.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method but made it "+Vehicle.carCleanliness[0]);
+                Vehicle2.cleanliness[0].add(vehicle_2);  //update cleanliness back to 'Dirty'
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method but made it "+Vehicle2.carCleanliness[0]);
                 fnc.washOutcome(0,j,1,obj,vehicle_2,2,2,0,0);//obs
-                Vehicle.cleanliness[1].remove(cleanliness_choice);
+                Vehicle2.cleanliness[1].remove(cleanliness_choice);
             } else if(prob >= 0.6) {
-                Vehicle.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
-                Intern.getBonus(j,vehicle_2);                  //Intern gets bonus
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method and made it "+Vehicle.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
+                Vehicle2.cleanliness[2].add(vehicle_2);  //update cleanliness to 'Sparkling'
+                Intern2.getBonus(j,vehicle_2);                  //Intern gets bonus
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method and made it "+Vehicle2.carCleanliness[2]+" (and earned a bonus of $"+bonus_val+")");
                 fnc.washOutcome(0,j,1,obj,vehicle_2,2,0,2,bonus_val);//obs
-                Vehicle.cleanliness[1].remove(cleanliness_choice);
+                Vehicle2.cleanliness[1].remove(cleanliness_choice);
             } else{
-                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle.carCleanliness[1]+" "+Vehicle.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method but it was still "+Vehicle.carCleanliness[1]);
+                System.out.println(staffType[0]+" " +staff[0].get(j)+" washed a "+Vehicle2.carCleanliness[1]+" "+Vehicle2.carType[obj.getCarType(vehicle_2)]+" "+vehicle_2+" using Detailed method but it was still "+Vehicle2.carCleanliness[1]);
                 fnc.washOutcome(0,j,1,obj,vehicle_2,2,1,1,0);//obs
             }
         }
     }
 }
 //Example of Inheritance
-class Intern extends Staff{
+//For 2nd FNCD
+class Intern2 extends Staff2{
     static String[] clean_outcome = {" and made it "," but it was still "," but made it "};
     static String[] wash_method = {"Chemical", "Elbow Grease", "Detailed"};
     int cleanliness_choice;
     String vehicle_1,vehicle_2;
-    WashBehavior washBehavior;
+    WashBehavior2 washBehavior;
     //primary method for intern to wash vehicles and update cleanliness and condition of cars
-    public void setWashBehavior(FNCDdata fnc) throws IOException {
-        System.out.println("\nWashing in North FNCD");
+    public void setWashBehavior(FNCDdata2 fnc) throws IOException {
+        System.out.println("\nWashing in South FNCD");
         fnc.dayAct(1,0);//obs
         for (int j=0;j<staff[0].size();j++){
             int i = rand.nextInt(3);
             if (i==0){
-                washBehavior = new Chemical();
+                washBehavior = new Chemical2();
             } else if (i==1) {
-                washBehavior = new ElbowGrease();
+                washBehavior = new ElbowGrease2();
             } else {
-                washBehavior = new Detailed();
+                washBehavior = new Detailed2();
             }
             washBehavior.wash(j,fnc);
         }
@@ -327,29 +332,29 @@ class Intern extends Staff{
     //Calculating the bonus
     public static void getBonus(int k, String vehicle){
         for(int i=0; i<9;i++){//prj4
-            for(int j = 0; j<  Vehicle.vehicle[i].size(); j++) {
-                if ( Vehicle.vehicle[i].get(j).equals(vehicle)){
-                    bonus[0].set(k, bonus[0].get(k) +  Vehicle.vehicle_wash_bonus[i]);//Bonus is decided based on type of car
-                    bonus_val = Vehicle.vehicle_wash_bonus[i];
+            for(int j = 0; j<  Vehicle2.vehicle[i].size(); j++) {
+                if ( Vehicle2.vehicle[i].get(j).equals(vehicle)){
+                    bonus[0].set(k, bonus[0].get(k) +  Vehicle2.vehicle_wash_bonus[i]);//Bonus is decided based on type of car
+                    bonus_val = Vehicle2.vehicle_wash_bonus[i];
                     break;
                 }
             }
         }
     }
     //Calculating the salary based on normal pay and bonus play
-    public void getSalary(FNCDdata fnc) throws IOException {
+    public void getSalary(FNCDdata2 fnc) throws IOException {
         for(int j=0;j<staff[0].size();j++){
             salary[0].set(j, normal_pay[0]+bonus[0].get(j));    //salary is calculated by adding bonus and normal pay for the day
-            Operation.addBudget(0,j,fnc);
-            Operation.budget=Operation.budget-salary[0].get(j); //Salary is reduced from the budget
-            Operation.Staff_money=Operation.Staff_money+salary[0].get(j);//Adding salary to total money earned by Staff
+            Operation2.addBudget(0,j,fnc);
+            Operation2.budget=Operation2.budget-salary[0].get(j); //Salary is reduced from the budget
+            Operation2.Staff_money=Operation2.Staff_money+salary[0].get(j);//Adding salary to total money earned by Staff
             total_normal_pay[0].set(j,total_normal_pay[0].get(j)+normal_pay[0]);
             total_salary[0].set(j, total_salary[0].get(j)+salary[0].get(j));
             total_bonus[0].set(j, total_bonus[0].get(j)+bonus[0].get(j));
         }
     }
     //Adding a new intern
-    public void addIntern(FNCDdata fnc) throws IOException {
+    public void addIntern(FNCDdata2 fnc) throws IOException {
         while(staff[0].size()<3){      //If number of Interns is less than 3, add new interns
             staff[0].add(getName());
             System.out.println("Hired a new Intern "+(staff[0].get(staff[0].size()-1))+".");
@@ -412,18 +417,19 @@ class Intern extends Staff{
         }
     }
 }
-class Mechanic extends Staff {
+//For 2nd FNCD
+class Mechanic2 extends Staff2{
     int index,vehicle_choice;
     String vehicle;
     //primary method for mechanic to repair cars and update condition and cleanliness
-    public void repair(FNCDdata fnc) throws IOException {
-        System.out.println("\nRepairing in North FNCD");
+    public void repair(FNCDdata2 fnc) throws IOException {
+        System.out.println("\nRepairing in South FNCD");
         fnc.dayAct(2,0);//obs
-        Vehicle obj = new Vehicle();
+        Vehicle2 obj = new Vehicle2();
         for (int j=0;j<staff[1].size();j++){
             for(int k=0;k<2;k++){
                 index = rand.nextInt(2);     //we don't want to select a 'like new' car for repairing
-                if(Vehicle.condition[index].size()==0){//If there is no car from selected condition (eg. Broken)
+                if(Vehicle2.condition[index].size()==0){//If there is no car from selected condition (eg. Broken)
                     if (index==0){
                         index=1;                   //If the selected condition was 'Broken' then select condition 'Used'
                     }
@@ -431,7 +437,7 @@ class Mechanic extends Staff {
                         index=0;                   //If the selected condition was 'Used' then select condition 'Broken'
                     }
                 }
-                if(Vehicle.condition[index].size()!=0){  //If there is a car from selected condition, repair it
+                if(Vehicle2.condition[index].size()!=0){  //If there is a car from selected condition, repair it
                     repair_update(j,obj,fnc);
                 }
             }
@@ -439,25 +445,25 @@ class Mechanic extends Staff {
     }
     // a method which decides whether the car was fixed and condition was updated
     // along with degrading the car cleanliness
-    public void repair_update(int j,Vehicle obj,FNCDdata fnc) throws IOException {
-        vehicle_choice = rand.nextInt(Vehicle.condition[index].size());
-        vehicle = Vehicle.condition[index].get(vehicle_choice);
+    public void repair_update(int j,Vehicle2 obj,FNCDdata2 fnc) throws IOException {
+        vehicle_choice = rand.nextInt(Vehicle2.condition[index].size());
+        vehicle = Vehicle2.condition[index].get(vehicle_choice);
         prob = rand.nextDouble();
         if (prob < 0.8) {
             getBonus(j, vehicle);    //Mechanic gets bonus if car condition level is fixed to next condition (e.g. from dirty to clean)
-            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+" and made it "+Vehicle.carCondition[obj.getCondition(vehicle)+1]+" (and earned a bonus of $"+bonus_val+")");
+            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+Vehicle2.carCondition[obj.getCondition(vehicle)]+" "+Vehicle2.carType[obj.getCarType(vehicle)]+" "+vehicle+" and made it "+Vehicle2.carCondition[obj.getCondition(vehicle)+1]+" (and earned a bonus of $"+bonus_val+")");
             fnc.repairOutcome(1,j,obj,vehicle,0,bonus_val);//obs
-            Vehicle.condition[index+1].add(vehicle);
+            Vehicle2.condition[index+1].add(vehicle);
             //Example of Delegation
             obj.updateSalesPrice(index,vehicle); //when condition of car is fixed to next level, its sales prices is updated
-            Vehicle.condition[index].remove(vehicle_choice);
+            Vehicle2.condition[index].remove(vehicle_choice);
         } else{
-            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+" but it was still "+Vehicle.carCondition[obj.getCondition(vehicle)]);
+            System.out.print(staffType[1]+" "+staff[1].get(j)+" repaired a "+Vehicle2.carCondition[obj.getCondition(vehicle)]+" "+Vehicle2.carType[obj.getCarType(vehicle)]+" "+vehicle+" but it was still "+Vehicle2.carCondition[obj.getCondition(vehicle)]);
             fnc.repairOutcome(1,j,obj,vehicle,1,0);//obs
         }
         obj.updateCleanliness(vehicle); //Degrade the cleanliness by one level
         fnc.repairOutcome(obj,vehicle);//obs
-        System.out.println(" and the vehicle became "+Vehicle.carCleanliness[obj.getCleanliness(vehicle)]);
+        System.out.println(" and the vehicle became "+Vehicle2.carCleanliness[obj.getCleanliness(vehicle)]);
     }
 
     public void getTotalDays(){
@@ -467,93 +473,94 @@ class Mechanic extends Staff {
     }
     public static void getBonus(int k, String vehicle){
         for(int i=0; i<9;i++){//prj4
-            for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
-                if (Vehicle.vehicle[i].get(j).equals(vehicle)) {
-                    bonus[1].set(k, bonus[1].get(k) + Vehicle.vehicle_repair_bonus[i]); //Bonus is decided based on type of car
-                    bonus_val=Vehicle.vehicle_repair_bonus[i];
+            for(int j = 0; j< Vehicle2.vehicle[i].size(); j++) {
+                if (Vehicle2.vehicle[i].get(j).equals(vehicle)) {
+                    bonus[1].set(k, bonus[1].get(k) + Vehicle2.vehicle_repair_bonus[i]); //Bonus is decided based on type of car
+                    bonus_val=Vehicle2.vehicle_repair_bonus[i];
                     break;
                 }
             }
         }
     }
-    public void getSalary(FNCDdata fnc) throws IOException {
+    public void getSalary(FNCDdata2 fnc) throws IOException {
         for(int j=0;j<staff[1].size();j++){
             salary[1].set(j, normal_pay[1]+bonus[1].get(j));//salary is calculated by adding bonus and normal pay for the day
-            Operation.addBudget(1,j,fnc);
-            Operation.budget=Operation.budget-salary[1].get(j);
-            Operation.Staff_money=Operation.Staff_money+salary[1].get(j);
+            Operation2.addBudget(1,j,fnc);
+            Operation2.budget=Operation2.budget-salary[1].get(j);
+            Operation2.Staff_money=Operation2.Staff_money+salary[1].get(j);
             total_normal_pay[1].set(j,total_normal_pay[1].get(j)+normal_pay[1]);
             total_salary[1].set(j, total_salary[1].get(j)+salary[1].get(j));
             total_bonus[1].set(j, total_bonus[1].get(j)+bonus[1].get(j));
         }
     }
 }
-class Salesperson extends Staff{
+//For 2nd FNCD
+class Salesperson2 extends Staff2{
     int index2,buyer_index1,buyer_index2,buyer_choice,vehicle_choice;
     String salesperson,buyer,vehicle;
     //primary method for salespersons to sell cars
-    public void sale(FNCDdata fnc) throws IOException {
-        System.out.println("\nSelling in North FNCD");
+    public void sale(FNCDdata2 fnc) throws IOException {
+        System.out.println("\nSelling in South FNCD");
         fnc.dayAct(3,0);//obs
-        Operation.total_sales = 0;//Initializing the total sales at the beginning of the day
-        Buyer buyer1 = new Buyer();
-        Vehicle[] vehicle_object = {new Car(),new Pickup(),new PerformanceCar(),new Motorcycles(),new MonsterTrucks(),new ElectricCar(),new BudgetCar(),new LuxuryCar(),new SuperCar()};
+        Operation2.total_sales = 0;//Initializing the total sales at the beginning of the day
+        Buyer2 buyer1 = new Buyer2();
+        Vehicle2[] vehicle_object = {new Car2(),new Pickup2(),new PerformanceCar2(),new Motorcycles2(),new MonsterTrucks2(),new ElectricCar2(),new BudgetCar2(),new LuxuryCar2(),new SuperCar2()};
         //Checks if there are any buyers present
-        if (Buyer.buyer_no !=0){
-            for(int i = 0; i< Buyer.buyer_no; i++){
+        if (Buyer2.buyer_no !=0){
+            for(int i = 0; i< Buyer2.buyer_no; i++){
                 index2 = rand.nextInt(staff[2].size());
                 salesperson = staff[2].get(index2);   //Salesperson is randomly assigned
                 buyer="Buyer"+(i+1);
                 buyer_index1=buyer1.getBuyerIndex1(buyer);
                 buyer_index2=buyer1.getBuyerIndex2(buyer);
-                buyer_choice= Buyer.buyer_choice[buyer_index1].get(buyer_index2);
-                Vehicle obj= new Vehicle();
+                buyer_choice= Buyer2.buyer_choice[buyer_index1].get(buyer_index2);
+                Vehicle2 obj= new Vehicle2();
                 obj.VehicleTopPrice();      //getting car with top sales price from buyers choice
-                if(Vehicle.max_sale_price[buyer_choice] != 0){
-                    for(int j = 0; j< Vehicle.sales_price[buyer_choice].size(); j++){
-                        if(Vehicle.sales_price[buyer_choice].get(j)== Vehicle.max_sale_price[buyer_choice]){
-                            vehicle= Vehicle.vehicle[buyer_choice].get(j);
+                if(Vehicle2.max_sale_price[buyer_choice] != 0){
+                    for(int j = 0; j< Vehicle2.sales_price[buyer_choice].size(); j++){
+                        if(Vehicle2.sales_price[buyer_choice].get(j)== Vehicle2.max_sale_price[buyer_choice]){
+                            vehicle= Vehicle2.vehicle[buyer_choice].get(j);
                             vehicle_choice=j;
                             if(obj.getCondition(vehicle)==2){   //checking the condition of the car to be Like New
                                 //add 10% chance to buyer
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
                             if(obj.getCleanliness(vehicle)==2){   //checking the cleanliness of the car to be Sparkling
                                 //add 10% chance to buyer
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
-                            if(Vehicle.race_won[buyer_choice].get(vehicle_choice)>=1){ //checking the count of races won by vehicle
+                            if(Vehicle2.race_won[buyer_choice].get(vehicle_choice)>=1){ //checking the count of races won by vehicle
                                 //add 10% chance to buyer
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
                             break;
                         }
                     }
                 }else{             //If Buyer's choice is not found, the vehicle top price from rest of the cars is selected
                     buyer_choice=obj.totalVehicleTopPrice();
-                    for(int j = 0; j< Vehicle.sales_price[buyer_choice].size(); j++){
-                        if(Vehicle.sales_price[buyer_choice].get(j)== Vehicle.max_sale_price[buyer_choice]){
-                            vehicle= Vehicle.vehicle[buyer_choice].get(j);
+                    for(int j = 0; j< Vehicle2.sales_price[buyer_choice].size(); j++){
+                        if(Vehicle2.sales_price[buyer_choice].get(j)== Vehicle2.max_sale_price[buyer_choice]){
+                            vehicle= Vehicle2.vehicle[buyer_choice].get(j);
                             vehicle_choice=j;
                             if(obj.getCondition(vehicle)==2){    //checking the condition of the car to be Like New
                                 //add 10% chance to buyer
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
                             if(obj.getCleanliness(vehicle)==2){  //checking the cleanliness of the car to be Sparkling
                                 //add 10% chance to buyer
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
-                            if(Vehicle.race_won[buyer_choice].get(vehicle_choice)>=1){ //checking the count of races won by vehicle
+                            if(Vehicle2.race_won[buyer_choice].get(vehicle_choice)>=1){ //checking the count of races won by vehicle
                                 //add 10% chance to buyer
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)+0.1));
                             }
                             //now reducing 20% chance from buyer due to unavailability of buyer's choice of car
-                            if(Buyer.buyer_prob[buyer_index1].get(buyer_index2)>=0.2){
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,(Buyer.buyer_prob[buyer_index1].get(buyer_index2)-0.2));
+                            if(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)>=0.2){
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,(Buyer2.buyer_prob[buyer_index1].get(buyer_index2)-0.2));
                             }else {
                                 //if buyer has less than 20% chance of buying, reducing the by 20% would result in negative value.
                                 // Hence, we are making it zero.
-                                Buyer.buyer_prob[buyer_index1].set(buyer_index2,0.0);
+                                Buyer2.buyer_prob[buyer_index1].set(buyer_index2,0.0);
                             }
                             break;
                         }
@@ -561,25 +568,25 @@ class Salesperson extends Staff{
                 }
                 //updating vehicles, budget, and conditions and cleanliness of vehicles
                 prob = rand.nextDouble();
-                if (prob < Buyer.buyer_prob[buyer_index1].get(buyer_index2)){
+                if (prob < Buyer2.buyer_prob[buyer_index1].get(buyer_index2)){
                     //if buyer buys the vehicle, check for add on purchases using decorator pattern
-                    Vehicle vecl = vehicle_object[buyer_choice];//creating object of one of the car types of buyer's choice
-                    vecl = new ExtendedWarranty(buyer_choice,vehicle_choice,fnc);//wrapping it with decorator components
-                    vecl = new Undercoating(buyer_choice,vehicle_choice,fnc);
-                    vecl = new RoadRescueCoverage(buyer_choice,vehicle_choice,fnc);
-                    vecl = new SatelliteRadio(buyer_choice,vehicle_choice,fnc);
-                    Operation.budget = Operation.budget + Vehicle.sales_price[buyer_choice].get(vehicle_choice);//Sales price of car added to budget
-                    Operation.total_sales = Operation.total_sales + Vehicle.sales_price[buyer_choice].get(vehicle_choice);//updated Total sales of the day
+                    Vehicle2 vecl = vehicle_object[buyer_choice];//creating object of one of the car types of buyer's choice
+                    vecl = new ExtendedWarranty2(buyer_choice,vehicle_choice,fnc);//wrapping it with decorator components
+                    vecl = new Undercoating2(buyer_choice,vehicle_choice,fnc);
+                    vecl = new RoadRescueCoverage2(buyer_choice,vehicle_choice,fnc);
+                    vecl = new SatelliteRadio2(buyer_choice,vehicle_choice,fnc);
+                    Operation2.budget = Operation2.budget + Vehicle2.sales_price[buyer_choice].get(vehicle_choice);//Sales price of car added to budget
+                    Operation2.total_sales = Operation2.total_sales + Vehicle2.sales_price[buyer_choice].get(vehicle_choice);//updated Total sales of the day
                     getBonus(index2, vehicle);    //Salesperson gets a bonus
-                    Vehicle.soldVehicles[buyer_choice].add(vehicle); //Car is added to list of sold vehicles
-                    System.out.println(staffType[2]+" "+salesperson +" has sold a "+Vehicle.carCleanliness[obj.getCleanliness(vehicle)]+" "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[buyer_choice] +" "+ vehicle +" to "+buyer+" for $"+Vehicle.sales_price[buyer_choice].get(vehicle_choice)+" (and earned a bonus of $"+bonus_val+")");
+                    Vehicle2.soldVehicles[buyer_choice].add(vehicle); //Car is added to list of sold vehicles
+                    System.out.println(staffType[2]+" "+salesperson +" has sold a "+Vehicle2.carCleanliness[obj.getCleanliness(vehicle)]+" "+Vehicle2.carCondition[obj.getCondition(vehicle)]+" "+Vehicle2.carType[buyer_choice] +" "+ vehicle +" to "+buyer+" for $"+Vehicle2.sales_price[buyer_choice].get(vehicle_choice)+" (and earned a bonus of $"+bonus_val+")");
                     fnc.sellOutcome(2,salesperson,obj,vehicle,buyer_choice,buyer,vehicle_choice,bonus_val);//obs
-                    Vehicle.vehicle[buyer_choice].remove(vehicle_choice); //Car is removed from Vehicles in stock
-                    Vehicle.status[buyer_choice].remove(vehicle_choice);
-                    Vehicle.condition[obj.getCondition(vehicle)].remove(obj.getCondition2(vehicle));
-                    Vehicle.cleanliness[obj.getCleanliness(vehicle)].remove(obj.getCleanliness2(vehicle));
-                    Vehicle.cost_price[buyer_choice].remove(vehicle_choice);
-                    Vehicle.sales_price[buyer_choice].remove(vehicle_choice);
+                    Vehicle2.vehicle[buyer_choice].remove(vehicle_choice); //Car is removed from Vehicles in stock
+                    Vehicle2.status[buyer_choice].remove(vehicle_choice);
+                    Vehicle2.condition[obj.getCondition(vehicle)].remove(obj.getCondition2(vehicle));
+                    Vehicle2.cleanliness[obj.getCleanliness(vehicle)].remove(obj.getCleanliness2(vehicle));
+                    Vehicle2.cost_price[buyer_choice].remove(vehicle_choice);
+                    Vehicle2.sales_price[buyer_choice].remove(vehicle_choice);
                 }
             }
         }
@@ -591,21 +598,21 @@ class Salesperson extends Staff{
     }
     public static void getBonus(int k, String vehicle){
         for(int i=0; i<9;i++){
-            for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
-                if (Vehicle.vehicle[i].get(j).equals(vehicle)){
-                    bonus[2].set(k, bonus[2].get(k) + Vehicle.vehicle_sale_bonus[i]);  //Bonus is decided based on type of car
-                    bonus_val=Vehicle.vehicle_sale_bonus[i];
+            for(int j = 0; j< Vehicle2.vehicle[i].size(); j++) {
+                if (Vehicle2.vehicle[i].get(j).equals(vehicle)){
+                    bonus[2].set(k, bonus[2].get(k) + Vehicle2.vehicle_sale_bonus[i]);  //Bonus is decided based on type of car
+                    bonus_val=Vehicle2.vehicle_sale_bonus[i];
                     break;
                 }
             }
         }
     }
-    public void getSalary(FNCDdata fnc) throws IOException {
+    public void getSalary(FNCDdata2 fnc) throws IOException {
         for(int j=0;j<staff[2].size();j++){
             salary[2].set(j, normal_pay[2]+bonus[2].get(j));//salary is calculated by adding bonus and normal pay for the day
-            Operation.addBudget(2,j,fnc);
-            Operation.budget=Operation.budget-salary[2].get(j);
-            Operation.Staff_money=Operation.Staff_money+salary[2].get(j);
+            Operation2.addBudget(2,j,fnc);
+            Operation2.budget=Operation2.budget-salary[2].get(j);
+            Operation2.Staff_money=Operation2.Staff_money+salary[2].get(j);
             total_normal_pay[2].set(j,total_normal_pay[2].get(j)+normal_pay[2]);
             total_salary[2].set(j, total_salary[2].get(j)+salary[2].get(j));
             total_bonus[2].set(j, total_bonus[2].get(j)+bonus[2].get(j));
@@ -613,7 +620,8 @@ class Salesperson extends Staff{
     }
 }
 
-class Driver extends Staff{
+//For 2nd FNCD
+class Driver2 extends Staff2{
     int choice_index,choice,pos;//prj4
     int[] race_choice = {1,2,3,4,7,8};//prj4
     ArrayList<Integer> positions;
@@ -621,19 +629,19 @@ class Driver extends Staff{
     ArrayList<String> vehicles_choice;
     static ArrayList<String> race_vehicles;
     ArrayList<String> injured_drivers;
-    Vehicle obj = new Vehicle();
+    Vehicle2 obj = new Vehicle2();
 
-    public void getRaceVehicles(FNCDdata fnc) throws IOException {      //All methods in Driver will check for day to be Wednesday or Sunday
-        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
-            System.out.println("\nRacing in North FNCD");
+    public void getRaceVehicles(FNCDdata2 fnc) throws IOException {      //All methods in Driver will check for day to be Wednesday or Sunday
+        if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
+                Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
+            System.out.println("\nRacing in South FNCD");
             fnc.dayAct(4,0);//obs
             vehicles_choice = new ArrayList<>();
             race_vehicles = new ArrayList<>();
             injured_drivers = new ArrayList<>();
             choice_index = rand.nextInt(race_choice.length);        //selecting a vehicle eligible for racing//prj4
             choice = race_choice[choice_index];//prj4
-            vehicles_choice = Vehicle.vehicle[choice];
+            vehicles_choice = Vehicle2.vehicle[choice];
             for (int i=0;i<vehicles_choice.size();i++){
                 if(obj.getCondition(vehicles_choice.get(i))!=0){    //condition to check if the vehicle is not broken
                     race_vehicles.add(vehicles_choice.get(i));
@@ -646,9 +654,9 @@ class Driver extends Staff{
     }
     //The vehicles in race_vehicles will be associated with the drivers (all names from staff[3]) having same index numbers
     //for example, race_vehicles.get(i) will have a driver staff[3].get(i) and its count of races won will be race_won.get(i)
-    public void race(FNCDdata fnc) throws IOException {
-        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+    public void race(FNCDdata2 fnc) throws IOException {
+        if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
+                Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
             positions = new ArrayList<>();
             if (race_vehicles.size()!=0){
                 positions.addAll(Arrays.asList(1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20));
@@ -660,10 +668,10 @@ class Driver extends Staff{
                     if(race_position.get(i)<4){                           //If vehicle wins the race
                         for (int j=0;j<vehicles_choice.size();j++){
                             if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
-                                Vehicle.race_won[choice].set(j,Vehicle.race_won[choice].get(j)+1);//updating race won count for that vehicle
+                                Vehicle2.race_won[choice].set(j,Vehicle2.race_won[choice].get(j)+1);//updating race won count for that vehicle
                                 race_won.set(i, race_won.get(i)+1);       //updating race won count for the driver of the vehicle
                                 getBonus(i,vehicles_choice.get(j));       //Giving bonus to driver
-                                System.out.println(staffType[3]+" "+staff[3].get(i)+" finished the race at position "+race_position.get(i)+" with the "+Vehicle.carType[choice]+" "+race_vehicles.get(i)+" and Won the race (and earned a bonus of $"+bonus_val+")");
+                                System.out.println(staffType[3]+" "+staff[3].get(i)+" finished the race at position "+race_position.get(i)+" with the "+Vehicle2.carType[choice]+" "+race_vehicles.get(i)+" and Won the race (and earned a bonus of $"+bonus_val+")");
                                 fnc.raceOutcome(3,i,choice,bonus_val,0);//obs
                                 break;
                             }
@@ -671,9 +679,9 @@ class Driver extends Staff{
                     } else if (race_position.get(i)>15){                  //If vehicle gets damaged
                         for (int j=0;j<vehicles_choice.size();j++){
                             if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
-                                Vehicle.condition[0].add(vehicles_choice.get(j));//update the condition of vehicle to broken
-                                Vehicle.condition[obj.getCondition(vehicles_choice.get(j))].remove(obj.getCondition2(vehicles_choice.get(j)));//removing the previous condition
-                                System.out.println(staffType[3]+" "+staff[3].get(i)+" finished the race at position "+race_position.get(i)+" with the "+Vehicle.carType[choice]+" "+race_vehicles.get(i)+" and the Vehicle became Broken ");
+                                Vehicle2.condition[0].add(vehicles_choice.get(j));//update the condition of vehicle to broken
+                                Vehicle2.condition[obj.getCondition(vehicles_choice.get(j))].remove(obj.getCondition2(vehicles_choice.get(j)));//removing the previous condition
+                                System.out.println(staffType[3]+" "+staff[3].get(i)+" finished the race at position "+race_position.get(i)+" with the "+Vehicle2.carType[choice]+" "+race_vehicles.get(i)+" and the Vehicle became Broken ");
                                 fnc.raceOutcome(3,i,choice,0,2);//obs
                                 prob=rand.nextDouble();
                                 if (prob<0.3){
@@ -687,7 +695,7 @@ class Driver extends Staff{
                     } else {
                         for (int j=0;j<vehicles_choice.size();j++) {
                             if (vehicles_choice.get(j).equals(race_vehicles.get(i))) {
-                                System.out.println(staffType[3]+" "+staff[3].get(i)+" finished the race at position "+race_position.get(i)+" with the "+Vehicle.carType[choice]+" "+race_vehicles.get(i));
+                                System.out.println(staffType[3]+" "+staff[3].get(i)+" finished the race at position "+race_position.get(i)+" with the "+Vehicle2.carType[choice]+" "+race_vehicles.get(i));
                                 fnc.raceOutcome(3,i,choice,0,1);//obs
                                 break;
                             }
@@ -698,44 +706,44 @@ class Driver extends Staff{
         }
     }
     public void getTotalDays(){
-        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+        if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
+                Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
             for(int j=0;j<staff[3].size();j++){
                 days_worked[3].set(j, days_worked[3].get(j)+1);  //Total days worked increases by 1 after each day a salesperson was active
             }
         }
     }
     public static void getBonus(int k, String vehicle){
-        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+        if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
+                Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
             for(int i=0; i<9;i++){                               //prj4
-                for(int j = 0; j< Vehicle.vehicle[i].size(); j++) {
-                    if (Vehicle.vehicle[i].get(j).equals(vehicle)){
-                        bonus[3].set(k, bonus[3].get(k) + Vehicle.race_win_bonus[i]);  //Bonus is decided based on type of car
-                        bonus_val=Vehicle.race_win_bonus[i];
+                for(int j = 0; j< Vehicle2.vehicle[i].size(); j++) {
+                    if (Vehicle2.vehicle[i].get(j).equals(vehicle)){
+                        bonus[3].set(k, bonus[3].get(k) + Vehicle2.race_win_bonus[i]);  //Bonus is decided based on type of car
+                        bonus_val=Vehicle2.race_win_bonus[i];
                         break;
                     }
                 }
             }
         }
     }
-    public void getSalary(FNCDdata  fnc) throws IOException {
-        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+    public void getSalary(FNCDdata2 fnc) throws IOException {
+        if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
+                Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
             for(int j=0;j<staff[3].size();j++){
                 salary[3].set(j, normal_pay[3]+bonus[3].get(j));//salary is calculated by adding bonus and normal pay for the day
-                Operation.addBudget(3,j,fnc);
-                Operation.budget=Operation.budget-salary[3].get(j);
-                Operation.Staff_money=Operation.Staff_money+salary[3].get(j);
+                Operation2.addBudget(3,j,fnc);
+                Operation2.budget=Operation2.budget-salary[3].get(j);
+                Operation2.Staff_money=Operation2.Staff_money+salary[3].get(j);
                 total_normal_pay[3].set(j,total_normal_pay[3].get(j)+normal_pay[3]);
                 total_salary[3].set(j, total_salary[3].get(j)+salary[3].get(j));
                 total_bonus[3].set(j, total_bonus[3].get(j)+bonus[3].get(j));
             }
         }
     }
-    public void addDriver(FNCDdata fnc) throws IOException {
-        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+    public void addDriver(FNCDdata2 fnc) throws IOException {
+        if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
+                Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
             while(staff[3].size()<3){      //If number of Drivers is less than 3, add new drivers
                 staff[3].add(getName());
                 System.out.println("Hired a new Driver "+(staff[3].get(staff[3].size()-1))+".");
@@ -758,8 +766,8 @@ class Driver extends Staff{
         }
     }
     public void dropDriver(){
-        if(Operation.day_count==3 || Operation.day_count==10 || Operation.day_count==17 || Operation.day_count==24 ||
-                Operation.day_count==7 || Operation.day_count==14 || Operation.day_count==21 || Operation.day_count==28) {
+        if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
+                Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
             for (int i=0;i< staff[3].size();i++){
                 for (int j=0;j<injured_drivers.size();j++) {
                     if (injured_drivers.get(j).equals(staff[3].get(i))) {
@@ -788,7 +796,8 @@ class Driver extends Staff{
     }
 }
 
-class Vehicle{
+//For 2nd FNCD
+class Vehicle2{
     static ArrayList<String> car_names = new ArrayList<>();
     static ArrayList<String> monster_truck_names = new ArrayList<>();
     static String[] carType = {"Car", "Pickup", "Performance Car","Motorcycle","Monster Truck","Electric Car","Budget Car","Luxury Car","Super Car"};//prj4
@@ -811,7 +820,7 @@ class Vehicle{
     static int[] vehicle_wash_bonus = {50, 75, 100, 50, 75, 100, 50, 75, 100};//prj4
     static int[] vehicle_repair_bonus = {100, 125, 150, 100, 125, 150, 100, 125, 150};//prj4
     static int[] vehicle_sale_bonus = {150, 175, 200, 150, 175, 200, 150, 175, 200};//prj4
-    static int[] race_win_bonus = {0, 200, 225, 250, 275, 0, 0, 0, 300};//prj4
+    static int[] race_win_bonus = {0, 200, 225, 250, 275, 0, 0, 300, 325};//prj4
     static String[] addon={"Extended Warranty","Undercoating","Road Rescue Coverage","Satellite Radio"};
 
     //Initializing variables
@@ -918,10 +927,10 @@ class Vehicle{
         sales_price[6].addAll(Arrays.asList(15624, 11356, 17874, 19086, 13578,17040));//prj4
         sales_price[7].addAll(Arrays.asList(77508, 85356, 63810, 91242, 67974,95000));//prj4
         sales_price[8].addAll(Arrays.asList(103086, 99620, 88474, 116802, 93390, 117862));//prj4
-        Operation.budget =500000;//Initial Day 1 beginning budget
+        Operation2.budget =500000;//Initial Day 1 beginning budget
     }
     //when the count of a vehicle type is less than 6, new vehicle is purchased  //prj4
-    public void addVehicle(FNCDdata fnc) throws IOException {
+    public void addVehicle(FNCDdata2 fnc) throws IOException {
         for (int i = 0; i < 9; i++) {//prj4
             while (vehicle[i].size() < 6) {//prj4
                 if (i == 4) {
@@ -947,32 +956,32 @@ class Vehicle{
                 setCleanliness(vehicle[i].get(vehicle[i].size()-1));
                 status[i].add("In Stock");
                 if(i == 0){
-                    Car c = new Car();
+                    Car2 c = new Car2();
                     c.buyVehicle(fnc);
                 } else if(i == 1){
-                    Pickup p = new Pickup();
+                    Pickup2 p = new Pickup2();
                     p.buyVehicle(fnc);
                 } else if(i == 2){
-                    PerformanceCar pc = new PerformanceCar();
+                    PerformanceCar2 pc = new PerformanceCar2();
                     pc.buyVehicle(fnc);
                 } else if (i == 3) {
-                    Motorcycles mc = new Motorcycles();
+                    Motorcycles2 mc = new Motorcycles2();
                     mc.buyVehicle(fnc);
                 } else if (i == 4) {
-                    MonsterTrucks mt = new MonsterTrucks();
+                    MonsterTrucks2 mt = new MonsterTrucks2();
                     mt.buyVehicle(fnc);
                 } else if (i == 5) {
-                    ElectricCar ec = new ElectricCar();
+                    ElectricCar2 ec = new ElectricCar2();
                     ec.buyVehicle(fnc);
                 } else if (i == 6) {//prj
-                    BudgetCar bc = new BudgetCar();
+                    BudgetCar2 bc = new BudgetCar2();
                     bc.buyVehicle(fnc);
                 } else if (i == 7) {
-                    LuxuryCar lc = new LuxuryCar();
+                    LuxuryCar2 lc = new LuxuryCar2();
                     lc.buyVehicle(fnc);
                 }
                 else{
-                    SuperCar sc = new SuperCar();
+                    SuperCar2 sc = new SuperCar2();
                     sc.buyVehicle(fnc);
                 }
             }
@@ -1208,13 +1217,14 @@ class Vehicle{
         System.out.println("Budget Cars: "+soldVehicles[6]);//prj4
         System.out.println("Luxury Cars: "+soldVehicles[7]);//prj4
         System.out.println("Super Cars: "+soldVehicles[8]+"\n");//prj4
-        System.out.println("Remaining Budget of North FNCD: "+Operation.budget);
+        System.out.println("Remaining Budget of South FNCD: "+Operation2.budget);
     }
 }
 
-class Car extends Vehicle {
+//For 2nd FNCD
+class Car2 extends Vehicle2{
     // adding cost and sales price to the car
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(10000, 20001);
         cost_price[0].add(cp1);
         sales_price[0].add(cp1 * 2);
@@ -1223,16 +1233,17 @@ class Car extends Vehicle {
         } else if (getCondition(vehicle[0].get(vehicle[0].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[0].set((vehicle[0].size()-1), (int)(cost_price[0].get(vehicle[0].size()-1)*0.8));
         }
-        Operation.addBudget(0,fnc);
-        Operation.budget = Operation.budget - cost_price[0].get(vehicle[0].size()-1);
+        Operation2.addBudget(0,fnc);
+        Operation2.budget = Operation2.budget - cost_price[0].get(vehicle[0].size()-1);
         System.out.println("Bought "+carType[0]+" "+vehicle[0].get(vehicle[0].size()-1)+" for $"+cost_price[0].get(cost_price[0].size()-1));
         fnc.dayEnd(0,vehicle[0].size()-1,3);//obs
     }
 
 }
-class Pickup extends Vehicle {
+//For 2nd FNCD
+class Pickup2 extends Vehicle2{
     // adding cost and sales price to the pickup vehicle
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(10000, 40001);
         cost_price[1].add(cp1);
         sales_price[1].add(cp1 * 2);
@@ -1241,15 +1252,16 @@ class Pickup extends Vehicle {
         } else if (getCondition(vehicle[1].get(vehicle[1].size()-1)) == 1) {//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[1].set((vehicle[1].size()-1), (int) (cost_price[1].get(vehicle[1].size()-1) * 0.8));
         }
-        Operation.addBudget(1,fnc);
-        Operation.budget = Operation.budget - cost_price[1].get(vehicle[1].size()-1);
+        Operation2.addBudget(1,fnc);
+        Operation2.budget = Operation2.budget - cost_price[1].get(vehicle[1].size()-1);
         System.out.println("Bought "+carType[1]+" "+vehicle[1].get(vehicle[1].size()-1)+" for $"+cost_price[1].get(cost_price[1].size()-1));
         fnc.dayEnd(1,vehicle[1].size()-1,3);//obs
     }
 }
-class PerformanceCar extends Vehicle {
+//For 2nd FNCD
+class PerformanceCar2 extends Vehicle2{
     // adding cost and sales price to the performance car
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(20000, 40001);
         cost_price[2].add(cp1);
         sales_price[2].add(cp1 * 2);
@@ -1258,20 +1270,21 @@ class PerformanceCar extends Vehicle {
         } else if (getCondition(vehicle[2].get(vehicle[2].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[2].set((vehicle[2].size()-1), (int)(cost_price[2].get(vehicle[2].size()-1)*0.8));
         }
-        Operation.addBudget(2,fnc);
-        Operation.budget = Operation.budget - cost_price[2].get(vehicle[2].size()-1);
+        Operation2.addBudget(2,fnc);
+        Operation2.budget = Operation2.budget - cost_price[2].get(vehicle[2].size()-1);
         System.out.println("Bought "+carType[2]+" "+vehicle[2].get(vehicle[2].size()-1)+" for $"+cost_price[2].get(cost_price[2].size()-1));
         fnc.dayEnd(2,vehicle[2].size()-1,3);//obs
     }
 }
 
-class Motorcycles extends Vehicle{
+//For 2nd FNCD
+class Motorcycles2 extends Vehicle2{
 
     double engine_size_gen = 0.0;
     public double setEngineSize(){
         return rand.nextGaussian()*300+700;
     }
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(10000, 20001);
         cost_price[3].add(cp1);
         sales_price[3].add(cp1 * 2);
@@ -1287,15 +1300,16 @@ class Motorcycles extends Vehicle{
         } else if (getCondition(vehicle[3].get(vehicle[3].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[3].set((vehicle[3].size()-1), (int)(cost_price[3].get(vehicle[3].size()-1)*0.8));
         }
-        Operation.addBudget(3,fnc);
-        Operation.budget = Operation.budget - cost_price[3].get(vehicle[3].size()-1);
+        Operation2.addBudget(3,fnc);
+        Operation2.budget = Operation2.budget - cost_price[3].get(vehicle[3].size()-1);
         System.out.println("Bought "+carType[3]+" "+vehicle[3].get(vehicle[3].size()-1)+" for $"+cost_price[3].get(cost_price[3].size()-1));
         fnc.dayEnd(3,vehicle[3].size()-1,3);//obs
     }
 }
 
-class MonsterTrucks extends Vehicle{
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+//For 2nd FNCD
+class MonsterTrucks2 extends Vehicle2{
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(20000, 40001);
         cost_price[4].add(cp1);
         sales_price[4].add(cp1 * 2);
@@ -1304,15 +1318,16 @@ class MonsterTrucks extends Vehicle{
         } else if (getCondition(vehicle[4].get(vehicle[4].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[4].set((vehicle[4].size()-1), (int)(cost_price[4].get(vehicle[4].size()-1)*0.8));
         }
-        Operation.addBudget(4,fnc);
-        Operation.budget = Operation.budget - cost_price[4].get(vehicle[4].size()-1);
+        Operation2.addBudget(4,fnc);
+        Operation2.budget = Operation2.budget - cost_price[4].get(vehicle[4].size()-1);
         System.out.println("Bought "+carType[4]+" "+vehicle[4].get(vehicle[4].size()-1)+" for $"+cost_price[4].get(cost_price[4].size()-1));
         fnc.dayEnd(4,vehicle[4].size()-1,3);//obs
     }
 }
 
-class ElectricCar extends Vehicle{
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+//For 2nd FNCD
+class ElectricCar2 extends Vehicle2{
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(30000, 50001);
         cost_price[5].add(cp1);
         sales_price[5].add(cp1 * 2);
@@ -1333,16 +1348,17 @@ class ElectricCar extends Vehicle{
         } else if (getCondition(vehicle[5].get(vehicle[5].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[5].set((vehicle[5].size()-1), (int)(cost_price[5].get(vehicle[5].size()-1)*0.8));
         }
-        Operation.addBudget(5,fnc);
-        Operation.budget = Operation.budget - cost_price[5].get(vehicle[5].size()-1);
+        Operation2.addBudget(5,fnc);
+        Operation2.budget = Operation2.budget - cost_price[5].get(vehicle[5].size()-1);
         System.out.println("Bought "+carType[5]+" "+vehicle[5].get(vehicle[5].size()-1)+" for $"+cost_price[5].get(cost_price[5].size()-1));
         fnc.dayEnd(5,vehicle[5].size()-1,3);//obs
     }
 }
 
-class BudgetCar extends Vehicle {//prj4
+//For 2nd FNCD
+class BudgetCar2 extends Vehicle2{//prj4
     // adding cost and sales price to the car
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(5000, 10001);
         cost_price[6].add(cp1);
         sales_price[6].add(cp1 * 2);
@@ -1351,17 +1367,18 @@ class BudgetCar extends Vehicle {//prj4
         } else if (getCondition(vehicle[6].get(vehicle[6].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[6].set((vehicle[6].size()-1), (int)(cost_price[6].get(vehicle[6].size()-1)*0.8));
         }
-        Operation.addBudget(0,fnc);
-        Operation.budget = Operation.budget - cost_price[6].get(vehicle[6].size()-1);
+        Operation2.addBudget(0,fnc);
+        Operation2.budget = Operation2.budget - cost_price[6].get(vehicle[6].size()-1);
         System.out.println("Bought "+carType[6]+" "+vehicle[6].get(vehicle[6].size()-1)+" for $"+cost_price[6].get(cost_price[6].size()-1));
         fnc.dayEnd(0,vehicle[6].size()-1,3);//obs
     }
 
 }
 
-class LuxuryCar extends Vehicle {//prj4
+//For 2nd FNCD
+class LuxuryCar2 extends Vehicle2{//prj4
     // adding cost and sales price to the car
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(30000, 50001);
         cost_price[7].add(cp1);
         sales_price[7].add(cp1 * 2);
@@ -1370,17 +1387,18 @@ class LuxuryCar extends Vehicle {//prj4
         } else if (getCondition(vehicle[7].get(vehicle[7].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[7].set((vehicle[7].size()-1), (int)(cost_price[7].get(vehicle[7].size()-1)*0.8));
         }
-        Operation.addBudget(0,fnc);
-        Operation.budget = Operation.budget - cost_price[7].get(vehicle[7].size()-1);
+        Operation2.addBudget(0,fnc);
+        Operation2.budget = Operation2.budget - cost_price[7].get(vehicle[7].size()-1);
         System.out.println("Bought "+carType[7]+" "+vehicle[7].get(vehicle[7].size()-1)+" for $"+cost_price[7].get(cost_price[7].size()-1));
         fnc.dayEnd(0,vehicle[7].size()-1,3);//obs
     }
 
 }
 
-class SuperCar extends Vehicle {//prj4
+//For 2nd FNCD
+class SuperCar2 extends Vehicle2{//prj4
     // adding cost and sales price to the car
-    public void buyVehicle(FNCDdata fnc) throws IOException {
+    public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(40000, 60001);
         cost_price[8].add(cp1);
         sales_price[8].add(cp1 * 2);
@@ -1389,8 +1407,8 @@ class SuperCar extends Vehicle {//prj4
         } else if (getCondition(vehicle[8].get(vehicle[8].size()-1))==1){//If vehicle is initially used, reducing its cost price by 20%.
             cost_price[8].set((vehicle[8].size()-1), (int)(cost_price[8].get(vehicle[8].size()-1)*0.8));
         }
-        Operation.addBudget(0,fnc);
-        Operation.budget = Operation.budget - cost_price[8].get(vehicle[8].size()-1);
+        Operation2.addBudget(0,fnc);
+        Operation2.budget = Operation2.budget - cost_price[8].get(vehicle[8].size()-1);
         System.out.println("Bought "+carType[8]+" "+vehicle[8].get(vehicle[8].size()-1)+" for $"+cost_price[8].get(cost_price[8].size()-1));
         fnc.dayEnd(0,vehicle[8].size()-1,3);//obs
     }
@@ -1398,19 +1416,21 @@ class SuperCar extends Vehicle {//prj4
 }
 
 //Decorator Pattern
-abstract class Addon_purchaser extends Vehicle{
+//For 2nd FNCD
+abstract class Addon_purchaser2 extends Vehicle2{
     //    Vehicle vehicle;
     int i, j;
-    abstract void addonPrice(FNCDdata fnc) throws IOException;
+    abstract void addonPrice(FNCDdata2 fnc) throws IOException;
 }
 
-class ExtendedWarranty extends Addon_purchaser{
-    public ExtendedWarranty(int i,int j,FNCDdata fnc) throws IOException {
+//For 2nd FNCD
+class ExtendedWarranty2 extends Addon_purchaser2{
+    public ExtendedWarranty2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
     }
-    public void addonPrice(FNCDdata fnc) throws IOException {
+    public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
         if(prob < 0.25){
             System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
@@ -1422,13 +1442,14 @@ class ExtendedWarranty extends Addon_purchaser{
     }
 }
 
-class Undercoating extends Addon_purchaser{
-    public Undercoating(int i,int j,FNCDdata fnc) throws IOException {
+//For 2nd FNCD
+class Undercoating2 extends Addon_purchaser2{
+    public Undercoating2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
     }
-    public void addonPrice(FNCDdata fnc) throws IOException {
+    public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
         if(prob < 0.10){
             System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
@@ -1440,13 +1461,14 @@ class Undercoating extends Addon_purchaser{
     }
 }
 
-class RoadRescueCoverage extends Addon_purchaser{
-    public RoadRescueCoverage(int i,int j,FNCDdata fnc) throws IOException {
+//For 2nd FNCD
+class RoadRescueCoverage2 extends Addon_purchaser2{
+    public RoadRescueCoverage2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
     }
-    public void addonPrice(FNCDdata fnc) throws IOException {
+    public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
         if(prob <0.05){
             System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
@@ -1458,13 +1480,14 @@ class RoadRescueCoverage extends Addon_purchaser{
     }
 }
 
-class SatelliteRadio extends Addon_purchaser{
-    public SatelliteRadio(int i,int j,FNCDdata fnc) throws IOException {
+//For 2nd FNCD
+class SatelliteRadio2 extends Addon_purchaser2{
+    public SatelliteRadio2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
     }
-    public void addonPrice(FNCDdata fnc) throws IOException {
+    public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
         if(prob < 0.40){
             System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
@@ -1476,7 +1499,8 @@ class SatelliteRadio extends Addon_purchaser{
     }
 }
 
-class Buyer extends Staff{
+//For 2nd FNCD
+class Buyer2 extends Staff2{
     static ArrayList<String>[] buyers = new ArrayList[3];
     static ArrayList<Integer>[] buyer_choice = new ArrayList[3];
     static ArrayList<Double>[] buyer_prob = new ArrayList[3];
@@ -1494,14 +1518,14 @@ class Buyer extends Staff{
     //1= Monday, 2=Tuesday and so on
     //Assuming same number of buyers will be added on 7=Sunday as on Monday-Thursday
     public void addBuyer() {
-        if ((Operation.day_count<=4)||(Operation.day_count>=7 && Operation.day_count<=11)||(Operation.day_count>=14 && Operation.day_count<=18)
-                ||(Operation.day_count>=21 && Operation.day_count<=25)||(Operation.day_count>=28 && Operation.day_count<=30)){
+        if ((Operation2.day_count<=4)||(Operation2.day_count>=7 && Operation2.day_count<=11)||(Operation2.day_count>=14 && Operation2.day_count<=18)
+                ||(Operation2.day_count>=21 && Operation2.day_count<=25)||(Operation2.day_count>=28 && Operation2.day_count<=30)){
             buyer_no = rand.nextInt(0, 6);
             for (int j = 0; j < buyer_no; j++) {
                 addBuyerType(j);
             }
-        } else if (Operation.day_count==5 ||Operation.day_count==6 ||Operation.day_count==12||Operation.day_count==13||
-                Operation.day_count==19||Operation.day_count==20||Operation.day_count==26||Operation.day_count==27) {
+        } else if (Operation2.day_count==5 ||Operation2.day_count==6 ||Operation2.day_count==12||Operation2.day_count==13||
+                Operation2.day_count==19||Operation2.day_count==20||Operation2.day_count==26||Operation2.day_count==27) {
             buyer_no = rand.nextInt(2, 9);
             for (int j = 0; j < buyer_no; j++) {
                 addBuyerType(j);
@@ -1563,46 +1587,47 @@ class Buyer extends Staff{
     }
 }
 //Obs start
-interface Publisher{
-    public void registerSubscriber(Subscriber s);
-    public void removeSubscriber(Subscriber s);
-    public void notifySubscriberAct(Subscriber s,int i,int j) throws IOException;
+interface Publisher2{
+    public void registerSubscriber(Subscriber2 s);
+    public void removeSubscriber(Subscriber2 s);
+    public void notifySubscriberAct(Subscriber2 s,int i,int j) throws IOException;
     //example of Polymorphism (method overloading)
-    public void notifySubscriberWash(Subscriber s,int i,int j,int k,Vehicle obj,String vehicle,int l,int m,int n,int bonus) throws IOException;
+    public void notifySubscriberWash(Subscriber2 s,int i,int j,int k,Vehicle2 obj,String vehicle,int l,int m,int n,int bonus) throws IOException;
     //example of Polymorphism (method overloading)
-    public void notifySubscriberWash(Subscriber s,String vehicle,int i) throws IOException;
-    public void notifySubscriberRepair(Subscriber s,int i,int j, Vehicle obj,String vehicle,int k,int bonus) throws IOException;
-    public void notifySubscriberRepair(Subscriber s,Vehicle obj,String vehicle) throws IOException;
-    public void notifySubscriberSell(Subscriber s,int i,String person,Vehicle obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException;
-    public void notifySubscriberSell(Subscriber s,int i,int j,int k,int l) throws IOException;
-    public void notifySubscriberRace(Subscriber s,int j,int i,int choice,int bonus,int k) throws IOException;
-    public void notifySubscriberRace(Subscriber s,int j,int i) throws IOException;
-    public void notifySubscriberEnd(Subscriber s,int i,int j,int k) throws IOException;
-    public void notifySubscriberTracker(Subscriber s,int i,int j) throws IOException;
+    public void notifySubscriberWash(Subscriber2 s,String vehicle,int i,int j) throws IOException;
+    public void notifySubscriberRepair(Subscriber2 s,int i,int j, Vehicle2 obj,String vehicle,int k,int bonus) throws IOException;
+    public void notifySubscriberRepair(Subscriber2 s,Vehicle2 obj,String vehicle) throws IOException;
+    public void notifySubscriberSell(Subscriber2 s,int i,String person,Vehicle2 obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException;
+    public void notifySubscriberSell(Subscriber2 s,int i,int j,int k,int l) throws IOException;
+    public void notifySubscriberRace(Subscriber2 s,int j,int i,int choice,int bonus,int k) throws IOException;
+    public void notifySubscriberRace(Subscriber2 s,int j,int i) throws IOException;
+    public void notifySubscriberEnd(Subscriber2 s,int i,int j,int k) throws IOException;
+    public void notifySubscriberTracker(Subscriber2 s,int i,int j) throws IOException;
 }
-interface Subscriber{
-    public void update(Subscriber s,int i,int j) throws IOException;
-    public void updateAct(Subscriber s,int i,int j) throws IOException;
-    public void updateWash(int i, int j, int k,Vehicle obj, String vehicle, int l, int m, int n, int bonus) throws IOException;
-    public void updateWash(String vehicle,int i) throws IOException;
-    public void updateRepair(Subscriber s,int i,int j,Vehicle obj,String vehicle,int k,int bonus) throws IOException;
-    public void updateRepair(Subscriber s,Vehicle obj,String vehicle) throws IOException;
-    public void updateSell(Subscriber s,int i,String person,Vehicle obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus_val) throws IOException;
-    public void updateSell(Subscriber s,int i,int j,int k,int l) throws IOException;
-    public void updateRace(Subscriber s,int j,int i,int choice,int bonus,int k) throws IOException;
-    public void updateRace(Subscriber s,int j,int i) throws IOException;
-    public void updateEnd(Subscriber s,int i,int j,int k) throws IOException;
+interface Subscriber2{
+    public void update(Subscriber2 s,int i,int j) throws IOException;
+    public void updateAct(Subscriber2 s,int i,int j) throws IOException;
+    public void updateWash(int i, int j, int k,Vehicle2 obj, String vehicle, int l, int m, int n, int bonus) throws IOException;
+    public void updateWash(String vehicle,int i,int j) throws IOException;
+    public void updateRepair(Subscriber2 s,int i,int j,Vehicle2 obj,String vehicle,int k,int bonus) throws IOException;
+    public void updateRepair(Subscriber2 s,Vehicle2 obj,String vehicle) throws IOException;
+    public void updateSell(Subscriber2 s,int i,String person,Vehicle2 obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus_val) throws IOException;
+    public void updateSell(Subscriber2 s,int i,int j,int k,int l) throws IOException;
+    public void updateRace(Subscriber2 s,int j,int i,int choice,int bonus,int k) throws IOException;
+    public void updateRace(Subscriber2 s,int j,int i) throws IOException;
+    public void updateEnd(Subscriber2 s,int i,int j,int k) throws IOException;
 }
-class FNCDdata implements Publisher{
-    Subscriber s;
-    static ArrayList<Subscriber> subscribers;
-    public FNCDdata(){
-        subscribers = new ArrayList<Subscriber>();
+//For 2nd FNCD
+class FNCDdata2 implements Publisher2{
+    Subscriber2 s;
+    static ArrayList<Subscriber2> subscribers;
+    public FNCDdata2(){
+        subscribers = new ArrayList<Subscriber2>();
     }
-    public void registerSubscriber(Subscriber s){
+    public void registerSubscriber(Subscriber2 s){
         subscribers.add(s);
     }
-    public void removeSubscriber(Subscriber s){
+    public void removeSubscriber(Subscriber2 s){
         int i = subscribers.indexOf(s);
         if (i >= 0) {
             subscribers.remove(i);
@@ -1612,38 +1637,38 @@ class FNCDdata implements Publisher{
         s= subscribers.get(1);
         notifySubscriberAct(s,i,j);         //To add daily activities e.g. washing, repairing.
     }
-    public void notifySubscriberAct(Subscriber s,int i,int j) throws IOException {
+    public void notifySubscriberAct(Subscriber2 s,int i,int j) throws IOException {
         s.updateAct(s,i,j);         //Update the subscriber with activities
     }
-    public void washOutcome(int i,int j,int k,Vehicle obj,String vehicle,int l,int m,int n,int bonus) throws IOException {
+    public void washOutcome(int i,int j,int k,Vehicle2 obj,String vehicle,int l,int m,int n,int bonus) throws IOException {
         s= subscribers.get(1);
         notifySubscriberWash(s,i,j,k,obj,vehicle,l,m,n,bonus);      //To add details of washing method, intern bonus, cleanliness
     }
-    public void washOutcome(String vehicle,int i) throws IOException {
+    public void washOutcome(String vehicle,int i,int j) throws IOException {
         s= subscribers.get(1);
-        notifySubscriberWash(s,vehicle,i);      //To add change in the vehicle condition after washing
+        notifySubscriberWash(s,vehicle,i,j);      //To add change in the vehicle condition after washing
     }
-    public void notifySubscriberWash(Subscriber s,int i,int j,int k,Vehicle obj,String vehicle,int l,int m,int n,int bonus) throws IOException {
+    public void notifySubscriberWash(Subscriber2 s,int i,int j,int k,Vehicle2 obj,String vehicle,int l,int m,int n,int bonus) throws IOException {
         s.updateWash(i,j,k,obj,vehicle,l,m,n,bonus);        //Update the subscriber with wash activity
     }
-    public void notifySubscriberWash(Subscriber s,String vehicle,int i) throws IOException {
-        s.updateWash(vehicle,i);        //Update the subscriber with wash activity
+    public void notifySubscriberWash(Subscriber2 s,String vehicle,int i,int j) throws IOException {
+        s.updateWash(vehicle,i,j);        //Update the subscriber with wash activity
     }
-    public void repairOutcome(int i,int j, Vehicle obj,String vehicle,int k,int bonus) throws IOException {
+    public void repairOutcome(int i,int j, Vehicle2 obj,String vehicle,int k,int bonus) throws IOException {
         s= subscribers.get(1);
         notifySubscriberRepair(s,i,j,obj,vehicle,k,bonus);      //To add details of repairing, condition, mechanic bonus
     }
-    public void repairOutcome(Vehicle obj,String vehicle) throws IOException {
+    public void repairOutcome(Vehicle2 obj,String vehicle) throws IOException {
         s= subscribers.get(1);
         notifySubscriberRepair(s,obj,vehicle);      //To add change in vehicle cleanliness after repairing
     }
-    public void notifySubscriberRepair(Subscriber s,int i,int j,Vehicle obj,String vehicle,int k,int bonus) throws IOException {
+    public void notifySubscriberRepair(Subscriber2 s,int i,int j,Vehicle2 obj,String vehicle,int k,int bonus) throws IOException {
         s.updateRepair(s,i,j,obj,vehicle,k,bonus);          //Update the subscriber with repair activity
     }
-    public void notifySubscriberRepair(Subscriber s,Vehicle obj,String vehicle) throws IOException {
+    public void notifySubscriberRepair(Subscriber2 s,Vehicle2 obj,String vehicle) throws IOException {
         s.updateRepair(s,obj,vehicle);          //Update the subscriber with repair activity
     }
-    public void sellOutcome(int i,String person,Vehicle obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException {
+    public void sellOutcome(int i,String person,Vehicle2 obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException {
         s= subscribers.get(1);
         notifySubscriberSell(s,2,person,obj,vehicle,buyer_choice,buyer,vehicle_choice,bonus);   //To add details of selling, salesperson bonus
     }
@@ -1651,10 +1676,10 @@ class FNCDdata implements Publisher{
         s= subscribers.get(1);
         notifySubscriberSell(s,i,j,k,l);        //To add change in salesprice of vehicle after addons
     }
-    public void notifySubscriberSell(Subscriber s,int i,String person,Vehicle obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException {
+    public void notifySubscriberSell(Subscriber2 s,int i,String person,Vehicle2 obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException {
         s.updateSell(s,2,person,obj,vehicle,buyer_choice,buyer,vehicle_choice,bonus);   //Update the subscriber with sale activity
     }
-    public void notifySubscriberSell(Subscriber s,int i,int j,int k,int l) throws IOException {
+    public void notifySubscriberSell(Subscriber2 s,int i,int j,int k,int l) throws IOException {
         s.updateSell(s,i,j,k,l);        //Update the subscriber with sale activity
     }
     public void raceOutcome(int j,int i,int choice,int bonus,int k) throws IOException {
@@ -1665,313 +1690,30 @@ class FNCDdata implements Publisher{
         s= subscribers.get(1);
         notifySubscriberRace(s,j,i);        //To add change in vehicle condition and injury of drivers
     }
-    public void notifySubscriberRace(Subscriber s,int j,int i,int choice,int bonus,int k) throws IOException {
+    public void notifySubscriberRace(Subscriber2 s,int j,int i,int choice,int bonus,int k) throws IOException {
         s.updateRace(s,j,i,choice,bonus,k);     //Update the subscriber with race activity
     }
-    public void notifySubscriberRace(Subscriber s,int j,int i) throws IOException {
+    public void notifySubscriberRace(Subscriber2 s,int j,int i) throws IOException {
         s.updateRace(s,j,i);        //Update the subscriber with race activity
     }
     public void dayEnd(int i,int j,int k) throws IOException {
         s= subscribers.get(1);
         notifySubscriberEnd(s,i,j,k);       //To add details of staff quitting, hiring new staff, buying new vehicles
     }
-    public void notifySubscriberEnd(Subscriber s,int i,int j,int k) throws IOException {
+    public void notifySubscriberEnd(Subscriber2 s,int i,int j,int k) throws IOException {
         s.updateEnd(s,i,j,k);       //Update the subscriber with the day end activities
     }
     public void trackerOutcome(int i,int j) throws IOException {
         s= subscribers.get(0);
         notifySubscriberTracker(s,i,j);     //To add total money earned by staff and FNCD
     }
-    public void notifySubscriberTracker(Subscriber s,int i,int j) throws IOException {
+    public void notifySubscriberTracker(Subscriber2 s,int i,int j) throws IOException {
         s.update(s,i,j);        //Update the subscriber with the tracker activity
     }
 }
-//Singleton Pattern using a Lazy instantiation//prj4
-class Logger implements Subscriber,Subscriber2{
-    private static Publisher fncdData;
-    private static Publisher2 fncdData2;
-    private static Logger logger;//prj4
-    private static Logger logger2;//prj4
-    private Logger(Publisher fncdData){//prj4
-        this.fncdData = fncdData;
-        this.fncdData.registerSubscriber(this);
-    }
-    public static Logger getInstance(Publisher fncdData){//prj4
-        if (logger==null) {
-            logger = new Logger(fncdData);
-        }
-        return logger;
-    }
-    private Logger(Publisher2 fncdData){//prj4
-        this.fncdData2 = fncdData;
-        this.fncdData2.registerSubscriber((Subscriber2) this);
-    }
-    public static Logger getInstance2(Publisher2 fncdData){//prj4
-        if (logger2==null) {
-            logger2 = new Logger(fncdData);
-        }
-        return logger2;
-    }
-    public void updateAct(Subscriber s,int i,int j) throws IOException {
-        if (i==0){
-            Operation.writer1.write("Current Budget in North FNCD: "+j+"\n");
-        }else if (i==1){
-            Operation.writer1.write("\nWashing in North FNCD\n");
-        }else if (i==2){
-            Operation.writer1.write("\nRepairing in North FNCD\n");
-        }else if (i==3){
-            Operation.writer1.write("\nSelling in North FNCD\n");
-        }else if (i==4){
-            Operation.writer1.write("\nRacing in North FNCD\n");
-        }else if (i==5){
-            Operation.writer1.write("\nDay End in North FNCD\n");
-        }else if (i==6){
-            Operation.writer1.write("\nTotal sales for the day in North FNCD: "+j+"\n");
-            Operation.FNCD_money=Operation.FNCD_money+Operation.total_sales;
-        }
-    }
-    public void updateWash(int i,int j,int k,Vehicle obj,String vehicle,int l,int m,int n,int bonus) throws IOException {
-        if (n!=2){      //cleanliness not equal to sparkling
-            Operation.writer1.write(Staff.staffType[i]+" " +Staff.staff[i].get(j)+" washed a "+Vehicle.carCleanliness[k]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+" using "+Intern.wash_method[l]+" method"+Intern.clean_outcome[m]+Vehicle.carCleanliness[n]+"\n");
-        }
-        else if (n==2){ //cleanliness equal to sparkling
-            Operation.writer1.write(Staff.staffType[i]+" " +Staff.staff[i].get(j)+" washed a "+Vehicle.carCleanliness[k]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+" using "+Intern.wash_method[l]+" method"+Intern.clean_outcome[m]+Vehicle.carCleanliness[n]+" (and earned bonus of $"+bonus+")\n");
-        }
-    }
-    public void updateWash(String vehicle,int i) throws IOException {
-        Operation.writer1.write("The "+vehicle+" has become "+Vehicle.carCondition[i]+"\n");
-    }
-    public void updateRepair(Subscriber s,int i,int j, Vehicle obj,String vehicle,int k,int bonus) throws IOException {
-        if(k==0){              //vehicle is fixed
-            Operation.writer1.write(Staff.staffType[i]+" "+Staff.staff[i].get(j)+" repaired a "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+Intern.clean_outcome[k]+Vehicle.carCondition[obj.getCondition(vehicle)+1]+" (and earned a bonus of $"+bonus+")");
-        }else if(k==1){        //vehicle is not fixed
-            Operation.writer1.write(Staff.staffType[1]+" "+Staff.staff[1].get(j)+" repaired a "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[obj.getCarType(vehicle)]+" "+vehicle+" but it was still "+Vehicle.carCondition[obj.getCondition(vehicle)]);
-        }
-    }
-    public void updateRepair(Subscriber s,Vehicle obj,String vehicle) throws IOException {
-        Operation.writer1.write(" and the vehicle became "+Vehicle.carCleanliness[obj.getCleanliness(vehicle)]+"\n");
-    }
-    public void updateSell(Subscriber s,int i,String person,Vehicle obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException {
-        Operation.writer1.write(Staff.staffType[i]+" "+person +" has sold a "+Vehicle.carCleanliness[obj.getCleanliness(vehicle)]+" "+Vehicle.carCondition[obj.getCondition(vehicle)]+" "+Vehicle.carType[buyer_choice] +" "+ vehicle +" to "+buyer+" for $"+Vehicle.sales_price[buyer_choice].get(vehicle_choice)+" (and earned a bonus of $"+bonus+")\n");
-    }
-    public void updateSell(Subscriber s,int i,int j,int k,int l) throws IOException {
-        if(k==0){       //Sales Price before addon
-            Operation.writer1.write("Sales Price of the "+Vehicle.carType[i]+" "+Vehicle.vehicle[i].get(j)+" increased from $"+Vehicle.sales_price[i].get(j));
-        }else if(k==1){     //Sales Price after addon
-            Operation.writer1.write(" to $"+Vehicle.sales_price[i].get(j)+ " after adding on "+Vehicle.addon[l]+"\n");
-        }
-    }
-    public void updateRace(Subscriber s,int j,int i,int choice,int bonus,int k) throws IOException {
-        if(k==0){             //won the race
-            Operation.writer1.write(Staff.staffType[3]+" "+Staff.staff[3].get(i)+" finished the race at position "+Driver.race_position.get(i)+" with the "+Vehicle.carType[choice]+" "+Driver.race_vehicles.get(i)+" and Won the race (and earned a bonus of $"+bonus+")\n");
-        }else if(k==2){       //finished bottom 5
-            Operation.writer1.write(Staff.staffType[3]+" "+Staff.staff[3].get(i)+" finished the race at position "+Driver.race_position.get(i)+" with the "+Vehicle.carType[choice]+" "+Driver.race_vehicles.get(i)+" and the Vehicle became Broken \n");
-        }else if(k==1){       //finished 4-15
-            Operation.writer1.write(Staff.staffType[3]+" "+Staff.staff[3].get(i)+" finished the race at position "+Driver.race_position.get(i)+" with the "+Vehicle.carType[choice]+" "+Driver.race_vehicles.get(i)+"\n");
-        }
-    }
-    public void updateRace(Subscriber s,int j,int i) throws IOException {
-        Operation.writer1.write("Driver "+Staff.staff[3].get(i)+" got injured and quit the FNCD\n");
-    }
-    public void updateEnd(Subscriber s,int i,int j,int k) throws IOException {
-        if (k==0){
-            Operation.writer1.write(Staff.staffType[i]+" " +Staff.staff[i].get(j)+" quit the FNCD\n");
-        }else if (k==1){
-            Operation.writer1.write("Hired a new Intern "+(Staff.staff[i].get(j))+"\n");
-        }else if (k==2){
-            Operation.writer1.write("Hired a new Driver "+(Staff.staff[i].get(j))+"\n");
-        }else if (k==3){
-            Operation.writer1.write("Bought "+Vehicle.carType[i]+" "+Vehicle.vehicle[i].get(j)+" for $"+Vehicle.cost_price[i].get(j)+"\n");
-        }else if (k==4){
-            Operation.writer1.write("Added $250000 in FNCD budget due to low budget while processing Salary for Staff\n");
-        }else if (k==5){
-            Operation.writer1.write("Added $250000 in FNCD budget due to low budget while buying required Vehicles\n");
-        }
-    }
-    public void update(Subscriber s,int i,int j){
-        //Do nothing
-    }
-    public void updateAct(Subscriber2 s,int i,int j) throws IOException {
-        if (i==0){
-            Operation.writer1.write("Current Budget in South FNCD: "+j+"\n");
-        }else if (i==1){
-            Operation.writer1.write("\nWashing in South FNCD\n");
-        }else if (i==2){
-            Operation.writer1.write("\nRepairing in South FNCD\n");
-        }else if (i==3){
-            Operation.writer1.write("\nSelling in South FNCD\n");
-        }else if (i==4){
-            Operation.writer1.write("\nRacing in South FNCD\n");
-        }else if (i==5){
-            Operation.writer1.write("\nDay End in South FNCD\n");
-        }else if (i==6){
-            Operation.writer1.write("Total sales for the day in South FNCD: "+j+"\n");
-            Operation2.FNCD_money=Operation2.FNCD_money+Operation2.total_sales;
-        }
-    }
-    public void updateWash(int i,int j,int k,Vehicle2 obj,String vehicle,int l,int m,int n,int bonus) throws IOException {
-        if (n!=2){      //cleanliness not equal to sparkling
-            Operation.writer1.write(Staff2.staffType[i]+" " +Staff2.staff[i].get(j)+" washed a "+Vehicle2.carCleanliness[k]+" "+Vehicle2.carType[obj.getCarType(vehicle)]+" "+vehicle+" using "+Intern2.wash_method[l]+" method"+Intern2.clean_outcome[m]+Vehicle2.carCleanliness[n]+"\n");
-        }
-        else if (n==2){ //cleanliness equal to sparkling
-            Operation.writer1.write(Staff2.staffType[i]+" " +Staff2.staff[i].get(j)+" washed a "+Vehicle2.carCleanliness[k]+" "+Vehicle2.carType[obj.getCarType(vehicle)]+" "+vehicle+" using "+Intern2.wash_method[l]+" method"+Intern2.clean_outcome[m]+Vehicle2.carCleanliness[n]+" (and earned bonus of $"+bonus+")\n");
-        }
-    }
-    public void updateWash(String vehicle,int i,int j) throws IOException {
-        Operation.writer1.write("The "+vehicle+" has become "+Vehicle2.carCondition[i]+"\n");
-    }
-    public void updateRepair(Subscriber2 s,int i,int j, Vehicle2 obj,String vehicle,int k,int bonus) throws IOException {
-        if(k==0){              //vehicle is fixed
-            Operation.writer1.write(Staff2.staffType[i]+" "+Staff2.staff[i].get(j)+" repaired a "+Vehicle2.carCondition[obj.getCondition(vehicle)]+" "+Vehicle2.carType[obj.getCarType(vehicle)]+" "+vehicle+Intern2.clean_outcome[k]+Vehicle2.carCondition[obj.getCondition(vehicle)+1]+" (and earned a bonus of $"+bonus+")");
-        }else if(k==1){        //vehicle is not fixed
-            Operation.writer1.write(Staff2.staffType[1]+" "+Staff2.staff[1].get(j)+" repaired a "+Vehicle2.carCondition[obj.getCondition(vehicle)]+" "+Vehicle2.carType[obj.getCarType(vehicle)]+" "+vehicle+" but it was still "+Vehicle2.carCondition[obj.getCondition(vehicle)]);
-        }
-    }
-    public void updateRepair(Subscriber2 s,Vehicle2 obj,String vehicle) throws IOException {
-        Operation.writer1.write(" and the vehicle became "+Vehicle2.carCleanliness[obj.getCleanliness(vehicle)]+"\n");
-    }
-    public void updateSell(Subscriber2 s,int i,String person,Vehicle2 obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus) throws IOException {
-        Operation.writer1.write(Staff2.staffType[i]+" "+person +" has sold a "+Vehicle2.carCleanliness[obj.getCleanliness(vehicle)]+" "+Vehicle2.carCondition[obj.getCondition(vehicle)]+" "+Vehicle2.carType[buyer_choice] +" "+ vehicle +" to "+buyer+" for $"+Vehicle2.sales_price[buyer_choice].get(vehicle_choice)+" (and earned a bonus of $"+bonus+")\n");
-    }
-    public void updateSell(Subscriber2 s,int i,int j,int k,int l) throws IOException {
-        if(k==0){       //Sales Price before addon
-            Operation.writer1.write("Sales Price of the "+Vehicle2.carType[i]+" "+Vehicle2.vehicle[i].get(j)+" increased from $"+Vehicle2.sales_price[i].get(j));
-        }else if(k==1){     //Sales Price after addon
-            Operation.writer1.write(" to $"+Vehicle2.sales_price[i].get(j)+ " after adding on "+Vehicle2.addon[l]+"\n");
-        }
-    }
-    public void updateRace(Subscriber2 s,int j,int i,int choice,int bonus,int k) throws IOException {
-        if(k==0){             //won the race
-            Operation.writer1.write(Staff2.staffType[3]+" "+Staff2.staff[3].get(i)+" finished the race at position "+Driver2.race_position.get(i)+" with the "+Vehicle2.carType[choice]+" "+Driver2.race_vehicles.get(i)+" and Won the race (and earned a bonus of $"+bonus+")\n");
-        }else if(k==2){       //finished bottom 5
-            Operation.writer1.write(Staff2.staffType[3]+" "+Staff2.staff[3].get(i)+" finished the race at position "+Driver2.race_position.get(i)+" with the "+Vehicle2.carType[choice]+" "+Driver2.race_vehicles.get(i)+" and the Vehicle became Broken \n");
-        }else if(k==1){       //finished 4-15
-            Operation.writer1.write(Staff2.staffType[3]+" "+Staff2.staff[3].get(i)+" finished the race at position "+Driver2.race_position.get(i)+" with the "+Vehicle2.carType[choice]+" "+Driver2.race_vehicles.get(i)+"\n");
-        }
-    }
-    public void updateRace(Subscriber2 s,int j,int i) throws IOException {
-        Operation.writer1.write("Driver "+Staff2.staff[3].get(i)+" got injured and quit the FNCD\n");
-    }
-    public void updateEnd(Subscriber2 s,int i,int j,int k) throws IOException {
-        if (k==0){
-            Operation.writer1.write(Staff2.staffType[i]+" " +Staff2.staff[i].get(j)+" quit the FNCD\n");
-        }else if (k==1){
-            Operation.writer1.write("Hired a new Intern "+(Staff2.staff[i].get(j))+"\n");
-        }else if (k==2){
-            Operation.writer1.write("Hired a new Driver "+(Staff2.staff[i].get(j))+"\n");
-        }else if (k==3){
-            Operation.writer1.write("Bought "+Vehicle2.carType[i]+" "+Vehicle2.vehicle[i].get(j)+" for $"+Vehicle2.cost_price[i].get(j)+"\n");
-        }else if (k==4){
-            Operation.writer1.write("Added $250000 in FNCD budget due to low budget while processing Salary for Staff\n");
-        }else if (k==5){
-            Operation.writer1.write("Added $250000 in FNCD budget due to low budget while buying required Vehicles\n");
-        }
-    }
-    public void update(Subscriber2 s,int i,int j){
-        //Do nothing
-    }
-}
-//Singleton Pattern using an Eager instantiation//prj4
-class Tracker implements Subscriber,Subscriber2{
-    static Publisher fncdData;
-    static Publisher2 fncdData2;
-    static FNCDdata fnc = new FNCDdata();//obs//prj4
-    static FNCDdata2 fnc2 = new FNCDdata2();//obs//prj4
-    private static Tracker tracker = new Tracker(fnc);//prj4
-    private static Tracker tracker2 = new Tracker(fnc2);//prj4
-    private Tracker(Publisher fncdData){
-        this.fncdData = fncdData;
-        this.fncdData.registerSubscriber(this);
-    }//prj4
-    public static Tracker getInstance(){//prj4
-        return tracker;
-    }
-    private Tracker(Publisher2 fncdData){
-        this.fncdData2 = fncdData;
-        this.fncdData2.registerSubscriber(this);
-    }//prj4
-    public static Tracker getInstance2(){//prj4
-        return tracker2;
-    }
-    public void update(Subscriber s,int i,int j) throws IOException {
-        if(j==0){
-            System.out.println("Tracker: Day "+i);
-        }if(j==1){
-            System.out.println("Total money earned by all Staff of North FNCD: $"+Operation.Staff_money);
-            System.out.println("Total money earned by the North FNCD: $"+Operation.FNCD_money);
-        }
-    }
-    public void updateAct(Subscriber s,int i,int j){
-        //Do nothing
-    }
-    public void updateWash(int i,int j,int k,Vehicle obj,String vehicle,int l,int m,int n,int bonus){
-        //Do nothing
-    }
-    public void updateWash(String vehicle,int i){
-        //Do nothing
-    }
-    public void updateRepair(Subscriber s,int i,int j, Vehicle obj,String vehicle,int k,int bonus){
-        //Do nothing
-    }
-    public void updateRepair(Subscriber s,Vehicle obj,String vehicle){
-        //Do nothing
-    }
-    public void updateSell(Subscriber s,int i,String person,Vehicle obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus){
-        //Do nothing
-    }
-    public void updateSell(Subscriber s,int i,int j,int k,int l){
-        //Do nothing
-    }
-    public void updateRace(Subscriber s,int j,int i,int choice,int bonus,int k){
-        //Do nothing
-    }
-    public void updateRace(Subscriber s,int j,int i){
-        //Do nothing
-    }
-    public void updateEnd(Subscriber s,int i,int j,int k){
-        //Do nothing
-    }
-    public void update(Subscriber2 s,int i,int j) throws IOException {
-        if(j==0){
-            System.out.println("Tracker: Day "+i);
-        }if(j==1){
-            System.out.println("Total money earned by all Staff of South FNCD: $"+Operation2.Staff_money);
-            System.out.println("Total money earned by the South FNCD: $"+Operation2.FNCD_money);
-        }
-    }
-    public void updateAct(Subscriber2 s,int i,int j){
-        //Do nothing
-    }
-    public void updateWash(int i,int j,int k,Vehicle2 obj,String vehicle,int l,int m,int n,int bonus){
-        //Do nothing
-    }
-    public void updateWash(String vehicle,int i,int j){
-        //Do nothing
-    }
-    public void updateRepair(Subscriber2 s,int i,int j, Vehicle2 obj,String vehicle,int k,int bonus){
-        //Do nothing
-    }
-    public void updateRepair(Subscriber2 s,Vehicle2 obj,String vehicle){
-        //Do nothing
-    }
-    public void updateSell(Subscriber2 s,int i,String person,Vehicle2 obj,String vehicle,int buyer_choice,String buyer,int vehicle_choice,int bonus){
-        //Do nothing
-    }
-    public void updateSell(Subscriber2 s,int i,int j,int k,int l){
-        //Do nothing
-    }
-    public void updateRace(Subscriber2 s,int j,int i,int choice,int bonus,int k){
-        //Do nothing
-    }
-    public void updateRace(Subscriber2 s,int j,int i){
-        //Do nothing
-    }
-    public void updateEnd(Subscriber2 s,int i,int j,int k){
-        //Do nothing
-    }
-}
 //Obs end
-class Operation extends Staff{
+//For 2nd FNCD
+class Operation2 extends Staff2{
     static int budget = 500000;
     static int total_sales = 0;
     static int day_count;
@@ -1979,32 +1721,25 @@ class Operation extends Staff{
     static int Staff_money=0;
     static int FNCD_money=0;
     static String file_name=null;
-    static FileWriter writer1;
     //printing the summary of staff
-    static void addBudget(int i,int j,FNCDdata fnc) throws IOException {
+    static void addBudget(int i,int j,FNCDdata2 fnc) throws IOException {
         if(budget-salary[i].get(j)<=0){       //If we run out of budget, $250000 is added to the budget
             budget=budget+250000;
-            System.out.println("Added $250000 in North FNCD budget due to low budget while processing Salary for Staff");
+            System.out.println("Added $250000 in South FNCD budget due to low budget while processing Salary for Staff");
             added_money=added_money+250000;
             fnc.dayEnd(0,0,4);//obs
         }
     }
-    static void addBudget(int i,FNCDdata fnc) throws IOException {
-        if(budget-Vehicle.cost_price[i].get(Vehicle.vehicle[i].size()-1)<=0){
+    static void addBudget(int i,FNCDdata2 fnc) throws IOException {
+        if(budget-Vehicle2.cost_price[i].get(Vehicle2.vehicle[i].size()-1)<=0){
             budget=budget+250000;       //If we run out of budget, $250000 is added to the budget
-            System.out.println("Added $250000 in North FNCD budget due to low budget while buying required Vehicles");
+            System.out.println("Added $250000 in South FNCD budget due to low budget while buying required Vehicles");
             added_money=added_money+250000;
             fnc.dayEnd(0,0,5);//obs
         }
     }
-    static void outputLogger() throws IOException {
-        file_name="Logger-"+day_count+".txt";
-        File file = new File(file_name);
-        FileWriter writer = new FileWriter(file);
-        writer1 = writer;
-    }
     public void Print(){
-        System.out.println("\n************************************************************SUMMARY OF NORTH FNCD************************************************************");
+        System.out.println("\n************************************************************SUMMARY OF SOUTH FNCD************************************************************");
         System.out.println("List of Staff:");
         for (int i=0;i<4;i++){
             System.out.println(staffType[i]+"s: "+staff[i]);
@@ -2041,5 +1776,113 @@ class Operation extends Staff{
         for (int i=0;i<4;i++){
             System.out.println(staffType[i]+"s: "+dep_total_normal_pay[i]);
         }
+    }
+    //main method
+    public static void main(String[] args) throws IOException {
+        Staff staff1 = new Staff();
+        staff1.init();
+        staff1.add_names();
+        staff1.addStaff();
+        Intern int1 = new Intern();
+        Mechanic mec1 = new Mechanic();
+        Salesperson sal1 = new Salesperson();
+        Buyer buy1 = new Buyer();
+        Driver dri1 = new Driver();
+        Vehicle vel1 = new Vehicle();
+        vel1.init2();
+        vel1.add_vehicle_names();
+        vel1.add_MonsterTruck_names();
+        vel1.addVehicles();
+        Operation op1 = new Operation();
+        FNCDdata fnc1 = new FNCDdata();//obs
+        Staff2 staff2 = new Staff2();
+        staff2.init();
+        staff2.add_names();
+        staff2.addStaff();
+        Intern2 int2 = new Intern2();
+        Mechanic2 mec2 = new Mechanic2();
+        Salesperson2 sal2 = new Salesperson2();
+        Buyer2 buy2 = new Buyer2();
+        Driver2 dri2 = new Driver2();
+        Vehicle2 vel2 = new Vehicle2();
+        vel2.init2();
+        vel2.add_vehicle_names();
+        vel2.add_MonsterTruck_names();
+        vel2.addVehicles();
+        Operation2 op2 = new Operation2();
+        FNCDdata2 fnc2 = new FNCDdata2();//obs
+        Tracker tra2 = Tracker.getInstance2();//obs//prj4
+        for (day_count=1;day_count<31;day_count++){
+            Operation.day_count = day_count;
+            Logger log1 = Logger.getInstance(fnc1);//Obs//prj4
+            Operation.outputLogger();
+            Logger log2 = Logger.getInstance2(fnc2);//Obs//prj4
+            buy1.init3();
+            buy2.init3();
+            System.out.println("\n***Day "+day_count+"***");//Display Day Number
+            System.out.println("\nCurrent Budget of North FNCD: "+Operation.budget);
+            System.out.println("Current Budget of South FNCD: "+budget);
+            fnc1.dayAct(0,Operation.budget);//obs
+            fnc2.dayAct(0,budget);//obs
+            buy1.addBuyer();
+            buy2.addBuyer();
+            int1.setWashBehavior(fnc1);
+            int2.setWashBehavior(fnc2);
+            mec1.repair(fnc1);
+            mec2.repair(fnc2);
+            sal1.sale(fnc1);
+            sal2.sale(fnc2);
+            dri1.getRaceVehicles(fnc1);
+            dri1.race(fnc1);
+            dri2.getRaceVehicles(fnc2);
+            dri2.race(fnc2);
+            System.out.println("\nDay End in North FNCD");
+            fnc1.dayAct(5,0);//obs
+            int1.getSalary(fnc1);
+            int1.getTotalDays();
+            mec1.getSalary(fnc1);
+            mec1.getTotalDays();
+            sal1.getSalary(fnc1);
+            sal1.getTotalDays();
+            dri1.getSalary(fnc1);
+            dri1.getTotalDays();
+            staff1.updateDepartedStaff(fnc1);
+            int1.dropIntern();
+            int1.addIntern(fnc1);
+            dri1.dropDriver();
+            dri1.addDriver(fnc1);
+            vel1.addVehicle(fnc1);
+            System.out.println("\nDay End in South FNCD");
+            fnc2.dayAct(5,0);//obs
+            int2.getSalary(fnc2);
+            int2.getTotalDays();
+            mec2.getSalary(fnc2);
+            mec2.getTotalDays();
+            sal2.getSalary(fnc2);
+            sal2.getTotalDays();
+            dri2.getSalary(fnc2);
+            dri2.getTotalDays();
+            staff2.updateDepartedStaff(fnc2);
+            int2.dropIntern();
+            int2.addIntern(fnc2);
+            dri2.dropDriver();
+            dri2.addDriver(fnc2);
+            vel2.addVehicle(fnc2);
+            System.out.println("\nTotal sales for the day in North FNCD: "+Operation.total_sales);
+            System.out.println("Total sales for the day in South FNCD: "+total_sales);
+            fnc1.dayAct(6,Operation.total_sales);//obs
+            fnc2.dayAct(6,total_sales);//obs
+            System.out.println("Remaining Budget of North FNCD: "+Operation.budget);
+            System.out.println("Remaining Budget of South FNCD: "+budget+"\n");
+            fnc1.trackerOutcome(day_count,0);//obs
+            fnc1.trackerOutcome(day_count,1);
+            fnc2.trackerOutcome(day_count,1);
+//            fnc1.removeSubscriber(log1);//obs
+            Operation.writer1.close();
+        }
+        op1.Print();
+        vel1.Print2();
+        op2.Print();
+        vel2.Print2();
     }
 }

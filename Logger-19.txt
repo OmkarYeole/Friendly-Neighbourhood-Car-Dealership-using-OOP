@@ -1,25 +1,62 @@
-Current Budget: 2526158
+Current Budget in North FNCD: 2684719
+Current Budget in South FNCD: 2430229
 
-Washing
-Intern Hannah washed a Dirty Electric Car Ford Bronco using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Hannah washed a Clean Monster Truck Swamp Thing using Detailed method but it was still Clean
-Intern Ellie washed a Dirty Electric Car Tesla Cybertruck using Chemical method and made it Clean
-Intern Ellie washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
-Intern Bella washed a Dirty Performance Car Porsche 718 Cayman GT4 using Detailed method but it was still Dirty
-Intern Bella washed a Clean Electric Car Audi R8 using Detailed method but it was still Clean
+Washing in North FNCD
+Intern Sofia washed a Dirty Luxury Car Mercedes-Benz E-Class using Chemical method but it was still Dirty
+Intern Sofia washed a Clean Motorcycle Lamborghini Huracan using Chemical method but it was still Clean
+Intern Aurora washed a Dirty Luxury Car Lexus LS using Detailed method and made it Clean
+Intern Aurora washed a Clean Motorcycle Suzuki Hayabusa using Detailed method but it was still Clean
+Intern Olivia washed a Dirty Car Toyota RAV4 using Elbow Grease method and made it Clean
+Intern Olivia washed a Clean Pickup Toyota Sienna using Elbow Grease method but it was still Clean
 
-Repairing
-Mechanic Altair repaired a Used Pickup Honda Ridgeline but it was still Used and the vehicle became Dirty
-Mechanic Altair repaired a Used Super Car GMC Acadia and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Pickup Honda Ridgeline but it was still Used and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Pickup Honda Ridgeline and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Washing in South FNCD
+Intern Savannah washed a Dirty Performance Car BMW M8 using Elbow Grease method and made it Clean
+The BMW M8 has become Like New
+Intern Savannah washed a Clean Pickup Ram 1500 Classic using Elbow Grease method but made it Dirty
+Intern Gabriel washed a Dirty Electric Car Polestar 2 using Detailed method but it was still Dirty
+Intern Gabriel washed a Clean Electric Car BMW i8 using Detailed method but it was still Clean
+Intern Jasmine washed a Dirty Budget Car Nissan Rogue Sport using Elbow Grease method but it was still Dirty
+Intern Jasmine washed a Clean Super Car Bugatti Veyron using Elbow Grease method and made it Sparkling (and earned bonus of $100)
 
-Selling
-Salesperson Eleanor has sold a Clean Like New Electric Car Mercedes-AMG GT 4-Door Coupe to Buyer3 for $114480 (and earned a bonus of $200)
+Repairing in North FNCD
+Mechanic Natalie repaired a Used Car Toyota RAV4 but it was still Used and the vehicle became Dirty
+Mechanic Natalie repaired a Used Motorcycle Aston Martin Vantage and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Isabelle repaired a Used Car Toyota RAV4 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Isabelle repaired a Used Motorcycle Porsche Taycan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Brielle repaired a Used Performance Car Volvo XC90 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Brielle repaired a Used Car Chevrolet Spark but it was still Used and the vehicle became Dirty
 
-Day End
-Mechanic Altair quit the FNCD
-Hired a new Intern Mila
-Bought Electric Car Dodge Ram for $49287
+Repairing in South FNCD
 
-Total sales for the day: 114480
+Selling in North FNCD
+Salesperson Kinsley has sold a Dirty Like New Electric Car Subaru Outback to Buyer1 for $146201 (and earned a bonus of $200)
+Salesperson Ezio has sold a Clean Like New Pickup Toyota Sienna to Buyer2 for $73165 (and earned a bonus of $175)
+
+Selling in South FNCD
+Sales Price of the Pickup GMC Canyon increased from $56062 to $58865 after adding on Undercoating
+Sales Price of the Pickup GMC Canyon increased from $58865 to $60042 after adding on Road Rescue Coverage
+Sales Price of the Pickup GMC Canyon increased from $60042 to $63044 after adding on Satellite Radio
+Salesperson Toni has sold a Sparkling Like New Pickup GMC Canyon to Buyer2 for $63044 (and earned a bonus of $175)
+Salesperson Federico has sold a Dirty Like New Super Car Ferrari 812 Superfast to Buyer3 for $165888 (and earned a bonus of $200)
+Sales Price of the Pickup Nissan Titan increased from $51110 to $53665 after adding on Satellite Radio
+Salesperson Toni has sold a Dirty Like New Pickup Nissan Titan to Buyer5 for $53665 (and earned a bonus of $175)
+Sales Price of the Luxury Car Mercedes-Benz E-Class increased from $159312 to $162498 after adding on Road Rescue Coverage
+Salesperson Federico has sold a Dirty Like New Luxury Car Mercedes-Benz E-Class to Buyer6 for $162498 (and earned a bonus of $175)
+Sales Price of the Pickup Nissan Frontier increased from $49406 to $50394 after adding on Road Rescue Coverage
+Salesperson Federico has sold a Dirty Like New Pickup Nissan Frontier to Buyer8 for $50394 (and earned a bonus of $175)
+
+Day End in North FNCD
+Intern Olivia quit the FNCD
+Hired a new Intern Sophia
+Bought Pickup Land Rover Defender for $5555
+Bought Electric Car Chevrolet Corvette for $15158
+
+Day End in South FNCD
+Bought Pickup Rolls-Royce Ghost for $8332
+Bought Pickup Toyota Corolla Cross for $31800
+Bought Pickup Tesla Cybertruck for $14607
+Bought Car Ford Explorer for $12988
+Bought Car Ford Explorer for $12988
+
+Total sales for the day in North FNCD: 219366
+Total sales for the day in South FNCD: 495489

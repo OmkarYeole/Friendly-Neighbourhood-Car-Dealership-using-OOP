@@ -1,25 +1,50 @@
-Current Budget: 3637634
+Current Budget in North FNCD: 4428882
+Current Budget in South FNCD: 4381736
 
-Washing
-Intern Scarlett washed a Dirty Monster Truck Madusa using Elbow Grease method and made it Clean
-Intern Scarlett washed a Clean Luxury Car Jaguar XJ using Elbow Grease method but it was still Clean
-Intern Bianca washed a Dirty Car Jeep Grand Wagoneer using Detailed method and made it Clean
-Intern Bianca washed a Clean Motorcycle Porsche Taycan using Detailed method but it was still Clean
-Intern Natalie washed a Dirty Car Chevrolet Corvette using Elbow Grease method but it was still Dirty
-Intern Natalie washed a Clean Electric Car Ford EcoSport using Elbow Grease method but made it Dirty
+Washing in North FNCD
+Intern Riley washed a Dirty Luxury Car Subaru Forester using Chemical method and made it Clean
+Intern Riley washed a Clean Super Car Rimac C2 using Chemical method and made it Sparkling (and earned bonus of $100)
+The Rimac C2 has become Broken
+Intern Emma washed a Dirty Super Car BMW M3 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Emma washed a Clean Performance Car Ford Mustang using Detailed method but it was still Clean
+Intern Samantha washed a Dirty Performance Car Nissan Pathfinder using Chemical method and made it Clean
+Intern Samantha washed a Clean Performance Car Ford Mustang using Chemical method but it was still Clean
 
-Repairing
-Mechanic Hannah repaired a Used Pickup Mercedes-Benz GLS and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Hannah repaired a Broken Car Jeep Grand Wagoneer but it was still Broken and the vehicle became Dirty
-Mechanic Ariel repaired a Broken Performance Car Subaru Outback and made it Used (and earned a bonus of $150) and the vehicle became Clean
-Mechanic Ariel repaired a Used Performance Car Subaru Outback and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Arianna repaired a Broken Car Jeep Grand Wagoneer and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Arianna repaired a Used Car Jeep Grand Wagoneer but it was still Used and the vehicle became Dirty
+Washing in South FNCD
+Intern Xavier washed a Dirty Car Chevrolet Spark using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Xavier washed a Clean Super Car Nissan Pathfinder using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Sarah washed a Dirty Pickup Jeep Grand Cherokee using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+The Jeep Grand Cherokee has become Like New
+Intern Sarah washed a Clean Budget Car Dodge Charger using Elbow Grease method but it was still Clean
+Intern Isaac washed a Dirty Luxury Car Chevrolet Traverse using Elbow Grease method and made it Clean
+The Chevrolet Traverse has become Like New
+Intern Isaac washed a Clean Budget Car Dodge Charger using Elbow Grease method but it was still Clean
 
-Selling
+Repairing in North FNCD
+Mechanic Sophia repaired a Used Performance Car Dodge Ram and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Sophia repaired a Used Performance Car Ford Mustang and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Paisley repaired a Broken Super Car Rimac C2 and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Paisley repaired a Broken Car Tesla Model X and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Naomi repaired a Used Super Car Rimac C2 but it was still Used and the vehicle became Dirty
+Mechanic Naomi repaired a Used Super Car Rimac C2 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
-Day End
-Mechanic Hannah quit the FNCD
-Hired a new Intern Isabelle
+Repairing in South FNCD
+Mechanic David repaired a Used Luxury Car Ford Escape and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
-Total sales for the day: 0
+Selling in North FNCD
+
+Selling in South FNCD
+Sales Price of the Monster Truck Bear Foot Silverado increased from $89482 to $93956 after adding on Satellite Radio
+Salesperson Oliver has sold a Clean Like New Monster Truck Bear Foot Silverado to Buyer2 for $93956 (and earned a bonus of $175)
+Salesperson Federico has sold a Dirty Like New Super Car Jeep Wrangler to Buyer3 for $114960 (and earned a bonus of $200)
+
+Day End in North FNCD
+Salesperson Kylie quit the FNCD
+Hired a new Intern Lucy
+
+Day End in South FNCD
+Bought Monster Truck Snake Bite for $17581
+Bought Car Jeep Renegade for $11181
+
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 208916

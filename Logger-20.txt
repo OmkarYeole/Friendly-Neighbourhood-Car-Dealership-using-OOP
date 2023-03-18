@@ -1,27 +1,52 @@
-Current Budget: 2581776
+Current Budget in North FNCD: 2873547
+Current Budget in South FNCD: 2794745
 
-Washing
-Intern Ellie washed a Dirty Pickup Ram 1500 Classic using Chemical method and made it Clean
-Intern Ellie washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
-Intern Bella washed a Dirty Performance Car Porsche 718 Cayman GT4 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
-The Porsche 718 Cayman GT4 has become Like New
-Intern Bella washed a Clean Super Car Rimac C2 using Elbow Grease method but it was still Clean
-Intern Mila washed a Dirty Budget Car Honda Fit using Chemical method and made it Clean
-Intern Mila washed a Clean Car Land Rover Defender using Chemical method and made it Sparkling (and earned bonus of $50)
+Washing in North FNCD
+Intern Sofia washed a Dirty Pickup Ford Ranger using Elbow Grease method but it was still Dirty
+The Ford Ranger has become Like New
+Intern Sofia washed a Clean Super Car Pagani Huayra using Elbow Grease method but it was still Clean
+Intern Aurora washed a Dirty Performance Car Porsche Panamera using Elbow Grease method and made it Clean
+Intern Aurora washed a Clean Electric Car Audi R8 using Elbow Grease method but made it Dirty
+Intern Sophia washed a Dirty Monster Truck Sudden Impact using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Sophia washed a Clean Budget Car Kia Rio using Detailed method and made it Sparkling (and earned bonus of $50)
 
-Repairing
+Washing in South FNCD
+Intern Savannah washed a Dirty Pickup Rolls-Royce Ghost using Chemical method but it was still Dirty
+Intern Savannah washed a Clean Car Nissan Sentra using Chemical method but it was still Clean
+Intern Gabriel washed a Dirty Super Car Nissan Pathfinder using Detailed method and made it Clean
+Intern Gabriel washed a Clean Luxury Car Rolls-Royce Phantom using Detailed method but it was still Clean
+Intern Jasmine washed a Dirty Monster Truck Grinder using Chemical method and made it Clean
+The Grinder has become Broken
+Intern Jasmine washed a Clean Pickup Tesla Cybertruck using Chemical method and made it Sparkling (and earned bonus of $75)
 
-Selling
-Sales Price of the Motorcycle Aston Martin Vantage increased from $52428 to $62913 after adding on Extended Warranty
-Salesperson Amelia has sold a Clean Like New Motorcycle Aston Martin Vantage to Buyer3 for $62913 (and earned a bonus of $150)
-Salesperson Eleanor has sold a Dirty Like New Performance Car Dodge Charger to Buyer4 for $122467 (and earned a bonus of $200)
+Repairing in North FNCD
+Mechanic Natalie repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Natalie repaired a Broken Pickup Land Rover Defender and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Isabelle repaired a Used Pickup Land Rover Defender and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Isabelle repaired a Used Super Car Chevrolet Traverse and made it Like New (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Brielle repaired a Used Budget Car Hyundai Kona but it was still Used and the vehicle became Clean
+Mechanic Brielle repaired a Broken Electric Car Chevrolet Corvette and made it Used (and earned a bonus of $150) and the vehicle became Dirty
 
-Day End
-Intern Ellie quit the FNCD
-Mechanic Kylie quit the FNCD
-Hired a new Intern Leah
-Hired a new Intern Emma
-Bought Performance Car Ford Escape for $11215
-Bought Motorcycle Lincoln Navigator for $5377
+Repairing in South FNCD
+Mechanic David repaired a Used Super Car Toyota Tundra and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic David repaired a Broken Pickup Rolls-Royce Ghost but it was still Broken and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Pickup Tesla Cybertruck but it was still Used and the vehicle became Clean
+Mechanic Mackenzie repaired a Broken Monster Truck Grinder and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sydney repaired a Broken Pickup Rolls-Royce Ghost and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sydney repaired a Used Pickup Tesla Cybertruck and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
-Total sales for the day: 185380
+Selling in North FNCD
+Sales Price of the Luxury Car Mercedes-Benz GLE increased from $260465 to $273488 after adding on Satellite Radio
+Salesperson Kylie has sold a Dirty Like New Luxury Car Mercedes-Benz GLE to Buyer1 for $273488 (and earned a bonus of $175)
+Salesperson Kylie has sold a Dirty Like New Super Car Honda Pilot to Buyer2 for $207922 (and earned a bonus of $200)
+
+Selling in South FNCD
+
+Day End in North FNCD
+Bought Car Bentley Continental GT for $7497
+Bought Car Bentley Continental GT for $7497
+
+Day End in South FNCD
+
+Total sales for the day in North FNCD: 481410
+Total sales for the day in South FNCD: 0

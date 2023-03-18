@@ -1,25 +1,51 @@
-Current Budget: 1560566
+Current Budget in North FNCD: 1578958
+Current Budget in South FNCD: 1241971
 
-Washing
-Intern Amelia washed a Dirty Luxury Car Nissan Quest using Chemical method and made it Clean
-Intern Amelia washed a Clean Performance Car Audi RS7 using Chemical method but it was still Clean
-Intern Mikayla washed a Dirty Monster Truck Swamp Thing using Chemical method and made it Clean
-Intern Mikayla washed a Clean Car Chevrolet Corvette using Chemical method but made it Dirty
-Intern Lucy washed a Dirty Car Kia Forte using Chemical method and made it Clean
-Intern Lucy washed a Clean Motorcycle McLaren Artura using Chemical method and made it Sparkling (and earned bonus of $50)
+Washing in North FNCD
+Intern Scarlett washed a Dirty Pickup Chevrolet Colorado using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Scarlett washed a Clean Car Jeep Grand Cherokee using Detailed method but it was still Clean
+Intern Avery washed a Dirty Electric Car Rivian R1T using Chemical method and made it Clean
+Intern Avery washed a Clean Monster Truck Cyborg using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Eliana washed a Dirty Motorcycle Nissan Rogue Sport using Chemical method and made it Clean
+Intern Eliana washed a Clean Budget Car Hyundai Accent using Chemical method but it was still Clean
 
-Repairing
-Mechanic Edward repaired a Broken Pickup Ford Ranger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Luxury Car Jeep Gladiator and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Altair repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Altair repaired a Used Monster Truck Bear Foot F-150 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Eva repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Eva repaired a Used Budget Car Toyota RAV4 but it was still Used and the vehicle became Dirty
+Washing in South FNCD
+Intern Jason washed a Dirty Luxury Car Lexus LS using Chemical method but it was still Dirty
+Intern Jason washed a Clean Super Car Bugatti Veyron using Chemical method but made it Dirty
+Intern Megan washed a Dirty Car Honda Accord using Chemical method and made it Clean
+Intern Megan washed a Clean Budget Car Suzuki Swift using Chemical method but made it Dirty
+Intern Kaitlyn washed a Dirty Performance Car Jeep Gladiator using Detailed method but it was still Dirty
+Intern Kaitlyn washed a Clean Super Car Rimac C2 using Detailed method but it was still Clean
 
-Selling
+Repairing in North FNCD
+Mechanic Conner repaired a Broken Performance Car Honda Civic and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Luxury Car Mercedes-Benz GLE and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Motorcycle Aston Martin Vantage but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Used Luxury Car Mercedes-Benz GLE but it was still Used and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Electric Car Rolls-Royce Cullinan and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Car Nissan Sentra and made it Used (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Salesperson Jacob quit the FNCD
-Hired a new Intern Paisley
+Repairing in South FNCD
+Mechanic Eduardo repaired a Used Performance Car Mazda CX-30 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eduardo repaired a Used Car Honda Civic and made it Like New (and earned a bonus of $100) and the vehicle became Clean
+Mechanic David repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Clean
+Mechanic David repaired a Used Luxury Car Chevrolet Silverado and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Motorcycle McLaren Artura but it was still Used and the vehicle became Dirty
+Mechanic Mackenzie repaired a Broken Monster Truck Swamp Thing and made it Used (and earned a bonus of $125) and the vehicle became Dirty
 
-Total sales for the day: 0
+Selling in North FNCD
+
+Selling in South FNCD
+
+Day End in North FNCD
+Salesperson Payton quit the FNCD
+Hired a new Intern Claire
+
+Day End in South FNCD
+Intern Kaitlyn quit the FNCD
+Mechanic Eduardo quit the FNCD
+Hired a new Intern Sydney
+Hired a new Intern Vincent
+
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 0

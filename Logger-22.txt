@@ -1,20 +1,57 @@
-Current Budget: 2811331
+Current Budget in North FNCD: 3465177
+Current Budget in South FNCD: 3200909
 
-Washing
-Intern Mila washed a Dirty Luxury Car Nissan Quest using Chemical method but it was still Dirty
-Intern Mila washed a Clean Pickup Honda Ridgeline using Chemical method but it was still Clean
-Intern Emma washed a Dirty Pickup GMC Canyon using Elbow Grease method but it was still Dirty
-Intern Emma washed a Clean Budget Car Toyota Yaris using Elbow Grease method but it was still Clean
-Intern Emilia washed a Dirty Car Kia Forte using Detailed method but it was still Dirty
-Intern Emilia washed a Clean Pickup Nissan Frontier using Detailed method and made it Sparkling (and earned bonus of $75)
+Washing in North FNCD
+Intern Sofia washed a Dirty Performance Car Porsche 718 Cayman GT4 using Chemical method and made it Clean
+Intern Sofia washed a Clean Performance Car Porsche 718 Cayman GT4 using Chemical method but it was still Clean
+Intern Sophia washed a Dirty Car Chevrolet Spark using Detailed method but it was still Dirty
+Intern Sophia washed a Clean Pickup GMC Canyon using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Paisley washed a Dirty Performance Car Volvo XC90 using Elbow Grease method and made it Clean
+Intern Paisley washed a Clean Super Car Pagani Huayra using Elbow Grease method but it was still Clean
+The Pagani Huayra has become Like New
 
-Repairing
-Mechanic Mikayla repaired a Used Performance Car Chevrolet Equinox and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Washing in South FNCD
+Intern Savannah washed a Dirty Monster Truck Predator using Detailed method and made it Clean
+Intern Savannah washed a Clean Pickup Ford Ranger using Detailed method but it was still Clean
+Intern Gabriel washed a Dirty Electric Car Kia Sorento using Chemical method and made it Clean
+Intern Gabriel washed a Clean Motorcycle Yamaha YZF-R6 using Chemical method but it was still Clean
+Intern Jasmine washed a Dirty Pickup Toyota Corolla Cross using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Jasmine washed a Clean Luxury Car Rolls-Royce Phantom using Detailed method and made it Sparkling (and earned bonus of $75)
 
-Selling
+Repairing in North FNCD
+Mechanic Natalie repaired a Broken Pickup Ford Ranger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Natalie repaired a Broken Super Car Audi Q7 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Isabelle repaired a Broken Pickup Ram 1500 Classic and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Isabelle repaired a Used Pickup Ford Ranger but it was still Used and the vehicle became Dirty
+Mechanic Brielle repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Brielle repaired a Used Car Honda Accord and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Salesperson Eleanor quit the FNCD
-Hired a new Intern Maya
+Repairing in South FNCD
+Mechanic David repaired a Broken Monster Truck Bear Foot Silverado and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic David repaired a Used Monster Truck Bear Foot Silverado and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
-Total sales for the day: 0
+Selling in North FNCD
+Sales Price of the Super Car Pagani Huayra increased from $146002 to $153302 after adding on Undercoating
+Salesperson Kinsley has sold a Clean Like New Super Car Pagani Huayra to Buyer1 for $153302 (and earned a bonus of $200)
+Sales Price of the Car Honda Accord increased from $52031 to $54632 after adding on Satellite Radio
+Salesperson Ezio has sold a Dirty Like New Car Honda Accord to Buyer2 for $54632 (and earned a bonus of $150)
+
+Selling in South FNCD
+Sales Price of the Budget Car Koenigsegg Jesko increased from $19215 to $23058 after adding on Extended Warranty
+Salesperson Toni has sold a Dirty Like New Budget Car Koenigsegg Jesko to Buyer2 for $23058 (and earned a bonus of $150)
+Salesperson Federico has sold a Clean Like New Electric Car Kia Sorento to Buyer3 for $113275 (and earned a bonus of $200)
+
+Day End in North FNCD
+Intern Sofia quit the FNCD
+Mechanic Natalie quit the FNCD
+Hired a new Intern Anna
+Hired a new Intern Naomi
+Bought Car Ferrari F8 Tributo for $7172
+Bought Car Ferrari F8 Tributo for $7172
+
+Day End in South FNCD
+Bought Electric Car Nissan Kicks for $39059
+Bought Car Ford Explorer for $12988
+
+Total sales for the day in North FNCD: 207934
+Total sales for the day in South FNCD: 136333

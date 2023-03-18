@@ -1,39 +1,63 @@
-Current Budget: 2896951
+Current Budget in North FNCD: 3602805
+Current Budget in South FNCD: 3308041
 
-Washing
-Intern Emilia washed a Dirty Budget Car Cadillac Escalade using Chemical method and made it Clean
-Intern Emilia washed a Clean Budget Car Toyota Yaris using Chemical method but made it Dirty
-The Toyota Yaris has become Broken
-Intern Maya washed a Dirty Pickup GMC Canyon using Elbow Grease method but it was still Dirty
-Intern Maya washed a Clean Car Honda Accord using Elbow Grease method but it was still Clean
-Intern Avery washed a Dirty Car Kia Forte using Elbow Grease method but it was still Dirty
-Intern Avery washed a Clean Budget Car Cadillac Escalade using Elbow Grease method but it was still Clean
-The Cadillac Escalade has become Like New
+Washing in North FNCD
+Intern Paisley washed a Dirty Motorcycle Porsche Taycan using Detailed method and made it Clean
+Intern Paisley washed a Clean Super Car Bugatti Veyron using Detailed method but it was still Clean
+Intern Naomi washed a Dirty Motorcycle Lamborghini Huracan using Elbow Grease method but it was still Dirty
+Intern Naomi washed a Clean Motorcycle Toyota Tundra using Elbow Grease method but it was still Clean
+Intern Riley washed a Dirty Monster Truck Bear Foot Silverado using Elbow Grease method but it was still Dirty
+Intern Riley washed a Clean Pickup Mazda CX-5 using Elbow Grease method but it was still Clean
+The Mazda CX-5 has become Like New
 
-Repairing
-Mechanic Mikayla repaired a Used Electric Car Ford Mustang and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Mikayla repaired a Broken Motorcycle Toyota Sienna and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Hannah repaired a Broken Budget Car Toyota Yaris but it was still Broken and the vehicle became Dirty
-Mechanic Hannah repaired a Used Motorcycle Toyota Sienna and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Bella repaired a Broken Budget Car Toyota Yaris and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Bella repaired a Used Budget Car Toyota Yaris and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Washing in South FNCD
+Intern Jasmine washed a Dirty Electric Car Nissan Kicks using Detailed method and made it Clean
+Intern Jasmine washed a Clean Budget Car Nissan Rogue Sport using Detailed method but it was still Clean
+Intern Oliver washed a Dirty Budget Car Bentley Bentayga using Elbow Grease method and made it Clean
+Intern Oliver washed a Clean Monster Truck Sudden Impact using Elbow Grease method but it was still Clean
+Intern Mikayla washed a Dirty Super Car Toyota Tundra using Chemical method and made it Clean
+Intern Mikayla washed a Clean Monster Truck Predator using Chemical method but it was still Clean
 
-Selling
-Sales Price of the Electric Car Ford Mustang increased from $100895 to $121074 after adding on Extended Warranty
-Salesperson Mila has sold a Dirty Like New Electric Car Ford Mustang to Buyer2 for $121074 (and earned a bonus of $200)
-Sales Price of the Budget Car Toyota Yaris increased from $36618 to $43941 after adding on Extended Warranty
-Sales Price of the Budget Car Toyota Yaris increased from $43941 to $46138 after adding on Satellite Radio
-Salesperson Mila has sold a Dirty Like New Budget Car Toyota Yaris to Buyer4 for $46138 (and earned a bonus of $150)
+Repairing in North FNCD
+Mechanic Isabelle repaired a Used Electric Car BMW i8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Isabelle repaired a Used Car Bentley Continental GT but it was still Used and the vehicle became Dirty
+Mechanic Brielle repaired a Used Car Chevrolet Spark and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Brielle repaired a Used Super Car Audi Q7 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Sophia repaired a Used Luxury Car Koenigsegg Jesko but it was still Used and the vehicle became Dirty
+Mechanic Sophia repaired a Used Car Bentley Continental GT but it was still Used and the vehicle became Dirty
 
-Racing
-Driver Alexios finished the race at position 11 with the Pickup GMC Canyon
-Driver Addison finished the race at position 13 with the Pickup Ram 1500 Classic
-Driver Ella finished the race at position 12 with the Pickup Nissan Frontier
+Repairing in South FNCD
+Mechanic David repaired a Broken Motorcycle Lincoln Navigator but it was still Broken and the vehicle became Dirty
+Mechanic David repaired a Broken Motorcycle Lincoln Navigator and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Sydney repaired a Used Motorcycle Lincoln Navigator and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Salesperson Lucy quit the FNCD
-Hired a new Intern Michael
-Bought Electric Car Porsche 911 for $24785
-Bought Car Land Rover Defender for $15805
+Selling in North FNCD
+Sales Price of the Monster Truck Sudden Impact increased from $87318 to $91683 after adding on Undercoating
+Sales Price of the Monster Truck Sudden Impact increased from $91683 to $93516 after adding on Road Rescue Coverage
+Salesperson Ezio has sold a Sparkling Like New Monster Truck Sudden Impact to Buyer3 for $93516 (and earned a bonus of $175)
 
-Total sales for the day: 167212
+Selling in South FNCD
+
+Racing in North FNCD
+Driver Bayek finished the race at position 2 with the Pickup Ford Ranger and Won the race (and earned a bonus of $200)
+Driver Avery finished the race at position 14 with the Pickup GMC Canyon
+Driver Ella finished the race at position 11 with the Pickup Ram 1500 Classic
+
+Racing in South FNCD
+Driver Karim finished the race at position 15 with the Motorcycle Aston Martin Vantage
+Driver Jaden finished the race at position 9 with the Motorcycle Porsche Taycan
+Driver David finished the race at position 19 with the Motorcycle Suzuki Hayabusa and the Vehicle became Broken 
+Driver David got injured and quit the FNCD
+
+Day End in North FNCD
+Mechanic Brielle quit the FNCD
+Hired a new Intern Elliot
+Bought Monster Truck El Toro Loco for $22484
+
+Day End in South FNCD
+Mechanic Gabriel quit the FNCD
+Hired a new Intern Melanie
+Hired a new Driver Kendall
+
+Total sales for the day in North FNCD: 93516
+Total sales for the day in South FNCD: 0

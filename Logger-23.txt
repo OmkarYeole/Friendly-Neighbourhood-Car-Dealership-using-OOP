@@ -1,25 +1,53 @@
-Current Budget: 2802106
+Current Budget in North FNCD: 3612430
+Current Budget in South FNCD: 3279393
 
-Washing
-Intern Emma washed a Dirty Performance Car Chevrolet Equinox using Elbow Grease method and made it Clean
-Intern Emma washed a Clean Electric Car Tesla Cybertruck using Elbow Grease method but it was still Clean
-Intern Emilia washed a Dirty Super Car Aston Martin Valkyrie using Elbow Grease method and made it Sparkling (and earned bonus of $100)
-Intern Emilia washed a Clean Motorcycle Bugatti Chiron using Elbow Grease method but made it Dirty
-Intern Maya washed a Dirty Motorcycle Lincoln Navigator using Detailed method and made it Clean
-Intern Maya washed a Clean Motorcycle Lincoln Navigator using Detailed method and made it Sparkling (and earned bonus of $50)
+Washing in North FNCD
+Intern Paisley washed a Dirty Car Bentley Continental GT using Elbow Grease method but it was still Dirty
+Intern Paisley washed a Clean Performance Car Porsche 718 Cayman GT4 using Elbow Grease method but it was still Clean
+Intern Anna washed a Dirty Electric Car BMW i8 using Chemical method but it was still Dirty
+The BMW i8 has become Broken
+Intern Anna washed a Clean Performance Car Volvo XC90 using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Naomi washed a Dirty Monster Truck Bear Foot Silverado using Detailed method but it was still Dirty
+Intern Naomi washed a Clean Pickup Land Rover Defender using Detailed method but it was still Clean
 
-Repairing
+Washing in South FNCD
+Intern Savannah washed a Dirty Performance Car Jeep Gladiator using Detailed method and made it Clean
+Intern Savannah washed a Clean Performance Car Lamborghini Aventador using Detailed method but it was still Clean
+Intern Gabriel washed a Dirty Budget Car Nissan Rogue Sport using Elbow Grease method and made it Clean
+Intern Gabriel washed a Clean Pickup Tesla Cybertruck using Elbow Grease method but it was still Clean
+Intern Jasmine washed a Dirty Luxury Car Jeep Grand Wagoneer using Chemical method and made it Clean
+Intern Jasmine washed a Clean Luxury Car Dodge Durango using Chemical method but it was still Clean
+The Dodge Durango has become Broken
 
-Selling
-Sales Price of the Motorcycle Lincoln Navigator increased from $40331 to $42347 after adding on Satellite Radio
-Salesperson Lucy has sold a Sparkling Like New Motorcycle Lincoln Navigator to Buyer2 for $42347 (and earned a bonus of $150)
-Sales Price of the Electric Car Dodge Ram increased from $98574 to $103502 after adding on Satellite Radio
-Salesperson Amelia has sold a Dirty Like New Electric Car Dodge Ram to Buyer4 for $103502 (and earned a bonus of $200)
+Repairing in North FNCD
+Mechanic Isabelle repaired a Used Super Car BMW M3 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Isabelle repaired a Broken Car Ferrari F8 Tributo and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Brielle repaired a Broken Electric Car BMW i8 but it was still Broken and the vehicle became Dirty
+Mechanic Brielle repaired a Broken Electric Car BMW i8 but it was still Broken and the vehicle became Dirty
+Mechanic Sophia repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sophia repaired a Broken Electric Car BMW i8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
 
-Day End
-Salesperson Amelia quit the FNCD
-Hired a new Intern Avery
-Bought Motorcycle Toyota Sienna for $9218
-Bought Electric Car Ford Mustang for $32286
+Repairing in South FNCD
+Mechanic David repaired a Broken Luxury Car Dodge Durango and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic David repaired a Used Luxury Car Dodge Durango but it was still Used and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Luxury Car Dodge Durango and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
-Total sales for the day: 145849
+Selling in North FNCD
+
+Selling in South FNCD
+Sales Price of the Motorcycle Porsche Cayenne increased from $39452 to $47342 after adding on Extended Warranty
+Salesperson Toni has sold a Dirty Like New Motorcycle Porsche Cayenne to Buyer2 for $47342 (and earned a bonus of $150)
+
+Day End in North FNCD
+Intern Anna quit the FNCD
+Hired a new Intern Riley
+
+Day End in South FNCD
+Intern Savannah quit the FNCD
+Mechanic Mackenzie quit the FNCD
+Hired a new Intern Oliver
+Hired a new Intern Mikayla
+Bought Motorcycle Lincoln Navigator for $9294
+
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 47342

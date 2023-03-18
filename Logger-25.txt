@@ -1,26 +1,47 @@
-Current Budget: 3020643
+Current Budget in North FNCD: 3658062
+Current Budget in South FNCD: 3292841
 
-Washing
-Intern Maya washed a Dirty Super Car GMC Acadia using Elbow Grease method and made it Sparkling (and earned bonus of $100)
-Intern Maya washed a Clean Super Car BMW X7 using Elbow Grease method but it was still Clean
-Intern Avery washed a Dirty Motorcycle Suzuki Hayabusa using Chemical method and made it Clean
-Intern Avery washed a Clean Super Car Rimac C2 using Chemical method but it was still Clean
-Intern Michael washed a Dirty Car Hyundai Sonata using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Michael washed a Clean Car Honda Accord using Chemical method and made it Sparkling (and earned bonus of $50)
+Washing in North FNCD
+Intern Naomi washed a Dirty Budget Car Hyundai Kona using Detailed method but it was still Dirty
+Intern Naomi washed a Clean Luxury Car McLaren 720S using Detailed method but it was still Clean
+Intern Riley washed a Dirty Budget Car Hyundai Kona using Chemical method and made it Clean
+Intern Riley washed a Clean Motorcycle Bugatti Chiron using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Elliot washed a Dirty Electric Car Audi R8 using Chemical method and made it Clean
+Intern Elliot washed a Clean Monster Truck BigFoot using Chemical method but it was still Clean
 
-Repairing
-Mechanic Mikayla repaired a Used Electric Car Porsche 911 but it was still Used and the vehicle became Dirty
-Mechanic Mikayla repaired a Broken Budget Car Nissan Rogue Sport and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Hannah repaired a Used Budget Car Nissan Rogue Sport but it was still Used and the vehicle became Dirty
-Mechanic Hannah repaired a Used Budget Car Nissan Rogue Sport and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Bella repaired a Used Electric Car Porsche 911 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Washing in South FNCD
+Intern Oliver washed a Dirty Monster Truck Bear Foot Silverado using Elbow Grease method and made it Clean
+Intern Oliver washed a Clean Budget Car Nissan Rogue Sport using Elbow Grease method but it was still Clean
+Intern Mikayla washed a Dirty Motorcycle Lincoln Navigator using Chemical method and made it Clean
+Intern Mikayla washed a Clean Electric Car Rivian R1T using Chemical method but it was still Clean
+Intern Melanie washed a Dirty Pickup Rolls-Royce Ghost using Chemical method but it was still Dirty
+Intern Melanie washed a Clean Monster Truck Sudden Impact using Chemical method but it was still Clean
 
-Selling
+Repairing in North FNCD
+Mechanic Isabelle repaired a Used Car Bentley Continental GT but it was still Used and the vehicle became Dirty
+Mechanic Isabelle repaired a Used Monster Truck El Toro Loco and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sophia repaired a Used Luxury Car Koenigsegg Jesko and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sophia repaired a Used Car Bentley Continental GT and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Paisley repaired a Used Car Ferrari F8 Tributo and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Mechanic Bella quit the FNCD
-Salesperson Emilia quit the FNCD
-Hired a new Intern Genesis
-Hired a new Intern Savannah
+Repairing in South FNCD
+Mechanic David repaired a Broken Motorcycle Suzuki Hayabusa and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic David repaired a Used Motorcycle Suzuki Hayabusa and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Total sales for the day: 0
+Selling in North FNCD
+Salesperson Ezio has sold a Dirty Like New Performance Car Porsche Panamera to Buyer3 for $102472 (and earned a bonus of $200)
+
+Selling in South FNCD
+Sales Price of the Pickup Toyota Corolla Cross increased from $63600 to $76320 after adding on Extended Warranty
+Salesperson Toni has sold a Sparkling Like New Pickup Toyota Corolla Cross to Buyer1 for $76320 (and earned a bonus of $175)
+
+Day End in North FNCD
+Bought Performance Car Kia Soul for $34930
+
+Day End in South FNCD
+Salesperson Oscar quit the FNCD
+Hired a new Intern Xavier
+Bought Pickup Jeep Grand Cherokee for $11961
+
+Total sales for the day in North FNCD: 102472
+Total sales for the day in South FNCD: 76320

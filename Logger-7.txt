@@ -1,38 +1,65 @@
-Current Budget: 974336
+Current Budget in North FNCD: 1354617
+Current Budget in South FNCD: 900325
 
-Washing
-Intern Eva washed a Dirty Performance Car Audi RS7 using Chemical method and made it Clean
-Intern Eva washed a Clean Budget Car Kia Rio using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Amelia washed a Dirty Electric Car Nissan Pathfinder using Elbow Grease method but it was still Dirty
-Intern Amelia washed a Clean Monster Truck Bear Foot F-150 using Elbow Grease method but it was still Clean
-Intern Mikayla washed a Dirty Super Car McLaren 765LT using Elbow Grease method and made it Clean
-Intern Mikayla washed a Clean Budget Car Toyota Yaris using Elbow Grease method but made it Dirty
+Washing in North FNCD
+Intern Aria washed a Dirty Car Nissan Sentra using Detailed method and made it Clean
+Intern Aria washed a Clean Budget Car Honda Fit using Detailed method but it was still Clean
+Intern Payton washed a Dirty Monster Truck Sudden Impact using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Payton washed a Clean Car Nissan Sentra using Chemical method but it was still Clean
+Intern Scarlett washed a Dirty Car Hyundai Sonata using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Scarlett washed a Clean Super Car Pagani Huayra using Detailed method and made it Sparkling (and earned bonus of $100)
 
-Repairing
-Mechanic Edward repaired a Used Monster Truck Iron Outlaw and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Budget Car Nissan Versa and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Altair repaired a Broken Motorcycle Jeep Cherokee and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Altair repaired a Used Budget Car Honda Fit and made it Like New (and earned a bonus of $100) and the vehicle became Clean
-Mechanic Victoria repaired a Broken Pickup Ford Ranger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Victoria repaired a Used Pickup Honda Odyssey and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Washing in South FNCD
+Intern David washed a Dirty Car Honda Civic using Chemical method and made it Clean
+Intern David washed a Clean Performance Car Ferrari SF90 Stradale using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Mackenzie washed a Dirty Electric Car BMW i8 using Detailed method and made it Clean
+Intern Mackenzie washed a Clean Electric Car Rolls-Royce Cullinan using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Daniel washed a Dirty Luxury Car BMW 7 Series using Chemical method and made it Clean
+Intern Daniel washed a Clean Super Car Aston Martin Valkyrie using Chemical method but it was still Clean
 
-Selling
-Sales Price of the Monster Truck USA-1 increased from $96237 to $101048 after adding on Satellite Radio
-Salesperson Eleanor has sold a Dirty Like New Monster Truck USA-1 to Buyer1 for $101048 (and earned a bonus of $175)
-Sales Price of the Pickup Honda Odyssey increased from $81435 to $85506 after adding on Satellite Radio
-Salesperson Jacob has sold a Dirty Like New Pickup Honda Odyssey to Buyer2 for $85506 (and earned a bonus of $175)
+Repairing in North FNCD
+Mechanic Conner repaired a Broken Performance Car Porsche Panamera and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Performance Car Tesla Cybertruck and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Used Pickup Chevrolet Colorado and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Luxury Car Rolls-Royce Phantom and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Luxury Car Rolls-Royce Phantom and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Budget Car Honda Fit and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Racing
-Driver Bayek finished the race at position 18 with the Luxury Car Rolls-Royce Phantom and the Vehicle became Broken 
-Driver Alexios finished the race at position 5 with the Luxury Car Lexus LS
-Driver Eivor finished the race at position 16 with the Luxury Car BMW 7 Series and the Vehicle became Broken 
-Driver Eivor got injured and quit the FNCD
+Repairing in South FNCD
+Mechanic Antonio repaired a Used Budget Car Nissan Rogue Sport and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Antonio repaired a Used Monster Truck Swamp Thing and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Eduardo repaired a Used Car Honda Civic but it was still Used and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Performance Car Mercedes-AMG GT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Pickup GMC Canyon and made it Used (and earned a bonus of $125) and the vehicle became Dirty
 
-Day End
-Mechanic Victoria quit the FNCD
-Hired a new Intern Luna
-Hired a new Driver Addison
-Bought Pickup Rolls-Royce Ghost for $32934
-Bought Monster Truck USA-1 for $39597
+Selling in North FNCD
 
-Total sales for the day: 186554
+Selling in South FNCD
+Sales Price of the Super Car Pagani Huayra increased from $146002 to $148922 after adding on Road Rescue Coverage
+Sales Price of the Super Car Pagani Huayra increased from $148922 to $156368 after adding on Satellite Radio
+Salesperson Toni has sold a Dirty Like New Super Car Pagani Huayra to Buyer1 for $156368 (and earned a bonus of $200)
+Sales Price of the Motorcycle Lamborghini Huracan increased from $49263 to $59115 after adding on Extended Warranty
+Sales Price of the Motorcycle Lamborghini Huracan increased from $59115 to $62070 after adding on Undercoating
+Salesperson Toni has sold a Dirty Used Motorcycle Lamborghini Huracan to Buyer2 for $62070 (and earned a bonus of $150)
+Salesperson Luka has sold a Dirty Like New Car Kia Forte to Buyer4 for $58305 (and earned a bonus of $150)
+
+Racing in North FNCD
+Driver Bayek finished the race at position 10 with the Super Car Bugatti Veyron
+Driver Alexios finished the race at position 17 with the Super Car McLaren 765LT and the Vehicle became Broken 
+Driver Avery finished the race at position 14 with the Super Car Pagani Huayra
+
+Racing in South FNCD
+Driver Vinicius finished the race at position 12 with the Motorcycle Aston Martin Vantage
+Driver Karim finished the race at position 4 with the Motorcycle McLaren Artura
+Driver Carlo finished the race at position 2 with the Motorcycle Porsche Taycan and Won the race (and earned a bonus of $250)
+
+Day End in North FNCD
+
+Day End in South FNCD
+Bought Car Ford Explorer for $12988
+Bought Motorcycle Tesla Model Y for $13718
+Bought Car Ford Explorer for $12988
+
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 276743

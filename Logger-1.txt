@@ -1,27 +1,60 @@
-Current Budget: 500000
+Current Budget in North FNCD: 500000
+Current Budget in South FNCD: 500000
 
-Washing
-Intern Desmond washed a Dirty Car Hyundai Sonata using Detailed method and made it Clean
-Intern Desmond washed a Clean Luxury Car Lexus LS using Detailed method but made it Dirty
-Intern Altair washed a Dirty Monster Truck Bear Foot F-150 using Elbow Grease method and made it Clean
-Intern Altair washed a Clean Performance Car BMW M8 using Elbow Grease method but it was still Clean
-Intern Ezio washed a Dirty Budget Car Hyundai Accent using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Ezio washed a Clean Monster Truck Rampage using Detailed method and made it Sparkling (and earned bonus of $75)
+Washing in North FNCD
+Intern Desmond washed a Dirty Electric Car Rivian R1T using Chemical method and made it Clean
+Intern Desmond washed a Clean Performance Car Porsche Panamera using Chemical method but it was still Clean
+Intern Altair washed a Dirty Luxury Car BMW 7 Series using Elbow Grease method and made it Clean
+Intern Altair washed a Clean Luxury Car BMW 7 Series using Elbow Grease method but it was still Clean
+Intern Ezio washed a Dirty Monster Truck Swamp Thing using Chemical method and made it Clean
+Intern Ezio washed a Clean Electric Car Rivian R1T using Chemical method but it was still Clean
 
-Repairing
-Mechanic Haytham repaired a Broken Super Car Bugatti Veyron and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Super Car Pagani Huayra and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Conner repaired a Used Pickup GMC Canyon and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Conner repaired a Broken Budget Car Suzuki Swift and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Used Performance Car BMW M8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Edward repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Washing in South FNCD
+Intern Thibaut washed a Dirty Monster Truck Sudden Impact using Elbow Grease method and made it Clean
+Intern Thibaut washed a Clean Monster Truck Swamp Thing using Elbow Grease method but made it Dirty
+Intern Daniel washed a Dirty Pickup Chevrolet Colorado using Chemical method and made it Clean
+The Chevrolet Colorado has become Broken
+Intern Daniel washed a Clean Motorcycle Lamborghini Huracan using Chemical method but it was still Clean
+Intern David washed a Dirty Monster Truck Rampage using Detailed method but it was still Dirty
+Intern David washed a Clean Luxury Car BMW 7 Series using Detailed method but it was still Clean
 
-Selling
-Salesperson Shay has sold a Sparkling Used Electric Car Rolls-Royce Cullinan to Buyer3 for $73946 (and earned a bonus of $200)
+Repairing in North FNCD
+Mechanic Haytham repaired a Broken Car Hyundai Elantra and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Pickup GMC Canyon but it was still Used and the vehicle became Dirty
+Mechanic Conner repaired a Used Electric Car BMW i8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Luxury Car Acura RLX and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Luxury Car Mercedes-Benz E-Class and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Motorcycle Suzuki Hayabusa and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Salesperson Shay quit the FNCD
-Hired a new Intern Jasmine
-Bought Electric Car Chrysler Pacifica for $17233
+Repairing in South FNCD
+Mechanic Antonio repaired a Broken Motorcycle McLaren Artura but it was still Broken and the vehicle became Dirty
+Mechanic Antonio repaired a Used Monster Truck USA-1 and made it Like New (and earned a bonus of $125) and the vehicle became Clean
+Mechanic Ferland repaired a Broken Monster Truck Iron Outlaw but it was still Broken and the vehicle became Dirty
+Mechanic Ferland repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Performance Car Audi RS7 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Monster Truck Iron Outlaw and made it Used (and earned a bonus of $125) and the vehicle became Dirty
 
-Total sales for the day: 73946
+Selling in North FNCD
+Sales Price of the Monster Truck Rampage increased from $52062 to $62474 after adding on Extended Warranty
+Salesperson Jacob has sold a Clean Like New Monster Truck Rampage to Buyer1 for $62474 (and earned a bonus of $175)
+Sales Price of the Performance Car BMW M8 increased from $57944 to $60841 after adding on Satellite Radio
+Salesperson Arno has sold a Dirty Like New Performance Car BMW M8 to Buyer3 for $60841 (and earned a bonus of $200)
+Sales Price of the Pickup Toyota Tacoma increased from $37076 to $44491 after adding on Extended Warranty
+Sales Price of the Pickup Toyota Tacoma increased from $44491 to $46715 after adding on Satellite Radio
+Salesperson Shay has sold a Dirty Like New Pickup Toyota Tacoma to Buyer4 for $46715 (and earned a bonus of $175)
+
+Selling in South FNCD
+Sales Price of the Performance Car Audi RS7 increased from $73281 to $87937 after adding on Extended Warranty
+Sales Price of the Performance Car Audi RS7 increased from $87937 to $92333 after adding on Undercoating
+Salesperson Luka has sold a Dirty Used Performance Car Audi RS7 to Buyer1 for $92333 (and earned a bonus of $200)
+
+Day End in North FNCD
+Bought Pickup Toyota Sienna for $23412
+Bought Performance Car Tesla Cybertruck for $14641
+Bought Monster Truck Stone Crusher for $11927
+
+Day End in South FNCD
+Bought Performance Car Land Rover Defender for $16350
+
+Total sales for the day in North FNCD: 170030
+Total sales for the day in South FNCD: 92333

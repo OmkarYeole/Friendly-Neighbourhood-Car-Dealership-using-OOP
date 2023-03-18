@@ -1,33 +1,65 @@
-Current Budget: 1072284
+Current Budget in North FNCD: 1338617
+Current Budget in South FNCD: 1104228
 
-Washing
-Intern Amelia washed a Dirty Super Car Ferrari 812 Superfast using Chemical method and made it Clean
-Intern Amelia washed a Clean Pickup Toyota Tacoma using Chemical method but it was still Clean
-Intern Mikayla washed a Dirty Super Car Aston Martin Valkyrie using Chemical method and made it Clean
-Intern Mikayla washed a Clean Electric Car Mercedes-AMG GT 4-Door Coupe using Chemical method but it was still Clean
-The Mercedes-AMG GT 4-Door Coupe has become Broken
-Intern Luna washed a Dirty Car Honda Accord using Elbow Grease method and made it Clean
-Intern Luna washed a Clean Monster Truck USA-1 using Elbow Grease method but it was still Clean
+Washing in North FNCD
+Intern Aria washed a Dirty Super Car Bugatti Veyron using Elbow Grease method and made it Clean
+Intern Aria washed a Clean Motorcycle Toyota Tundra using Elbow Grease method but made it Dirty
+Intern Payton washed a Dirty Motorcycle Toyota Tundra using Elbow Grease method and made it Clean
+Intern Payton washed a Clean Monster Truck Blacksmith using Elbow Grease method but it was still Clean
+Intern Scarlett washed a Dirty Super Car Rimac C2 using Elbow Grease method but it was still Dirty
+Intern Scarlett washed a Clean Budget Car Kia Rio using Elbow Grease method but it was still Clean
 
-Repairing
-Mechanic Edward repaired a Used Pickup Ram 1500 Classic but it was still Used and the vehicle became Dirty
-Mechanic Edward repaired a Used Monster Truck Swamp Thing but it was still Used and the vehicle became Dirty
-Mechanic Altair repaired a Broken Electric Car Mercedes-AMG GT 4-Door Coupe and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Altair repaired a Broken Luxury Car Rolls-Royce Phantom but it was still Broken and the vehicle became Dirty
-Mechanic Eva repaired a Used Motorcycle Suzuki Hayabusa but it was still Used and the vehicle became Dirty
-Mechanic Eva repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Washing in South FNCD
+Intern David washed a Dirty Motorcycle Aston Martin Vantage using Chemical method and made it Clean
+Intern David washed a Clean Luxury Car Jaguar XJ using Chemical method but it was still Clean
+Intern Mackenzie washed a Dirty Monster Truck Swamp Thing using Chemical method but it was still Dirty
+Intern Mackenzie washed a Clean Monster Truck Sudden Impact using Chemical method but it was still Clean
+The Sudden Impact has become Broken
+Intern Daniel washed a Dirty Monster Truck Iron Outlaw using Chemical method but it was still Dirty
+Intern Daniel washed a Clean Pickup Ford Ranger using Chemical method and made it Sparkling (and earned bonus of $75)
 
-Selling
+Repairing in North FNCD
+Mechanic Conner repaired a Broken Super Car McLaren 765LT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Monster Truck Blacksmith but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Broken Super Car Ferrari 812 Superfast but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Broken Motorcycle Aston Martin Vantage but it was still Broken and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Super Car Ferrari 812 Superfast and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Performance Car Honda Civic but it was still Broken and the vehicle became Dirty
+
+Repairing in South FNCD
+Mechanic Antonio repaired a Used Monster Truck Iron Outlaw and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Antonio repaired a Used Luxury Car Mercedes-Benz E-Class and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Performance Car Ferrari SF90 Stradale and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Eduardo repaired a Broken Pickup Nissan Frontier but it was still Broken and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Pickup GMC Canyon but it was still Used and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Luxury Car Lexus LS and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+
+Selling in North FNCD
+Sales Price of the Luxury Car Rolls-Royce Phantom increased from $145327 to $174392 after adding on Extended Warranty
+Sales Price of the Luxury Car Rolls-Royce Phantom increased from $174392 to $183111 after adding on Undercoating
+Sales Price of the Luxury Car Rolls-Royce Phantom increased from $183111 to $186773 after adding on Road Rescue Coverage
+Salesperson Shay has sold a Dirty Like New Luxury Car Rolls-Royce Phantom to Buyer1 for $186773 (and earned a bonus of $175)
+Salesperson Ezio has sold a Dirty Like New Motorcycle Yamaha YZF-R6 to Buyer2 for $65621 (and earned a bonus of $150)
+Sales Price of the Monster Truck Swamp Thing 2 increased from $64054 to $76864 after adding on Extended Warranty
+Sales Price of the Monster Truck Swamp Thing 2 increased from $76864 to $80707 after adding on Satellite Radio
+Salesperson Shay has sold a Dirty Like New Monster Truck Swamp Thing 2 to Buyer4 for $80707 (and earned a bonus of $175)
+
+Selling in South FNCD
 Sales Price of the Luxury Car BMW 7 Series increased from $119643 to $125625 after adding on Undercoating
-Salesperson Jacob has sold a Dirty Used Luxury Car BMW 7 Series to Buyer1 for $125625 (and earned a bonus of $175)
-Sales Price of the Super Car Bugatti Veyron increased from $154629 to $185554 after adding on Extended Warranty
-Sales Price of the Super Car Bugatti Veyron increased from $185554 to $194831 after adding on Satellite Radio
-Salesperson Jacob has sold a Dirty Used Super Car Bugatti Veyron to Buyer2 for $194831 (and earned a bonus of $200)
+Sales Price of the Luxury Car BMW 7 Series increased from $125625 to $131906 after adding on Satellite Radio
+Salesperson Federico has sold a Clean Like New Luxury Car BMW 7 Series to Buyer2 for $131906 (and earned a bonus of $175)
 
-Day End
-Intern Luna quit the FNCD
-Hired a new Intern Lucy
-Bought Car Chevrolet Corvette for $13830
-Bought Car Chevrolet Corvette for $13830
+Day End in North FNCD
+Salesperson Shay quit the FNCD
+Hired a new Intern Avery
+Bought Motorcycle Nissan Rogue Sport for $7479
+Bought Monster Truck Bear Foot F-150 for $31809
+Bought Car Jeep Grand Cherokee for $13659
 
-Total sales for the day: 320456
+Day End in South FNCD
+Intern Daniel quit the FNCD
+Hired a new Intern Patrick
+Bought Car Ford Explorer for $12988
+
+Total sales for the day in North FNCD: 333101
+Total sales for the day in South FNCD: 131906

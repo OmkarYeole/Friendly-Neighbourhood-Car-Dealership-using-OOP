@@ -1,21 +1,54 @@
-Current Budget: 2082762
+Current Budget in North FNCD: 2430811
+Current Budget in South FNCD: 1875267
 
-Washing
-Intern Kylie washed a Dirty Motorcycle Aston Martin Vantage using Chemical method and made it Clean
-Intern Kylie washed a Clean Car Honda Accord using Chemical method but it was still Clean
-Intern Hannah washed a Dirty Performance Car Chevrolet Trax using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Hannah washed a Clean Pickup Volvo XC90 using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Olivia washed a Dirty Budget Car Toyota Yaris using Elbow Grease method and made it Clean
-Intern Olivia washed a Clean Super Car Rimac C2 using Elbow Grease method but it was still Clean
+Washing in North FNCD
+Intern Kinsley washed a Dirty Performance Car Mazda CX-30 using Elbow Grease method and made it Clean
+Intern Kinsley washed a Clean Motorcycle Bugatti Chiron using Elbow Grease method but it was still Clean
+Intern Isabelle washed a Dirty Luxury Car Mercedes-Benz GLE using Chemical method and made it Clean
+The Mercedes-Benz GLE has become Broken
+Intern Isabelle washed a Clean Electric Car Audi R8 using Chemical method but it was still Clean
+Intern Brielle washed a Dirty Electric Car Subaru Outback using Detailed method and made it Clean
+Intern Brielle washed a Clean Super Car Bugatti Veyron using Detailed method but it was still Clean
 
-Repairing
-Mechanic Edward repaired a Used Monster Truck Swamp Thing and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Washing in South FNCD
+Intern Victoria washed a Dirty Pickup Toyota C-HR using Elbow Grease method and made it Clean
+The Toyota C-HR has become Like New
+Intern Victoria washed a Clean Super Car Aston Martin Valkyrie using Elbow Grease method but made it Dirty
+Intern Oscar washed a Dirty Luxury Car Mercedes-Benz E-Class using Chemical method and made it Clean
+The Mercedes-Benz E-Class has become Broken
+Intern Oscar washed a Clean Motorcycle Tesla Model Y using Chemical method but it was still Clean
+Intern Savannah washed a Dirty Super Car McLaren 765LT using Elbow Grease method and made it Clean
+Intern Savannah washed a Clean Luxury Car Acura RLX using Elbow Grease method and made it Sparkling (and earned bonus of $75)
 
-Selling
-Sales Price of the Super Car McLaren 765LT increased from $186787 to $196126 after adding on Satellite Radio
-Salesperson Amelia has sold a Clean Like New Super Car McLaren 765LT to Buyer2 for $196126 (and earned a bonus of $200)
+Repairing in North FNCD
+Mechanic Desmond repaired a Broken Motorcycle Porsche Taycan and made it Used (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Desmond repaired a Used Performance Car Nissan Pathfinder but it was still Used and the vehicle became Clean
+Mechanic Avery repaired a Broken Luxury Car Mercedes-Benz GLE and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Avery repaired a Broken Motorcycle Aston Martin Vantage and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Natalie repaired a Used Electric Car Subaru Outback and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Natalie repaired a Used Car Jeep Wrangler and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
-Day End
-Bought Car Land Rover Defender for $15805
+Repairing in South FNCD
+Mechanic David repaired a Broken Luxury Car Acura RLX and made it Used (and earned a bonus of $125) and the vehicle became Clean
+Mechanic David repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Luxury Car Acura RLX and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Mackenzie repaired a Used Performance Car Ferrari SF90 Stradale and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Sydney repaired a Broken Luxury Car Mercedes-Benz E-Class and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sydney repaired a Used Luxury Car Mercedes-Benz E-Class and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
-Total sales for the day: 196126
+Selling in North FNCD
+
+Selling in South FNCD
+Salesperson Rebecca has sold a Clean Like New Electric Car Mercedes-AMG GT 4-Door Coupe to Buyer1 for $76320 (and earned a bonus of $200)
+Salesperson Toni has sold a Dirty Like New Performance Car Ferrari SF90 Stradale to Buyer2 for $261406 (and earned a bonus of $200)
+
+Day End in North FNCD
+Salesperson Claire quit the FNCD
+Hired a new Intern Kylie
+
+Day End in South FNCD
+Bought Performance Car Ford Bronco for $27453
+Bought Electric Car Kia Sorento for $36248
+
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 337726

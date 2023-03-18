@@ -1,35 +1,75 @@
-Current Budget: 2023623
+Current Budget in North FNCD: 2191722
+Current Budget in South FNCD: 1818753
 
-Washing
-Intern Paisley washed a Dirty Super Car Rimac C2 using Chemical method and made it Clean
-Intern Paisley washed a Clean Budget Car Cadillac Escalade using Chemical method but made it Dirty
-Intern Kylie washed a Dirty Car Chevrolet Corvette using Detailed method but it was still Dirty
-Intern Kylie washed a Clean Super Car Nissan Kicks using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Hannah washed a Dirty Budget Car Cadillac Escalade using Elbow Grease method but it was still Dirty
-Intern Hannah washed a Clean Luxury Car Jeep Gladiator using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Washing in North FNCD
+Intern Claire washed a Dirty Car Chevrolet Spark using Chemical method and made it Clean
+The Chevrolet Spark has become Broken
+Intern Claire washed a Clean Car Jeep Grand Cherokee using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Skylar washed a Dirty Pickup GMC Canyon using Chemical method and made it Clean
+Intern Skylar washed a Clean Luxury Car Lexus LS using Chemical method but it was still Clean
+Intern Natalie washed a Dirty Budget Car Honda Fit using Elbow Grease method and made it Clean
+Intern Natalie washed a Clean Pickup Mazda CX-5 using Elbow Grease method and made it Sparkling (and earned bonus of $75)
 
-Repairing
-Mechanic Edward repaired a Used Motorcycle Aston Martin Vantage and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Used Performance Car Chevrolet Trax and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Altair repaired a Used Electric Car Ford Bronco and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Altair repaired a Broken Pickup Mazda CX-5 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Budget Car Cadillac Escalade but it was still Used and the vehicle became Dirty
-Mechanic Mikayla repaired a Used Pickup Mazda CX-5 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Washing in South FNCD
+Intern Victoria washed a Dirty Monster Truck Swamp Thing using Chemical method and made it Clean
+The Swamp Thing has become Broken
+Intern Victoria washed a Clean Car Honda Accord using Chemical method but it was still Clean
+Intern Elizabeth washed a Dirty Pickup GMC Canyon using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Elizabeth washed a Clean Super Car Aston Martin Valkyrie using Detailed method but it was still Clean
+Intern Oscar washed a Dirty Monster Truck Iron Outlaw using Chemical method and made it Clean
+The Iron Outlaw has become Broken
+Intern Oscar washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
 
-Selling
-Sales Price of the Pickup Mazda CX-5 increased from $94672 to $99405 after adding on Satellite Radio
-Salesperson Lucy has sold a Dirty Like New Pickup Mazda CX-5 to Buyer1 for $99405 (and earned a bonus of $175)
-Salesperson Lucy has sold a Dirty Like New Budget Car Dodge Grand Caravan to Buyer3 for $20202 (and earned a bonus of $150)
+Repairing in North FNCD
+Mechanic Edward repaired a Used Luxury Car Mercedes-Benz GLE and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Monster Truck Blacksmith and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Broken Car Chevrolet Spark but it was still Broken and the vehicle became Dirty
+Mechanic Desmond repaired a Used Budget Car Hyundai Accent and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Avery repaired a Broken Performance Car Volvo XC90 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Avery repaired a Used Performance Car Tesla Cybertruck and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
-Racing
-Driver Alexios finished the race at position 7 with the Motorcycle Aston Martin Vantage
-Driver Addison finished the race at position 8 with the Motorcycle McLaren Artura
-Driver Ella finished the race at position 9 with the Motorcycle Porsche Taycan
+Repairing in South FNCD
+Mechanic David repaired a Used Super Car Nissan Pathfinder and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic David repaired a Broken Monster Truck Grinder and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Mackenzie repaired a Broken Monster Truck Iron Outlaw and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Mackenzie repaired a Broken Monster Truck Swamp Thing and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sydney repaired a Used Monster Truck Iron Outlaw and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sydney repaired a Used Monster Truck Grinder and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
-Day End
-Intern Paisley quit the FNCD
-Hired a new Intern Olivia
-Bought Pickup Volvo XC90 for $31690
-Bought Car Land Rover Defender for $15805
+Selling in North FNCD
+Sales Price of the Car Nissan Sentra increased from $47520 to $57024 after adding on Extended Warranty
+Sales Price of the Car Nissan Sentra increased from $57024 to $59875 after adding on Satellite Radio
+Salesperson Jacob has sold a Dirty Used Car Nissan Sentra to Buyer1 for $59875 (and earned a bonus of $150)
 
-Total sales for the day: 119607
+Selling in South FNCD
+Sales Price of the Budget Car Suzuki Swift increased from $17040 to $17892 after adding on Satellite Radio
+Salesperson Rebecca has sold a Dirty Like New Budget Car Suzuki Swift to Buyer1 for $17892 (and earned a bonus of $150)
+
+Racing in North FNCD
+Driver Bayek finished the race at position 19 with the Motorcycle Lamborghini Huracan and the Vehicle became Broken 
+Driver Alexios finished the race at position 17 with the Motorcycle Porsche Taycan and the Vehicle became Broken 
+Driver Alexios got injured and quit the FNCD
+Driver Avery finished the race at position 12 with the Motorcycle Suzuki Hayabusa
+
+Racing in South FNCD
+Driver Karim finished the race at position 4 with the Performance Car BMW M8
+Driver Carlo finished the race at position 18 with the Performance Car Mercedes-AMG GT and the Vehicle became Broken 
+Driver Carlo got injured and quit the FNCD
+Driver Jaden finished the race at position 16 with the Performance Car Ferrari SF90 Stradale and the Vehicle became Broken 
+
+Day End in North FNCD
+Intern Skylar quit the FNCD
+Salesperson Jacob quit the FNCD
+Hired a new Intern Kinsley
+Hired a new Intern Isabelle
+Hired a new Driver Ella
+Bought Car Jeep Wrangler for $6598
+
+Day End in South FNCD
+Intern Elizabeth quit the FNCD
+Hired a new Intern Savannah
+Hired a new Driver David
+Bought Car Ford Explorer for $12988
+
+Total sales for the day in North FNCD: 59875
+Total sales for the day in South FNCD: 17892

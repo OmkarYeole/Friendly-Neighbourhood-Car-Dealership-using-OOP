@@ -1,38 +1,60 @@
-Current Budget: 661552
+Current Budget in North FNCD: 980699
+Current Budget in South FNCD: 578186
 
-Washing
-Intern Aubrey washed a Dirty Budget Car Toyota Yaris using Elbow Grease method and made it Clean
-Intern Aubrey washed a Clean Budget Car Kia Rio using Elbow Grease method but it was still Clean
-The Kia Rio has become Like New
-Intern Penelope washed a Dirty Pickup Toyota Tacoma using Detailed method and made it Clean
-Intern Penelope washed a Clean Luxury Car Acura RLX using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Audrey washed a Dirty Super Car Rimac C2 using Elbow Grease method but it was still Dirty
-Intern Audrey washed a Clean Budget Car Honda Fit using Elbow Grease method and made it Sparkling (and earned bonus of $50)
+Washing in North FNCD
+Intern Desmond washed a Dirty Motorcycle Porsche Taycan using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Desmond washed a Clean Motorcycle Lamborghini Huracan using Chemical method but it was still Clean
+Intern Altair washed a Dirty Motorcycle Yamaha YZF-R6 using Elbow Grease method and made it Clean
+Intern Altair washed a Clean Electric Car Audi R8 using Elbow Grease method but it was still Clean
+Intern Ezio washed a Dirty Car Jeep Grand Cherokee using Detailed method and made it Clean
+Intern Ezio washed a Clean Motorcycle Toyota Tundra using Detailed method but it was still Clean
 
-Repairing
-Mechanic Haytham repaired a Used Car Koenigsegg Jesko and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Haytham repaired a Used Luxury Car Acura RLX and made it Like New (and earned a bonus of $125) and the vehicle became Clean
-Mechanic Edward repaired a Used Pickup Nissan Frontier and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Used Budget Car Toyota Yaris and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Altair repaired a Used Monster Truck Swamp Thing but it was still Used and the vehicle became Dirty
-Mechanic Altair repaired a Broken Electric Car Chrysler Pacifica and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Washing in South FNCD
+Intern Daniel washed a Dirty Monster Truck Rampage using Detailed method but it was still Dirty
+Intern Daniel washed a Clean Luxury Car Jaguar XJ using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern David washed a Dirty Motorcycle Yamaha YZF-R6 using Elbow Grease method and made it Clean
+Intern David washed a Clean Pickup Toyota Tacoma using Elbow Grease method but it was still Clean
+Intern Mackenzie washed a Dirty Performance Car BMW M8 using Detailed method but it was still Dirty
+Intern Mackenzie washed a Clean Motorcycle Yamaha YZF-R6 using Detailed method and made it Sparkling (and earned bonus of $50)
 
-Selling
-Sales Price of the Super Car Pagani Huayra increased from $219003 to $262803 after adding on Extended Warranty
-Salesperson Desmond has sold a Dirty Like New Super Car Pagani Huayra to Buyer1 for $262803 (and earned a bonus of $200)
-Salesperson Desmond has sold a Dirty Used Motorcycle Lamborghini Huracan to Buyer2 for $49263 (and earned a bonus of $150)
-Salesperson Jacob has sold a Dirty Used Electric Car Chrysler Pacifica to Buyer3 for $103398 (and earned a bonus of $200)
-Sales Price of the Car Koenigsegg Jesko increased from $39982 to $40781 after adding on Road Rescue Coverage
-Salesperson Arno has sold a Dirty Like New Car Koenigsegg Jesko to Buyer5 for $40781 (and earned a bonus of $150)
+Repairing in North FNCD
+Mechanic Haytham repaired a Broken Motorcycle Yamaha YZF-R6 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Motorcycle Lamborghini Huracan and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Conner repaired a Broken Monster Truck Bear Foot F-150 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Conner repaired a Used Motorcycle Lamborghini Huracan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Budget Car Hyundai Kona and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Used Luxury Car Lexus LS but it was still Used and the vehicle became Clean
 
-Day End
-Intern Aubrey quit the FNCD
-Salesperson Desmond quit the FNCD
-Hired a new Intern Victoria
-Hired a new Intern Eleanor
-Bought Car Chevrolet Corvette for $13830
-Bought Motorcycle Jeep Cherokee for $7675
-Bought Electric Car Tesla Cybertruck for $44033
-Bought Car Chevrolet Corvette for $13830
+Repairing in South FNCD
+Mechanic Antonio repaired a Used Car Chevrolet Spark and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Antonio repaired a Used Luxury Car Jaguar XJ and made it Like New (and earned a bonus of $125) and the vehicle became Clean
+Mechanic Eduardo repaired a Used Super Car Pagani Huayra and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eduardo repaired a Used Car Nissan Sentra and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Car Kia Forte and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Performance Car Porsche 718 Cayman GT4 and made it Like New (and earned a bonus of $150) and the vehicle became Clean
 
-Total sales for the day: 456245
+Selling in North FNCD
+Sales Price of the Performance Car Audi RS7 increased from $48854 to $58624 after adding on Extended Warranty
+Sales Price of the Performance Car Audi RS7 increased from $58624 to $61555 after adding on Satellite Radio
+Salesperson Shay has sold a Dirty Like New Performance Car Audi RS7 to Buyer1 for $61555 (and earned a bonus of $200)
+Sales Price of the Monster Truck USA-1 increased from $144356 to $173227 after adding on Extended Warranty
+Salesperson Jacob has sold a Dirty Like New Monster Truck USA-1 to Buyer2 for $173227 (and earned a bonus of $175)
+Salesperson Shay has sold a Clean Like New Electric Car Polestar 2 to Buyer5 for $65446 (and earned a bonus of $200)
+
+Selling in South FNCD
+Sales Price of the Performance Car Land Rover Defender increased from $122628 to $125080 after adding on Road Rescue Coverage
+Sales Price of the Performance Car Land Rover Defender increased from $125080 to $131334 after adding on Satellite Radio
+Salesperson Federico has sold a Clean Like New Performance Car Land Rover Defender to Buyer4 for $131334 (and earned a bonus of $200)
+
+Day End in North FNCD
+Mechanic Haytham quit the FNCD
+Hired a new Intern Aria
+Bought Performance Car Nissan Pathfinder for $17782
+Bought Monster Truck Cyborg for $22361
+Bought Electric Car Nissan Altima for $31978
+
+Day End in South FNCD
+Bought Performance Car Jeep Gladiator for $17477
+
+Total sales for the day in North FNCD: 300228
+Total sales for the day in South FNCD: 131334

@@ -1,34 +1,61 @@
-Current Budget: 3066693
+Current Budget in North FNCD: 3911604
+Current Budget in South FNCD: 3801847
 
-Washing
-Intern Lila washed a Dirty Budget Car Maserati Levante using Chemical method and made it Clean
-Intern Lila washed a Clean Monster Truck Iron Outlaw using Chemical method but made it Dirty
-Intern Sophia washed a Dirty Pickup GMC Canyon using Elbow Grease method and made it Clean
-Intern Sophia washed a Clean Motorcycle Suzuki Hayabusa using Elbow Grease method but it was still Clean
-Intern Ariel washed a Dirty Motorcycle Bugatti Chiron using Chemical method and made it Clean
-Intern Ariel washed a Clean Luxury Car Jaguar XJ using Chemical method but made it Dirty
+Washing in North FNCD
+Intern Riley washed a Dirty Car Bentley Continental GT using Detailed method and made it Clean
+Intern Riley washed a Clean Luxury Car McLaren 720S using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Elliot washed a Dirty Electric Car Chevrolet Corvette using Chemical method but it was still Dirty
+Intern Elliot washed a Clean Monster Truck BigFoot using Chemical method but it was still Clean
+The BigFoot has become Broken
+Intern Emma washed a Dirty Electric Car BMW i8 using Chemical method and made it Clean
+The BMW i8 has become Broken
+Intern Emma washed a Clean Luxury Car Lexus LS using Chemical method and made it Sparkling (and earned bonus of $75)
 
-Repairing
-Mechanic Hannah repaired a Used Performance Car Jeep Grand Cherokee but it was still Used and the vehicle became Dirty
-Mechanic Hannah repaired a Used Performance Car Jeep Grand Cherokee and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Washing in South FNCD
+Intern Mikayla washed a Dirty Car Hyundai Sonata using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Mikayla washed a Clean Super Car McLaren 765LT using Chemical method but it was still Clean
+Intern Melanie washed a Dirty Car Ford Explorer using Detailed method and made it Clean
+Intern Melanie washed a Clean Budget Car Nissan Rogue Sport using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Xavier washed a Dirty Pickup Rolls-Royce Ghost using Elbow Grease method and made it Clean
+Intern Xavier washed a Clean Motorcycle Suzuki Hayabusa using Elbow Grease method but it was still Clean
 
-Selling
-Salesperson Avery has sold a Clean Like New Luxury Car Rolls-Royce Phantom to Buyer1 for $145327 (and earned a bonus of $175)
-Sales Price of the Motorcycle Toyota Sienna increased from $69135 to $72591 after adding on Satellite Radio
-Salesperson Emma has sold a Clean Like New Motorcycle Toyota Sienna to Buyer3 for $72591 (and earned a bonus of $150)
-Sales Price of the Car Kia Forte increased from $38870 to $40813 after adding on Satellite Radio
-Salesperson Avery has sold a Dirty Like New Car Kia Forte to Buyer4 for $40813 (and earned a bonus of $150)
-Sales Price of the Pickup Honda Ridgeline increased from $67155 to $70512 after adding on Satellite Radio
-Salesperson Genesis has sold a Clean Like New Pickup Honda Ridgeline to Buyer6 for $70512 (and earned a bonus of $175)
+Repairing in North FNCD
+Mechanic Sophia repaired a Broken Electric Car BMW i8 but it was still Broken and the vehicle became Dirty
+Mechanic Sophia repaired a Broken Electric Car BMW i8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Paisley repaired a Broken Monster Truck BigFoot and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Paisley repaired a Used Electric Car BMW i8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Naomi repaired a Used Monster Truck BigFoot and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
-Day End
-Intern Lila quit the FNCD
-Mechanic Maya quit the FNCD
-Hired a new Intern Elliot
-Hired a new Intern Arianna
-Bought Car Mazda CX-30 for $6010
-Bought Pickup Toyota Corolla Cross for $16571
-Bought Motorcycle Mercedes-Benz S-Class for $16427
-Bought Car Mazda CX-30 for $6010
+Repairing in South FNCD
+Mechanic David repaired a Used Monster Truck USA-1 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic David repaired a Broken Super Car Lexus RX and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Sydney repaired a Used Motorcycle Audi Q7 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Sydney repaired a Used Super Car Lexus RX and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Jasmine repaired a Used Super Car Jeep Wrangler and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
-Total sales for the day: 329243
+Selling in North FNCD
+Sales Price of the Monster Truck BigFoot increased from $102750 to $123300 after adding on Extended Warranty
+Sales Price of the Monster Truck BigFoot increased from $123300 to $129465 after adding on Satellite Radio
+Salesperson Ezio has sold a Dirty Like New Monster Truck BigFoot to Buyer1 for $129465 (and earned a bonus of $175)
+Sales Price of the Performance Car Porsche 718 Cayman GT4 increased from $91758 to $93593 after adding on Road Rescue Coverage
+Salesperson Ezio has sold a Clean Like New Performance Car Porsche 718 Cayman GT4 to Buyer2 for $93593 (and earned a bonus of $200)
+Sales Price of the Luxury Car BMW 7 Series increased from $119643 to $125625 after adding on Satellite Radio
+Salesperson Kylie has sold a Sparkling Like New Luxury Car BMW 7 Series to Buyer3 for $125625 (and earned a bonus of $175)
+
+Selling in South FNCD
+Salesperson Oliver has sold a Clean Like New Electric Car Nissan Kicks to Buyer2 for $78118 (and earned a bonus of $200)
+Salesperson Federico has sold a Dirty Like New Super Car Lexus RX to Buyer3 for $201123 (and earned a bonus of $200)
+Salesperson Toni has sold a Clean Like New Car Ford Explorer to Buyer4 for $40590 (and earned a bonus of $150)
+
+Day End in North FNCD
+Bought Performance Car Lincoln Navigator for $25019
+Bought Monster Truck Snake Bite for $17165
+Bought Car Ferrari F8 Tributo for $7172
+
+Day End in South FNCD
+Bought Car Lexus LC 500 for $15257
+Bought Electric Car Toyota RAV4 for $48122
+Bought Car Lexus LC 500 for $15257
+
+Total sales for the day in North FNCD: 348683
+Total sales for the day in South FNCD: 319831
