@@ -580,7 +580,7 @@ class Salesperson extends Staff{
                     Vehicle.cost_price[buyer_choice].remove(vehicle_choice);
                     Vehicle.sales_price[buyer_choice].remove(vehicle_choice);
                 }
-            }
+            }   
         }
     }
     public void getTotalDays(){
