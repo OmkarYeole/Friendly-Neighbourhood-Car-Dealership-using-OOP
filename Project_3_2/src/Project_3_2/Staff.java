@@ -10,8 +10,7 @@ public class Staff {
     static String[] staffType = {"Intern", "Mechanic", "Salesperson","Driver"};
     static ArrayList<String> names = new ArrayList<>();
     static ArrayList<String>[] staff = new ArrayList[4];
-    static ArrayList<String>[] staff_status = new ArrayList[4];
-    static ArrayList<String>[] dep_staff = new ArrayList[4];
+    static ArrayList<String>[] staff_status = new ArrayList[4];    static ArrayList<String>[] dep_staff = new ArrayList[4];
     static int[] normal_pay = {500, 1000, 1500, 2000};
     static ArrayList<Integer>[] total_normal_pay = new ArrayList[4];
     static ArrayList<Integer>[] bonus = new ArrayList[4];
@@ -1408,6 +1407,7 @@ class Buyer extends Staff{
     static ArrayList<Double>[] buyer_prob = new ArrayList[3];
     static int buyer_no;
     Random rand = new Random();
+
     //initializing the variables
     public void init3() {
         for (int i = 0; i < buyers.length; i++) {
