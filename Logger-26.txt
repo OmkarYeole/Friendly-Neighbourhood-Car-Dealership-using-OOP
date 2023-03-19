@@ -1,54 +1,56 @@
-Current Budget in North FNCD: 3715904
-Current Budget in South FNCD: 3347825
+Current Budget in North FNCD: 3202656
+Current Budget in South FNCD: 2955154
 
 Washing in North FNCD
-Intern Naomi washed a Dirty Car Chevrolet Spark using Chemical method and made it Clean
-Intern Naomi washed a Clean Electric Car Rivian R1T using Chemical method but it was still Clean
-Intern Riley washed a Dirty Budget Car Hyundai Accent using Detailed method and made it Clean
-Intern Riley washed a Clean Pickup Land Rover Defender using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Elliot washed a Dirty Super Car Rimac C2 using Elbow Grease method and made it Clean
-Intern Elliot washed a Clean Electric Car Rivian R1T using Elbow Grease method but made it Dirty
+Intern Samantha washed a Dirty Car Jeep Gladiator using Chemical method and made it Clean
+Intern Samantha washed a Clean Electric Car Bentley Continental GT using Chemical method but it was still Clean
+The Bentley Continental GT has become Broken
+Intern Aaliyah washed a Dirty Performance Car Mercedes-AMG GT using Detailed method and made it Clean
+Intern Aaliyah washed a Clean Performance Car Porsche Panamera using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Emily washed a Dirty Motorcycle Nissan Kicks using Detailed method and made it Clean
+Intern Emily washed a Clean Electric Car Polestar 2 using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern Mikayla washed a Dirty Motorcycle Suzuki Hayabusa using Elbow Grease method and made it Clean
-Intern Mikayla washed a Clean Electric Car BMW i8 using Elbow Grease method but it was still Clean
-Intern Melanie washed a Dirty Budget Car Honda Fit using Detailed method and made it Clean
-Intern Melanie washed a Clean Pickup Bugatti Chiron using Detailed method but it was still Clean
-Intern Xavier washed a Dirty Luxury Car Dodge Durango using Elbow Grease method but it was still Dirty
-Intern Xavier washed a Clean Electric Car BMW i8 using Elbow Grease method but it was still Clean
+Intern Sebastian washed a Dirty Luxury Car Lexus LS using Detailed method and made it Clean
+Intern Sebastian washed a Clean Monster Truck Grinder using Detailed method but it was still Clean
+Intern Rachel washed a Dirty Electric Car Chevrolet Equinox using Elbow Grease method and made it Clean
+Intern Rachel washed a Clean Budget Car Nissan Versa using Elbow Grease method but it was still Clean
+Intern Christopher washed a Dirty Motorcycle Suzuki Hayabusa using Chemical method but it was still Dirty
+Intern Christopher washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
 
 Repairing in North FNCD
+Mechanic Edward repaired a Used Motorcycle Chevrolet Corvette and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Electric Car Bentley Continental GT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Willow repaired a Used Electric Car Bentley Continental GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
 
 Selling in North FNCD
-Salesperson Ezio has sold a Dirty Like New Super Car Audi Q7 to Buyer1 for $172106 (and earned a bonus of $200)
-Salesperson Kinsley has sold a Dirty Like New Luxury Car Mercedes-Benz E-Class to Buyer5 for $127451 (and earned a bonus of $175)
+Sales Price of the Super Car Rimac C2 increased from $220991 to $232040 after adding on Satellite Radio
+Salesperson Camila has sold a Clean Like New Super Car Rimac C2 to Buyer2 for $232040 (and earned a bonus of $200)
 
 Selling in South FNCD
-Sales Price of the Motorcycle Lincoln Navigator increased from $69708 to $83649 after adding on Extended Warranty
-Sales Price of the Motorcycle Lincoln Navigator increased from $83649 to $87831 after adding on Undercoating
-Salesperson Federico has sold a Clean Like New Motorcycle Lincoln Navigator to Buyer2 for $87831 (and earned a bonus of $150)
-Sales Price of the Super Car Mercedes-Benz GLE increased from $132237 to $134881 after adding on Road Rescue Coverage
-Sales Price of the Super Car Mercedes-Benz GLE increased from $134881 to $141625 after adding on Satellite Radio
-Salesperson Federico has sold a Dirty Like New Super Car Mercedes-Benz GLE to Buyer4 for $141625 (and earned a bonus of $200)
-Sales Price of the Super Car Toyota Tundra increased from $131500 to $157800 after adding on Extended Warranty
-Salesperson Oliver has sold a Clean Like New Super Car Toyota Tundra to Buyer5 for $157800 (and earned a bonus of $200)
-Sales Price of the Monster Truck Iron Outlaw increased from $135547 to $162656 after adding on Extended Warranty
-Sales Price of the Monster Truck Iron Outlaw increased from $162656 to $170788 after adding on Satellite Radio
-Salesperson Toni has sold a Dirty Like New Monster Truck Iron Outlaw to Buyer8 for $170788 (and earned a bonus of $175)
+Sales Price of the Pickup Toyota Tacoma increased from $69517 to $72992 after adding on Undercoating
+Salesperson Christian has sold a Dirty Like New Pickup Toyota Tacoma to Buyer1 for $72992 (and earned a bonus of $175)
+Sales Price of the Car Ferrari F8 Tributo increased from $58537 to $61463 after adding on Satellite Radio
+Salesperson Christian has sold a Clean Like New Car Ferrari F8 Tributo to Buyer2 for $61463 (and earned a bonus of $150)
+Sales Price of the Luxury Car Honda Pilot increased from $168262 to $201914 after adding on Extended Warranty
+Sales Price of the Luxury Car Honda Pilot increased from $201914 to $212009 after adding on Satellite Radio
+Salesperson Cecilia has sold a Clean Like New Luxury Car Honda Pilot to Buyer3 for $212009 (and earned a bonus of $175)
 
 Day End in North FNCD
-Mechanic Isabelle quit the FNCD
-Hired a new Intern Emma
-Bought Car Ferrari F8 Tributo for $7172
-Bought Car Ferrari F8 Tributo for $7172
+Intern Aaliyah quit the FNCD
+Hired a new Intern Ellie
+Bought Car Jeep Gladiator for $11115
 
 Day End in South FNCD
-Bought Motorcycle Audi Q7 for $9364
-Bought Monster Truck USA-1 for $21330
-Bought Car Honda Civic for $8408
-Bought Car Ford Explorer for $12988
+Intern Rachel quit the FNCD
+Mechanic Jordan quit the FNCD
+Hired a new Intern Daniel
+Hired a new Intern Jason
+Bought Car Bentley Bentayga for $8012
+Bought Pickup BMW X5 for $10872
+Bought Car Bentley Bentayga for $8012
 
-Total sales for the day in North FNCD: 299557
-Total sales for the day in South FNCD: 558044
+Total sales for the day in North FNCD: 232040
+Total sales for the day in South FNCD: 346464

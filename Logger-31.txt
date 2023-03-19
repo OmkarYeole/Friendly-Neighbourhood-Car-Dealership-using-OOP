@@ -1,0 +1,37 @@
+Current Budget in North FNCD: 3772405
+Current Budget in South FNCD: 3740347
+
+Washing in North FNCD
+Intern Emily washed a Dirty Luxury Car Tesla Model S using Detailed method and made it Clean
+Intern Emily washed a Clean Luxury Car Mercedes-Benz E-Class using Detailed method but made it Dirty
+Intern Ellie washed a Dirty Luxury Car Mercedes-Benz E-Class using Elbow Grease method and made it Clean
+Intern Ellie washed a Clean Budget Car Toyota Yaris using Elbow Grease method but made it Dirty
+Intern Mackenzie washed a Dirty Pickup Ferrari F8 Tributo using Elbow Grease method and made it Clean
+Intern Mackenzie washed a Clean Car Audi Q7 using Elbow Grease method but made it Dirty
+
+Washing in South FNCD
+Intern Jason washed a Dirty Motorcycle Rolls-Royce Ghost using Chemical method and made it Clean
+Intern Jason washed a Clean Performance Car Volvo XC90 using Chemical method but it was still Clean
+Intern Madison washed a Dirty Super Car Lamborghini Aventador using Elbow Grease method but it was still Dirty
+Intern Madison washed a Clean Budget Car Dodge Grand Caravan using Elbow Grease method but it was still Clean
+Intern Samantha washed a Dirty Motorcycle Suzuki Hayabusa using Chemical method and made it Clean
+Intern Samantha washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
+
+Repairing in North FNCD
+Mechanic Edward repaired a Broken Car GMC Acadia and made it Used (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Edward repaired a Used Car GMC Acadia and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Repairing in South FNCD
+Mechanic Logan repaired a Broken Motorcycle Rolls-Royce Ghost but it was still Broken and the vehicle became Dirty
+Mechanic Logan repaired a Used Super Car Lamborghini Aventador and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Luke repaired a Broken Motorcycle Rolls-Royce Ghost and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Luke repaired a Used Motorcycle Rolls-Royce Ghost and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+
+Day End in North FNCD
+Mechanic Edward quit the FNCD
+Hired a new Intern Elena
+
+Day End in South FNCD
+
+Total sales for the day in North FNCD: 258668
+Total sales for the day in South FNCD: 268392

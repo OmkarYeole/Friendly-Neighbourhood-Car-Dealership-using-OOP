@@ -2,9 +2,13 @@ package Project_3_2;
 import java.util.ArrayList;
 import java.util.Arrays;
 import java.util.Random;
-import java.io.File;
-import java.io.FileWriter;
 import java.io.IOException;
+import java.util.Scanner;
+
+import org.junit.jupiter.api.Test;
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import static org.junit.jupiter.api.Assertions.assertTrue;
+import org.junit.jupiter.api.BeforeEach;
 
 //For 2nd FNCD
 public class Staff2 {
@@ -496,7 +500,8 @@ class Mechanic2 extends Staff2{
 }
 //For 2nd FNCD
 class Salesperson2 extends Staff2{
-    int index2,buyer_index1,buyer_index2,buyer_choice,vehicle_choice;
+    static int index2,buyer_index1,buyer_index2,buyer_choice,vehicle_choice;
+    static Vehicle2[] vehicle_object = {new Car2(),new Pickup2(),new PerformanceCar2(),new Motorcycles2(),new MonsterTrucks2(),new ElectricCar2(),new BudgetCar2(),new LuxuryCar2(),new SuperCar2()};
     String salesperson,buyer,vehicle;
     //primary method for salespersons to sell cars
     public void sale(FNCDdata2 fnc) throws IOException {
@@ -504,7 +509,6 @@ class Salesperson2 extends Staff2{
         fnc.dayAct(3,0);//obs
         Operation2.total_sales = 0;//Initializing the total sales at the beginning of the day
         Buyer2 buyer1 = new Buyer2();
-        Vehicle2[] vehicle_object = {new Car2(),new Pickup2(),new PerformanceCar2(),new Motorcycles2(),new MonsterTrucks2(),new ElectricCar2(),new BudgetCar2(),new LuxuryCar2(),new SuperCar2()};
         //Checks if there are any buyers present
         if (Buyer2.buyer_no !=0){
             for(int i = 0; i< Buyer2.buyer_no; i++){
@@ -590,6 +594,22 @@ class Salesperson2 extends Staff2{
                 }
             }
         }
+    }
+    public void sale2(FNCDdata2 fnc) throws IOException {        //sale for the 31st day
+        fnc.dayAct(3,0);//obs
+        Vehicle2 obj = new Vehicle2();
+        Operation2.budget = Operation2.budget + Vehicle2.sales_price[commandReceiver.user_choice].get(commandReceiver.vehicle_choice);//Sales price of car added to budget
+        Operation2.total_sales = Operation2.total_sales + Vehicle2.sales_price[commandReceiver.user_choice].get(commandReceiver.vehicle_choice);//updated Total sales of the day
+        getBonus(index2, commandReceiver.vehicle);    //Salesperson gets a bonus
+        Vehicle2.soldVehicles[commandReceiver.user_choice].add(commandReceiver.vehicle); //Car is added to list of sold vehicles
+        System.out.println(staffType[2]+" "+commandReceiver.salesperson +" has sold a "+commandReceiver.vehicle_cleanliness+" "+commandReceiver.vehicle_condition+" "+commandReceiver.vehicle_type+" "+ commandReceiver.vehicle +" to User for $"+commandReceiver.sales_price+" (and earned a bonus of $"+bonus_val+")");
+        fnc.sellOutcome(2,commandReceiver.salesperson,obj,commandReceiver.vehicle,commandReceiver.user_choice,"User",commandReceiver.vehicle_choice,bonus_val);//obs
+        Vehicle2.vehicle[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice); //Car is removed from Vehicles in stock
+        Vehicle2.status[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice);
+        Vehicle2.condition[obj.getCondition(commandReceiver.vehicle)].remove(obj.getCondition2(commandReceiver.vehicle));
+        Vehicle2.cleanliness[obj.getCleanliness(commandReceiver.vehicle)].remove(obj.getCleanliness2(commandReceiver.vehicle));
+        Vehicle2.cost_price[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice);
+        Vehicle2.sales_price[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice);
     }
     public void getTotalDays(){
         for(int j=0;j<staff[2].size();j++){
@@ -793,6 +813,194 @@ class Driver2 extends Staff2{
                 }
             }
         }
+    }
+}
+//Command Pattern
+interface Command{
+    public void execute();
+}
+
+class commandInvoker{
+    private Command command;
+    public void setCommand(Command command) {
+        this.command = command;
+    }
+
+    public void executeCommand() {
+        command.execute();
+    }
+}
+
+class commandReceiver{
+    Random rand = new Random();
+    Scanner scanner = new Scanner(System.in);
+    static String salesperson=null;
+    static int FNCD_choice,user_choice,user_decision,user_decision2,vehicle_choice,races_won=0,sales_price=0;
+    static String vehicle = null,vehicle_type = null,vehicle_condition = null,vehicle_cleanliness = null;
+    // methods called as the concrete methods require them
+    public void getFNCDLocation(){
+        System.out.println("\n\n********************Selling with User inputs as Buyer********************\n");
+        System.out.println("Enter the FNCD location (0 for North, 1 for South): ");
+        FNCD_choice = scanner.nextInt();
+        if (FNCD_choice == 0){
+            System.out.println("\nFNCD Selected is: FNCD North");
+        } else if (FNCD_choice == 1){
+            System.out.println("\nFNCD Selected is: FNCD South");
+        }
+    }
+    public void getSalesName(){
+        if(FNCD_choice==0){
+            Salesperson.index2 = rand.nextInt(Salesperson.staff[2].size());
+            salesperson = Salesperson.staff[2].get(Salesperson.index2);
+        } else if (FNCD_choice == 1){
+            Salesperson2.index2 = rand.nextInt(Salesperson2.staff[2].size());
+            salesperson = Salesperson2.staff[2].get(Salesperson2.index2);
+        }
+        System.out.println("\nSalesperson Selected is: " + salesperson);
+    }
+
+    public void getTime(){
+        System.out.println("\nCurrent time is: "+ java.time.LocalDateTime.now().toLocalTime());
+    }
+    public void getDifferentSalesperson(){
+        int i,index,diff_sal;
+        System.out.println("\nDo you want different Salesperson? (0 for Yes, 1 for No): ");
+        diff_sal = scanner.nextInt();
+        if (diff_sal == 0){
+            if (FNCD_choice ==0){
+                for (i = 0; i < Staff.staff[2].size(); i++) {
+                    if(Staff.staff[2].get(i) == salesperson){
+                        break;
+                    }
+                }
+                index = rand.nextInt(3);
+                while(index == i){
+                    index = rand.nextInt(3);
+                }
+                salesperson = Staff.staff[2].get(index);
+            } else if (FNCD_choice == 1){
+                for (i = 0; i < Staff2.staff[2].size(); i++) {
+                    if(Staff2.staff[2].get(i) == salesperson){
+                        break;
+                    }
+                }
+                index = rand.nextInt(3);
+                while(index == i){
+                    index = rand.nextInt(3);
+                }
+                salesperson = Staff2.staff[2].get(index);
+            }
+            System.out.println("\nDifferent Salesperson Selected is: "+ salesperson);
+        }
+
+    }
+    public void getInventory(){
+        System.out.println("\nCurrent available Inventory of Vehicles:");
+        if (FNCD_choice ==0){
+            for (int i=0;i<9;i++){
+                System.out.println(Vehicle.carType[i]+"s: "+Vehicle.vehicle[i]);
+            }
+        } else if (FNCD_choice == 1){
+            for (int i=0;i<9;i++){
+                System.out.println(Vehicle2.carType[i]+"s: "+Vehicle2.vehicle[i]);
+            }
+        }
+    }
+    public void getSelectedInventoryDetails() {
+        if (FNCD_choice == 0){
+            Vehicle obj = new Vehicle();
+            System.out.println("\nEnter the choice of Vehicle Type (e.g. 0 for Car, 1 for Pickup, 8 for Super Car):   ");
+            user_choice = scanner.nextInt();
+            obj.VehicleTopPrice();      //getting car with top sales price from User's choice
+            if(Vehicle.max_sale_price[user_choice] == 0) {
+                user_choice = obj.totalVehicleTopPrice();
+            }
+            for(int j = 0; j< Vehicle.sales_price[user_choice].size(); j++){
+                if(Vehicle.sales_price[user_choice].get(j)== Vehicle.max_sale_price[user_choice]){
+                    vehicle= Vehicle.vehicle[user_choice].get(j);
+                    vehicle_choice = j;
+                    vehicle_type= Vehicle.carType[user_choice];
+                    vehicle_condition = Vehicle.carCondition[obj.getCondition(vehicle)];
+                    vehicle_cleanliness = Vehicle.carCleanliness[obj.getCleanliness(vehicle)];
+                    races_won = Vehicle.race_won[user_choice].get(j);
+                    sales_price = Vehicle.sales_price[user_choice].get(j);
+                    break;
+                }
+            }
+        } else if (FNCD_choice == 1){
+            Vehicle2 obj= new Vehicle2();
+            System.out.println("\nEnter the choice of Vehicle Type (e.g. 0 for Car, 1 for Pickup, 8 for Super Car:   ");
+            user_choice = scanner.nextInt();
+            obj.VehicleTopPrice();      //getting car with top sales price from User's choice
+            if(Vehicle2.max_sale_price[user_choice] == 0) {
+                user_choice = obj.totalVehicleTopPrice();
+            }
+            for(int j = 0; j< Vehicle2.sales_price[user_choice].size(); j++){
+                if(Vehicle2.sales_price[user_choice].get(j)== Vehicle2.max_sale_price[user_choice]){
+                    vehicle= Vehicle2.vehicle[user_choice].get(j);
+                    vehicle_choice = j;
+                    vehicle_type= Vehicle2.carType[user_choice];
+                    vehicle_condition = Vehicle2.carCondition[obj.getCondition(vehicle)];
+                    vehicle_cleanliness = Vehicle2.carCleanliness[obj.getCleanliness(vehicle)];
+                    races_won = Vehicle2.race_won[user_choice].get(j);
+                    sales_price = Vehicle2.sales_price[user_choice].get(j);
+                    break;
+                }
+            }
+        }
+        System.out.println("\nUser selected Vehicle Type: "+vehicle_type+"\nSelected Vehicle for selling: "+vehicle);
+        System.out.println("Condition of Vehicle: "+vehicle_condition+"\nCleanliness of Vehicle: "+vehicle_cleanliness);
+        System.out.println("Races won by Vehicle: "+races_won+"\nSales Price of Vehicle: $"+sales_price);
+        System.out.println("\nWould you like to purchase the vehicle? (0 for Yes, 1 for No): ");
+        user_decision = scanner.nextInt();
+    }
+    public void buyVehicleAddOn() {
+        if (user_decision==0){
+            System.out.println("\nWould you like to purchase Add-ons? (0 for Yes, 1 for No): ");
+            user_decision2 = scanner.nextInt();
+            if (user_decision2==0){// Assumption: if user wants add-ons, it will be purchased based on probability,
+                if(FNCD_choice==0){// so it may happen that even if user says yes to buy add-ons, no add-ons will be added due to low probability
+                    Vehicle vecl = Salesperson.vehicle_object[user_choice];//creating object of one of the car types of buyer's choice
+                    vecl = new ExtendedWarranty(user_choice,vehicle_choice);//wrapping it with decorator components
+                    vecl = new Undercoating(user_choice,vehicle_choice);
+                    vecl = new RoadRescueCoverage(user_choice,vehicle_choice);
+                    vecl = new SatelliteRadio(user_choice,vehicle_choice);
+                }else if (FNCD_choice == 1){
+                    Vehicle2 vecl = Salesperson2.vehicle_object[user_choice];//creating object of one of the car types of buyer's choice
+                    vecl = new ExtendedWarranty2(user_choice,vehicle_choice);//wrapping it with decorator components
+                    vecl = new Undercoating2(user_choice,vehicle_choice);
+                    vecl = new RoadRescueCoverage2(user_choice,vehicle_choice);
+                    vecl = new SatelliteRadio2(user_choice,vehicle_choice);
+                }
+            }
+        }
+    }
+    public void buyVehicle(){
+        if(user_decision==0) {
+            System.out.println("\nUser Purchased the " + vehicle_type + " " + vehicle + " for: $" + sales_price);
+        }
+    }
+    public void endInteraction(){
+        System.out.println("\nUser Interaction ended\n");
+    }
+}
+
+class concreteCommand implements Command{
+    private commandReceiver receiver;
+
+    public concreteCommand(commandReceiver receiver) {
+        this.receiver = receiver;
+    }
+    public void execute() {
+        receiver.getFNCDLocation();
+        receiver.getSalesName();
+        receiver.getTime();
+        receiver.getDifferentSalesperson();
+        receiver.getInventory();
+        receiver.getSelectedInventoryDetails();
+        receiver.buyVehicleAddOn();
+        receiver.buyVehicle();
+        receiver.endInteraction();
     }
 }
 
@@ -1160,63 +1368,32 @@ class Vehicle2{
     //printing summary of vehicle data
     public void Print2(){
         System.out.println("\nList of Vehicles:");
-        System.out.println("Car: "+vehicle[0]);
-        System.out.println("Pickup: "+vehicle[1]);
-        System.out.println("Performance Car: "+vehicle[2]);
-        System.out.println("Motorcycles: "+vehicle[3]);
-        System.out.println("Monster Trucks: "+vehicle[4]);
-        System.out.println("Electric Cars: "+vehicle[5]);
-        System.out.println("Budget Cars: "+vehicle[6]);//prj4
-        System.out.println("Luxury Cars: "+vehicle[7]);//prj4
-        System.out.println("Super Cars: "+vehicle[8]+"\n");//prj4
-        System.out.println("Condition of Vehicles:");
-        System.out.println("Broken: "+condition[0]);
-        System.out.println("Used: "+condition[1]);
-        System.out.println("Like New: "+condition[2]+"\n");
-        System.out.println("Cleanliness of Vehicles:");
-        System.out.println("Dirty: "+cleanliness[0]);
-        System.out.println("Clean: "+cleanliness[1]);
-        System.out.println("Sparkling: "+cleanliness[2]+"\n");
-        System.out.println("Status of Vehicles:");
-        System.out.println("Car: "+status[0]);
-        System.out.println("Pickup: "+status[1]);
-        System.out.println("Performance Car: "+status[2]);
-        System.out.println("Motorcycles: "+status[3]);
-        System.out.println("Monster Trucks: "+status[4]);
-        System.out.println("Electric Cars: "+status[5]);
-        System.out.println("Budget Cars: "+status[6]);//prj4
-        System.out.println("Luxury Cars: "+status[7]);//prj4
-        System.out.println("Super Cars: "+status[8]+"\n");//prj4
-        System.out.println("Cost price of Vehicles:");
-        System.out.println("Car: "+cost_price[0]);
-        System.out.println("Pickup: "+cost_price[1]);
-        System.out.println("Performance Car: "+cost_price[2]);
-        System.out.println("Motorcycles: "+cost_price[3]);
-        System.out.println("Monster Trucks: "+cost_price[4]);
-        System.out.println("Electric Cars: "+cost_price[5]);
-        System.out.println("Budget Cars: "+cost_price[6]);//prj4
-        System.out.println("Luxury Cars: "+cost_price[7]);//prj4
-        System.out.println("Super Cars: "+cost_price[8]+"\n");//prj4
-        System.out.println("Sales price of Vehicles:");
-        System.out.println("Car: "+sales_price[0]);
-        System.out.println("Pickup: "+sales_price[1]);
-        System.out.println("Performance Car: "+sales_price[2]);
-        System.out.println("Motorcycles: "+sales_price[3]);
-        System.out.println("Monster Trucks: "+sales_price[4]);
-        System.out.println("Electric Cars: "+sales_price[5]);
-        System.out.println("Budget Cars: "+sales_price[6]);//prj4
-        System.out.println("Luxury Cars: "+sales_price[7]);//prj4
-        System.out.println("Super Cars: "+sales_price[8]+"\n");//prj4
-        System.out.println("List of Sold Vehicles:");
-        System.out.println("Car: "+soldVehicles[0]);
-        System.out.println("Pickup: "+soldVehicles[1]);
-        System.out.println("Performance Car: "+soldVehicles[2]);
-        System.out.println("Motorcycles: "+soldVehicles[3]);
-        System.out.println("Monster Trucks: "+soldVehicles[4]);
-        System.out.println("Electric Cars: "+soldVehicles[5]);
-        System.out.println("Budget Cars: "+soldVehicles[6]);//prj4
-        System.out.println("Luxury Cars: "+soldVehicles[7]);//prj4
-        System.out.println("Super Cars: "+soldVehicles[8]+"\n");//prj4
+        for (int i=0;i<9;i++){
+            System.out.println(carType[i]+"s: "+vehicle[i]);
+        }
+        System.out.println("\nCondition of Vehicles:");
+        for (int i=0;i<3;i++){
+            System.out.println(carCondition[i]+"s: "+condition[i]);
+        }
+        for (int i=0;i<3;i++){
+            System.out.println(carCleanliness[i]+"s: "+cleanliness[i]);
+        }
+        System.out.println("\nStatus of Vehicles:");
+        for (int i=0;i<9;i++){
+            System.out.println(carType[i]+"s: "+status[i]);
+        }
+        System.out.println("\nCost price of Vehicles:");
+        for (int i=0;i<9;i++){
+            System.out.println(carType[i]+"s: "+cost_price[i]);
+        }
+        System.out.println("\nSales price of Vehicles:");
+        for (int i=0;i<9;i++){
+            System.out.println(carType[i]+"s: "+sales_price[i]);
+        }
+        System.out.println("\nList of Sold Vehicles:");
+        for (int i=0;i<9;i++){
+            System.out.println(carType[i]+"s: "+soldVehicles[i]);
+        }
         System.out.println("Remaining Budget of South FNCD: "+Operation2.budget);
     }
 }
@@ -1425,10 +1602,25 @@ abstract class Addon_purchaser2 extends Vehicle2{
 
 //For 2nd FNCD
 class ExtendedWarranty2 extends Addon_purchaser2{
+    public ExtendedWarranty2(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public ExtendedWarranty2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob < 0.25){
+            System.out.println("Purchased Add-on Extended Warranty");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.2));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
@@ -1444,10 +1636,25 @@ class ExtendedWarranty2 extends Addon_purchaser2{
 
 //For 2nd FNCD
 class Undercoating2 extends Addon_purchaser2{
+    public Undercoating2(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public Undercoating2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob < 0.10){
+            System.out.println("Purchased Add-on Undercoating");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.05));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
@@ -1463,10 +1670,25 @@ class Undercoating2 extends Addon_purchaser2{
 
 //For 2nd FNCD
 class RoadRescueCoverage2 extends Addon_purchaser2{
+    public RoadRescueCoverage2(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public RoadRescueCoverage2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob <0.05){
+            System.out.println("Purchased Add-on Road Rescue Coverage");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.02));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
@@ -1482,10 +1704,25 @@ class RoadRescueCoverage2 extends Addon_purchaser2{
 
 //For 2nd FNCD
 class SatelliteRadio2 extends Addon_purchaser2{
+    public SatelliteRadio2(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public SatelliteRadio2(int i,int j,FNCDdata2 fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob < 0.40){
+            System.out.println("Purchased Add-on Satellite Radio");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.05));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata2 fnc) throws IOException {
         double prob = rand.nextDouble();
@@ -1777,8 +2014,8 @@ class Operation2 extends Staff2{
             System.out.println(staffType[i]+"s: "+dep_total_normal_pay[i]);
         }
     }
-    //main method
-    public static void main(String[] args) throws IOException {
+
+    public static void allOperations() throws IOException {
         Staff staff1 = new Staff();
         staff1.init();
         staff1.add_names();
@@ -1812,7 +2049,8 @@ class Operation2 extends Staff2{
         Operation2 op2 = new Operation2();
         FNCDdata2 fnc2 = new FNCDdata2();//obs
         Tracker tra2 = Tracker.getInstance2();//obs//prj4
-        for (day_count=1;day_count<31;day_count++){
+        Tester t = new Tester();//prj4
+        for (day_count=1;day_count<32;day_count++){
             Operation.day_count = day_count;
             Logger log1 = Logger.getInstance(fnc1);//Obs//prj4
             Operation.outputLogger();
@@ -1830,8 +2068,22 @@ class Operation2 extends Staff2{
             int2.setWashBehavior(fnc2);
             mec1.repair(fnc1);
             mec2.repair(fnc2);
-            sal1.sale(fnc1);
-            sal2.sale(fnc2);
+            if (day_count ==31){ //if day is 31 then use command patter for user inputs to buy vehicle
+                commandReceiver receiver = new commandReceiver();
+                Command command = new concreteCommand(receiver);
+                commandInvoker invoker = new commandInvoker();
+                invoker.setCommand(command);
+                invoker.executeCommand();
+                if(commandReceiver.FNCD_choice==0 && commandReceiver.user_decision == 0) {
+                    sal1.sale2(fnc1);
+                } else if (commandReceiver.FNCD_choice==1 && commandReceiver.user_decision == 0) {
+                    sal2.sale2(fnc2);
+                }
+            }
+            else{
+                sal1.sale(fnc1);
+                sal2.sale(fnc2);
+            }
             dri1.getRaceVehicles(fnc1);
             dri1.race(fnc1);
             dri2.getRaceVehicles(fnc2);
@@ -1877,12 +2129,187 @@ class Operation2 extends Staff2{
             fnc1.trackerOutcome(day_count,0);//obs
             fnc1.trackerOutcome(day_count,1);
             fnc2.trackerOutcome(day_count,1);
-//            fnc1.removeSubscriber(log1);//obs
             Operation.writer1.close();
         }
         op1.Print();
         vel1.Print2();
         op2.Print();
         vel2.Print2();
+
+        //junit testing
+        t.checkCars();//prj4
+        t.checkPickups();
+        t.checkPerformanceCars();
+        t.checkMotorcyclesCars();
+        t.checkMonsterTrucks();
+        t.checkElectricCars();
+        t.checkBudgetCars();
+        t.checkLuxuryCars();
+        t.checkSuperCars();
+        t.checkInterns();
+        t.checkMechanics();
+        t.checkSalespersons();
+        t.checkDrivers();
+        t.checkBudgetFNCDNorth();
+        t.checkBudgetFNCDSouth();
+    }
+    //main method
+    public static void main(String[] args) throws IOException {
+        allOperations();
+    }
+}
+
+class Tester{
+    Tester(){}
+    @BeforeEach
+    void runInitiatingmethods() {
+        Operation2 o2 = new Operation2();
+        Staff staff1 = new Staff();
+        staff1.init();
+        staff1.add_names();
+        staff1.addStaff();
+        Intern int1 = new Intern();
+        Mechanic mec1 = new Mechanic();
+        Salesperson sal1 = new Salesperson();
+        Buyer buy1 = new Buyer();
+        Driver dri1 = new Driver();
+        Vehicle vel1 = new Vehicle();
+        vel1.init2();
+        vel1.add_vehicle_names();
+        vel1.add_MonsterTruck_names();
+        vel1.addVehicles();
+        Operation op1 = new Operation();
+        FNCDdata fnc1 = new FNCDdata();//obs
+        Staff2 staff2 = new Staff2();
+        staff2.init();
+        staff2.add_names();
+        staff2.addStaff();
+        Intern2 int2 = new Intern2();
+        Mechanic2 mec2 = new Mechanic2();
+        Salesperson2 sal2 = new Salesperson2();
+        Buyer2 buy2 = new Buyer2();
+        Driver2 dri2 = new Driver2();
+        Vehicle2 vel2 = new Vehicle2();
+        vel2.init2();
+        vel2.add_vehicle_names();
+        vel2.add_MonsterTruck_names();
+        vel2.addVehicles();
+        Operation2 op2 = new Operation2();
+        FNCDdata2 fnc2 = new FNCDdata2();//obs
+        Tracker tra2 = Tracker.getInstance2();//obs//prj4
+    }
+    @Test
+    void checkCars() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[0].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[0].size());
+    }
+    @Test
+    void checkPickups() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[1].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[1].size());
+    }
+    @Test
+    void checkPerformanceCars() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[2].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[2].size());
+    }
+    @Test
+    void checkMotorcyclesCars() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[3].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[3].size());
+    }
+    @Test
+    void checkMonsterTrucks() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[4].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[4].size());
+    }
+    @Test
+    void checkElectricCars() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[5].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[5].size());
+    }
+    @Test
+    void checkBudgetCars() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[6].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[6].size());
+    }
+    @Test
+    void checkLuxuryCars() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[7].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[7].size());
+    }
+    @Test
+    void checkSuperCars() {
+        // Testing the starting statements to verify starting objects for Vehicle class of North FNCD
+        assertEquals(6, Vehicle.vehicle[8].size());
+
+        // Testing the starting statements to verify starting objects for Vehicle class of South FNCD
+        assertEquals(6, Vehicle2.vehicle[8].size());
+    }
+    @Test
+    void checkInterns() {
+        // Testing the starting statements to verify starting objects for Staff class of North FNCD
+        assertEquals(3, Staff.staff[0].size());
+
+        // Testing the starting statements to verify starting objects for Staff class of South FNCD
+        assertEquals(3, Staff2.staff[0].size());
+    }
+    @Test
+    void checkMechanics() {
+        // Testing the starting statements to verify starting objects for Staff class of North FNCD
+        assertEquals(3, Staff.staff[1].size());
+
+        // Testing the starting statements to verify starting objects for Staff class of South FNCD
+        assertEquals(3, Staff2.staff[1].size());
+    }
+    @Test
+    void checkSalespersons() {
+        // Testing the starting statements to verify starting objects for Staff class of North FNCD
+        assertEquals(3, Staff.staff[2].size());
+
+        // Testing the starting statements to verify starting objects for Staff class of South FNCD
+        assertEquals(3, Staff2.staff[2].size());
+    }
+    @Test
+    void checkDrivers() {
+        // Testing the starting statements to verify starting objects for Staff class of North FNCD
+        assertEquals(3, Staff.staff[3].size());
+
+        // Testing the starting statements to verify starting objects for Staff class of South FNCD
+        assertEquals(3, Staff2.staff[3].size());
+    }
+    @Test
+    void checkBudgetFNCDNorth() {
+        // Testing the starting statements to verify budget of North FNCD
+        assertEquals(true, Operation.budget >= 0);
+    }
+    @Test
+    void checkBudgetFNCDSouth() {
+        // Testing the starting statements to verify budget of South FNCD
+        assertEquals(true, Operation2.budget >= 0);
     }
 }

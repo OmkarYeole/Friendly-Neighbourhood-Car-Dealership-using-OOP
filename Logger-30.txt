@@ -1,50 +1,53 @@
-Current Budget in North FNCD: 4428882
-Current Budget in South FNCD: 4381736
+Current Budget in North FNCD: 3577133
+Current Budget in South FNCD: 3570006
 
 Washing in North FNCD
-Intern Riley washed a Dirty Luxury Car Subaru Forester using Chemical method and made it Clean
-Intern Riley washed a Clean Super Car Rimac C2 using Chemical method and made it Sparkling (and earned bonus of $100)
-The Rimac C2 has become Broken
-Intern Emma washed a Dirty Super Car BMW M3 using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Emma washed a Clean Performance Car Ford Mustang using Detailed method but it was still Clean
-Intern Samantha washed a Dirty Performance Car Nissan Pathfinder using Chemical method and made it Clean
-Intern Samantha washed a Clean Performance Car Ford Mustang using Chemical method but it was still Clean
+Intern Emily washed a Dirty Motorcycle Chevrolet Corvette using Elbow Grease method and made it Clean
+The Chevrolet Corvette has become Like New
+Intern Emily washed a Clean Electric Car Polestar 2 using Elbow Grease method but it was still Clean
+Intern Ellie washed a Dirty Electric Car Tesla Model X using Chemical method and made it Clean
+Intern Ellie washed a Clean Monster Truck Air Force Afterburner using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Mackenzie washed a Dirty Performance Car Porsche 718 Cayman GT4 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Mackenzie washed a Clean Motorcycle Chevrolet Corvette using Detailed method and made it Sparkling (and earned bonus of $50)
 
 Washing in South FNCD
-Intern Xavier washed a Dirty Car Chevrolet Spark using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Xavier washed a Clean Super Car Nissan Pathfinder using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Sarah washed a Dirty Pickup Jeep Grand Cherokee using Elbow Grease method and made it Sparkling (and earned bonus of $75)
-The Jeep Grand Cherokee has become Like New
-Intern Sarah washed a Clean Budget Car Dodge Charger using Elbow Grease method but it was still Clean
-Intern Isaac washed a Dirty Luxury Car Chevrolet Traverse using Elbow Grease method and made it Clean
-The Chevrolet Traverse has become Like New
-Intern Isaac washed a Clean Budget Car Dodge Charger using Elbow Grease method but it was still Clean
+Intern Daniel washed a Dirty Pickup Jeep Renegade using Elbow Grease method and made it Clean
+Intern Daniel washed a Clean Pickup Jeep Grand Cherokee using Elbow Grease method but it was still Clean
+Intern Jason washed a Dirty Motorcycle Toyota 4Runner using Elbow Grease method and made it Clean
+Intern Jason washed a Clean Motorcycle Toyota 4Runner using Elbow Grease method but made it Dirty
+Intern Madison washed a Dirty Car Bentley Bentayga using Chemical method and made it Clean
+Intern Madison washed a Clean Electric Car Polestar 2 using Chemical method and made it Sparkling (and earned bonus of $100)
 
 Repairing in North FNCD
-Mechanic Sophia repaired a Used Performance Car Dodge Ram and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Sophia repaired a Used Performance Car Ford Mustang and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Paisley repaired a Broken Super Car Rimac C2 and made it Used (and earned a bonus of $150) and the vehicle became Clean
-Mechanic Paisley repaired a Broken Car Tesla Model X and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Super Car Rimac C2 but it was still Used and the vehicle became Dirty
-Mechanic Naomi repaired a Used Super Car Rimac C2 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Used Car Kia Sorento and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic David repaired a Used Luxury Car Ford Escape and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Logan repaired a Broken Pickup Jeep Grand Cherokee and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Logan repaired a Used Pickup Jeep Grand Cherokee but it was still Used and the vehicle became Dirty
+Mechanic Luke repaired a Used Pickup Jeep Grand Cherokee and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
+Sales Price of the Car Kia Sorento increased from $47445 to $56934 after adding on Extended Warranty
+Sales Price of the Car Kia Sorento increased from $56934 to $59780 after adding on Satellite Radio
+Salesperson Samantha has sold a Dirty Like New Car Kia Sorento to Buyer2 for $59780 (and earned a bonus of $150)
+Salesperson Samantha has sold a Clean Like New Super Car Kia Carnival to Buyer4 for $198888 (and earned a bonus of $200)
 
 Selling in South FNCD
-Sales Price of the Monster Truck Bear Foot Silverado increased from $89482 to $93956 after adding on Satellite Radio
-Salesperson Oliver has sold a Clean Like New Monster Truck Bear Foot Silverado to Buyer2 for $93956 (and earned a bonus of $175)
-Salesperson Federico has sold a Dirty Like New Super Car Jeep Wrangler to Buyer3 for $114960 (and earned a bonus of $200)
+Salesperson Cecilia has sold a Clean Like New Super Car Dodge Durango to Buyer1 for $120897 (and earned a bonus of $200)
+Sales Price of the Super Car Mercedes-Benz S-Class increased from $110900 to $116445 after adding on Satellite Radio
+Salesperson Christopher has sold a Clean Like New Super Car Mercedes-Benz S-Class to Buyer2 for $116445 (and earned a bonus of $200)
+Salesperson Isaac has sold a Sparkling Like New Motorcycle Subaru Crosstrek to Buyer3 for $31050 (and earned a bonus of $150)
 
 Day End in North FNCD
-Salesperson Kylie quit the FNCD
-Hired a new Intern Lucy
+Bought Car GMC Acadia for $8896
+Bought Car GMC Acadia for $8896
 
 Day End in South FNCD
-Bought Monster Truck Snake Bite for $17581
-Bought Car Jeep Renegade for $11181
+Intern Daniel quit the FNCD
+Hired a new Intern Samantha
+Bought Motorcycle Rolls-Royce Ghost for $8893
+Bought Car Bentley Bentayga for $8012
+Bought Car Mercedes-Benz GLE for $7074
 
-Total sales for the day in North FNCD: 0
-Total sales for the day in South FNCD: 208916
+Total sales for the day in North FNCD: 258668
+Total sales for the day in South FNCD: 268392

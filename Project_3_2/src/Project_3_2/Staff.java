@@ -6,6 +6,10 @@ import java.io.File;
 import java.io.FileWriter;
 import java.io.IOException;
 
+import static org.junit.jupiter.api.Assertions.assertEquals;
+import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.Test;
+
 public class Staff {
     static String[] staffType = {"Intern", "Mechanic", "Salesperson","Driver"};
     static ArrayList<String> names = new ArrayList<>();
@@ -489,15 +493,15 @@ class Mechanic extends Staff {
     }
 }
 class Salesperson extends Staff{
-    int index2,buyer_index1,buyer_index2,buyer_choice,vehicle_choice;
+    static int index2,buyer_index1,buyer_index2,buyer_choice,vehicle_choice;
     String salesperson,buyer,vehicle;
+    static Vehicle[] vehicle_object = {new Car(),new Pickup(),new PerformanceCar(),new Motorcycles(),new MonsterTrucks(),new ElectricCar(),new BudgetCar(),new LuxuryCar(),new SuperCar()};
     //primary method for salespersons to sell cars
     public void sale(FNCDdata fnc) throws IOException {
         System.out.println("\nSelling in North FNCD");
         fnc.dayAct(3,0);//obs
         Operation.total_sales = 0;//Initializing the total sales at the beginning of the day
         Buyer buyer1 = new Buyer();
-        Vehicle[] vehicle_object = {new Car(),new Pickup(),new PerformanceCar(),new Motorcycles(),new MonsterTrucks(),new ElectricCar(),new BudgetCar(),new LuxuryCar(),new SuperCar()};
         //Checks if there are any buyers present
         if (Buyer.buyer_no !=0){
             for(int i = 0; i< Buyer.buyer_no; i++){
@@ -583,6 +587,22 @@ class Salesperson extends Staff{
                 }
             }
         }
+    }
+    public void sale2(FNCDdata fnc) throws IOException {         //sale for the 31st day
+        fnc.dayAct(3,0);//obs
+        Vehicle obj = new Vehicle();
+        Operation.budget = Operation.budget + Vehicle.sales_price[commandReceiver.user_choice].get(commandReceiver.vehicle_choice);//Sales price of car added to budget
+        Operation.total_sales = Operation.total_sales + Vehicle.sales_price[commandReceiver.user_choice].get(commandReceiver.vehicle_choice);//updated Total sales of the day
+        getBonus(index2, commandReceiver.vehicle);    //Salesperson gets a bonus
+        Vehicle.soldVehicles[commandReceiver.user_choice].add(commandReceiver.vehicle); //Car is added to list of sold vehicles
+        System.out.println(staffType[2]+" "+commandReceiver.salesperson +" has sold a "+commandReceiver.vehicle_cleanliness+" "+commandReceiver.vehicle_condition+" "+commandReceiver.vehicle_type+" "+ commandReceiver.vehicle +" to User for $"+commandReceiver.sales_price+" (and earned a bonus of $"+bonus_val+")");
+        fnc.sellOutcome(2,commandReceiver.salesperson,obj,commandReceiver.vehicle,commandReceiver.user_choice,"User",commandReceiver.vehicle_choice,bonus_val);//obs
+        Vehicle.vehicle[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice); //Car is removed from Vehicles in stock
+        Vehicle.status[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice);
+        Vehicle.condition[obj.getCondition(commandReceiver.vehicle)].remove(obj.getCondition2(commandReceiver.vehicle));
+        Vehicle.cleanliness[obj.getCleanliness(commandReceiver.vehicle)].remove(obj.getCleanliness2(commandReceiver.vehicle));
+        Vehicle.cost_price[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice);
+        Vehicle.sales_price[commandReceiver.user_choice].remove(commandReceiver.vehicle_choice);
     }
     public void getTotalDays(){
         for(int j=0;j<staff[2].size();j++){
@@ -1405,10 +1425,25 @@ abstract class Addon_purchaser extends Vehicle{
 }
 
 class ExtendedWarranty extends Addon_purchaser{
+    public ExtendedWarranty(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public ExtendedWarranty(int i,int j,FNCDdata fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob < 0.25){
+            System.out.println("Purchased Add-on Extended Warranty");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.2));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata fnc) throws IOException {
         double prob = rand.nextDouble();
@@ -1423,10 +1458,25 @@ class ExtendedWarranty extends Addon_purchaser{
 }
 
 class Undercoating extends Addon_purchaser{
+    public Undercoating(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public Undercoating(int i,int j,FNCDdata fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob < 0.10){
+            System.out.println("Purchased Add-on Undercoating");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.05));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata fnc) throws IOException {
         double prob = rand.nextDouble();
@@ -1441,10 +1491,25 @@ class Undercoating extends Addon_purchaser{
 }
 
 class RoadRescueCoverage extends Addon_purchaser{
+    public RoadRescueCoverage(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public RoadRescueCoverage(int i,int j,FNCDdata fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob <0.05){
+            System.out.println("Purchased Add-on Road Rescue Coverage");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.02));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata fnc) throws IOException {
         double prob = rand.nextDouble();
@@ -1459,10 +1524,25 @@ class RoadRescueCoverage extends Addon_purchaser{
 }
 
 class SatelliteRadio extends Addon_purchaser{
+    public SatelliteRadio(int i,int j) {
+        this.i = i;
+        this.j = j;
+        addonPrice();
+    }
     public SatelliteRadio(int i,int j,FNCDdata fnc) throws IOException {
         this.i = i;
         this.j = j;
         addonPrice(fnc);
+    }
+    public void addonPrice() {
+        double prob = rand.nextDouble();
+        if(prob < 0.40){
+            System.out.println("Purchased Add-on Satellite Radio");
+            System.out.print("Sales Price of the "+carType[i]+" "+vehicle[i].get(j)+" increased from $"+sales_price[i].get(j));
+            sales_price[i].set(j, (int)(sales_price[i].get(j)*1.05));
+            System.out.println(" to $"+sales_price[i].get(j));
+            commandReceiver.sales_price = sales_price[i].get(j);
+        }
     }
     public void addonPrice(FNCDdata fnc) throws IOException {
         double prob = rand.nextDouble();

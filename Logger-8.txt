@@ -1,65 +1,55 @@
-Current Budget in North FNCD: 1338617
-Current Budget in South FNCD: 1104228
+Current Budget in North FNCD: 1138555
+Current Budget in South FNCD: 1150322
 
 Washing in North FNCD
-Intern Aria washed a Dirty Super Car Bugatti Veyron using Elbow Grease method and made it Clean
-Intern Aria washed a Clean Motorcycle Toyota Tundra using Elbow Grease method but made it Dirty
-Intern Payton washed a Dirty Motorcycle Toyota Tundra using Elbow Grease method and made it Clean
-Intern Payton washed a Clean Monster Truck Blacksmith using Elbow Grease method but it was still Clean
-Intern Scarlett washed a Dirty Super Car Rimac C2 using Elbow Grease method but it was still Dirty
-Intern Scarlett washed a Clean Budget Car Kia Rio using Elbow Grease method but it was still Clean
+Intern Eva washed a Dirty Pickup Toyota Tacoma using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Eva washed a Clean Super Car Subaru Ascent using Chemical method but it was still Clean
+Intern Sofia washed a Dirty Car Toyota Corolla Cross using Chemical method and made it Clean
+Intern Sofia washed a Clean Luxury Car Mercedes-Benz E-Class using Chemical method but it was still Clean
+Intern Skylar washed a Dirty Budget Car Toyota Yaris using Detailed method and made it Clean
+Intern Skylar washed a Clean Electric Car Polestar 2 using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern David washed a Dirty Motorcycle Aston Martin Vantage using Chemical method and made it Clean
-Intern David washed a Clean Luxury Car Jaguar XJ using Chemical method but it was still Clean
-Intern Mackenzie washed a Dirty Monster Truck Swamp Thing using Chemical method but it was still Dirty
-Intern Mackenzie washed a Clean Monster Truck Sudden Impact using Chemical method but it was still Clean
-The Sudden Impact has become Broken
-Intern Daniel washed a Dirty Monster Truck Iron Outlaw using Chemical method but it was still Dirty
-Intern Daniel washed a Clean Pickup Ford Ranger using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Brianna washed a Dirty Monster Truck Bear Foot F-150 using Chemical method and made it Clean
+The Bear Foot F-150 has become Broken
+Intern Brianna washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
+Intern Victoria washed a Dirty Electric Car Rivian R1T using Chemical method and made it Clean
+Intern Victoria washed a Clean Electric Car Rivian R1T using Chemical method but made it Dirty
+Intern Isaac washed a Dirty Motorcycle Aston Martin Vantage using Elbow Grease method and made it Clean
+Intern Isaac washed a Clean Pickup Dodge Charger using Elbow Grease method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Conner repaired a Broken Super Car McLaren 765LT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Conner repaired a Broken Monster Truck Blacksmith but it was still Broken and the vehicle became Dirty
-Mechanic Edward repaired a Broken Super Car Ferrari 812 Superfast but it was still Broken and the vehicle became Dirty
-Mechanic Edward repaired a Broken Motorcycle Aston Martin Vantage but it was still Broken and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Super Car Ferrari 812 Superfast and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Desmond repaired a Broken Performance Car Honda Civic but it was still Broken and the vehicle became Dirty
+Mechanic Edward repaired a Broken Super Car McLaren 765LT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Monster Truck Monster Mutt and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Car Kia Forte and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Desmond repaired a Used Car Toyota Corolla Cross but it was still Used and the vehicle became Dirty
+Mechanic Lily repaired a Used Monster Truck Rampage and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Lily repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Antonio repaired a Used Monster Truck Iron Outlaw and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Antonio repaired a Used Luxury Car Mercedes-Benz E-Class and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Eduardo repaired a Broken Performance Car Ferrari SF90 Stradale and made it Used (and earned a bonus of $150) and the vehicle became Clean
-Mechanic Eduardo repaired a Broken Pickup Nissan Frontier but it was still Broken and the vehicle became Dirty
-Mechanic Thibaut repaired a Used Pickup GMC Canyon but it was still Used and the vehicle became Dirty
-Mechanic Thibaut repaired a Used Luxury Car Lexus LS and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Antonio repaired a Broken Pickup Dodge Charger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Antonio repaired a Broken Performance Car Dodge Ram and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ferland repaired a Used Car Chevrolet Traverse and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ferland repaired a Used Pickup GMC Canyon but it was still Used and the vehicle became Dirty
+Mechanic Daniel repaired a Used Budget Car Kia Sorento and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Daniel repaired a Broken Pickup Chevrolet Colorado and made it Used (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Luxury Car Rolls-Royce Phantom increased from $145327 to $174392 after adding on Extended Warranty
-Sales Price of the Luxury Car Rolls-Royce Phantom increased from $174392 to $183111 after adding on Undercoating
-Sales Price of the Luxury Car Rolls-Royce Phantom increased from $183111 to $186773 after adding on Road Rescue Coverage
-Salesperson Shay has sold a Dirty Like New Luxury Car Rolls-Royce Phantom to Buyer1 for $186773 (and earned a bonus of $175)
-Salesperson Ezio has sold a Dirty Like New Motorcycle Yamaha YZF-R6 to Buyer2 for $65621 (and earned a bonus of $150)
-Sales Price of the Monster Truck Swamp Thing 2 increased from $64054 to $76864 after adding on Extended Warranty
-Sales Price of the Monster Truck Swamp Thing 2 increased from $76864 to $80707 after adding on Satellite Radio
-Salesperson Shay has sold a Dirty Like New Monster Truck Swamp Thing 2 to Buyer4 for $80707 (and earned a bonus of $175)
+Sales Price of the Car Toyota Corolla Cross increased from $53334 to $64000 after adding on Extended Warranty
+Sales Price of the Car Toyota Corolla Cross increased from $64000 to $67200 after adding on Satellite Radio
+Salesperson Jacob has sold a Dirty Used Car Toyota Corolla Cross to Buyer1 for $67200 (and earned a bonus of $150)
+Sales Price of the Monster Truck Monster Mutt increased from $71994 to $86392 after adding on Extended Warranty
+Salesperson Altair has sold a Dirty Used Monster Truck Monster Mutt to Buyer2 for $86392 (and earned a bonus of $175)
 
 Selling in South FNCD
-Sales Price of the Luxury Car BMW 7 Series increased from $119643 to $125625 after adding on Undercoating
-Sales Price of the Luxury Car BMW 7 Series increased from $125625 to $131906 after adding on Satellite Radio
-Salesperson Federico has sold a Clean Like New Luxury Car BMW 7 Series to Buyer2 for $131906 (and earned a bonus of $175)
 
 Day End in North FNCD
-Salesperson Shay quit the FNCD
-Hired a new Intern Avery
-Bought Motorcycle Nissan Rogue Sport for $7479
-Bought Monster Truck Bear Foot F-150 for $31809
-Bought Car Jeep Grand Cherokee for $13659
+Bought Car BMW X5 for $13730
+Bought Monster Truck Predator for $14346
 
 Day End in South FNCD
-Intern Daniel quit the FNCD
-Hired a new Intern Patrick
-Bought Car Ford Explorer for $12988
+Salesperson Toni quit the FNCD
+Hired a new Intern Taylor
 
-Total sales for the day in North FNCD: 333101
-Total sales for the day in South FNCD: 131906
+Total sales for the day in North FNCD: 153592
+Total sales for the day in South FNCD: 0

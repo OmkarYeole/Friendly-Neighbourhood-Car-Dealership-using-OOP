@@ -1,47 +1,42 @@
-Current Budget in North FNCD: 3658062
-Current Budget in South FNCD: 3292841
+Current Budget in North FNCD: 3175558
+Current Budget in South FNCD: 2964529
 
 Washing in North FNCD
-Intern Naomi washed a Dirty Budget Car Hyundai Kona using Detailed method but it was still Dirty
-Intern Naomi washed a Clean Luxury Car McLaren 720S using Detailed method but it was still Clean
-Intern Riley washed a Dirty Budget Car Hyundai Kona using Chemical method and made it Clean
-Intern Riley washed a Clean Motorcycle Bugatti Chiron using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Elliot washed a Dirty Electric Car Audi R8 using Chemical method and made it Clean
-Intern Elliot washed a Clean Monster Truck BigFoot using Chemical method but it was still Clean
+Intern Samantha washed a Dirty Budget Car Dodge Grand Caravan using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Samantha washed a Clean Car Audi Q7 using Detailed method but it was still Clean
+Intern Aaliyah washed a Dirty Motorcycle McLaren 720S using Elbow Grease method and made it Clean
+Intern Aaliyah washed a Clean Monster Truck Bear Foot F-150 using Elbow Grease method but it was still Clean
+Intern Emily washed a Dirty Pickup Ford Bronco using Chemical method but it was still Dirty
+Intern Emily washed a Clean Car Audi Q7 using Chemical method but it was still Clean
 
 Washing in South FNCD
-Intern Oliver washed a Dirty Monster Truck Bear Foot Silverado using Elbow Grease method and made it Clean
-Intern Oliver washed a Clean Budget Car Nissan Rogue Sport using Elbow Grease method but it was still Clean
-Intern Mikayla washed a Dirty Motorcycle Lincoln Navigator using Chemical method and made it Clean
-Intern Mikayla washed a Clean Electric Car Rivian R1T using Chemical method but it was still Clean
-Intern Melanie washed a Dirty Pickup Rolls-Royce Ghost using Chemical method but it was still Dirty
-Intern Melanie washed a Clean Monster Truck Sudden Impact using Chemical method but it was still Clean
+Intern Sebastian washed a Dirty Car Hyundai Sonata using Chemical method and made it Clean
+Intern Sebastian washed a Clean Super Car Mercedes-Benz S-Class using Chemical method but it was still Clean
+Intern Rachel washed a Dirty Pickup Ram 1500 Classic using Detailed method and made it Clean
+Intern Rachel washed a Clean Luxury Car Jaguar XJ using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Adam washed a Dirty Monster Truck Grinder using Elbow Grease method and made it Clean
+Intern Adam washed a Clean Luxury Car Honda Pilot using Elbow Grease method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Isabelle repaired a Used Car Bentley Continental GT but it was still Used and the vehicle became Dirty
-Mechanic Isabelle repaired a Used Monster Truck El Toro Loco and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Sophia repaired a Used Luxury Car Koenigsegg Jesko and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Sophia repaired a Used Car Bentley Continental GT and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Paisley repaired a Used Car Ferrari F8 Tributo and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Performance Car Mercedes-AMG GT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic David repaired a Broken Motorcycle Suzuki Hayabusa and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic David repaired a Used Motorcycle Suzuki Hayabusa and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Logan repaired a Broken Performance Car Porsche 718 Cayman GT4 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Logan repaired a Used Performance Car Porsche 718 Cayman GT4 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling in North FNCD
-Salesperson Ezio has sold a Dirty Like New Performance Car Porsche Panamera to Buyer3 for $102472 (and earned a bonus of $200)
+Sales Price of the Motorcycle McLaren 720S increased from $49316 to $51781 after adding on Satellite Radio
+Salesperson Altair has sold a Clean Like New Motorcycle McLaren 720S to Buyer1 for $51781 (and earned a bonus of $150)
 
 Selling in South FNCD
-Sales Price of the Pickup Toyota Corolla Cross increased from $63600 to $76320 after adding on Extended Warranty
-Salesperson Toni has sold a Sparkling Like New Pickup Toyota Corolla Cross to Buyer1 for $76320 (and earned a bonus of $175)
 
 Day End in North FNCD
-Bought Performance Car Kia Soul for $34930
+Bought Motorcycle Chevrolet Corvette for $15183
 
 Day End in South FNCD
-Salesperson Oscar quit the FNCD
-Hired a new Intern Xavier
-Bought Pickup Jeep Grand Cherokee for $11961
+Intern Adam quit the FNCD
+Hired a new Intern Christopher
 
-Total sales for the day in North FNCD: 102472
-Total sales for the day in South FNCD: 76320
+Total sales for the day in North FNCD: 51781
+Total sales for the day in South FNCD: 0

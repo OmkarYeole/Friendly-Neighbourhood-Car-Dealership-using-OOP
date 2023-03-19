@@ -1,61 +1,64 @@
-Current Budget in North FNCD: 3911604
-Current Budget in South FNCD: 3801847
+Current Budget in North FNCD: 3398478
+Current Budget in South FNCD: 3233311
 
 Washing in North FNCD
-Intern Riley washed a Dirty Car Bentley Continental GT using Detailed method and made it Clean
-Intern Riley washed a Clean Luxury Car McLaren 720S using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Elliot washed a Dirty Electric Car Chevrolet Corvette using Chemical method but it was still Dirty
-Intern Elliot washed a Clean Monster Truck BigFoot using Chemical method but it was still Clean
-The BigFoot has become Broken
-Intern Emma washed a Dirty Electric Car BMW i8 using Chemical method and made it Clean
-The BMW i8 has become Broken
-Intern Emma washed a Clean Luxury Car Lexus LS using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Samantha washed a Dirty Electric Car Tesla Model X using Chemical method and made it Clean
+The Tesla Model X has become Broken
+Intern Samantha washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
+Intern Emily washed a Dirty Electric Car Rivian R1T using Elbow Grease method and made it Clean
+Intern Emily washed a Clean Motorcycle Lamborghini Aventador using Elbow Grease method but made it Dirty
+Intern Ellie washed a Dirty Performance Car Dodge Durango using Chemical method and made it Clean
+Intern Ellie washed a Clean Budget Car Jeep Grand Wagoneer using Chemical method but it was still Clean
 
 Washing in South FNCD
-Intern Mikayla washed a Dirty Car Hyundai Sonata using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Mikayla washed a Clean Super Car McLaren 765LT using Chemical method but it was still Clean
-Intern Melanie washed a Dirty Car Ford Explorer using Detailed method and made it Clean
-Intern Melanie washed a Clean Budget Car Nissan Rogue Sport using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Xavier washed a Dirty Pickup Rolls-Royce Ghost using Elbow Grease method and made it Clean
-Intern Xavier washed a Clean Motorcycle Suzuki Hayabusa using Elbow Grease method but it was still Clean
+Intern Christopher washed a Dirty Pickup BMW X5 using Detailed method and made it Clean
+Intern Christopher washed a Clean Car Koenigsegg Jesko using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Daniel washed a Dirty Luxury Car Ford Bronco using Chemical method and made it Clean
+The Ford Bronco has become Broken
+Intern Daniel washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
+The Ram 1500 Classic has become Broken
+Intern Jason washed a Dirty Performance Car Porsche 718 Cayman GT4 using Detailed method and made it Clean
+Intern Jason washed a Clean Budget Car Nissan Versa using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Sophia repaired a Broken Electric Car BMW i8 but it was still Broken and the vehicle became Dirty
-Mechanic Sophia repaired a Broken Electric Car BMW i8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Paisley repaired a Broken Monster Truck BigFoot and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Paisley repaired a Used Electric Car BMW i8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Monster Truck BigFoot and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Electric Car Tesla Model X and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Used Electric Car Tesla Model X and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Willow repaired a Broken Super Car Kia Carnival and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Willow repaired a Used Super Car Kia Carnival and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic David repaired a Used Monster Truck USA-1 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic David repaired a Broken Super Car Lexus RX and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Sydney repaired a Used Motorcycle Audi Q7 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Sydney repaired a Used Super Car Lexus RX and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Jasmine repaired a Used Super Car Jeep Wrangler and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Logan repaired a Used Car Bentley Bentayga and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Logan repaired a Broken Pickup BMW X5 but it was still Broken and the vehicle became Dirty
+Mechanic Luke repaired a Broken Luxury Car Ford Bronco and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Luke repaired a Used Luxury Car Ford Bronco and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sebastian repaired a Broken Pickup Ram 1500 Classic and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Sebastian repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Monster Truck BigFoot increased from $102750 to $123300 after adding on Extended Warranty
-Sales Price of the Monster Truck BigFoot increased from $123300 to $129465 after adding on Satellite Radio
-Salesperson Ezio has sold a Dirty Like New Monster Truck BigFoot to Buyer1 for $129465 (and earned a bonus of $175)
-Sales Price of the Performance Car Porsche 718 Cayman GT4 increased from $91758 to $93593 after adding on Road Rescue Coverage
-Salesperson Ezio has sold a Clean Like New Performance Car Porsche 718 Cayman GT4 to Buyer2 for $93593 (and earned a bonus of $200)
-Sales Price of the Luxury Car BMW 7 Series increased from $119643 to $125625 after adding on Satellite Radio
-Salesperson Kylie has sold a Sparkling Like New Luxury Car BMW 7 Series to Buyer3 for $125625 (and earned a bonus of $175)
+Sales Price of the Pickup Ford Bronco increased from $92432 to $97053 after adding on Satellite Radio
+Salesperson Camila has sold a Dirty Like New Pickup Ford Bronco to Buyer4 for $97053 (and earned a bonus of $175)
+Sales Price of the Luxury Car Lexus LS increased from $106695 to $112029 after adding on Satellite Radio
+Salesperson Altair has sold a Clean Like New Luxury Car Lexus LS to Buyer5 for $112029 (and earned a bonus of $175)
+Salesperson Altair has sold a Clean Like New Pickup GMC Canyon to Buyer6 for $70077 (and earned a bonus of $175)
 
 Selling in South FNCD
-Salesperson Oliver has sold a Clean Like New Electric Car Nissan Kicks to Buyer2 for $78118 (and earned a bonus of $200)
-Salesperson Federico has sold a Dirty Like New Super Car Lexus RX to Buyer3 for $201123 (and earned a bonus of $200)
-Salesperson Toni has sold a Clean Like New Car Ford Explorer to Buyer4 for $40590 (and earned a bonus of $150)
+Sales Price of the Super Car Rimac C2 increased from $117862 to $123755 after adding on Satellite Radio
+Salesperson Christian has sold a Clean Like New Super Car Rimac C2 to Buyer1 for $123755 (and earned a bonus of $200)
+Salesperson Isaac has sold a Sparkling Like New Car Mazda MX-5 Miata to Buyer2 for $29870 (and earned a bonus of $150)
+Sales Price of the Pickup Ram 1500 Classic increased from $108472 to $113895 after adding on Satellite Radio
+Salesperson Cecilia has sold a Dirty Like New Pickup Ram 1500 Classic to Buyer3 for $113895 (and earned a bonus of $175)
 
 Day End in North FNCD
-Bought Performance Car Lincoln Navigator for $25019
-Bought Monster Truck Snake Bite for $17165
-Bought Car Ferrari F8 Tributo for $7172
+Salesperson Grace quit the FNCD
+Hired a new Intern Lucy
+Bought Pickup Ferrari F8 Tributo for $13379
+Bought Pickup Koenigsegg Jesko for $31225
+Bought Car Jeep Gladiator for $11115
 
 Day End in South FNCD
-Bought Car Lexus LC 500 for $15257
-Bought Electric Car Toyota RAV4 for $48122
-Bought Car Lexus LC 500 for $15257
+Bought Car Mercedes-Benz GLE for $7074
+Bought Pickup Toyota Tundra for $13753
+Bought Car Mercedes-Benz GLE for $7074
 
-Total sales for the day in North FNCD: 348683
-Total sales for the day in South FNCD: 319831
+Total sales for the day in North FNCD: 279159
+Total sales for the day in South FNCD: 267520

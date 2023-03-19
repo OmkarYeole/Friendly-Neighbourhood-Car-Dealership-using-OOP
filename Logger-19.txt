@@ -1,62 +1,63 @@
-Current Budget in North FNCD: 2684719
-Current Budget in South FNCD: 2430229
+Current Budget in North FNCD: 2523962
+Current Budget in South FNCD: 2114251
 
 Washing in North FNCD
-Intern Sofia washed a Dirty Luxury Car Mercedes-Benz E-Class using Chemical method but it was still Dirty
-Intern Sofia washed a Clean Motorcycle Lamborghini Huracan using Chemical method but it was still Clean
-Intern Aurora washed a Dirty Luxury Car Lexus LS using Detailed method and made it Clean
-Intern Aurora washed a Clean Motorcycle Suzuki Hayabusa using Detailed method but it was still Clean
-Intern Olivia washed a Dirty Car Toyota RAV4 using Elbow Grease method and made it Clean
-Intern Olivia washed a Clean Pickup Toyota Sienna using Elbow Grease method but it was still Clean
+Intern Gianna washed a Dirty Electric Car Honda Ridgeline using Elbow Grease method and made it Clean
+Intern Gianna washed a Clean Performance Car Volvo XC90 using Elbow Grease method but it was still Clean
+Intern Charlotte washed a Dirty Motorcycle McLaren Artura using Elbow Grease method and made it Clean
+Intern Charlotte washed a Clean Monster Truck Iron Outlaw using Elbow Grease method but made it Dirty
+Intern Samantha washed a Dirty Monster Truck Bear Foot F-150 using Chemical method and made it Clean
+Intern Samantha washed a Clean Performance Car Volvo XC90 using Chemical method but it was still Clean
+The Volvo XC90 has become Broken
 
 Washing in South FNCD
-Intern Savannah washed a Dirty Performance Car BMW M8 using Elbow Grease method and made it Clean
-The BMW M8 has become Like New
-Intern Savannah washed a Clean Pickup Ram 1500 Classic using Elbow Grease method but made it Dirty
-Intern Gabriel washed a Dirty Electric Car Polestar 2 using Detailed method but it was still Dirty
-Intern Gabriel washed a Clean Electric Car BMW i8 using Detailed method but it was still Clean
-Intern Jasmine washed a Dirty Budget Car Nissan Rogue Sport using Elbow Grease method but it was still Dirty
-Intern Jasmine washed a Clean Super Car Bugatti Veyron using Elbow Grease method and made it Sparkling (and earned bonus of $100)
+Intern Mackenzie washed a Dirty Pickup Chevrolet Trax using Chemical method and made it Clean
+Intern Mackenzie washed a Clean Super Car Aston Martin Valkyrie using Chemical method but it was still Clean
+Intern Luke washed a Dirty Budget Car Dodge Grand Caravan using Chemical method and made it Clean
+Intern Luke washed a Clean Super Car McLaren 720S using Chemical method but it was still Clean
+The McLaren 720S has become Broken
+Intern Cameron washed a Dirty Car Ferrari F8 Tributo using Elbow Grease method and made it Clean
+Intern Cameron washed a Clean Car Ferrari F8 Tributo using Elbow Grease method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Natalie repaired a Used Car Toyota RAV4 but it was still Used and the vehicle became Dirty
-Mechanic Natalie repaired a Used Motorcycle Aston Martin Vantage and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Isabelle repaired a Used Car Toyota RAV4 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Isabelle repaired a Used Motorcycle Porsche Taycan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Brielle repaired a Used Performance Car Volvo XC90 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Brielle repaired a Used Car Chevrolet Spark but it was still Used and the vehicle became Dirty
+Mechanic Edward repaired a Broken Performance Car Volvo XC90 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Used Performance Car Volvo XC90 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
+Mechanic Ferland repaired a Broken Super Car McLaren 720S and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ferland repaired a Used Super Car McLaren 720S and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling in North FNCD
-Salesperson Kinsley has sold a Dirty Like New Electric Car Subaru Outback to Buyer1 for $146201 (and earned a bonus of $200)
-Salesperson Ezio has sold a Clean Like New Pickup Toyota Sienna to Buyer2 for $73165 (and earned a bonus of $175)
+Sales Price of the Electric Car Honda Ridgeline increased from $122422 to $128543 after adding on Satellite Radio
+Salesperson Camila has sold a Clean Like New Electric Car Honda Ridgeline to Buyer1 for $128543 (and earned a bonus of $200)
+Sales Price of the Pickup Nissan Quest increased from $65162 to $66465 after adding on Road Rescue Coverage
+Salesperson Altair has sold a Dirty Like New Pickup Nissan Quest to Buyer2 for $66465 (and earned a bonus of $175)
+Salesperson Grace has sold a Dirty Like New Budget Car Kia Rio to Buyer3 for $33513 (and earned a bonus of $150)
+Salesperson Grace has sold a Clean Like New Car BMW X5 to Buyer4 for $42907 (and earned a bonus of $150)
+Sales Price of the Budget Car Nissan Versa increased from $25458 to $30549 after adding on Extended Warranty
+Sales Price of the Budget Car Nissan Versa increased from $30549 to $32076 after adding on Satellite Radio
+Salesperson Camila has sold a Clean Like New Budget Car Nissan Versa to Buyer5 for $32076 (and earned a bonus of $150)
 
 Selling in South FNCD
-Sales Price of the Pickup GMC Canyon increased from $56062 to $58865 after adding on Undercoating
-Sales Price of the Pickup GMC Canyon increased from $58865 to $60042 after adding on Road Rescue Coverage
-Sales Price of the Pickup GMC Canyon increased from $60042 to $63044 after adding on Satellite Radio
-Salesperson Toni has sold a Sparkling Like New Pickup GMC Canyon to Buyer2 for $63044 (and earned a bonus of $175)
-Salesperson Federico has sold a Dirty Like New Super Car Ferrari 812 Superfast to Buyer3 for $165888 (and earned a bonus of $200)
-Sales Price of the Pickup Nissan Titan increased from $51110 to $53665 after adding on Satellite Radio
-Salesperson Toni has sold a Dirty Like New Pickup Nissan Titan to Buyer5 for $53665 (and earned a bonus of $175)
-Sales Price of the Luxury Car Mercedes-Benz E-Class increased from $159312 to $162498 after adding on Road Rescue Coverage
-Salesperson Federico has sold a Dirty Like New Luxury Car Mercedes-Benz E-Class to Buyer6 for $162498 (and earned a bonus of $175)
-Sales Price of the Pickup Nissan Frontier increased from $49406 to $50394 after adding on Road Rescue Coverage
-Salesperson Federico has sold a Dirty Like New Pickup Nissan Frontier to Buyer8 for $50394 (and earned a bonus of $175)
+Salesperson Cecilia has sold a Clean Like New Monster Truck Bear Foot F-150 to Buyer1 for $106908 (and earned a bonus of $175)
+Salesperson Cecilia has sold a Clean Like New Pickup Chevrolet Trax to Buyer2 for $120393 (and earned a bonus of $175)
+Sales Price of the Super Car McLaren 720S increased from $195536 to $205312 after adding on Undercoating
+Salesperson Cecilia has sold a Dirty Like New Super Car McLaren 720S to Buyer4 for $205312 (and earned a bonus of $200)
+Sales Price of the Motorcycle Aston Martin Vantage increased from $34952 to $36699 after adding on Satellite Radio
+Salesperson Mia has sold a Clean Like New Motorcycle Aston Martin Vantage to Buyer5 for $36699 (and earned a bonus of $150)
 
 Day End in North FNCD
-Intern Olivia quit the FNCD
-Hired a new Intern Sophia
-Bought Pickup Land Rover Defender for $5555
-Bought Electric Car Chevrolet Corvette for $15158
+Bought Car Jeep Gladiator for $11115
+Bought Pickup Ford Bronco for $29578
+Bought Electric Car Bentley Continental GT for $30565
+Bought Car Audi Q7 for $12981
+Bought Car Jeep Gladiator for $11115
 
 Day End in South FNCD
-Bought Pickup Rolls-Royce Ghost for $8332
-Bought Pickup Toyota Corolla Cross for $31800
-Bought Pickup Tesla Cybertruck for $14607
-Bought Car Ford Explorer for $12988
-Bought Car Ford Explorer for $12988
+Bought Pickup Bentley Continental GT for $32833
+Bought Motorcycle GMC Acadia for $12120
+Bought Monster Truck Snake Bite for $27400
+Bought Car Ferrari F8 Tributo for $7805
 
-Total sales for the day in North FNCD: 219366
-Total sales for the day in South FNCD: 495489
+Total sales for the day in North FNCD: 303504
+Total sales for the day in South FNCD: 469312
