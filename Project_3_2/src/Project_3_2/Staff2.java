@@ -10,8 +10,57 @@ import static org.junit.jupiter.api.Assertions.assertEquals;
 import static org.junit.jupiter.api.Assertions.assertTrue;
 import org.junit.jupiter.api.BeforeEach;
 
+//Factory pattern
+interface Staffs2{
+    void init();
+    void add_names();
+    String getName();
+    void addStaff();
+    void updateDepartedStaff(FNCDdata2 fnc) throws IOException;
+}
+
+interface factoryStaff2{
+    Staffs2 createStaff();
+}
+
+class Internfactory2 implements factoryStaff2{
+
+    @Override
+    public Staffs2 createStaff() {
+        return (Staffs2) new Intern2();
+    }
+}
+class Mechanicfactory2 implements factoryStaff2{
+
+    @Override
+    public Staffs2 createStaff() {
+        return (Staffs2) new Mechanic2();
+    }
+}
+class Salespersonfactory2 implements factoryStaff2{
+
+    @Override
+    public Staffs2 createStaff() {
+        return (Staffs2) new Salesperson2();
+    }
+}
+class Driverfactory2 implements factoryStaff2{
+
+    @Override
+    public Staffs2 createStaff() {
+        return (Staffs2) new Driver2();
+    }
+}
+class Buyerfactory2 implements factoryStaff2{
+
+    @Override
+    public Staffs2 createStaff() {
+        return (Staffs2) new Buyer2();
+    }
+}
+
 //For 2nd FNCD
-public class Staff2 {
+public class Staff2 implements Staffs2{
     static String[] staffType = {"Intern", "Mechanic", "Salesperson","Driver"};
     static ArrayList<String> names = new ArrayList<>();
     static ArrayList<String>[] staff = new ArrayList[4];
@@ -335,7 +384,7 @@ class Intern2 extends Staff2{
     }
     //Calculating the bonus
     public static void getBonus(int k, String vehicle){
-        for(int i=0; i<9;i++){//prj4
+        for(int i=0; i<9;i++){
             for(int j = 0; j<  Vehicle2.vehicle[i].size(); j++) {
                 if ( Vehicle2.vehicle[i].get(j).equals(vehicle)){
                     bonus[0].set(k, bonus[0].get(k) +  Vehicle2.vehicle_wash_bonus[i]);//Bonus is decided based on type of car
@@ -476,7 +525,7 @@ class Mechanic2 extends Staff2{
         }
     }
     public static void getBonus(int k, String vehicle){
-        for(int i=0; i<9;i++){//prj4
+        for(int i=0; i<9;i++){
             for(int j = 0; j< Vehicle2.vehicle[i].size(); j++) {
                 if (Vehicle2.vehicle[i].get(j).equals(vehicle)) {
                     bonus[1].set(k, bonus[1].get(k) + Vehicle2.vehicle_repair_bonus[i]); //Bonus is decided based on type of car
@@ -642,8 +691,8 @@ class Salesperson2 extends Staff2{
 
 //For 2nd FNCD
 class Driver2 extends Staff2{
-    int choice_index,choice,pos;//prj4
-    int[] race_choice = {1,2,3,4,7,8};//prj4
+    int choice_index,choice,pos;
+    int[] race_choice = {1,2,3,4,7,8};
     ArrayList<Integer> positions;
     static ArrayList<Integer> race_position;
     ArrayList<String> vehicles_choice;
@@ -659,8 +708,8 @@ class Driver2 extends Staff2{
             vehicles_choice = new ArrayList<>();
             race_vehicles = new ArrayList<>();
             injured_drivers = new ArrayList<>();
-            choice_index = rand.nextInt(race_choice.length);        //selecting a vehicle eligible for racing//prj4
-            choice = race_choice[choice_index];//prj4
+            choice_index = rand.nextInt(race_choice.length);        //selecting a vehicle eligible for racing
+            choice = race_choice[choice_index];
             vehicles_choice = Vehicle2.vehicle[choice];
             for (int i=0;i<vehicles_choice.size();i++){
                 if(obj.getCondition(vehicles_choice.get(i))!=0){    //condition to check if the vehicle is not broken
@@ -736,7 +785,7 @@ class Driver2 extends Staff2{
     public static void getBonus(int k, String vehicle){
         if(Operation2.day_count==3 || Operation2.day_count==10 || Operation2.day_count==17 || Operation2.day_count==24 ||
                 Operation2.day_count==7 || Operation2.day_count==14 || Operation2.day_count==21 || Operation2.day_count==28) {
-            for(int i=0; i<9;i++){                               //prj4
+            for(int i=0; i<9;i++){                               
                 for(int j = 0; j< Vehicle2.vehicle[i].size(); j++) {
                     if (Vehicle2.vehicle[i].get(j).equals(vehicle)){
                         bonus[3].set(k, bonus[3].get(k) + Vehicle2.race_win_bonus[i]);  //Bonus is decided based on type of car
@@ -1003,32 +1052,122 @@ class concreteCommand implements Command{
         receiver.endInteraction();
     }
 }
+//Factory Pattern
+interface Vehicles2{
+    void init2();
+    void add_vehicle_names();
+    void add_MonsterTruck_names();
+    String getMonsterTruckName();
+    String getcarName();
+    void addVehicles();
+    void addVehicle(FNCDdata2 fnc) throws IOException;
+    void setCondition(String chosenVehicle);
+    void setCleanliness (String chosenVehicle);
+    int getCarType(String vehicle1);
+    int getCondition(String vehicle);
+    int getCondition2(String vehicle);
+    int getCleanliness(String vehicle);
+    int getCleanliness2(String vehicle);
+    void VehicleTopPrice();
+    int totalVehicleTopPrice();
+    void updateSalesPrice(int index, String req_vehicle);
+    void updateCleanliness(String req_vehicle);
+    void updateCondition(int index, String req_vehicle);
+    void Print2();
+}
 
+interface factoryVehicle2{
+    Vehicles2 createVehicle();
+}
+
+class Carfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new Car2();
+    }
+}
+class Pickupfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new Pickup2();
+    }
+}
+class PerformanceCarfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new PerformanceCar2();
+    }
+}
+class Motorcyclesfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new Motorcycles2();
+    }
+}
+class MonsterTrucksfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new MonsterTrucks2();
+    }
+}
+class ElectricCarfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new ElectricCar2();
+    }
+}
+class BudgetCarfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new BudgetCar2();
+    }
+}
+class LuxuryCarfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new LuxuryCar2();
+    }
+}
+class SuperCarfactory2 implements factoryVehicle2{
+
+    @Override
+    public Vehicles2 createVehicle() {
+        return (Vehicles2) new SuperCar2();
+    }
+}
 //For 2nd FNCD
-class Vehicle2{
+class Vehicle2 implements Vehicles2{
     static ArrayList<String> car_names = new ArrayList<>();
     static ArrayList<String> monster_truck_names = new ArrayList<>();
-    static String[] carType = {"Car", "Pickup", "Performance Car","Motorcycle","Monster Truck","Electric Car","Budget Car","Luxury Car","Super Car"};//prj4
+    static String[] carType = {"Car", "Pickup", "Performance Car","Motorcycle","Monster Truck","Electric Car","Budget Car","Luxury Car","Super Car"};
     static String[] carCondition = {"Broken", "Used", "Like New"};
     static String[] carCleanliness = {"Dirty","Clean","Sparkling"};
-    static ArrayList<String>[] vehicle = new ArrayList[9];//prj4
-    static ArrayList<Integer>[] race_won = new ArrayList[9];//prj4
-    static ArrayList<String>[] status = new ArrayList[9];//prj4
+    static ArrayList<String>[] vehicle = new ArrayList[9];
+    static ArrayList<Integer>[] race_won = new ArrayList[9];
+    static ArrayList<String>[] status = new ArrayList[9];
     static ArrayList<String>[] condition = new ArrayList[3];
     static ArrayList<String>[] cleanliness = new ArrayList[3];
-    static ArrayList<Integer>[] cost_price = new ArrayList[9];//prj4
-    static ArrayList<Integer>[] sales_price = new ArrayList[9];//prj4
-    static ArrayList<String>[] soldVehicles = new ArrayList[9];//prj4
+    static ArrayList<Integer>[] cost_price = new ArrayList[9];
+    static ArrayList<Integer>[] sales_price = new ArrayList[9];
+    static ArrayList<String>[] soldVehicles = new ArrayList[9];
     static int[] max_sale_price = {0,0,0,0,0,0,0,0,0};
     String conditionSelected = null;
     String lastOccurrence = null;
     static ArrayList<Integer> range = new ArrayList<>();
     static ArrayList<Double> engine_size = new ArrayList<>();
     Random rand= new Random();
-    static int[] vehicle_wash_bonus = {50, 75, 100, 50, 75, 100, 50, 75, 100};//prj4
-    static int[] vehicle_repair_bonus = {100, 125, 150, 100, 125, 150, 100, 125, 150};//prj4
-    static int[] vehicle_sale_bonus = {150, 175, 200, 150, 175, 200, 150, 175, 200};//prj4
-    static int[] race_win_bonus = {0, 200, 225, 250, 275, 0, 0, 300, 325};//prj4
+    static int[] vehicle_wash_bonus = {50, 75, 100, 50, 75, 100, 50, 75, 100};
+    static int[] vehicle_repair_bonus = {100, 125, 150, 100, 125, 150, 100, 125, 150};
+    static int[] vehicle_sale_bonus = {150, 175, 200, 150, 175, 200, 150, 175, 200};
+    static int[] race_win_bonus = {0, 200, 225, 250, 275, 0, 0, 300, 325};
     static String[] addon={"Extended Warranty","Undercoating","Road Rescue Coverage","Satellite Radio"};
 
     //Initializing variables
@@ -1097,17 +1236,17 @@ class Vehicle2{
     }
     //Adding initial vehicles and data for the first day
     public void addVehicles(){
-        vehicle[0].addAll(Arrays.asList("Hyundai Elantra","Nissan Sentra","Chevrolet Spark","Kia Forte","Honda Accord","Hyundai Sonata"));//prj4
-        vehicle[1].addAll(Arrays.asList("Ford Ranger","GMC Canyon","Chevrolet Colorado","Ram 1500 Classic","Nissan Frontier","Toyota Tacoma"));//prj4
-        vehicle[2].addAll(Arrays.asList("Audi RS7","BMW M8","Mercedes-AMG GT","Porsche Panamera","Ferrari SF90 Stradale","Porsche 718 Cayman GT4"));//prj4
-        vehicle[3].addAll(Arrays.asList("Aston Martin Vantage","McLaren Artura","Lamborghini Huracan","Porsche Taycan","Suzuki Hayabusa","Yamaha YZF-R6"));//prj4
-        vehicle[4].addAll(Arrays.asList("Swamp Thing","Sudden Impact","USA-1","Bear Foot F-150","Iron Outlaw","Rampage"));//prj4
-        vehicle[5].addAll(Arrays.asList("Audi R8","BMW i8","Mercedes-AMG GT 4-Door Coupe","Rolls-Royce Cullinan","Rivian R1T","Polestar 2"));//prj4
-        vehicle[6].addAll(Arrays.asList("Toyota Yaris","Honda Fit","Kia Rio","Hyundai Accent","Nissan Versa","Suzuki Swift"));//prj4
-        vehicle[7].addAll(Arrays.asList("Rolls-Royce Phantom","Lexus LS","BMW 7 Series","Jaguar XJ","Mercedes-Benz E-Class","Acura RLX"));//prj4
-        vehicle[8].addAll(Arrays.asList("Bugatti Veyron","McLaren 765LT","Ferrari 812 Superfast","Pagani Huayra","Aston Martin Valkyrie","Rimac C2"));//prj4
-        for (int i = 0; i < 9; i++) {//prj4
-            for (int j = 0; j < 6; j++) {//prj4
+        vehicle[0].addAll(Arrays.asList("Hyundai Elantra","Nissan Sentra","Chevrolet Spark","Kia Forte","Honda Accord","Hyundai Sonata"));
+        vehicle[1].addAll(Arrays.asList("Ford Ranger","GMC Canyon","Chevrolet Colorado","Ram 1500 Classic","Nissan Frontier","Toyota Tacoma"));
+        vehicle[2].addAll(Arrays.asList("Audi RS7","BMW M8","Mercedes-AMG GT","Porsche Panamera","Ferrari SF90 Stradale","Porsche 718 Cayman GT4"));
+        vehicle[3].addAll(Arrays.asList("Aston Martin Vantage","McLaren Artura","Lamborghini Huracan","Porsche Taycan","Suzuki Hayabusa","Yamaha YZF-R6"));
+        vehicle[4].addAll(Arrays.asList("Swamp Thing","Sudden Impact","USA-1","Bear Foot F-150","Iron Outlaw","Rampage"));
+        vehicle[5].addAll(Arrays.asList("Audi R8","BMW i8","Mercedes-AMG GT 4-Door Coupe","Rolls-Royce Cullinan","Rivian R1T","Polestar 2"));
+        vehicle[6].addAll(Arrays.asList("Toyota Yaris","Honda Fit","Kia Rio","Hyundai Accent","Nissan Versa","Suzuki Swift"));
+        vehicle[7].addAll(Arrays.asList("Rolls-Royce Phantom","Lexus LS","BMW 7 Series","Jaguar XJ","Mercedes-Benz E-Class","Acura RLX"));
+        vehicle[8].addAll(Arrays.asList("Bugatti Veyron","McLaren 765LT","Ferrari 812 Superfast","Pagani Huayra","Aston Martin Valkyrie","Rimac C2"));
+        for (int i = 0; i < 9; i++) {
+            for (int j = 0; j < 6; j++) {
                 setCondition(vehicle[i].get(j));
                 setCleanliness(vehicle[i].get(j));
                 status[i].add("In Stock");
@@ -1117,30 +1256,30 @@ class Vehicle2{
         //Initially added cost price and sales price using the logic sales price = cost price*2
         //But cost price is reduced according to the car condition So, after reducing the cost price, we added it to the list of cost price
         //And hence we see the difference between cost and sales price to be more that 2x for some cars
-        cost_price[0].addAll(Arrays.asList(12738, 15840, 14099, 15548, 13875, 6660));//prj4
-        cost_price[1].addAll(Arrays.asList(10138, 14950, 29560, 12342, 13175, 18538));//prj4
-        cost_price[2].addAll(Arrays.asList(24427, 28972, 15907, 27326, 37178, 24469));//prj4
-        cost_price[3].addAll(Arrays.asList(13981, 15556, 16421, 8289, 8417, 11666));//prj4
-        cost_price[4].addAll(Arrays.asList(10600, 23285, 38495, 28509, 19278, 26031));//prj4
-        cost_price[5].addAll(Arrays.asList(20170, 20619, 30528, 36973, 24910, 32723));//prj4
-        cost_price[6].addAll(Arrays.asList(7812, 5678, 8937, 9543, 6789, 8520));//prj4
-        cost_price[7].addAll(Arrays.asList(38754, 42678, 31905, 45621, 33987, 47500));//prj4
-        cost_price[8].addAll(Arrays.asList(51543, 49810, 44237, 58401, 46695, 58931));//prj4
-        sales_price[0].addAll(Arrays.asList(25476, 31680, 28198, 31096, 27750, 13320));//prj4
-        sales_price[1].addAll(Arrays.asList(20276, 29900, 59120, 24684, 26350, 37076));//prj4
-        sales_price[2].addAll(Arrays.asList(48854, 57944, 31814, 54652, 74356, 48938));//prj4
-        sales_price[3].addAll(Arrays.asList(27962, 31112, 32842, 16578, 16834, 23332));//prj4
-        sales_price[4].addAll(Arrays.asList(21200, 46570, 76990, 57018, 38556, 52062));//prj4
-        sales_price[5].addAll(Arrays.asList(40340, 41238, 61056, 73946, 49820, 65446));//prj4
-        sales_price[6].addAll(Arrays.asList(15624, 11356, 17874, 19086, 13578,17040));//prj4
-        sales_price[7].addAll(Arrays.asList(77508, 85356, 63810, 91242, 67974,95000));//prj4
-        sales_price[8].addAll(Arrays.asList(103086, 99620, 88474, 116802, 93390, 117862));//prj4
+        cost_price[0].addAll(Arrays.asList(12738, 15840, 14099, 15548, 13875, 6660));
+        cost_price[1].addAll(Arrays.asList(10138, 14950, 29560, 12342, 13175, 18538));
+        cost_price[2].addAll(Arrays.asList(24427, 28972, 15907, 27326, 37178, 24469));
+        cost_price[3].addAll(Arrays.asList(13981, 15556, 16421, 8289, 8417, 11666));
+        cost_price[4].addAll(Arrays.asList(10600, 23285, 38495, 28509, 19278, 26031));
+        cost_price[5].addAll(Arrays.asList(20170, 20619, 30528, 36973, 24910, 32723));
+        cost_price[6].addAll(Arrays.asList(7812, 5678, 8937, 9543, 6789, 8520));
+        cost_price[7].addAll(Arrays.asList(38754, 42678, 31905, 45621, 33987, 47500));
+        cost_price[8].addAll(Arrays.asList(51543, 49810, 44237, 58401, 46695, 58931));
+        sales_price[0].addAll(Arrays.asList(25476, 31680, 28198, 31096, 27750, 13320));
+        sales_price[1].addAll(Arrays.asList(20276, 29900, 59120, 24684, 26350, 37076));
+        sales_price[2].addAll(Arrays.asList(48854, 57944, 31814, 54652, 74356, 48938));
+        sales_price[3].addAll(Arrays.asList(27962, 31112, 32842, 16578, 16834, 23332));
+        sales_price[4].addAll(Arrays.asList(21200, 46570, 76990, 57018, 38556, 52062));
+        sales_price[5].addAll(Arrays.asList(40340, 41238, 61056, 73946, 49820, 65446));
+        sales_price[6].addAll(Arrays.asList(15624, 11356, 17874, 19086, 13578,17040));
+        sales_price[7].addAll(Arrays.asList(77508, 85356, 63810, 91242, 67974,95000));
+        sales_price[8].addAll(Arrays.asList(103086, 99620, 88474, 116802, 93390, 117862));
         Operation2.budget =500000;//Initial Day 1 beginning budget
     }
-    //when the count of a vehicle type is less than 6, new vehicle is purchased  //prj4
+    //when the count of a vehicle type is less than 6, new vehicle is purchased  
     public void addVehicle(FNCDdata2 fnc) throws IOException {
-        for (int i = 0; i < 9; i++) {//prj4
-            while (vehicle[i].size() < 6) {//prj4
+        for (int i = 0; i < 9; i++) {
+            while (vehicle[i].size() < 6) {
                 if (i == 4) {
                     String name = getMonsterTruckName();
                     for (int j = vehicle[i].size() - 1; j >= 0; j--) {
@@ -1164,33 +1303,42 @@ class Vehicle2{
                 setCleanliness(vehicle[i].get(vehicle[i].size()-1));
                 status[i].add("In Stock");
                 if(i == 0){
-                    Car2 c = new Car2();
-                    c.buyVehicle(fnc);
+                    Carfactory2 c = new Carfactory2();
+                    Car2 c1 = (Car2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 } else if(i == 1){
-                    Pickup2 p = new Pickup2();
-                    p.buyVehicle(fnc);
+                    Pickupfactory2 c = new Pickupfactory2();
+                    Pickup2 c1 = (Pickup2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 } else if(i == 2){
-                    PerformanceCar2 pc = new PerformanceCar2();
-                    pc.buyVehicle(fnc);
+                    PerformanceCarfactory2 c = new PerformanceCarfactory2();
+                    PerformanceCar2 c1 = (PerformanceCar2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 } else if (i == 3) {
-                    Motorcycles2 mc = new Motorcycles2();
-                    mc.buyVehicle(fnc);
+                    Motorcyclesfactory2 c = new Motorcyclesfactory2();
+                    Motorcycles2 c1 = (Motorcycles2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 } else if (i == 4) {
-                    MonsterTrucks2 mt = new MonsterTrucks2();
-                    mt.buyVehicle(fnc);
+                    MonsterTrucksfactory2 c = new MonsterTrucksfactory2();
+                    MonsterTrucks2 c1 = (MonsterTrucks2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 } else if (i == 5) {
-                    ElectricCar2 ec = new ElectricCar2();
-                    ec.buyVehicle(fnc);
+                    ElectricCarfactory2 c = new ElectricCarfactory2();
+                    ElectricCar2 c1 = (ElectricCar2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 } else if (i == 6) {//prj
-                    BudgetCar2 bc = new BudgetCar2();
-                    bc.buyVehicle(fnc);
+                    BudgetCarfactory2 c = new BudgetCarfactory2();
+                    BudgetCar2 c1 = (BudgetCar2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 } else if (i == 7) {
-                    LuxuryCar2 lc = new LuxuryCar2();
-                    lc.buyVehicle(fnc);
+                    LuxuryCarfactory2 c = new LuxuryCarfactory2();
+                    LuxuryCar2 c1 = (LuxuryCar2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 }
                 else{
-                    SuperCar2 sc = new SuperCar2();
-                    sc.buyVehicle(fnc);
+                    SuperCarfactory2 c = new SuperCarfactory2();
+                    SuperCar2 c1 = (SuperCar2) c.createVehicle();
+                    c1.buyVehicle(fnc);
                 }
             }
         }
@@ -1223,7 +1371,7 @@ class Vehicle2{
     public int getCarType(String vehicle1){
         //initializing to a value which is different from potential values of index (i.e. 0,1,2)
         int condition_index=10;
-        for(int i=0; i<9;i++) {//prj4
+        for(int i=0; i<9;i++) {
             for (int j = 0; j < vehicle[i].size(); j++) {
                 if (vehicle[i].get(j).equals(vehicle1)) {
                     condition_index = i;
@@ -1318,7 +1466,7 @@ class Vehicle2{
     //update the sales price when condition of vehicle is fixed to next level
     public void updateSalesPrice(int index, String req_vehicle){
         if (index==0){
-            for(int i=0; i<9;i++) {//prj4
+            for(int i=0; i<9;i++) {
                 for (int j = 0; j < vehicle[i].size(); j++) {
                     if (vehicle[i].get(j).equals(req_vehicle)) {
                         sales_price[i].set(j, (int) (sales_price[i].get(j) * 1.5));
@@ -1327,7 +1475,7 @@ class Vehicle2{
                 }
             }
         } else {
-            for(int i=0; i<9;i++) {//prj4
+            for(int i=0; i<9;i++) {
                 for (int j = 0; j < vehicle[i].size(); j++) {
                     if (vehicle[i].get(j).equals(req_vehicle)) {
                         sales_price[i].set(j, (int) (sales_price[i].get(j) * 1.25));
@@ -1466,7 +1614,7 @@ class Motorcycles2 extends Vehicle2{
         cost_price[3].add(cp1);
         sales_price[3].add(cp1 * 2);
         // Setting the Engine size for Motorcycles using truncated Normal Distribution with mean 700 and std dev 300.
-        while (engine_size.size() < 6) {//prj4
+        while (engine_size.size() < 6) {
             engine_size_gen = setEngineSize();
             if(engine_size_gen>=50){
                 engine_size.add(engine_size_gen);
@@ -1511,7 +1659,7 @@ class ElectricCar2 extends Vehicle2{
 
         // Assigning a range for the Electric Cars based on their condition
         int range_select = rand.nextInt(60, 401);
-        while (range.size() < 6) {//prj4
+        while (range.size() < 6) {
             if(getCondition(vehicle[5].get(vehicle[5].size()-1))==2){
                 range.add(range_select+100);
             }
@@ -1533,7 +1681,7 @@ class ElectricCar2 extends Vehicle2{
 }
 
 //For 2nd FNCD
-class BudgetCar2 extends Vehicle2{//prj4
+class BudgetCar2 extends Vehicle2{
     // adding cost and sales price to the car
     public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(5000, 10001);
@@ -1553,7 +1701,7 @@ class BudgetCar2 extends Vehicle2{//prj4
 }
 
 //For 2nd FNCD
-class LuxuryCar2 extends Vehicle2{//prj4
+class LuxuryCar2 extends Vehicle2{
     // adding cost and sales price to the car
     public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(30000, 50001);
@@ -1573,7 +1721,7 @@ class LuxuryCar2 extends Vehicle2{//prj4
 }
 
 //For 2nd FNCD
-class SuperCar2 extends Vehicle2{//prj4
+class SuperCar2 extends Vehicle2{
     // adding cost and sales price to the car
     public void buyVehicle(FNCDdata2 fnc) throws IOException {
         int cp1 = rand.nextInt(40000, 60001);
@@ -1791,7 +1939,7 @@ class Buyer2 extends Staff2{
     }
     //adds choice of vehicle to the buyer
     public void addBuyerChoice(int j){
-        int vehicleChoice = rand.nextInt(9);//prj4
+        int vehicleChoice = rand.nextInt(9);
         buyer_choice[j].add(vehicleChoice);
     }
     //getting the type of buyer
@@ -2020,11 +2168,16 @@ class Operation2 extends Staff2{
         staff1.init();
         staff1.add_names();
         staff1.addStaff();
-        Intern int1 = new Intern();
-        Mechanic mec1 = new Mechanic();
-        Salesperson sal1 = new Salesperson();
-        Buyer buy1 = new Buyer();
-        Driver dri1 = new Driver();
+        Internfactory i = new Internfactory();
+        Intern int1 = (Intern) i.createStaff();
+        Mechanicfactory m = new Mechanicfactory();
+        Mechanic mec1 = (Mechanic) m.createStaff();
+        Salespersonfactory s = new Salespersonfactory();
+        Salesperson sal1 = (Salesperson) s.createStaff();
+        Buyerfactory b = new Buyerfactory();
+        Buyer buy1 = (Buyer) b.createStaff();
+        Driverfactory d = new Driverfactory();
+        Driver dri1 = (Driver) d.createStaff();
         Vehicle vel1 = new Vehicle();
         vel1.init2();
         vel1.add_vehicle_names();
@@ -2036,11 +2189,16 @@ class Operation2 extends Staff2{
         staff2.init();
         staff2.add_names();
         staff2.addStaff();
-        Intern2 int2 = new Intern2();
-        Mechanic2 mec2 = new Mechanic2();
-        Salesperson2 sal2 = new Salesperson2();
-        Buyer2 buy2 = new Buyer2();
-        Driver2 dri2 = new Driver2();
+        Internfactory2 i2 = new Internfactory2();
+        Intern2 int2 = (Intern2) i2.createStaff();
+        Mechanicfactory2 m2 = new Mechanicfactory2();
+        Mechanic2 mec2 = (Mechanic2) m2.createStaff();
+        Salespersonfactory2 s2 = new Salespersonfactory2();
+        Salesperson2 sal2 = (Salesperson2) s2.createStaff();
+        Buyerfactory2 b2 = new Buyerfactory2();
+        Buyer2 buy2 = (Buyer2) b2.createStaff();
+        Driverfactory2 d2 = new Driverfactory2();
+        Driver2 dri2 = (Driver2) d2.createStaff();
         Vehicle2 vel2 = new Vehicle2();
         vel2.init2();
         vel2.add_vehicle_names();
@@ -2048,13 +2206,13 @@ class Operation2 extends Staff2{
         vel2.addVehicles();
         Operation2 op2 = new Operation2();
         FNCDdata2 fnc2 = new FNCDdata2();//obs
-        Tracker tra2 = Tracker.getInstance2();//obs//prj4
-        Tester t = new Tester();//prj4
+        Tracker tra2 = Tracker.getInstance2();//obs
+        Tester t = new Tester();
         for (day_count=1;day_count<32;day_count++){
             Operation.day_count = day_count;
-            Logger log1 = Logger.getInstance(fnc1);//Obs//prj4
+            Logger log1 = Logger.getInstance(fnc1);//Obs
             Operation.outputLogger();
-            Logger log2 = Logger.getInstance2(fnc2);//Obs//prj4
+            Logger log2 = Logger.getInstance2(fnc2);//Obs
             buy1.init3();
             buy2.init3();
             System.out.println("\n***Day "+day_count+"***");//Display Day Number
@@ -2137,7 +2295,7 @@ class Operation2 extends Staff2{
         vel2.Print2();
 
         //junit testing
-        t.checkCars();//prj4
+        t.checkCars();
         t.checkPickups();
         t.checkPerformanceCars();
         t.checkMotorcyclesCars();
@@ -2196,7 +2354,7 @@ class Tester{
         vel2.addVehicles();
         Operation2 op2 = new Operation2();
         FNCDdata2 fnc2 = new FNCDdata2();//obs
-        Tracker tra2 = Tracker.getInstance2();//obs//prj4
+        Tracker tra2 = Tracker.getInstance2();//obs
     }
     @Test
     void checkCars() {

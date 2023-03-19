@@ -1,45 +1,47 @@
-Current Budget in North FNCD: 2533387
-Current Budget in South FNCD: 2123501
+Current Budget in North FNCD: 2048459
+Current Budget in South FNCD: 2046998
 
 Washing in North FNCD
-Intern Willow washed a Dirty Budget Car Hyundai Accent using Detailed method and made it Clean
-Intern Willow washed a Clean Budget Car Toyota Yaris using Detailed method but it was still Clean
-Intern Grace washed a Dirty Super Car Audi A4 using Elbow Grease method and made it Clean
-Intern Grace washed a Clean Car Hyundai Elantra using Elbow Grease method but it was still Clean
-Intern Anna washed a Dirty Pickup Nissan Frontier using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Anna washed a Clean Super Car Ford F-150 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Bianca washed a Dirty Budget Car Suzuki Swift using Elbow Grease method and made it Clean
+Intern Bianca washed a Clean Luxury Car Mercedes-Benz E-Class using Elbow Grease method but made it Dirty
+Intern Natalie washed a Dirty Car Kia Sorento using Detailed method and made it Clean
+Intern Natalie washed a Clean Budget Car Suzuki Swift using Detailed method but made it Dirty
+Intern Naomi washed a Dirty Motorcycle Jeep Cherokee using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Naomi washed a Clean Car Kia Forte using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern Logan washed a Dirty Super Car Mercedes-Benz S-Class using Chemical method and made it Clean
-Intern Logan washed a Clean Motorcycle Audi Q7 using Chemical method but it was still Clean
-Intern Mackenzie washed a Dirty Budget Car Honda Fit using Detailed method and made it Clean
-Intern Mackenzie washed a Clean Motorcycle Audi Q7 using Detailed method but it was still Clean
-Intern Luke washed a Dirty Electric Car Rolls-Royce Cullinan using Chemical method and made it Clean
-Intern Luke washed a Clean Luxury Car Rolls-Royce Phantom using Chemical method but it was still Clean
+Intern Katherine washed a Dirty Budget Car Dodge Grand Caravan using Chemical method and made it Clean
+Intern Katherine washed a Clean Budget Car Honda Fit using Chemical method but it was still Clean
+Intern Luis washed a Dirty Motorcycle Nissan Altima using Elbow Grease method and made it Clean
+Intern Luis washed a Clean Electric Car Audi R8 using Elbow Grease method but made it Dirty
+Intern Carter washed a Dirty Pickup Nissan Frontier using Chemical method and made it Clean
+Intern Carter washed a Clean Budget Car Nissan Rogue Sport using Chemical method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Edward repaired a Broken Monster Truck Bear Foot F-150 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Used Monster Truck Bear Foot F-150 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Motorcycle Jeep Cherokee but it was still Used and the vehicle became Clean
+Mechanic Altair repaired a Used Motorcycle Jeep Cherokee and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Ferland repaired a Broken Pickup Chevrolet Trax and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Ferland repaired a Used Pickup Chevrolet Trax and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Miranda repaired a Used Budget Car Ford EcoSport and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Miranda repaired a Broken Luxury Car Mercedes-Benz E-Class but it was still Broken and the vehicle became Dirty
+Mechanic Cole repaired a Used Budget Car Dodge Grand Caravan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Cole repaired a Broken Luxury Car Mercedes-Benz E-Class and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Nathan repaired a Used Luxury Car Mercedes-Benz E-Class and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Nathan repaired a Broken Luxury Car Lexus LS and made it Used (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
 
 Selling in South FNCD
 
 Day End in North FNCD
-Intern Anna quit the FNCD
-Mechanic Brooklyn quit the FNCD
-Salesperson Jacob quit the FNCD
-Hired a new Intern Gianna
-Hired a new Intern Charlotte
-Hired a new Intern Samantha
+Mechanic Altair quit the FNCD
+Hired a new Intern Gabriella
 
 Day End in South FNCD
-Mechanic Joseph quit the FNCD
-Hired a new Intern Cameron
+Mechanic Nathan quit the FNCD
+Hired a new Intern Ashley
 
 Total sales for the day in North FNCD: 0
 Total sales for the day in South FNCD: 0

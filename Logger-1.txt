@@ -2,59 +2,50 @@ Current Budget in North FNCD: 500000
 Current Budget in South FNCD: 500000
 
 Washing in North FNCD
-Intern Desmond washed a Dirty Car Hyundai Elantra using Elbow Grease method and made it Clean
-Intern Desmond washed a Clean Motorcycle Suzuki Hayabusa using Elbow Grease method but made it Dirty
-Intern Altair washed a Dirty Monster Truck USA-1 using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Altair washed a Clean Motorcycle Porsche Taycan using Detailed method but it was still Clean
-Intern Ezio washed a Dirty Budget Car Toyota Yaris using Detailed method but it was still Dirty
-Intern Ezio washed a Clean Luxury Car Mercedes-Benz E-Class using Detailed method but it was still Clean
+Intern Desmond washed a Dirty Car Nissan Sentra using Chemical method and made it Clean
+Intern Desmond washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
+Intern Altair washed a Dirty Car Honda Accord using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Altair washed a Clean Pickup Ram 1500 Classic using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Ezio washed a Dirty Budget Car Nissan Versa using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Ezio washed a Clean Monster Truck USA-1 using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern Thibaut washed a Dirty Super Car Bugatti Veyron using Elbow Grease method and made it Sparkling (and earned bonus of $100)
-Intern Thibaut washed a Clean Luxury Car Mercedes-Benz E-Class using Elbow Grease method but it was still Clean
-Intern Daniel washed a Dirty Super Car Ferrari 812 Superfast using Elbow Grease method and made it Clean
-Intern Daniel washed a Clean Car Nissan Sentra using Elbow Grease method and made it Sparkling (and earned bonus of $50)
-Intern David washed a Dirty Pickup Chevrolet Colorado using Chemical method and made it Clean
-Intern David washed a Clean Super Car Pagani Huayra using Chemical method but it was still Clean
+Intern Thibaut washed a Dirty Budget Car Nissan Versa using Elbow Grease method and made it Clean
+Intern Thibaut washed a Clean Budget Car Suzuki Swift using Elbow Grease method but it was still Clean
+Intern Daniel washed a Dirty Super Car Ferrari 812 Superfast using Detailed method and made it Clean
+Intern Daniel washed a Clean Budget Car Nissan Versa using Detailed method but it was still Clean
+Intern David washed a Dirty Performance Car Porsche Panamera using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern David washed a Clean Monster Truck Iron Outlaw using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Broken Super Car Bugatti Veyron and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Haytham repaired a Used Monster Truck Swamp Thing but it was still Used and the vehicle became Dirty
-Mechanic Conner repaired a Broken Monster Truck USA-1 and made it Used (and earned a bonus of $125) and the vehicle became Clean
-Mechanic Conner repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Edward repaired a Used Budget Car Honda Fit and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Monster Truck Iron Outlaw and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Electric Car Rolls-Royce Cullinan and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Electric Car BMW i8 but it was still Used and the vehicle became Dirty
+Mechanic Conner repaired a Broken Monster Truck Rampage and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Conner repaired a Used Motorcycle McLaren Artura and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Budget Car Honda Fit and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Used Monster Truck USA-1 and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Antonio repaired a Broken Electric Car Mercedes-AMG GT 4-Door Coupe and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Antonio repaired a Broken Performance Car Mercedes-AMG GT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Ferland repaired a Used Electric Car Polestar 2 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Ferland repaired a Broken Motorcycle Lamborghini Huracan and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Eduardo repaired a Used Monster Truck USA-1 but it was still Used and the vehicle became Dirty
-Mechanic Eduardo repaired a Used Super Car Pagani Huayra but it was still Used and the vehicle became Dirty
+Mechanic Antonio repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Antonio repaired a Broken Performance Car Porsche Panamera and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Ferland repaired a Used Luxury Car Lexus LS but it was still Used and the vehicle became Dirty
+Mechanic Ferland repaired a Broken Performance Car BMW M8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Luxury Car Rolls-Royce Phantom but it was still Broken and the vehicle became Dirty
+Mechanic Eduardo repaired a Broken Budget Car Nissan Versa but it was still Broken and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Electric Car Rolls-Royce Cullinan increased from $73946 to $77643 after adding on Satellite Radio
-Salesperson Shay has sold a Clean Used Electric Car Rolls-Royce Cullinan to Buyer3 for $77643 (and earned a bonus of $200)
-Sales Price of the Super Car Bugatti Veyron increased from $154629 to $185554 after adding on Extended Warranty
-Salesperson Shay has sold a Dirty Used Super Car Bugatti Veyron to Buyer4 for $185554 (and earned a bonus of $200)
 
 Selling in South FNCD
-Sales Price of the Car Chevrolet Spark increased from $28198 to $33837 after adding on Extended Warranty
-Salesperson Toni has sold a Clean Used Car Chevrolet Spark to Buyer4 for $33837 (and earned a bonus of $150)
+Sales Price of the Motorcycle McLaren Artura increased from $31112 to $37334 after adding on Extended Warranty
+Sales Price of the Motorcycle McLaren Artura increased from $37334 to $39200 after adding on Undercoating
+Salesperson Luka has sold a Clean Used Motorcycle McLaren Artura to Buyer1 for $39200 (and earned a bonus of $150)
 
 Day End in North FNCD
-Mechanic Haytham quit the FNCD
-Salesperson Arno quit the FNCD
-Hired a new Intern Kennedy
-Hired a new Intern Sawyer
-Bought Electric Car Jaguar F-Type for $32967
-Bought Car Hyundai Sonata for $6660
 
 Day End in South FNCD
-Intern David quit the FNCD
-Hired a new Intern Justin
-Bought Car Ford Escape for $5760
+Mechanic Eduardo quit the FNCD
+Hired a new Intern Joseph
+Bought Motorcycle Koenigsegg Jesko for $13819
 
-Total sales for the day in North FNCD: 263197
-Total sales for the day in South FNCD: 33837
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 39200

@@ -5,8 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="72984a44-e235-4a47-b3f3-6d525d207884" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/Project3_CSCI_5448.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/Project3_CSCI_5448.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger-1.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-1.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger-10.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-10.txt" afterDir="false" />
@@ -32,6 +30,7 @@
       <change beforePath="$PROJECT_DIR$/Logger-29.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-29.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger-3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-3.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger-30.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-30.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Logger-31.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-31.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger-4.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-4.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger-5.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-5.txt" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Logger-6.txt" beforeDir="false" afterPath="$PROJECT_DIR$/Logger-6.txt" afterDir="false" />
@@ -52,6 +51,7 @@
       <list>
         <option value="Class" />
         <option value="JUnit5 Test Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -60,6 +60,7 @@
   </component>
   <component name="HighlightingSettingsPerFile">
     <setting file="file://$PROJECT_DIR$/Project_3_2/src/Project_3_2/Staff.java" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$PROJECT_DIR$/Project_3_2/src/Project_3_2/Staff2.java" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -83,12 +84,12 @@
     "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "create.test.in.the.same.root": "true",
     "jdk.selected.JAVA_MODULE": "openjdk-19",
-    "last_opened_file_path": "C:/Users/Acer/initialcapacity-simple-aged-cache-964cc955a9dec44cd15a20be707a030c7cd14ff7",
+    "last_opened_file_path": "C:/Users/abhis/OneDrive/Documents/GitHub/Project3_CSCI_5448/Project_3_2",
     "node.js.detected.package.eslint": "true",
     "node.js.detected.package.tslint": "true",
     "node.js.selected.package.eslint": "(autodetect)",
     "node.js.selected.package.tslint": "(autodetect)",
-    "project.structure.last.edited": "Modules",
+    "project.structure.last.edited": "Libraries",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "vue.rearranger.settings.migration": "true"

@@ -1,56 +1,72 @@
-Current Budget in North FNCD: 3202656
-Current Budget in South FNCD: 2955154
+Current Budget in North FNCD: 3263730
+Current Budget in South FNCD: 2486732
 
 Washing in North FNCD
-Intern Samantha washed a Dirty Car Jeep Gladiator using Chemical method and made it Clean
-Intern Samantha washed a Clean Electric Car Bentley Continental GT using Chemical method but it was still Clean
-The Bentley Continental GT has become Broken
-Intern Aaliyah washed a Dirty Performance Car Mercedes-AMG GT using Detailed method and made it Clean
-Intern Aaliyah washed a Clean Performance Car Porsche Panamera using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Emily washed a Dirty Motorcycle Nissan Kicks using Detailed method and made it Clean
-Intern Emily washed a Clean Electric Car Polestar 2 using Detailed method but it was still Clean
+Intern Lillian washed a Dirty Pickup Nissan Frontier using Chemical method and made it Clean
+Intern Lillian washed a Clean Motorcycle Tesla Model Y using Chemical method but it was still Clean
+Intern Layla washed a Dirty Performance Car Audi Q7 using Elbow Grease method and made it Clean
+Intern Layla washed a Clean Performance Car Chevrolet Blazer using Elbow Grease method but it was still Clean
+The Chevrolet Blazer has become Like New
+Intern Brooklyn washed a Dirty Luxury Car Mercedes-Benz E-Class using Elbow Grease method and made it Clean
+Intern Brooklyn washed a Clean Electric Car BMW i8 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
 
 Washing in South FNCD
-Intern Sebastian washed a Dirty Luxury Car Lexus LS using Detailed method and made it Clean
-Intern Sebastian washed a Clean Monster Truck Grinder using Detailed method but it was still Clean
-Intern Rachel washed a Dirty Electric Car Chevrolet Equinox using Elbow Grease method and made it Clean
-Intern Rachel washed a Clean Budget Car Nissan Versa using Elbow Grease method but it was still Clean
-Intern Christopher washed a Dirty Motorcycle Suzuki Hayabusa using Chemical method but it was still Dirty
-Intern Christopher washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
+Intern Ethan washed a Dirty Performance Car Volvo XC90 using Chemical method and made it Clean
+Intern Ethan washed a Clean Budget Car Toyota Yaris using Chemical method but it was still Clean
+Intern Sophie washed a Dirty Monster Truck Swamp Thing using Elbow Grease method and made it Clean
+Intern Sophie washed a Clean Budget Car Toyota Yaris using Elbow Grease method but it was still Clean
+Intern Kaitlyn washed a Dirty Pickup Ford Ranger using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Kaitlyn washed a Clean Monster Truck Rampage using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Edward repaired a Used Motorcycle Chevrolet Corvette and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Electric Car Bentley Continental GT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Willow repaired a Used Electric Car Bentley Continental GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
 
 Selling in North FNCD
-Sales Price of the Super Car Rimac C2 increased from $220991 to $232040 after adding on Satellite Radio
-Salesperson Camila has sold a Clean Like New Super Car Rimac C2 to Buyer2 for $232040 (and earned a bonus of $200)
+Sales Price of the Performance Car Porsche 718 Cayman GT4 increased from $91758 to $110109 after adding on Extended Warranty
+Sales Price of the Performance Car Porsche 718 Cayman GT4 increased from $110109 to $115614 after adding on Satellite Radio
+Salesperson Arianna has sold a Dirty Like New Performance Car Porsche 718 Cayman GT4 to Buyer1 for $115614 (and earned a bonus of $200)
+Salesperson Gabriella has sold a Clean Like New Performance Car Audi RS7 to Buyer2 for $91601 (and earned a bonus of $200)
+Salesperson Gabriella has sold a Clean Like New Performance Car Audi Q7 to Buyer3 for $81885 (and earned a bonus of $200)
+Salesperson Arianna has sold a Dirty Like New Pickup GMC Canyon to Buyer4 for $105116 (and earned a bonus of $175)
+Sales Price of the Motorcycle Aston Martin Vantage increased from $52428 to $55049 after adding on Satellite Radio
+Salesperson Gabriella has sold a Sparkling Like New Motorcycle Aston Martin Vantage to Buyer6 for $55049 (and earned a bonus of $150)
+Sales Price of the Electric Car Aston Martin DB11 increased from $105672 to $107785 after adding on Road Rescue Coverage
+Sales Price of the Electric Car Aston Martin DB11 increased from $107785 to $113174 after adding on Satellite Radio
+Salesperson Shay has sold a Dirty Like New Electric Car Aston Martin DB11 to Buyer7 for $113174 (and earned a bonus of $200)
 
 Selling in South FNCD
-Sales Price of the Pickup Toyota Tacoma increased from $69517 to $72992 after adding on Undercoating
-Salesperson Christian has sold a Dirty Like New Pickup Toyota Tacoma to Buyer1 for $72992 (and earned a bonus of $175)
-Sales Price of the Car Ferrari F8 Tributo increased from $58537 to $61463 after adding on Satellite Radio
-Salesperson Christian has sold a Clean Like New Car Ferrari F8 Tributo to Buyer2 for $61463 (and earned a bonus of $150)
-Sales Price of the Luxury Car Honda Pilot increased from $168262 to $201914 after adding on Extended Warranty
-Sales Price of the Luxury Car Honda Pilot increased from $201914 to $212009 after adding on Satellite Radio
-Salesperson Cecilia has sold a Clean Like New Luxury Car Honda Pilot to Buyer3 for $212009 (and earned a bonus of $175)
+Salesperson Luis has sold a Dirty Like New Performance Car Porsche Panamera to Buyer1 for $102472 (and earned a bonus of $200)
+Salesperson Carter has sold a Dirty Like New Luxury Car Kia Sorento to Buyer2 for $175732 (and earned a bonus of $175)
+Sales Price of the Performance Car Volvo XC90 increased from $101538 to $121845 after adding on Extended Warranty
+Sales Price of the Performance Car Volvo XC90 increased from $121845 to $127937 after adding on Satellite Radio
+Salesperson Patrick has sold a Clean Like New Performance Car Volvo XC90 to Buyer3 for $127937 (and earned a bonus of $200)
+Sales Price of the Pickup Lincoln Navigator increased from $95486 to $114583 after adding on Extended Warranty
+Sales Price of the Pickup Lincoln Navigator increased from $114583 to $120312 after adding on Satellite Radio
+Salesperson Carter has sold a Clean Like New Pickup Lincoln Navigator to Buyer5 for $120312 (and earned a bonus of $175)
+Salesperson Carter has sold a Clean Like New Electric Car Rolls-Royce Cullinan to Buyer7 for $73946 (and earned a bonus of $200)
+Sales Price of the Super Car Mazda MX-5 Miata increased from $176486 to $185310 after adding on Satellite Radio
+Salesperson Patrick has sold a Clean Like New Super Car Mazda MX-5 Miata to Buyer8 for $185310 (and earned a bonus of $200)
 
 Day End in North FNCD
-Intern Aaliyah quit the FNCD
-Hired a new Intern Ellie
-Bought Car Jeep Gladiator for $11115
+Intern Layla quit the FNCD
+Hired a new Intern Aaliyah
+Bought Pickup Toyota Camry for $13448
+Bought Performance Car Toyota C-HR for $19267
+Bought Performance Car Kia Telluride for $19811
+Bought Performance Car BMW X5 for $12087
+Bought Motorcycle Nissan Pathfinder for $16156
+Bought Electric Car Ferrari F8 Tributo for $49263
 
 Day End in South FNCD
-Intern Rachel quit the FNCD
-Mechanic Jordan quit the FNCD
-Hired a new Intern Daniel
-Hired a new Intern Jason
-Bought Car Bentley Bentayga for $8012
-Bought Pickup BMW X5 for $10872
-Bought Car Bentley Bentayga for $8012
+Mechanic Cole quit the FNCD
+Hired a new Intern Leah
+Bought Pickup Maserati Levante for $13036
+Bought Performance Car Cadillac Escalade for $26717
+Bought Performance Car Audi Q7 for $27327
+Bought Electric Car Mercedes-Benz GLS for $36264
+Bought Car Ford Mustang for $6930
+Bought Car Ford Mustang for $6930
 
-Total sales for the day in North FNCD: 232040
-Total sales for the day in South FNCD: 346464
+Total sales for the day in North FNCD: 562439
+Total sales for the day in South FNCD: 785709

@@ -1,55 +1,46 @@
-Current Budget in North FNCD: 1138555
-Current Budget in South FNCD: 1150322
+Current Budget in North FNCD: 1353786
+Current Budget in South FNCD: 911319
 
 Washing in North FNCD
-Intern Eva washed a Dirty Pickup Toyota Tacoma using Chemical method and made it Sparkling (and earned bonus of $75)
-Intern Eva washed a Clean Super Car Subaru Ascent using Chemical method but it was still Clean
-Intern Sofia washed a Dirty Car Toyota Corolla Cross using Chemical method and made it Clean
-Intern Sofia washed a Clean Luxury Car Mercedes-Benz E-Class using Chemical method but it was still Clean
-Intern Skylar washed a Dirty Budget Car Toyota Yaris using Detailed method and made it Clean
-Intern Skylar washed a Clean Electric Car Polestar 2 using Detailed method but it was still Clean
+Intern Arianna washed a Dirty Car Kia Sorento using Detailed method and made it Clean
+Intern Arianna washed a Clean Car Hyundai Elantra using Detailed method but it was still Clean
+Intern Isabella washed a Dirty Super Car McLaren 765LT using Detailed method but it was still Dirty
+Intern Isabella washed a Clean Monster Truck Swamp Thing using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Bianca washed a Dirty Motorcycle Honda Civic using Chemical method and made it Clean
+Intern Bianca washed a Clean Performance Car Porsche 718 Cayman GT4 using Chemical method but it was still Clean
+The Porsche 718 Cayman GT4 has become Broken
 
 Washing in South FNCD
-Intern Brianna washed a Dirty Monster Truck Bear Foot F-150 using Chemical method and made it Clean
-The Bear Foot F-150 has become Broken
-Intern Brianna washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
-Intern Victoria washed a Dirty Electric Car Rivian R1T using Chemical method and made it Clean
-Intern Victoria washed a Clean Electric Car Rivian R1T using Chemical method but made it Dirty
-Intern Isaac washed a Dirty Motorcycle Aston Martin Vantage using Elbow Grease method and made it Clean
-Intern Isaac washed a Clean Pickup Dodge Charger using Elbow Grease method but it was still Clean
+Intern Miranda washed a Dirty Monster Truck USA-1 using Elbow Grease method and made it Clean
+Intern Miranda washed a Clean Performance Car Ferrari SF90 Stradale using Elbow Grease method but it was still Clean
+Intern Mason washed a Dirty Luxury Car Jaguar XJ using Chemical method and made it Clean
+Intern Mason washed a Clean Electric Car Rivian R1T using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Dakota washed a Dirty Super Car Mazda MX-5 Miata using Chemical method and made it Clean
+Intern Dakota washed a Clean Pickup Chevrolet Colorado using Chemical method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Edward repaired a Broken Super Car McLaren 765LT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Edward repaired a Broken Monster Truck Monster Mutt and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Desmond repaired a Used Car Kia Forte and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Desmond repaired a Used Car Toyota Corolla Cross but it was still Used and the vehicle became Dirty
-Mechanic Lily repaired a Used Monster Truck Rampage and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Lily repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Car Kia Sorento and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Car Kia Forte and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Budget Car Kia Rio and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Altair repaired a Used Electric Car Mercedes-AMG GT 4-Door Coupe and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ezio repaired a Used Super Car Dodge Ram and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ezio repaired a Used Motorcycle Honda Civic but it was still Used and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Antonio repaired a Broken Pickup Dodge Charger and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Antonio repaired a Broken Performance Car Dodge Ram and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Ferland repaired a Used Car Chevrolet Traverse and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Ferland repaired a Used Pickup GMC Canyon but it was still Used and the vehicle became Dirty
-Mechanic Daniel repaired a Used Budget Car Kia Sorento and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Daniel repaired a Broken Pickup Chevrolet Colorado and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Antonio repaired a Broken Super Car McLaren 765LT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Antonio repaired a Used Luxury Car Lexus LS and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Performance Car BMW M8 and made it Like New (and earned a bonus of $150) and the vehicle became Clean
+Mechanic David repaired a Broken Monster Truck Swamp Thing and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic David repaired a Used Super Car McLaren 765LT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Car Toyota Corolla Cross increased from $53334 to $64000 after adding on Extended Warranty
-Sales Price of the Car Toyota Corolla Cross increased from $64000 to $67200 after adding on Satellite Radio
-Salesperson Jacob has sold a Dirty Used Car Toyota Corolla Cross to Buyer1 for $67200 (and earned a bonus of $150)
-Sales Price of the Monster Truck Monster Mutt increased from $71994 to $86392 after adding on Extended Warranty
-Salesperson Altair has sold a Dirty Used Monster Truck Monster Mutt to Buyer2 for $86392 (and earned a bonus of $175)
 
 Selling in South FNCD
 
 Day End in North FNCD
-Bought Car BMW X5 for $13730
-Bought Monster Truck Predator for $14346
 
 Day End in South FNCD
-Salesperson Toni quit the FNCD
-Hired a new Intern Taylor
 
-Total sales for the day in North FNCD: 153592
+Total sales for the day in North FNCD: 0
 Total sales for the day in South FNCD: 0

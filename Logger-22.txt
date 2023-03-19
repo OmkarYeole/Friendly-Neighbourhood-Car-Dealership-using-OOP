@@ -1,55 +1,48 @@
-Current Budget in North FNCD: 2943900
-Current Budget in South FNCD: 2819195
+Current Budget in North FNCD: 2532963
+Current Budget in South FNCD: 2238895
 
 Washing in North FNCD
-Intern Samantha washed a Dirty Car Audi Q7 using Elbow Grease method and made it Clean
-Intern Samantha washed a Clean Performance Car Audi RS7 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
-Intern Aaliyah washed a Dirty Performance Car Volvo XC90 using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Aaliyah washed a Clean Motorcycle McLaren Artura using Detailed method but it was still Clean
-Intern Gabriella washed a Dirty Luxury Car Lexus LS using Chemical method and made it Clean
-Intern Gabriella washed a Clean Budget Car Hyundai Accent using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Abigail washed a Dirty Luxury Car Rolls-Royce Phantom using Chemical method and made it Clean
+Intern Abigail washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
+Intern Jasmine washed a Dirty Pickup Kia Carnival using Detailed method and made it Clean
+Intern Jasmine washed a Clean Performance Car Mercedes-AMG GT using Detailed method but it was still Clean
+Intern Lillian washed a Dirty Budget Car Hyundai Accent using Chemical method and made it Clean
+Intern Lillian washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
 
 Washing in South FNCD
-Intern Jordan washed a Dirty Pickup Ram 1500 Classic using Detailed method and made it Clean
-Intern Jordan washed a Clean Electric Car Rolls-Royce Cullinan using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Christian washed a Dirty Luxury Car Honda Pilot using Elbow Grease method and made it Clean
-Intern Christian washed a Clean Budget Car Dodge Grand Caravan using Elbow Grease method but it was still Clean
-Intern Elizabeth washed a Dirty Motorcycle Honda Odyssey using Chemical method and made it Clean
-Intern Elizabeth washed a Clean Budget Car Dodge Grand Caravan using Chemical method but it was still Clean
+Intern Carter washed a Dirty Luxury Car Chrysler Pacifica using Chemical method and made it Clean
+Intern Carter washed a Clean Car Hyundai Elantra using Chemical method but it was still Clean
+Intern Ashley washed a Dirty Budget Car Dodge Grand Caravan using Detailed method but it was still Dirty
+Intern Ashley washed a Clean Luxury Car Jeep Compass using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Sarah washed a Dirty Luxury Car Mercedes-Benz E-Class using Elbow Grease method but it was still Dirty
+Intern Sarah washed a Clean Electric Car Rolls-Royce Cullinan using Elbow Grease method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Edward repaired a Broken Pickup GMC Canyon and made it Used (and earned a bonus of $125) and the vehicle became Clean
-Mechanic Edward repaired a Used Pickup GMC Canyon and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Performance Car Porsche Cayenne and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Daniel repaired a Broken Pickup Ram 1500 Classic and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Daniel repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Miranda repaired a Used Super Car Ferrari 812 Superfast and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling in North FNCD
-Salesperson Altair has sold a Sparkling Like New Electric Car Jaguar F-Type to Buyer1 for $103022 (and earned a bonus of $200)
-Salesperson Camila has sold a Sparkling Like New Performance Car Volvo XC90 to Buyer2 for $106147 (and earned a bonus of $200)
+Sales Price of the Performance Car Porsche Cayenne increased from $119100 to $125055 after adding on Satellite Radio
+Salesperson Arianna has sold a Dirty Like New Performance Car Porsche Cayenne to Buyer1 for $125055 (and earned a bonus of $200)
+Sales Price of the Monster Truck King Krunch increased from $131478 to $157773 after adding on Extended Warranty
+Salesperson Gabriella has sold a Dirty Like New Monster Truck King Krunch to Buyer2 for $157773 (and earned a bonus of $175)
+Sales Price of the Motorcycle Jeep Cherokee increased from $74898 to $78642 after adding on Satellite Radio
+Salesperson Gabriella has sold a Dirty Like New Motorcycle Jeep Cherokee to Buyer3 for $78642 (and earned a bonus of $150)
 
 Selling in South FNCD
-Sales Price of the Budget Car Kia Sorento increased from $20747 to $21161 after adding on Road Rescue Coverage
-Salesperson Cameron has sold a Clean Like New Budget Car Kia Sorento to Buyer1 for $21161 (and earned a bonus of $150)
-Sales Price of the Monster Truck Air Force Afterburner increased from $94197 to $113036 after adding on Extended Warranty
-Salesperson Isaac has sold a Dirty Like New Monster Truck Air Force Afterburner to Buyer2 for $113036 (and earned a bonus of $175)
-Salesperson Cameron has sold a Clean Like New Monster Truck Sudden Impact to Buyer4 for $87318 (and earned a bonus of $175)
 
 Day End in North FNCD
-Bought Performance Car Dodge Durango for $29778
-Bought Electric Car Tesla Model X for $23758
+Intern Jasmine quit the FNCD
+Hired a new Intern Layla
+Bought Performance Car Chevrolet Traverse for $24008
+Bought Motorcycle Tesla Model Y for $18642
+Bought Monster Truck Bear Foot 2xtreme for $16005
 
 Day End in South FNCD
-Intern Elizabeth quit the FNCD
-Mechanic Daniel quit the FNCD
-Salesperson Cameron quit the FNCD
-Hired a new Intern Sebastian
-Hired a new Intern Rachel
-Hired a new Intern Nathan
-Bought Monster Truck Shell Camino for $36896
-Bought Monster Truck Grinder for $13719
-Bought Car Ferrari F8 Tributo for $7805
+Salesperson Toni quit the FNCD
+Hired a new Intern Patrick
 
-Total sales for the day in North FNCD: 209169
-Total sales for the day in South FNCD: 221515
+Total sales for the day in North FNCD: 361470
+Total sales for the day in South FNCD: 0

@@ -1,53 +1,47 @@
-Current Budget in North FNCD: 3577133
-Current Budget in South FNCD: 3570006
+Current Budget in North FNCD: 3847818
+Current Budget in South FNCD: 3222427
 
 Washing in North FNCD
-Intern Emily washed a Dirty Motorcycle Chevrolet Corvette using Elbow Grease method and made it Clean
-The Chevrolet Corvette has become Like New
-Intern Emily washed a Clean Electric Car Polestar 2 using Elbow Grease method but it was still Clean
-Intern Ellie washed a Dirty Electric Car Tesla Model X using Chemical method and made it Clean
-Intern Ellie washed a Clean Monster Truck Air Force Afterburner using Chemical method and made it Sparkling (and earned bonus of $75)
-Intern Mackenzie washed a Dirty Performance Car Porsche 718 Cayman GT4 using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Mackenzie washed a Clean Motorcycle Chevrolet Corvette using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Isla washed a Dirty Electric Car Polestar 2 using Chemical method and made it Clean
+Intern Isla washed a Clean Motorcycle Suzuki Hayabusa using Chemical method and made it Sparkling (and earned bonus of $50)
+Intern Emilia washed a Dirty Electric Car Ferrari F8 Tributo using Chemical method and made it Clean
+Intern Emilia washed a Clean Luxury Car Rolls-Royce Phantom using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Aurora washed a Dirty Performance Car Chevrolet Traverse using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Aurora washed a Clean Budget Car Chevrolet Equinox using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern Daniel washed a Dirty Pickup Jeep Renegade using Elbow Grease method and made it Clean
-Intern Daniel washed a Clean Pickup Jeep Grand Cherokee using Elbow Grease method but it was still Clean
-Intern Jason washed a Dirty Motorcycle Toyota 4Runner using Elbow Grease method and made it Clean
-Intern Jason washed a Clean Motorcycle Toyota 4Runner using Elbow Grease method but made it Dirty
-Intern Madison washed a Dirty Car Bentley Bentayga using Chemical method and made it Clean
-Intern Madison washed a Clean Electric Car Polestar 2 using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Sophie washed a Dirty Pickup Ram 1500 Classic using Elbow Grease method and made it Clean
+Intern Sophie washed a Clean Performance Car Cadillac Escalade using Elbow Grease method but it was still Clean
+Intern Leah washed a Dirty Super Car Ferrari 812 Superfast using Chemical method and made it Clean
+Intern Leah washed a Clean Electric Car Mercedes-Benz GLS using Chemical method but it was still Clean
+Intern Julia washed a Dirty Motorcycle Hyundai Kona using Elbow Grease method and made it Clean
+Intern Julia washed a Clean Pickup GMC Canyon using Elbow Grease method and made it Sparkling (and earned bonus of $75)
 
 Repairing in North FNCD
-Mechanic Edward repaired a Used Car Kia Sorento and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Logan repaired a Broken Pickup Jeep Grand Cherokee and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Logan repaired a Used Pickup Jeep Grand Cherokee but it was still Used and the vehicle became Dirty
-Mechanic Luke repaired a Used Pickup Jeep Grand Cherokee and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Miranda repaired a Used Monster Truck Maximum Destruction Max-D and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Car Kia Sorento increased from $47445 to $56934 after adding on Extended Warranty
-Sales Price of the Car Kia Sorento increased from $56934 to $59780 after adding on Satellite Radio
-Salesperson Samantha has sold a Dirty Like New Car Kia Sorento to Buyer2 for $59780 (and earned a bonus of $150)
-Salesperson Samantha has sold a Clean Like New Super Car Kia Carnival to Buyer4 for $198888 (and earned a bonus of $200)
+Salesperson Gabriella has sold a Clean Like New Electric Car Polestar 2 to Buyer1 for $122711 (and earned a bonus of $200)
 
 Selling in South FNCD
-Salesperson Cecilia has sold a Clean Like New Super Car Dodge Durango to Buyer1 for $120897 (and earned a bonus of $200)
-Sales Price of the Super Car Mercedes-Benz S-Class increased from $110900 to $116445 after adding on Satellite Radio
-Salesperson Christopher has sold a Clean Like New Super Car Mercedes-Benz S-Class to Buyer2 for $116445 (and earned a bonus of $200)
-Salesperson Isaac has sold a Sparkling Like New Motorcycle Subaru Crosstrek to Buyer3 for $31050 (and earned a bonus of $150)
+Sales Price of the Monster Truck Air Force Afterburner increased from $72497 to $86996 after adding on Extended Warranty
+Sales Price of the Monster Truck Air Force Afterburner increased from $86996 to $91345 after adding on Satellite Radio
+Salesperson Patrick has sold a Sparkling Like New Monster Truck Air Force Afterburner to Buyer1 for $91345 (and earned a bonus of $175)
+Sales Price of the Pickup Maserati Levante increased from $97773 to $102661 after adding on Satellite Radio
+Salesperson Patrick has sold a Sparkling Like New Pickup Maserati Levante to Buyer2 for $102661 (and earned a bonus of $175)
 
 Day End in North FNCD
-Bought Car GMC Acadia for $8896
-Bought Car GMC Acadia for $8896
+Intern Emilia quit the FNCD
+Hired a new Intern Camila
+Bought Electric Car Toyota Tundra for $36980
 
 Day End in South FNCD
-Intern Daniel quit the FNCD
-Hired a new Intern Samantha
-Bought Motorcycle Rolls-Royce Ghost for $8893
-Bought Car Bentley Bentayga for $8012
-Bought Car Mercedes-Benz GLE for $7074
+Intern Julia quit the FNCD
+Hired a new Intern Sierra
+Bought Pickup Chevrolet Silverado for $39637
+Bought Monster Truck The Felon for $18127
 
-Total sales for the day in North FNCD: 258668
-Total sales for the day in South FNCD: 268392
+Total sales for the day in North FNCD: 122711
+Total sales for the day in South FNCD: 194006
