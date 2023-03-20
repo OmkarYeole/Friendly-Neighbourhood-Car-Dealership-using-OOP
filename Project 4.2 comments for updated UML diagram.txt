@@ -8,30 +8,46 @@
 implementing the factoryStaff like Buyerfactory(), Salespersonfactory(), Driverfactory(), Internfactory()
 and Mechanicfactory(). The product interface has a new +createStaff() method which is implemented by all the
 sub-products. A Creator interface Staffs is created which has methods +init(), +add_names(), +getName(), +addStaff(),
-+updateDepartedStaff(). This interface is implemented by Staff Concrete Creator class which is similar to the Staff class we had in the previous homework solutions.
++updateDepartedStaff(). This interface is implemented by Staff Concrete Creator class which is similar to
+ the Staff class we had in the previous homework solutions.
 
 5) The +static fncdLoggerInstance from the Logger class has been removed and +fncdData, +fncdData2, +logger and
 +logger2 attributes have been added. Similarly, +getfncdLogger() method has been removed and +getInstance(),
-+getInstance2(), +updateAct(), +updateWash(), +updateRepair(), +updateSell(), +updateRace(), +updateEnd(), +update() have been added.
++getInstance2(), +updateAct(), +updateWash(), +updateRepair(), +updateSell(), +updateRace(), +updateEnd(),
++update() have been added.
 
-6) The +static fncdTrackerInstance attribute from the Tracker class is removed and additional methods like +fncdData, +fncdData2, +fnc,
-+fnc2, +tracker, +tracker2 have been added. The +getfncdTracker() method has been removed and new methods like +update(), +updateAct(),
-+updateWash(), +updateRepair(), +updateSell(), +updateRace(), +updateEnd(), +update() have been added.
+6) The +static fncdTrackerInstance attribute from the Tracker class is removed and additional methods like
++fncdData, +fncdData2, +fnc, +fnc2, +tracker, +tracker2 have been added. The +getfncdTracker()
+method has been removed and new methods like +update(), +updateAct(), +updateWash(), +updateRepair(), +updateSell(),
++updateRace(), +updateEnd(), +update() have been added.
 
-7) A new class Tester has been created to provide test cases using Junit Testing. It has test methods like +runInitialmethods(), +checkCars(),
-+checkPickups(), +checkPerformanceCars(), +checkMotorycleCars(), +checkMonsterTrucks(), +checkElectricCars(), +checkBudgetCars(), +checkLuxuryCars(), +checkSuperCars(), +checkInterns(), +checkMechanics(), +checkSalespersons(), +checkDrivers(), +checkBudgetFNCDNorth(), +checkBudgetFNCDSouth().
+7) A new class Tester has been created to provide test cases using Junit Testing. It has test methods like +runInitialmethods(),
++checkCars(), +checkPickups(), +checkPerformanceCars(), +checkMotorycleCars(), +checkMonsterTrucks(), +checkElectricCars(),
++checkBudgetCars(), +checkLuxuryCars(), +checkSuperCars(), +checkInterns(), +checkMechanics(), +checkSalespersons(),
++checkDrivers(), +checkBudgetFNCDNorth(), +checkBudgetFNCDSouth().
 
-8) A new Command Pattern has been implemented with interace Command having the +execute() method and the Invoker class called commandInvoker
-with a private attribute -command and methods like +setCommand(), +executeCommand(). A concrete class called concreteCommand with attribute
-+receiver and method +execute() has been implemented and it has a reference to the client which is the Buyer, similar to the Buyer we had
-in the previous solutions and a Receiver class named commandReceiver with attributes +salesperson, +FNCDchoice, +user_choice, +user_decision,
-+user_decision2, +vehicle_choice, +races_won, +sales_price, +vehicle, +vehicle_type, +vehicle_condtion, +vehicle_cleanliness and methods +getFNCDLocation(), +getSalesName(), +getTime(), +getDifferentSalesperson(), +getInventory(), +getSelectedInventoryDetails(), +buyVehicleAddOn(), +buyVehicle(), +endInteraction().
+8) A new Command Pattern has been implemented with interace Command having the +execute() method and the Invoker class
+called commandInvoker with a private attribute -command and methods like +setCommand(), +executeCommand().
+A concrete class called concreteCommand with attribute +receiver and method +execute() has been implemented
+and it has a reference to the client which is the Buyer, similar to the Buyer we had in the previous solutions
+and a Receiver class named commandReceiver with attributes +salesperson, +FNCDchoice, +user_choice, +user_decision,
++user_decision2, +vehicle_choice, +races_won, +sales_price, +vehicle, +vehicle_type, +vehicle_condtion, +vehicle_cleanliness
+and methods +getFNCDLocation(), +getSalesName(), +getTime(), +getDifferentSalesperson(), +getInventory(),
++getSelectedInventoryDetails(), +buyVehicleAddOn(), +buyVehicle(), +endInteraction().
 
 9) The Operation class has its +writer attribute changed to +writer1.
 
-10) A new Tester class has been added for Junit Testing. It includes @Test methods like +runInitialmethods(), +checkCars(), +checkPickups(),
-+checkPerformanceCars(), +checkMotorycleCars(), +checkMonsterTrucks(), +checkElectricCars(), +checkBudgetCars(), +checkLuxuryCars(), +checkSuperCars(), +checkInterns(), +checkMechanics(), +checkSalespersons(), +checkDrivers(), +checkBudgetFNCDNorth(), +checkBudgetFNCDSouth().
+10) A new Tester class has been added for Junit Testing. It includes @Test methods like +runInitialmethods(), +checkCars(),
++checkPickups(), +checkPerformanceCars(), +checkMotorycleCars(), +checkMonsterTrucks(), +checkElectricCars(),
++checkBudgetCars(), +checkLuxuryCars(), +checkSuperCars(), +checkInterns(), +checkMechanics(), +checkSalespersons(),
++checkDrivers(), +checkBudgetFNCDNorth(), +checkBudgetFNCDSouth().
 
-11) A Factory pattern has been implemented where the product interface factoryVehicle has a +createVehicle() method and its sub-product
-classes implementing the interface are Carfactory, PerformanceCarfactory, Pickupfactory, ElectricCarfactory, MonsterTrucksfactory, Motorcyclesfactory, LuxuryCarfactory, BudgetCarfactory and SuperCarfactory. All these sub-products have +createVehicle() method in them. A Creator interface Vehicles has been created which has methods +init2(), +add_vehicle_names(), +add_MonsterTruck_names(), +getMonsterTruckName(), +getcarName(),+addVehicles(), +addVehicle(), +setCondition(), +setCleanliness(), +getCarType(), +getCondition(), +getCondition2(), +getCleanliness(), +getCleanliness2(), +VehicleTopPrice(), +totalVehicleTopPrice(), +updateSalesPrice(), +updateCleanliness(), +updateCondition() and +Print2(). This Creator interface is implemented by ConcreteCreator class named Vehicle
-which is like the vehicle class we had in the previous solutions.  
+11) A Factory pattern has been implemented where the product interface factoryVehicle has a +createVehicle()
+method and its sub-product classes implementing the interface are Carfactory, PerformanceCarfactory, Pickupfactory,
+ElectricCarfactory, MonsterTrucksfactory, Motorcyclesfactory, LuxuryCarfactory, BudgetCarfactory and SuperCarfactory.
+All these sub-products have +createVehicle() method in them. A Creator interface Vehicles has been created which has methods
++init2(), +add_vehicle_names(), +add_MonsterTruck_names(), +getMonsterTruckName(), +getcarName(),+addVehicles(),
++addVehicle(), +setCondition(), +setCleanliness(), +getCarType(), +getCondition(), +getCondition2(),
++getCleanliness(), +getCleanliness2(), +VehicleTopPrice(), +totalVehicleTopPrice(), +updateSalesPrice(),
++updateCleanliness(), +updateCondition() and +Print2(). This Creator interface is implemented by ConcreteCreator class named Vehicle
+which is like the vehicle class we had in the previous solutions.
