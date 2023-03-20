@@ -1,43 +1,45 @@
-Current Budget in North FNCD: 2074209
-Current Budget in South FNCD: 1928329
+Current Budget in North FNCD: 1498969
+Current Budget in South FNCD: 1732296
 
 Washing in North FNCD
-Intern Bianca washed a Dirty Electric Car BMW i8 using Detailed method and made it Clean
-Intern Bianca washed a Clean Motorcycle Aston Martin Vantage using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Natalie washed a Dirty Electric Car Honda Pilot using Detailed method and made it Sparkling (and earned bonus of $100)
-Intern Natalie washed a Clean Motorcycle Dodge Durango using Detailed method but it was still Clean
-Intern Naomi washed a Dirty Car Honda Accord using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Naomi washed a Clean Car Dodge Grand Caravan using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Alyssa washed a Dirty Budget Car Jeep Compass using Elbow Grease method and made it Clean
+Intern Alyssa washed a Clean Performance Car Mazda CX-5 using Elbow Grease method but it was still Clean
+Intern Ariel washed a Dirty Electric Car Mercedes-AMG GT 4-Door Coupe using Elbow Grease method and made it Clean
+Intern Ariel washed a Clean Monster Truck Rampage using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Lila washed a Dirty Pickup Ford Ranger using Chemical method and made it Clean
+Intern Lila washed a Clean Pickup Honda HR-V using Chemical method but it was still Clean
 
 Washing in South FNCD
-Intern Katherine washed a Dirty Performance Car Mercedes-AMG GT using Elbow Grease method and made it Clean
-Intern Katherine washed a Clean Monster Truck Bounty Hunter using Elbow Grease method but it was still Clean
-Intern Luis washed a Dirty Performance Car Jeep Gladiator using Chemical method and made it Clean
-Intern Luis washed a Clean Performance Car Mercedes-AMG GT using Chemical method but it was still Clean
-Intern Carter washed a Dirty Pickup Toyota Tacoma using Elbow Grease method and made it Clean
-Intern Carter washed a Clean Pickup GMC Canyon using Elbow Grease method but it was still Clean
+Intern Connor washed a Dirty Motorcycle Porsche Taycan using Elbow Grease method and made it Clean
+Intern Connor washed a Clean Electric Car Audi R8 using Elbow Grease method but it was still Clean
+Intern Sophie washed a Dirty Car Honda Accord using Chemical method and made it Clean
+Intern Sophie washed a Clean Electric Car Audi R8 using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Leah washed a Dirty Car Nissan Pathfinder using Elbow Grease method and made it Clean
+The Nissan Pathfinder has become Like New
+Intern Leah washed a Clean Super Car McLaren 765LT using Elbow Grease method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Super Car Land Rover Range Rover and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Monster Truck Maximum Destruction Max-D and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Altair repaired a Used Motorcycle Jeep Cherokee but it was still Used and the vehicle became Dirty
-Mechanic Altair repaired a Used Luxury Car Jeep Gladiator but it was still Used and the vehicle became Dirty
-Mechanic Ezio repaired a Used Pickup Toyota Tacoma and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Ezio repaired a Broken Performance Car Mercedes-AMG GT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Broken Super Car Tesla Model S and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Miranda repaired a Used Super Car Tesla Model S and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling in North FNCD
+Sales Price of the Budget Car Kia Rio increased from $22342 to $26810 after adding on Extended Warranty
+Salesperson Shay has sold a Dirty Like New Budget Car Kia Rio to Buyer1 for $26810 (and earned a bonus of $150)
 
 Selling in South FNCD
-Salesperson Toni has sold a Clean Like New Performance Car Jeep Gladiator to Buyer2 for $108922 (and earned a bonus of $200)
+Salesperson Luka has sold a Dirty Like New Monster Truck Rampage to Buyer1 for $97616 (and earned a bonus of $175)
+Sales Price of the Budget Car Toyota C-HR increased from $31425 to $32996 after adding on Satellite Radio
+Salesperson Justin has sold a Clean Like New Budget Car Toyota C-HR to Buyer4 for $32996 (and earned a bonus of $150)
 
 Day End in North FNCD
+Bought Car Dodge Charger for $11535
 
 Day End in South FNCD
-Bought Performance Car Volvo XC90 for $13538
+Intern Leah quit the FNCD
+Hired a new Intern Valeria
+Bought Monster Truck Captain's Curse for $27105
+Bought Car McLaren 720S for $8450
 
-Total sales for the day in North FNCD: 0
-Total sales for the day in South FNCD: 108922
+Total sales for the day in North FNCD: 26810
+Total sales for the day in South FNCD: 130612

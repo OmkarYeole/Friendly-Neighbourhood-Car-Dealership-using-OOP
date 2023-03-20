@@ -1,46 +1,50 @@
-Current Budget in North FNCD: 3273380
-Current Budget in South FNCD: 2496132
+Current Budget in North FNCD: 2538997
+Current Budget in South FNCD: 2252577
 
 Washing in North FNCD
-Intern Abigail washed a Dirty Budget Car Chevrolet Trax using Elbow Grease method and made it Clean
-Intern Abigail washed a Clean Performance Car Mercedes-AMG GT using Elbow Grease method but it was still Clean
-Intern Lillian washed a Dirty Pickup GMC Canyon using Chemical method and made it Clean
-The GMC Canyon has become Broken
-Intern Lillian washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
-Intern Layla washed a Dirty Electric Car Polestar 2 using Elbow Grease method and made it Clean
-Intern Layla washed a Clean Pickup GMC Canyon using Elbow Grease method but it was still Clean
+Intern Naomi washed a Dirty Monster Truck Sudden Impact using Detailed method and made it Clean
+Intern Naomi washed a Clean Car Hyundai Elantra using Detailed method but it was still Clean
+Intern Nova washed a Dirty Electric Car Aston Martin DB11 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Nova washed a Clean Car Nissan Sentra using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Aaliyah washed a Dirty Super Car Ferrari 812 Superfast using Detailed method but it was still Dirty
+Intern Aaliyah washed a Clean Motorcycle Aston Martin Vantage using Detailed method and made it Sparkling (and earned bonus of $50)
 
 Washing in South FNCD
-Intern Ethan washed a Dirty Luxury Car Tesla Cybertruck using Detailed method and made it Clean
-Intern Ethan washed a Clean Car Hyundai Elantra using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Sophie washed a Dirty Super Car Rolls-Royce Ghost using Elbow Grease method and made it Sparkling (and earned bonus of $100)
-Intern Sophie washed a Clean Budget Car Honda Fit using Elbow Grease method but it was still Clean
-The Honda Fit has become Like New
-Intern Kaitlyn washed a Dirty Super Car Honda Civic using Detailed method and made it Clean
-Intern Kaitlyn washed a Clean Monster Truck Rampage using Detailed method but it was still Clean
+Intern Paige washed a Dirty Budget Car Bugatti Chiron using Elbow Grease method and made it Clean
+Intern Paige washed a Clean Pickup GMC Canyon using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Christian washed a Dirty Luxury Car Subaru Outback using Chemical method and made it Sparkling (and earned bonus of $75)
+Intern Christian washed a Clean Super Car Rimac C2 using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Joseph washed a Dirty Luxury Car Subaru Ascent using Chemical method and made it Clean
+The Subaru Ascent has become Broken
+Intern Joseph washed a Clean Budget Car Chevrolet Trax using Chemical method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Super Car Honda HR-V and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Pickup GMC Canyon but it was still Broken and the vehicle became Dirty
-Mechanic Natalie repaired a Broken Monster Truck Swamp Thing and made it Used (and earned a bonus of $125) and the vehicle became Clean
-Mechanic Natalie repaired a Used Monster Truck Swamp Thing and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Naomi repaired a Broken Pickup GMC Canyon and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Pickup GMC Canyon and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ellie repaired a Broken Motorcycle Lamborghini Huracan and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ellie repaired a Broken Motorcycle Aston Martin Vantage and made it Used (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Ella repaired a Used Motorcycle Kia Telluride and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ella repaired a Used Motorcycle Aston Martin Vantage and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Aria repaired a Used Motorcycle Lamborghini Huracan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Broken Luxury Car Kia Sorento but it was still Broken and the vehicle became Dirty
-Mechanic Miranda repaired a Broken Luxury Car Kia Sorento and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Cole repaired a Used Luxury Car Kia Sorento and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Car Audi Q7 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Luxury Car Subaru Ascent but it was still Broken and the vehicle became Dirty
+Mechanic Valeria repaired a Broken Luxury Car Subaru Ascent and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Valeria repaired a Used Luxury Car Subaru Ascent and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Shawn repaired a Broken Motorcycle McLaren Artura and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Shawn repaired a Used Motorcycle McLaren Artura and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling in North FNCD
+Salesperson Ariel has sold a Clean Like New Pickup Honda HR-V to Buyer1 for $53076 (and earned a bonus of $175)
 
 Selling in South FNCD
+Sales Price of the Electric Car Mazda CX-5 increased from $109687 to $131624 after adding on Extended Warranty
+Salesperson Patrick has sold a Clean Like New Electric Car Mazda CX-5 to Buyer2 for $131624 (and earned a bonus of $200)
 
 Day End in North FNCD
-Mechanic Haytham quit the FNCD
-Hired a new Intern Brooklyn
+Bought Pickup Hyundai Kona for $11352
 
 Day End in South FNCD
+Bought Electric Car Porsche Cayenne for $31517
 
-Total sales for the day in North FNCD: 0
-Total sales for the day in South FNCD: 0
+Total sales for the day in North FNCD: 53076
+Total sales for the day in South FNCD: 131624

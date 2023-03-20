@@ -1,63 +1,66 @@
-Current Budget in North FNCD: 479881
-Current Budget in South FNCD: 540545
+Current Budget in North FNCD: 465000
+Current Budget in South FNCD: 661611
 
 Washing in North FNCD
-Intern Ezio washed a Dirty Monster Truck USA-1 using Elbow Grease method and made it Clean
-Intern Ezio washed a Clean Car Hyundai Elantra using Elbow Grease method but it was still Clean
-The Hyundai Elantra has become Like New
-Intern Brielle washed a Dirty Budget Car Kia Rio using Detailed method and made it Clean
-Intern Brielle washed a Clean Super Car Aston Martin Valkyrie using Detailed method but it was still Clean
-Intern Gianna washed a Dirty Performance Car BMW M8 using Chemical method and made it Clean
-Intern Gianna washed a Clean Monster Truck USA-1 using Chemical method but it was still Clean
+Intern Lily washed a Dirty Motorcycle Yamaha YZF-R6 using Chemical method and made it Clean
+Intern Lily washed a Clean Electric Car Rivian R1T using Chemical method but made it Dirty
+Intern Mila washed a Dirty Budget Car Hyundai Accent using Chemical method and made it Clean
+Intern Mila washed a Clean Luxury Car BMW 7 Series using Chemical method but made it Dirty
+Intern Samantha washed a Dirty Pickup Ford Ranger using Elbow Grease method but it was still Dirty
+Intern Samantha washed a Clean Monster Truck Sudden Impact using Elbow Grease method but it was still Clean
 
 Washing in South FNCD
-Intern Daniel washed a Dirty Luxury Car Rolls-Royce Phantom using Chemical method and made it Clean
-Intern Daniel washed a Clean Electric Car Rivian R1T using Chemical method and made it Sparkling (and earned bonus of $100)
-Intern David washed a Dirty Performance Car Audi RS7 using Chemical method and made it Clean
-Intern David washed a Clean Motorcycle Yamaha YZF-R6 using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Joseph washed a Dirty Luxury Car Jaguar XJ using Detailed method and made it Clean
-Intern Joseph washed a Clean Pickup Ford Ranger using Detailed method but it was still Clean
+Intern Daniel washed a Dirty Car Hyundai Sonata using Elbow Grease method and made it Clean
+Intern Daniel washed a Clean Super Car Pagani Huayra using Elbow Grease method but it was still Clean
+The Pagani Huayra has become Like New
+Intern David washed a Dirty Luxury Car Jaguar XJ using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern David washed a Clean Motorcycle McLaren Artura using Elbow Grease method but it was still Clean
+Intern Kendall washed a Dirty Performance Car Ferrari SF90 Stradale using Detailed method and made it Clean
+Intern Kendall washed a Clean Electric Car Audi R8 using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Haytham repaired a Used Monster Truck Rampage and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Conner repaired a Broken Super Car Aston Martin Valkyrie and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Conner repaired a Used Motorcycle Lamborghini Huracan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Altair repaired a Used Super Car Bugatti Veyron and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Altair repaired a Broken Car Nissan Sentra and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Car Kia Forte and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Luxury Car Mercedes-Benz E-Class and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Edward repaired a Used Luxury Car Jaguar XJ but it was still Used and the vehicle became Dirty
+Mechanic Edward repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ezio repaired a Used Pickup Ram 1500 Classic but it was still Used and the vehicle became Dirty
+Mechanic Ezio repaired a Used Electric Car Rolls-Royce Cullinan and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Antonio repaired a Used Motorcycle Porsche Taycan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Antonio repaired a Used Motorcycle Suzuki Hayabusa and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Ferland repaired a Broken Super Car McLaren 765LT but it was still Broken and the vehicle became Dirty
-Mechanic Ferland repaired a Used Car Hyundai Sonata and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Thibaut repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Thibaut repaired a Used Luxury Car Mercedes-Benz E-Class and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ferland repaired a Broken Luxury Car Mercedes-Benz E-Class and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ferland repaired a Broken Super Car Rimac C2 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Eduardo repaired a Used Budget Car Hyundai Accent and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Eduardo repaired a Used Super Car Aston Martin Valkyrie and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Performance Car Porsche Panamera and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Car Mazda MX-5 Miata but it was still Broken and the vehicle became Dirty
 
 Selling in North FNCD
-Salesperson Arno has sold a Dirty Like New Performance Car Porsche Panamera to Buyer1 for $68315 (and earned a bonus of $200)
-Sales Price of the Motorcycle Lamborghini Huracan increased from $41052 to $49262 after adding on Extended Warranty
-Salesperson Desmond has sold a Dirty Like New Motorcycle Lamborghini Huracan to Buyer3 for $49262 (and earned a bonus of $150)
-Sales Price of the Motorcycle McLaren Artura increased from $38890 to $46668 after adding on Extended Warranty
-Sales Price of the Motorcycle McLaren Artura increased from $46668 to $49001 after adding on Satellite Radio
-Salesperson Arno has sold a Dirty Like New Motorcycle McLaren Artura to Buyer4 for $49001 (and earned a bonus of $150)
-Sales Price of the Electric Car Rolls-Royce Cullinan increased from $110919 to $133102 after adding on Extended Warranty
-Salesperson Shay has sold a Dirty Used Electric Car Rolls-Royce Cullinan to Buyer5 for $133102 (and earned a bonus of $200)
+Sales Price of the Car Kia Forte increased from $46644 to $55972 after adding on Extended Warranty
+Salesperson Shay has sold a Dirty Used Car Kia Forte to Buyer2 for $55972 (and earned a bonus of $150)
+Salesperson Shay has sold a Dirty Like New Electric Car Rolls-Royce Cullinan to Buyer3 for $138648 (and earned a bonus of $200)
+Salesperson Altair has sold a Dirty Like New Performance Car Porsche Panamera to Buyer4 for $102472 (and earned a bonus of $200)
 
 Selling in South FNCD
-Sales Price of the Car Nissan Sentra increased from $39600 to $47520 after adding on Extended Warranty
-Salesperson Luka has sold a Dirty Like New Car Nissan Sentra to Buyer1 for $47520 (and earned a bonus of $150)
+Sales Price of the Pickup Chevrolet Colorado increased from $88680 to $106416 after adding on Extended Warranty
+Salesperson Luka has sold a Dirty Used Pickup Chevrolet Colorado to Buyer2 for $106416 (and earned a bonus of $175)
+Sales Price of the Performance Car Ferrari SF90 Stradale increased from $74356 to $78073 after adding on Satellite Radio
+Salesperson Federico has sold a Clean Like New Performance Car Ferrari SF90 Stradale to Buyer3 for $78073 (and earned a bonus of $200)
+Sales Price of the Pickup Toyota Tacoma increased from $37076 to $38929 after adding on Undercoating
+Salesperson Federico has sold a Dirty Like New Pickup Toyota Tacoma to Buyer4 for $38929 (and earned a bonus of $175)
+Salesperson Toni has sold a Dirty Like New Performance Car Porsche Panamera to Buyer5 for $68315 (and earned a bonus of $200)
 
 Day End in North FNCD
-Bought Performance Car Audi Q7 for $10918
-Bought Motorcycle Honda Civic for $9722
-Bought Motorcycle Dodge Durango for $8342
-Bought Electric Car BMW M3 for $26752
+Bought Car Jeep Cherokee for $7401
+Bought Performance Car Mazda CX-5 for $26543
+Bought Electric Car Mazda CX-30 for $39096
 
 Day End in South FNCD
-Mechanic Ferland quit the FNCD
-Hired a new Intern Miranda
-Bought Car Ford Mustang for $6930
+Mechanic Eduardo quit the FNCD
+Hired a new Intern Dylan
+Bought Pickup Dodge Grand Caravan for $15656
+Bought Pickup Rolls-Royce Ghost for $20605
+Bought Performance Car Mercedes-Benz S-Class for $18491
+Bought Performance Car Honda Ridgeline for $16462
 
-Total sales for the day in North FNCD: 299680
-Total sales for the day in South FNCD: 47520
+Total sales for the day in North FNCD: 297092
+Total sales for the day in South FNCD: 291733

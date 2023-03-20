@@ -1,52 +1,54 @@
-Current Budget in North FNCD: 2083584
-Current Budget in South FNCD: 1639492
+Current Budget in North FNCD: 1329542
+Current Budget in South FNCD: 1742121
 
 Washing in North FNCD
-Intern Bianca washed a Dirty Budget Car BMW X7 using Elbow Grease method and made it Clean
-The BMW X7 has become Like New
-Intern Bianca washed a Clean Luxury Car Jaguar XJ using Elbow Grease method but it was still Clean
-Intern Natalie washed a Dirty Pickup Ram 1500 Classic using Chemical method and made it Clean
-Intern Natalie washed a Clean Budget Car BMW X7 using Chemical method but it was still Clean
-Intern Aria washed a Dirty Car Kia Forte using Chemical method and made it Clean
-Intern Aria washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
+Intern Avery washed a Dirty Car Honda Accord using Chemical method and made it Clean
+Intern Avery washed a Clean Monster Truck Bear Foot F-150 using Chemical method but it was still Clean
+Intern Paisley washed a Dirty Pickup Honda HR-V using Elbow Grease method and made it Clean
+Intern Paisley washed a Clean Super Car McLaren 765LT using Elbow Grease method but it was still Clean
+Intern Alyssa washed a Dirty Super Car Rimac C2 using Detailed method but it was still Dirty
+Intern Alyssa washed a Clean Super Car Tesla Cybertruck using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern Katherine washed a Dirty Budget Car Honda Fit using Elbow Grease method and made it Clean
-The Honda Fit has become Like New
-Intern Katherine washed a Clean Car Ford Mustang using Elbow Grease method and made it Sparkling (and earned bonus of $50)
-Intern Luis washed a Dirty Performance Car Audi RS7 using Detailed method and made it Clean
-Intern Luis washed a Clean Electric Car Rolls-Royce Cullinan using Detailed method but it was still Clean
-Intern Carter washed a Dirty Car Chevrolet Spark using Elbow Grease method and made it Clean
-Intern Carter washed a Clean Electric Car Rolls-Royce Cullinan using Elbow Grease method but it was still Clean
+Intern Connor washed a Dirty Budget Car Toyota C-HR using Elbow Grease method and made it Clean
+Intern Connor washed a Clean Car Mazda MX-5 Miata using Elbow Grease method but it was still Clean
+Intern Sophie washed a Dirty Pickup Toyota Tundra using Detailed method and made it Clean
+Intern Sophie washed a Clean Pickup Toyota Tundra using Detailed method but it was still Clean
+Intern Leah washed a Dirty Super Car McLaren 765LT using Chemical method and made it Clean
+Intern Leah washed a Clean Luxury Car BMW 7 Series using Chemical method and made it Sparkling (and earned bonus of $75)
+The BMW 7 Series has become Broken
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Pickup GMC Canyon and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Haytham repaired a Used Luxury Car Jeep Gladiator but it was still Used and the vehicle became Dirty
-Mechanic Altair repaired a Broken Performance Car Mercedes-AMG GT but it was still Broken and the vehicle became Dirty
-Mechanic Altair repaired a Broken Performance Car Mercedes-AMG GT but it was still Broken and the vehicle became Dirty
-Mechanic Ezio repaired a Used Car Honda Accord and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Ezio repaired a Used Super Car Ferrari 812 Superfast and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Luxury Car Jaguar XJ and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Luxury Car BMW 7 Series but it was still Broken and the vehicle became Dirty
+Mechanic Ellie repaired a Broken Luxury Car BMW 7 Series but it was still Broken and the vehicle became Dirty
+Mechanic Ellie repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ella repaired a Used Super Car Tesla Cybertruck and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ella repaired a Used Car Hyundai Elantra and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Broken Super Car Pagani Huayra but it was still Broken and the vehicle became Dirty
-Mechanic Miranda repaired a Broken Super Car Pagani Huayra and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Cole repaired a Used Super Car Pagani Huayra and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Cole repaired a Used Luxury Car Chrysler Pacifica and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Motorcycle Ford Mustang and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Clean
+Mechanic David repaired a Used Monster Truck Rampage and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic David repaired a Used Monster Truck Madusa and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Madison repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Madison repaired a Used Electric Car Audi R8 and made it Like New (and earned a bonus of $150) and the vehicle became Clean
 
 Selling in North FNCD
+Sales Price of the Performance Car BMW M8 increased from $162967 to $195560 after adding on Extended Warranty
+Sales Price of the Performance Car BMW M8 increased from $195560 to $205338 after adding on Satellite Radio
+Salesperson Shay has sold a Clean Like New Performance Car BMW M8 to Buyer1 for $205338 (and earned a bonus of $200)
 
 Selling in South FNCD
-Sales Price of the Super Car Pagani Huayra increased from $273753 to $287440 after adding on Satellite Radio
-Salesperson Mason has sold a Dirty Like New Super Car Pagani Huayra to Buyer1 for $287440 (and earned a bonus of $200)
-Salesperson Toni has sold a Clean Like New Pickup Chevrolet Colorado to Buyer2 for $59120 (and earned a bonus of $175)
 
 Day End in North FNCD
-Intern Aria quit the FNCD
-Hired a new Intern Naomi
+Intern Paisley quit the FNCD
+Salesperson Lillian quit the FNCD
+Hired a new Intern Ariel
+Hired a new Intern Lila
+Bought Performance Car Mercedes-Benz GLE for $26211
 
 Day End in South FNCD
-Bought Pickup GMC Acadia for $27109
-Bought Car Ford Mustang for $6930
 
-Total sales for the day in North FNCD: 0
-Total sales for the day in South FNCD: 346560
+Total sales for the day in North FNCD: 205338
+Total sales for the day in South FNCD: 0

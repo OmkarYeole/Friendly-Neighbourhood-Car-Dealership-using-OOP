@@ -1,60 +1,64 @@
-Current Budget in North FNCD: 713377
-Current Budget in South FNCD: 571285
+Current Budget in North FNCD: 678977
+Current Budget in South FNCD: 871630
 
 Washing in North FNCD
-Intern Ezio washed a Dirty Budget Car Honda Fit using Detailed method but it was still Dirty
-Intern Ezio washed a Clean Motorcycle Honda Civic using Detailed method but it was still Clean
-Intern Brielle washed a Dirty Luxury Car BMW 7 Series using Elbow Grease method and made it Clean
-Intern Brielle washed a Clean Performance Car Mercedes-AMG GT using Elbow Grease method but it was still Clean
-Intern Gianna washed a Dirty Monster Truck Swamp Thing using Chemical method and made it Sparkling (and earned bonus of $75)
-Intern Gianna washed a Clean Motorcycle Honda Civic using Chemical method but it was still Clean
-The Honda Civic has become Broken
+Intern Lily washed a Dirty Performance Car Mercedes-AMG GT using Elbow Grease method but it was still Dirty
+The Mercedes-AMG GT has become Like New
+Intern Lily washed a Clean Monster Truck Sudden Impact using Elbow Grease method and made it Sparkling (and earned bonus of $75)
+Intern Mila washed a Dirty Monster Truck Rampage using Detailed method and made it Clean
+Intern Mila washed a Clean Monster Truck Rampage using Detailed method but it was still Clean
+Intern Samantha washed a Dirty Budget Car Toyota Yaris using Chemical method and made it Clean
+Intern Samantha washed a Clean Motorcycle Lamborghini Huracan using Chemical method but it was still Clean
 
 Washing in South FNCD
-Intern David washed a Dirty Monster Truck Sudden Impact using Detailed method and made it Clean
-Intern David washed a Clean Car Honda Accord using Detailed method but it was still Clean
-Intern Joseph washed a Dirty Luxury Car Lexus LS using Elbow Grease method but it was still Dirty
-Intern Joseph washed a Clean Pickup Chevrolet Colorado using Elbow Grease method but it was still Clean
-Intern Miranda washed a Dirty Luxury Car Lexus LS using Chemical method and made it Clean
-Intern Miranda washed a Clean Monster Truck Sudden Impact using Chemical method but it was still Clean
+Intern David washed a Dirty Monster Truck USA-1 using Detailed method and made it Clean
+Intern David washed a Clean Performance Car Honda Ridgeline using Detailed method but it was still Clean
+Intern Kendall washed a Dirty Budget Car Honda Fit using Detailed method and made it Clean
+Intern Kendall washed a Clean Performance Car Honda Ridgeline using Detailed method but it was still Clean
+Intern Dylan washed a Dirty Car Tesla Model X using Detailed method but it was still Dirty
+Intern Dylan washed a Clean Car Hyundai Sonata using Detailed method and made it Sparkling (and earned bonus of $50)
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Monster Truck Swamp Thing and made it Like New (and earned a bonus of $125) and the vehicle became Clean
-Mechanic Haytham repaired a Broken Pickup Chevrolet Colorado and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Conner repaired a Broken Motorcycle Aston Martin Vantage and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Conner repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Altair repaired a Used Pickup Chevrolet Colorado and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Altair repaired a Broken Car Honda Accord and made it Used (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Haytham repaired a Broken Pickup Toyota Tacoma and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Car Nissan Sentra and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Electric Car Audi R8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Edward repaired a Broken Performance Car BMW M8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ezio repaired a Used Electric Car Mercedes-AMG GT 4-Door Coupe but it was still Used and the vehicle became Dirty
+Mechanic Ezio repaired a Broken Motorcycle McLaren Artura and made it Used (and earned a bonus of $100) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Antonio repaired a Used Budget Car Hyundai Accent and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Antonio repaired a Broken Performance Car Mercedes-AMG GT and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Thibaut repaired a Used Electric Car BMW i8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Thibaut repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Daniel repaired a Broken Monster Truck USA-1 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Daniel repaired a Broken Super Car Aston Martin Valkyrie and made it Used (and earned a bonus of $150) and the vehicle became Clean
+Mechanic Ferland repaired a Broken Electric Car Rolls-Royce Cullinan and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ferland repaired a Used Luxury Car Rolls-Royce Phantom and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Car Tesla Model X and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Pickup Ram 1500 Classic but it was still Used and the vehicle became Dirty
+Mechanic Daniel repaired a Broken Car Mazda MX-5 Miata and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Daniel repaired a Used Pickup Ford Ranger and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Super Car Bugatti Veyron increased from $193286 to $231943 after adding on Extended Warranty
-Salesperson Shay has sold a Dirty Like New Super Car Bugatti Veyron to Buyer3 for $231943 (and earned a bonus of $200)
-Sales Price of the Performance Car BMW M8 increased from $57944 to $69532 after adding on Extended Warranty
-Salesperson Shay has sold a Clean Like New Performance Car BMW M8 to Buyer5 for $69532 (and earned a bonus of $200)
-Salesperson Arno has sold a Dirty Used Luxury Car Lexus LS to Buyer7 for $128034 (and earned a bonus of $175)
+Salesperson Altair has sold a Dirty Like New Luxury Car Lexus LS to Buyer4 for $160042 (and earned a bonus of $175)
+Sales Price of the Car Chevrolet Spark increased from $42297 to $50756 after adding on Extended Warranty
+Sales Price of the Car Chevrolet Spark increased from $50756 to $53293 after adding on Satellite Radio
+Salesperson Altair has sold a Clean Used Car Chevrolet Spark to Buyer5 for $53293 (and earned a bonus of $150)
+Sales Price of the Pickup Chevrolet Colorado increased from $59120 to $70944 after adding on Extended Warranty
+Salesperson Altair has sold a Dirty Like New Pickup Chevrolet Colorado to Buyer7 for $70944 (and earned a bonus of $175)
 
 Selling in South FNCD
-Salesperson Toni has sold a Dirty Like New Motorcycle Jeep Renegade to Buyer2 for $44742 (and earned a bonus of $150)
+Sales Price of the Monster Truck Bear Foot F-150 increased from $57018 to $59868 after adding on Satellite Radio
+Salesperson Toni has sold a Clean Like New Monster Truck Bear Foot F-150 to Buyer4 for $59868 (and earned a bonus of $175)
+Salesperson Federico has sold a Dirty Used Car Tesla Model X to Buyer7 for $38652 (and earned a bonus of $150)
 
 Day End in North FNCD
-Intern Gianna quit the FNCD
-Hired a new Intern Arianna
-Bought Performance Car Chevrolet Blazer for $21772
-Bought Car Kia Sorento for $14401
-Bought Car Kia Sorento for $14401
+Intern Samantha quit the FNCD
+Hired a new Intern Ellie
+Bought Car Toyota Camry for $10091
+Bought Pickup Audi A4 for $34427
+Bought Car Toyota Camry for $10091
 
 Day End in South FNCD
-Mechanic Daniel quit the FNCD
-Hired a new Intern Mason
-Bought Motorcycle Nissan Altima for $6946
+Intern Kendall quit the FNCD
+Hired a new Intern Melanie
+Bought Car Nissan Pathfinder for $16652
+Bought Monster Truck Maximum Destruction Max-D for $36472
 
-Total sales for the day in North FNCD: 429509
-Total sales for the day in South FNCD: 44742
+Total sales for the day in North FNCD: 284279
+Total sales for the day in South FNCD: 98520

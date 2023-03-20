@@ -1,51 +1,52 @@
-Current Budget in North FNCD: 2039059
-Current Budget in South FNCD: 2037423
+Current Budget in North FNCD: 1682048
+Current Budget in South FNCD: 1838930
 
 Washing in North FNCD
-Intern Natalie washed a Dirty Pickup Toyota Tacoma using Detailed method and made it Clean
-Intern Natalie washed a Clean Luxury Car Jaguar XJ using Detailed method but it was still Clean
-Intern Naomi washed a Dirty Luxury Car BMW 7 Series using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Naomi washed a Clean Car Kia Forte using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Gabriella washed a Dirty Budget Car Kia Rio using Detailed method but it was still Dirty
-Intern Gabriella washed a Clean Performance Car Chevrolet Blazer using Detailed method but made it Dirty
+Intern Ariel washed a Dirty Budget Car Nissan Versa using Detailed method and made it Clean
+Intern Ariel washed a Clean Motorcycle Maserati Levante using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Lila washed a Dirty Luxury Car Rolls-Royce Phantom using Detailed method but it was still Dirty
+Intern Lila washed a Clean Budget Car Nissan Versa using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Aria washed a Dirty Budget Car Honda Fit using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Aria washed a Clean Performance Car Mazda CX-5 using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern Luis washed a Dirty Motorcycle Audi Q5 using Elbow Grease method but it was still Dirty
-Intern Luis washed a Clean Luxury Car BMW 7 Series using Elbow Grease method but it was still Clean
-Intern Carter washed a Dirty Luxury Car Mercedes-Benz E-Class using Elbow Grease method but it was still Dirty
-Intern Carter washed a Clean Car Hyundai Sonata using Elbow Grease method but it was still Clean
-Intern Ashley washed a Dirty Motorcycle Audi Q5 using Elbow Grease method and made it Clean
-Intern Ashley washed a Clean Performance Car Porsche 718 Cayman GT4 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
+Intern Valeria washed a Dirty Performance Car Honda Ridgeline using Detailed method and made it Clean
+Intern Valeria washed a Clean Super Car Pagani Huayra using Detailed method but it was still Clean
+Intern Jaden washed a Dirty Budget Car BMW X7 using Chemical method and made it Clean
+The BMW X7 has become Broken
+Intern Jaden washed a Clean Car Mazda MX-5 Miata using Chemical method but it was still Clean
+Intern Vincent washed a Dirty Electric Car BMW i8 using Elbow Grease method and made it Clean
+Intern Vincent washed a Clean Car Nissan Pathfinder using Elbow Grease method but it was still Clean
 
 Repairing in North FNCD
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Used Luxury Car Lexus LS and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Budget Car BMW X7 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Budget Car BMW X7 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Monster Truck Maximum Destruction Max-D increased from $83786 to $87975 after adding on Satellite Radio
-Salesperson Desmond has sold a Dirty Like New Monster Truck Maximum Destruction Max-D to Buyer1 for $87975 (and earned a bonus of $175)
-Salesperson Shay has sold a Dirty Like New Super Car Land Rover Range Rover to Buyer2 for $167868 (and earned a bonus of $200)
-Sales Price of the Budget Car BMW X7 increased from $28338 to $34005 after adding on Extended Warranty
-Sales Price of the Budget Car BMW X7 increased from $34005 to $34685 after adding on Road Rescue Coverage
-Sales Price of the Budget Car BMW X7 increased from $34685 to $36419 after adding on Satellite Radio
-Salesperson Shay has sold a Sparkling Like New Budget Car BMW X7 to Buyer3 for $36419 (and earned a bonus of $150)
-Salesperson Shay has sold a Dirty Like New Super Car Ferrari 812 Superfast to Buyer6 for $165888 (and earned a bonus of $200)
+Sales Price of the Luxury Car Tesla Model Y increased from $170025 to $204030 after adding on Extended Warranty
+Sales Price of the Luxury Car Tesla Model Y increased from $204030 to $214231 after adding on Undercoating
+Sales Price of the Luxury Car Tesla Model Y increased from $214231 to $224942 after adding on Satellite Radio
+Salesperson Shay has sold a Dirty Like New Luxury Car Tesla Model Y to Buyer1 for $224942 (and earned a bonus of $175)
+Sales Price of the Monster Truck USA-1 increased from $180443 to $189465 after adding on Satellite Radio
+Salesperson Jacob has sold a Dirty Like New Monster Truck USA-1 to Buyer3 for $189465 (and earned a bonus of $175)
 
 Selling in South FNCD
-Sales Price of the Budget Car Ford EcoSport increased from $18442 to $19364 after adding on Satellite Radio
-Salesperson Toni has sold a Dirty Like New Budget Car Ford EcoSport to Buyer3 for $19364 (and earned a bonus of $150)
+Salesperson Luka has sold a Dirty Like New Monster Truck Bear Foot 2xtreme to Buyer4 for $61436 (and earned a bonus of $175)
 
 Day End in North FNCD
-Mechanic Ezio quit the FNCD
-Hired a new Intern Abigail
-Bought Monster Truck King Krunch for $17530
-Bought Car Dodge Grand Caravan for $18631
-Bought Car Kia Sorento for $14401
-Bought Car Dodge Grand Caravan for $18631
+Intern Lila quit the FNCD
+Hired a new Intern Naomi
+Bought Monster Truck King Krunch for $13442
+Bought Car Dodge Charger for $11535
 
 Day End in South FNCD
-Bought Car Ford Mustang for $6930
+Mechanic Madison quit the FNCD
+Salesperson Justin quit the FNCD
+Hired a new Intern Patrick
+Hired a new Intern Shawn
+Bought Monster Truck Swamp Thing 2 for $18979
 
-Total sales for the day in North FNCD: 458150
-Total sales for the day in South FNCD: 19364
+Total sales for the day in North FNCD: 414407
+Total sales for the day in South FNCD: 61436

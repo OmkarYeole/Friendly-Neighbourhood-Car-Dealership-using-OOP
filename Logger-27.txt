@@ -1,54 +1,65 @@
-Current Budget in North FNCD: 3685912
-Current Budget in South FNCD: 3062554
+Current Budget in North FNCD: 3133619
+Current Budget in South FNCD: 2580836
 
 Washing in North FNCD
-Intern Lillian washed a Dirty Monster Truck Swamp Thing using Chemical method and made it Sparkling (and earned bonus of $75)
-Intern Lillian washed a Clean Budget Car Chevrolet Trax using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Brooklyn washed a Dirty Motorcycle Suzuki Hayabusa using Chemical method and made it Clean
-Intern Brooklyn washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
-Intern Aaliyah washed a Dirty Super Car Jeep Compass using Detailed method and made it Clean
-Intern Aaliyah washed a Clean Pickup Ford Ranger using Detailed method but it was still Clean
+Intern Naomi washed a Dirty Super Car Ferrari 812 Superfast using Detailed method and made it Clean
+Intern Naomi washed a Clean Luxury Car Rolls-Royce Phantom using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Nova washed a Dirty Performance Car Mercedes-Benz GLE using Elbow Grease method and made it Clean
+Intern Nova washed a Clean Super Car Mazda MX-5 Miata using Elbow Grease method and made it Sparkling (and earned bonus of $100)
+Intern Aaliyah washed a Dirty Budget Car Suzuki Swift using Chemical method and made it Clean
+Intern Aaliyah washed a Clean Pickup Ford EcoSport using Chemical method but it was still Clean
 
 Washing in South FNCD
-Intern Sophie washed a Dirty Budget Car Dodge Charger using Detailed method and made it Clean
-Intern Sophie washed a Clean Monster Truck Rampage using Detailed method but it was still Clean
-Intern Kaitlyn washed a Dirty Motorcycle Porsche Taycan using Elbow Grease method and made it Clean
-Intern Kaitlyn washed a Clean Electric Car Land Rover Defender using Elbow Grease method but it was still Clean
-Intern Leah washed a Dirty Monster Truck Air Force Afterburner using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Leah washed a Clean Electric Car Audi R8 using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Paige washed a Dirty Budget Car Nissan Versa using Detailed method but it was still Dirty
+Intern Paige washed a Clean Budget Car Bugatti Chiron using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Christian washed a Dirty Monster Truck Sudden Impact using Elbow Grease method and made it Clean
+Intern Christian washed a Clean Car Nissan Pathfinder using Elbow Grease method and made it Sparkling (and earned bonus of $50)
+Intern Joseph washed a Dirty Budget Car Nissan Versa using Chemical method and made it Clean
+Intern Joseph washed a Clean Budget Car Nissan Kicks using Chemical method and made it Sparkling (and earned bonus of $50)
+The Nissan Kicks has become Broken
 
 Repairing in North FNCD
-Mechanic Natalie repaired a Broken Performance Car Toyota C-HR but it was still Broken and the vehicle became Dirty
-Mechanic Natalie repaired a Broken Performance Car Toyota C-HR but it was still Broken and the vehicle became Dirty
-Mechanic Naomi repaired a Broken Performance Car Kia Telluride and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Naomi repaired a Broken Performance Car Toyota C-HR and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Abigail repaired a Broken Performance Car BMW X5 but it was still Broken and the vehicle became Dirty
-Mechanic Abigail repaired a Broken Performance Car BMW X5 but it was still Broken and the vehicle became Dirty
+Mechanic Ellie repaired a Used Car Volvo XC90 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ellie repaired a Broken Performance Car Chevrolet Blazer and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ella repaired a Broken Car BMW X7 and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ella repaired a Broken Pickup Jeep Grand Cherokee and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Aria repaired a Used Pickup Ford EcoSport and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Aria repaired a Used Performance Car Chevrolet Blazer and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Broken Pickup Maserati Levante but it was still Broken and the vehicle became Dirty
-Mechanic Miranda repaired a Broken Pickup Maserati Levante and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Sarah repaired a Used Pickup Maserati Levante and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Pickup Cadillac Escalade and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Super Car Hyundai Kona and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Valeria repaired a Broken Budget Car Nissan Kicks and made it Used (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Valeria repaired a Used Budget Car Nissan Kicks and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Shawn repaired a Used Super Car Hyundai Kona and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Super Car Jeep Compass increased from $163968 to $172166 after adding on Satellite Radio
-Salesperson Shay has sold a Clean Like New Super Car Jeep Compass to Buyer2 for $172166 (and earned a bonus of $200)
-Salesperson Shay has sold a Clean Like New Motorcycle Tesla Model Y to Buyer3 for $37284 (and earned a bonus of $150)
+Sales Price of the Budget Car Kia Soul increased from $22585 to $27102 after adding on Extended Warranty
+Sales Price of the Budget Car Kia Soul increased from $27102 to $28457 after adding on Satellite Radio
+Salesperson Jacob has sold a Sparkling Like New Budget Car Kia Soul to Buyer1 for $28457 (and earned a bonus of $150)
+Sales Price of the Luxury Car Toyota C-HR increased from $166170 to $174478 after adding on Satellite Radio
+Salesperson Jacob has sold a Dirty Like New Luxury Car Toyota C-HR to Buyer4 for $174478 (and earned a bonus of $175)
+Salesperson Jacob has sold a Dirty Like New Luxury Car Mercedes-Benz E-Class to Buyer6 for $127451 (and earned a bonus of $175)
 
 Selling in South FNCD
-Sales Price of the Performance Car Ferrari SF90 Stradale increased from $74356 to $89227 after adding on Extended Warranty
-Sales Price of the Performance Car Ferrari SF90 Stradale increased from $89227 to $93688 after adding on Undercoating
-Sales Price of the Performance Car Ferrari SF90 Stradale increased from $93688 to $98372 after adding on Satellite Radio
-Salesperson Carter has sold a Sparkling Like New Performance Car Ferrari SF90 Stradale to Buyer2 for $98372 (and earned a bonus of $200)
+Sales Price of the Motorcycle McLaren Artura increased from $58335 to $70002 after adding on Extended Warranty
+Sales Price of the Motorcycle McLaren Artura increased from $70002 to $73502 after adding on Satellite Radio
+Salesperson Luka has sold a Dirty Like New Motorcycle McLaren Artura to Buyer1 for $73502 (and earned a bonus of $150)
+Sales Price of the Electric Car Kia Soul increased from $95955 to $115146 after adding on Extended Warranty
+Salesperson Nicholas has sold a Clean Like New Electric Car Kia Soul to Buyer4 for $115146 (and earned a bonus of $200)
 
 Day End in North FNCD
-Bought Motorcycle Ford Mustang for $6522
-Bought Car Koenigsegg Jesko for $11763
+Intern Aaliyah quit the FNCD
+Mechanic Ella quit the FNCD
+Hired a new Intern Riley
+Hired a new Intern Aurora
+Bought Car Volvo XC90 for $10496
+Bought Car BMW X7 for $5566
+Bought Car Volvo XC90 for $10496
 
 Day End in South FNCD
-Intern Kaitlyn quit the FNCD
-Hired a new Intern Julia
-Bought Performance Car Toyota Corolla Cross for $13531
+Bought Motorcycle Subaru Forester for $8963
+Bought Electric Car Dodge Charger for $31860
 
-Total sales for the day in North FNCD: 209450
-Total sales for the day in South FNCD: 98372
+Total sales for the day in North FNCD: 330386
+Total sales for the day in South FNCD: 188648

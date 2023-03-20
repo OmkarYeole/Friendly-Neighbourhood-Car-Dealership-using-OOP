@@ -1,48 +1,60 @@
-Current Budget in North FNCD: 3857568
-Current Budget in South FNCD: 3157952
+Current Budget in North FNCD: 3485339
+Current Budget in South FNCD: 2703286
 
 Washing in North FNCD
-Intern Lillian washed a Dirty Super Car Hyundai Kona using Chemical method and made it Clean
-Intern Lillian washed a Clean Car Hyundai Sonata using Chemical method but it was still Clean
-Intern Brooklyn washed a Dirty Motorcycle Yamaha YZF-R6 using Chemical method but it was still Dirty
-Intern Brooklyn washed a Clean Budget Car Cadillac Escalade using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Sofia washed a Dirty Motorcycle Ford Mustang using Elbow Grease method and made it Clean
-Intern Sofia washed a Clean Budget Car Suzuki Swift using Elbow Grease method but it was still Clean
+Intern Aurora washed a Dirty Budget Car Ford F-150 using Elbow Grease method and made it Clean
+Intern Aurora washed a Clean Super Car McLaren 765LT using Elbow Grease method but it was still Clean
+Intern Layla washed a Dirty Luxury Car Honda Ridgeline using Chemical method and made it Clean
+Intern Layla washed a Clean Budget Car Ford F-150 using Chemical method but it was still Clean
+Intern Madalyn washed a Dirty Pickup Ford EcoSport using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Madalyn washed a Clean Super Car Honda Pilot using Detailed method but it was still Clean
 
 Washing in South FNCD
-Intern Sophie washed a Dirty Monster Truck Sudden Impact using Elbow Grease method but it was still Dirty
-Intern Sophie washed a Clean Monster Truck Rampage using Elbow Grease method but it was still Clean
-Intern Leah washed a Dirty Performance Car Cadillac Escalade using Chemical method and made it Clean
-Intern Leah washed a Clean Luxury Car BMW 7 Series using Chemical method and made it Sparkling (and earned bonus of $75)
-Intern Julia washed a Dirty Performance Car Toyota Corolla Cross using Chemical method and made it Clean
-Intern Julia washed a Clean Super Car Honda Civic using Chemical method but it was still Clean
+Intern Christian washed a Dirty Pickup Cadillac Escalade using Chemical method and made it Clean
+Intern Christian washed a Clean Monster Truck Sudden Impact using Chemical method but it was still Clean
+Intern Joseph washed a Dirty Budget Car Nissan Kicks using Elbow Grease method and made it Clean
+Intern Joseph washed a Clean Car Honda Accord using Elbow Grease method but it was still Clean
+The Honda Accord has become Like New
+Intern Haley washed a Dirty Motorcycle Subaru Forester using Detailed method and made it Clean
+Intern Haley washed a Clean Monster Truck Sudden Impact using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Natalie repaired a Broken Electric Car Polestar 2 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Natalie repaired a Used Electric Car Polestar 2 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Motorcycle Ford Mustang and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Performance Car BMW X5 but it was still Used and the vehicle became Dirty
-Mechanic Abigail repaired a Used Performance Car Kia Telluride and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Abigail repaired a Used Performance Car BMW X5 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Aria repaired a Broken Motorcycle Porsche Taycan and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Aria repaired a Broken Car Lexus RX and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Naomi repaired a Used Monster Truck Bad News Travels Fast and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Naomi repaired a Used Car BMW X7 and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Nova repaired a Used Luxury Car Honda Ridgeline but it was still Used and the vehicle became Dirty
+Mechanic Nova repaired a Used Budget Car Ford F-150 but it was still Used and the vehicle became Dirty
 
 Repairing in South FNCD
+Mechanic Thibaut repaired a Broken Luxury Car Lexus LS and made it Used (and earned a bonus of $125) and the vehicle became Clean
+Mechanic Thibaut repaired a Used Luxury Car Lexus LS and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
+Sales Price of the Monster Truck El Toro Loco increased from $72365 to $75983 after adding on Satellite Radio
+Salesperson Riley has sold a Clean Like New Monster Truck El Toro Loco to Buyer1 for $75983 (and earned a bonus of $175)
+Sales Price of the Luxury Car BMW 7 Series increased from $119643 to $143571 after adding on Extended Warranty
+Salesperson Riley has sold a Sparkling Like New Luxury Car BMW 7 Series to Buyer2 for $143571 (and earned a bonus of $175)
 
 Selling in South FNCD
-Sales Price of the Monster Truck Sudden Impact increased from $87318 to $91683 after adding on Satellite Radio
-Salesperson Luis has sold a Dirty Like New Monster Truck Sudden Impact to Buyer1 for $91683 (and earned a bonus of $175)
+Salesperson Nicholas has sold a Dirty Like New Performance Car Mercedes-Benz S-Class to Buyer2 for $138682 (and earned a bonus of $200)
+Salesperson Patrick has sold a Dirty Like New Motorcycle Chevrolet Equinox to Buyer3 for $38857 (and earned a bonus of $150)
 
 Day End in North FNCD
-Intern Sofia quit the FNCD
-Mechanic Natalie quit the FNCD
-Salesperson Shay quit the FNCD
-Hired a new Intern Isla
-Hired a new Intern Emilia
-Hired a new Intern Aurora
+Intern Aurora quit the FNCD
+Mechanic Naomi quit the FNCD
+Salesperson Jacob quit the FNCD
+Hired a new Intern Victoria
+Hired a new Intern Grace
+Hired a new Intern Scarlett
+Bought Monster Truck Cyborg for $21756
+Bought Car Lexus RX for $7196
 
 Day End in South FNCD
-Bought Monster Truck Maximum Destruction Max-D for $17958
+Mechanic Shawn quit the FNCD
+Hired a new Intern Savannah
+Bought Performance Car Jeep Renegade for $33737
+Bought Motorcycle Ford F-150 for $9564
 
-Total sales for the day in North FNCD: 0
-Total sales for the day in South FNCD: 91683
+Total sales for the day in North FNCD: 219554
+Total sales for the day in South FNCD: 177539

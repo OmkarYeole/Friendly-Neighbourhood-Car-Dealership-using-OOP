@@ -1,54 +1,61 @@
-Current Budget in North FNCD: 1541430
-Current Budget in South FNCD: 997162
+Current Budget in North FNCD: 1068026
+Current Budget in South FNCD: 1330772
 
 Washing in North FNCD
-Intern Isabella washed a Dirty Car Hyundai Sonata using Detailed method and made it Clean
-Intern Isabella washed a Clean Performance Car Audi Q5 using Detailed method but it was still Clean
-Intern Bianca washed a Dirty Luxury Car Mercedes-Benz E-Class using Elbow Grease method and made it Clean
-Intern Bianca washed a Clean Car Hyundai Sonata using Elbow Grease method but it was still Clean
-Intern Natalie washed a Dirty Pickup Nissan Frontier using Detailed method but it was still Dirty
-Intern Natalie washed a Clean Pickup Ford Ranger using Detailed method but it was still Clean
+Intern Avery washed a Dirty Car Dodge Charger using Detailed method and made it Clean
+Intern Avery washed a Clean Luxury Car Tesla Model Y using Detailed method but it was still Clean
+Intern Ella washed a Dirty Electric Car BMW i8 using Detailed method and made it Clean
+Intern Ella washed a Clean Monster Truck USA-1 using Detailed method but it was still Clean
+Intern Avery washed a Dirty Electric Car Rivian R1T using Elbow Grease method but it was still Dirty
+Intern Avery washed a Clean Pickup Chevrolet Corvette using Elbow Grease method but it was still Clean
 
 Washing in South FNCD
-Intern Dakota washed a Dirty Budget Car Nissan Rogue Sport using Chemical method and made it Clean
-Intern Dakota washed a Clean Budget Car Nissan Rogue Sport using Chemical method but it was still Clean
-Intern Cole washed a Dirty Budget Car Kia Telluride using Detailed method and made it Clean
-Intern Cole washed a Clean Budget Car Kia Telluride using Detailed method but it was still Clean
-Intern Nathan washed a Dirty Pickup Toyota Tacoma using Elbow Grease method and made it Sparkling (and earned bonus of $75)
-Intern Nathan washed a Clean Budget Car Nissan Rogue Sport using Elbow Grease method but it was still Clean
+Intern Madison washed a Dirty Luxury Car Subaru Ascent using Detailed method but it was still Dirty
+Intern Madison washed a Clean Budget Car Toyota Yaris using Detailed method but it was still Clean
+Intern Ryan washed a Dirty Super Car Ferrari 812 Superfast using Elbow Grease method and made it Clean
+The Ferrari 812 Superfast has become Like New
+Intern Ryan washed a Clean Super Car Aston Martin Valkyrie using Elbow Grease method but it was still Clean
+Intern Justin washed a Dirty Pickup Nissan Frontier using Elbow Grease method but it was still Dirty
+Intern Justin washed a Clean Electric Car Mazda CX-5 using Elbow Grease method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Broken Performance Car Audi Q7 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Luxury Car Jaguar XJ and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Altair repaired a Used Luxury Car Acura RLX and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Altair repaired a Used Performance Car Audi RS7 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Ezio repaired a Used Performance Car Audi Q5 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Ezio repaired a Used Electric Car Aston Martin DB11 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Performance Car BMW M8 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Budget Car Toyota Yaris and made it Like New (and earned a bonus of $100) and the vehicle became Clean
+Mechanic Lily repaired a Broken Super Car Bugatti Veyron and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Lily repaired a Used Luxury Car Tesla Model Y and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ellie repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ellie repaired a Used Performance Car BMW M8 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Antonio repaired a Used Budget Car Kia Telluride and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Antonio repaired a Broken Performance Car Jeep Gladiator and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic David repaired a Broken Motorcycle Aston Martin Vantage and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic David repaired a Broken Motorcycle Suzuki Hayabusa and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Miranda repaired a Used Budget Car Nissan Titan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Miranda repaired a Used Performance Car Jeep Gladiator and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Budget Car Suzuki Swift and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Performance Car Mercedes-AMG GT and made it Like New (and earned a bonus of $150) and the vehicle became Clean
+Mechanic David repaired a Broken Monster Truck USA-1 and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic David repaired a Used Budget Car Toyota Yaris and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Gabriel repaired a Used Car Hyundai Elantra and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Gabriel repaired a Used Monster Truck Rampage but it was still Used and the vehicle became Dirty
 
 Selling in North FNCD
-Salesperson Desmond has sold a Dirty Like New Budget Car Toyota Yaris to Buyer1 for $29295 (and earned a bonus of $150)
-Sales Price of the Motorcycle Honda Civic increased from $58332 to $59498 after adding on Road Rescue Coverage
-Salesperson Arianna has sold a Clean Used Motorcycle Honda Civic to Buyer4 for $59498 (and earned a bonus of $150)
 
 Selling in South FNCD
+Sales Price of the Budget Car Suzuki Swift increased from $31950 to $33547 after adding on Satellite Radio
+Salesperson Federico has sold a Dirty Like New Budget Car Suzuki Swift to Buyer1 for $33547 (and earned a bonus of $150)
+Sales Price of the Budget Car Toyota Yaris increased from $19530 to $20506 after adding on Satellite Radio
+Salesperson Luka has sold a Dirty Like New Budget Car Toyota Yaris to Buyer2 for $20506 (and earned a bonus of $150)
+Sales Price of the Pickup Rolls-Royce Ghost increased from $41210 to $43270 after adding on Satellite Radio
+Salesperson Luka has sold a Dirty Like New Pickup Rolls-Royce Ghost to Buyer4 for $43270 (and earned a bonus of $175)
 
 Day End in North FNCD
-Bought Motorcycle Jeep Cherokee for $9986
-Bought Car Dodge Grand Caravan for $18631
 
 Day End in South FNCD
-Intern Dakota quit the FNCD
-Mechanic David quit the FNCD
-Hired a new Intern Rachel
-Hired a new Intern Wyatt
+Intern Ryan quit the FNCD
+Mechanic Gabriel quit the FNCD
+Salesperson Toni quit the FNCD
+Hired a new Intern Connor
+Hired a new Intern Sophie
+Hired a new Intern Leah
+Bought Pickup Toyota Tundra for $15742
+Bought Car Mazda MX-5 Miata for $6229
+Bought Car Nissan Pathfinder for $16652
 
-Total sales for the day in North FNCD: 88793
-Total sales for the day in South FNCD: 0
+Total sales for the day in North FNCD: 0
+Total sales for the day in South FNCD: 97323

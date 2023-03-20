@@ -1,48 +1,36 @@
-Current Budget in North FNCD: 2532963
-Current Budget in South FNCD: 2238895
+Current Budget in North FNCD: 2267759
+Current Budget in South FNCD: 1887236
 
 Washing in North FNCD
-Intern Abigail washed a Dirty Luxury Car Rolls-Royce Phantom using Chemical method and made it Clean
-Intern Abigail washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
-Intern Jasmine washed a Dirty Pickup Kia Carnival using Detailed method and made it Clean
-Intern Jasmine washed a Clean Performance Car Mercedes-AMG GT using Detailed method but it was still Clean
-Intern Lillian washed a Dirty Budget Car Hyundai Accent using Chemical method and made it Clean
-Intern Lillian washed a Clean Monster Truck Iron Outlaw using Chemical method but it was still Clean
+Intern Aria washed a Dirty Super Car Rimac C2 using Chemical method and made it Sparkling (and earned bonus of $100)
+Intern Aria washed a Clean Super Car Aston Martin Valkyrie using Chemical method but it was still Clean
+Intern Naomi washed a Dirty Pickup Jeep Wrangler using Elbow Grease method and made it Clean
+The Jeep Wrangler has become Like New
+Intern Naomi washed a Clean Monster Truck Swamp Thing using Elbow Grease method but it was still Clean
+Intern Nova washed a Dirty Luxury Car Jaguar XJ using Elbow Grease method and made it Clean
+Intern Nova washed a Clean Electric Car BMW i8 using Elbow Grease method and made it Sparkling (and earned bonus of $100)
 
 Washing in South FNCD
-Intern Carter washed a Dirty Luxury Car Chrysler Pacifica using Chemical method and made it Clean
-Intern Carter washed a Clean Car Hyundai Elantra using Chemical method but it was still Clean
-Intern Ashley washed a Dirty Budget Car Dodge Grand Caravan using Detailed method but it was still Dirty
-Intern Ashley washed a Clean Luxury Car Jeep Compass using Detailed method and made it Sparkling (and earned bonus of $75)
-Intern Sarah washed a Dirty Luxury Car Mercedes-Benz E-Class using Elbow Grease method but it was still Dirty
-Intern Sarah washed a Clean Electric Car Rolls-Royce Cullinan using Elbow Grease method but it was still Clean
+Intern Shawn washed a Dirty Pickup GMC Canyon using Detailed method and made it Clean
+Intern Shawn washed a Clean Electric Car Kia Soul using Detailed method but it was still Clean
+Intern Nicholas washed a Dirty Motorcycle Yamaha YZF-R6 using Detailed method and made it Clean
+Intern Nicholas washed a Clean Super Car Pagani Huayra using Detailed method but it was still Clean
+Intern Paige washed a Dirty Pickup Ford Ranger using Chemical method and made it Clean
+Intern Paige washed a Clean Super Car Pagani Huayra using Chemical method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Performance Car Porsche Cayenne and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Used Super Car Ferrari 812 Superfast and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Performance Car Porsche Cayenne increased from $119100 to $125055 after adding on Satellite Radio
-Salesperson Arianna has sold a Dirty Like New Performance Car Porsche Cayenne to Buyer1 for $125055 (and earned a bonus of $200)
-Sales Price of the Monster Truck King Krunch increased from $131478 to $157773 after adding on Extended Warranty
-Salesperson Gabriella has sold a Dirty Like New Monster Truck King Krunch to Buyer2 for $157773 (and earned a bonus of $175)
-Sales Price of the Motorcycle Jeep Cherokee increased from $74898 to $78642 after adding on Satellite Radio
-Salesperson Gabriella has sold a Dirty Like New Motorcycle Jeep Cherokee to Buyer3 for $78642 (and earned a bonus of $150)
+Salesperson Shay has sold a Dirty Like New Monster Truck King Krunch to Buyer1 for $100818 (and earned a bonus of $175)
 
 Selling in South FNCD
 
 Day End in North FNCD
-Intern Jasmine quit the FNCD
-Hired a new Intern Layla
-Bought Performance Car Chevrolet Traverse for $24008
-Bought Motorcycle Tesla Model Y for $18642
-Bought Monster Truck Bear Foot 2xtreme for $16005
+Bought Monster Truck El Toro Loco for $23156
 
 Day End in South FNCD
-Salesperson Toni quit the FNCD
-Hired a new Intern Patrick
 
-Total sales for the day in North FNCD: 361470
+Total sales for the day in North FNCD: 100818
 Total sales for the day in South FNCD: 0

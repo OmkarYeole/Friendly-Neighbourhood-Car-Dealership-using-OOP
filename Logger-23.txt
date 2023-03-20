@@ -1,47 +1,51 @@
-Current Budget in North FNCD: 2826103
-Current Budget in South FNCD: 2229670
+Current Budget in North FNCD: 2336046
+Current Budget in South FNCD: 1878236
 
 Washing in North FNCD
-Intern Abigail washed a Dirty Budget Car Honda Fit using Elbow Grease method but it was still Dirty
-Intern Abigail washed a Clean Motorcycle Yamaha YZF-R6 using Elbow Grease method but made it Dirty
-Intern Lillian washed a Dirty Super Car Mercedes-Benz GLS using Detailed method and made it Clean
-Intern Lillian washed a Clean Luxury Car Rolls-Royce Phantom using Detailed method but it was still Clean
-Intern Layla washed a Dirty Budget Car Chevrolet Equinox using Chemical method and made it Clean
-Intern Layla washed a Clean Super Car Pagani Huayra using Chemical method but it was still Clean
-The Pagani Huayra has become Broken
+Intern Aria washed a Dirty Car Hyundai Elantra using Elbow Grease method and made it Clean
+Intern Aria washed a Clean Monster Truck Swamp Thing using Elbow Grease method but it was still Clean
+Intern Naomi washed a Dirty Pickup Kia Carnival using Detailed method and made it Clean
+Intern Naomi washed a Clean Pickup Ford Ranger using Detailed method but it was still Clean
+Intern Nova washed a Dirty Performance Car Mercedes-Benz GLE using Elbow Grease method but it was still Dirty
+Intern Nova washed a Clean Super Car McLaren 765LT using Elbow Grease method but it was still Clean
 
 Washing in South FNCD
-Intern Ashley washed a Dirty Super Car Honda Civic using Chemical method but it was still Dirty
-Intern Ashley washed a Clean Super Car Tesla Model S using Chemical method and made it Sparkling (and earned bonus of $100)
-Intern Sarah washed a Dirty Electric Car Bentley Continental GT using Elbow Grease method and made it Clean
-Intern Sarah washed a Clean Car Hyundai Sonata using Elbow Grease method but it was still Clean
-The Hyundai Sonata has become Like New
-Intern Patrick washed a Dirty Luxury Car Mercedes-Benz E-Class using Detailed method and made it Clean
-Intern Patrick washed a Clean Electric Car BMW i8 using Detailed method but it was still Clean
+Intern Shawn washed a Dirty Super Car Rimac C2 using Elbow Grease method but it was still Dirty
+Intern Shawn washed a Clean Super Car McLaren 765LT using Elbow Grease method but it was still Clean
+Intern Nicholas washed a Dirty Pickup Ram 1500 Classic using Chemical method and made it Clean
+Intern Nicholas washed a Clean Pickup Ram 1500 Classic using Chemical method but it was still Clean
+Intern Paige washed a Dirty Super Car Rimac C2 using Chemical method and made it Clean
+Intern Paige washed a Clean Pickup Toyota Tundra using Chemical method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Broken Super Car Pagani Huayra and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Monster Truck Bear Foot 2xtreme and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Natalie repaired a Used Super Car Pagani Huayra and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Natalie repaired a Used Monster Truck Bear Foot 2xtreme and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Monster Truck El Toro Loco and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Repairing in South FNCD
 
 Selling in North FNCD
-Salesperson Shay has sold a Sparkling Like New Luxury Car BMW 7 Series to Buyer1 for $224330 (and earned a bonus of $175)
-Sales Price of the Budget Car Hyundai Accent increased from $35786 to $37575 after adding on Satellite Radio
-Salesperson Shay has sold a Clean Like New Budget Car Hyundai Accent to Buyer2 for $37575 (and earned a bonus of $150)
-Sales Price of the Budget Car Honda Fit increased from $21292 to $25550 after adding on Extended Warranty
-Salesperson Shay has sold a Dirty Like New Budget Car Honda Fit to Buyer4 for $25550 (and earned a bonus of $150)
+Sales Price of the Performance Car Ferrari SF90 Stradale increased from $139417 to $146387 after adding on Satellite Radio
+Salesperson Shay has sold a Clean Like New Performance Car Ferrari SF90 Stradale to Buyer1 for $146387 (and earned a bonus of $200)
+Sales Price of the Performance Car Audi RS7 increased from $61067 to $73280 after adding on Extended Warranty
+Sales Price of the Performance Car Audi RS7 increased from $73280 to $76944 after adding on Undercoating
+Salesperson Shay has sold a Dirty Like New Performance Car Audi RS7 to Buyer2 for $76944 (and earned a bonus of $200)
 
 Selling in South FNCD
+Sales Price of the Budget Car BMW X7 increased from $66170 to $69478 after adding on Satellite Radio
+Salesperson Patrick has sold a Clean Like New Budget Car BMW X7 to Buyer1 for $69478 (and earned a bonus of $150)
+Sales Price of the Luxury Car BMW 7 Series increased from $179465 to $188438 after adding on Satellite Radio
+Salesperson Patrick has sold a Dirty Like New Luxury Car BMW 7 Series to Buyer3 for $188438 (and earned a bonus of $175)
 
 Day End in North FNCD
-Bought Car Dodge Grand Caravan for $18631
-Bought Car Koenigsegg Jesko for $11763
-Bought Car Koenigsegg Jesko for $11763
+Bought Performance Car Toyota 4Runner for $26755
+Bought Performance Car Koenigsegg Jesko for $18055
 
 Day End in South FNCD
+Mechanic Connor quit the FNCD
+Salesperson Sophie quit the FNCD
+Hired a new Intern Christian
+Hired a new Intern Joseph
+Bought Car McLaren 720S for $8450
+Bought Car McLaren 720S for $8450
 
-Total sales for the day in North FNCD: 287455
-Total sales for the day in South FNCD: 0
+Total sales for the day in North FNCD: 223331
+Total sales for the day in South FNCD: 257916

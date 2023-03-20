@@ -1,61 +1,52 @@
-Current Budget in North FNCD: 2549413
-Current Budget in South FNCD: 2254670
+Current Budget in North FNCD: 2283484
+Current Budget in South FNCD: 1902686
 
 Washing in North FNCD
-Intern Abigail washed a Dirty Budget Car Hyundai Accent using Chemical method and made it Sparkling (and earned bonus of $50)
-The Hyundai Accent has become Broken
-Intern Abigail washed a Clean Luxury Car Jaguar XJ using Chemical method but it was still Clean
-Intern Jasmine washed a Dirty Performance Car Porsche Cayenne using Elbow Grease method and made it Clean
-Intern Jasmine washed a Clean Luxury Car Jaguar XJ using Elbow Grease method and made it Sparkling (and earned bonus of $75)
-Intern Audrey washed a Dirty Monster Truck King Krunch using Detailed method but it was still Dirty
-Intern Audrey washed a Clean Motorcycle Suzuki Hayabusa using Detailed method but made it Dirty
+Intern Aria washed a Dirty Luxury Car BMW 7 Series using Detailed method but it was still Dirty
+Intern Aria washed a Clean Pickup Honda HR-V using Detailed method but it was still Clean
+Intern Naomi washed a Dirty Super Car Aston Martin Valkyrie using Detailed method and made it Clean
+Intern Naomi washed a Clean Monster Truck Iron Outlaw using Detailed method but it was still Clean
+Intern Nova washed a Dirty Luxury Car Rolls-Royce Phantom using Chemical method and made it Clean
+Intern Nova washed a Clean Performance Car Mercedes-AMG GT using Chemical method and made it Sparkling (and earned bonus of $100)
 
 Washing in South FNCD
-Intern Carter washed a Dirty Car Honda Accord using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Carter washed a Clean Super Car Ferrari 812 Superfast using Chemical method but it was still Clean
-The Ferrari 812 Superfast has become Broken
-Intern Ashley washed a Dirty Luxury Car Tesla Cybertruck using Detailed method but it was still Dirty
-Intern Ashley washed a Clean Motorcycle Suzuki Hayabusa using Detailed method but it was still Clean
-Intern Mackenzie washed a Dirty Super Car Tesla Model S using Detailed method and made it Clean
-Intern Mackenzie washed a Clean Monster Truck Iron Outlaw using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Patrick washed a Dirty Performance Car Audi RS7 using Detailed method and made it Clean
+Intern Patrick washed a Clean Electric Car Rivian R1T using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Shawn washed a Dirty Budget Car Nissan Kicks using Detailed method and made it Clean
+Intern Shawn washed a Clean Motorcycle Porsche Taycan using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Nicholas washed a Dirty Super Car Ferrari 812 Superfast using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Nicholas washed a Clean Pickup Toyota Tundra using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Budget Car Chevrolet Equinox and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Haytham repaired a Broken Budget Car Hyundai Accent and made it Used (and earned a bonus of $100) and the vehicle became Clean
-Mechanic Natalie repaired a Broken Performance Car Porsche Cayenne and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Natalie repaired a Used Budget Car Hyundai Accent and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Monster Truck King Krunch and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Super Car Jeep Compass and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Pickup Kia Carnival and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Car Subaru Ascent and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ellie repaired a Used Car Subaru Ascent and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Ellie repaired a Broken Electric Car Aston Martin DB11 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ella repaired a Used Electric Car Aston Martin DB11 and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Broken Pickup Lincoln Navigator and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Miranda repaired a Broken Luxury Car Tesla Cybertruck and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Cole repaired a Used Pickup Lincoln Navigator and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Cole repaired a Used Luxury Car Tesla Cybertruck but it was still Used and the vehicle became Dirty
-Mechanic Katherine repaired a Broken Super Car Ferrari 812 Superfast and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Katherine repaired a Used Luxury Car Tesla Cybertruck and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Motorcycle Chevrolet Equinox and made it Used (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Motorcycle Chevrolet Equinox and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling in North FNCD
 
 Selling in South FNCD
 
 Racing in North FNCD
-Driver Bayek finished the race at position 2 with the Super Car Pagani Huayra and Won the race (and earned a bonus of $300)
-Driver Alexios finished the race at position 1 with the Super Car Aston Martin Valkyrie and Won the race (and earned a bonus of $300)
-Driver Eivor finished the race at position 9 with the Super Car Dodge Ram
+Driver Bayek finished the race at position 8 with the Super Car McLaren 765LT
+Driver Isabella finished the race at position 12 with the Super Car Ferrari 812 Superfast
+Driver Luna finished the race at position 14 with the Super Car Aston Martin Valkyrie
 
 Racing in South FNCD
-Driver Karim finished the race at position 5 with the Performance Car Audi RS7
-Driver Carlo finished the race at position 7 with the Performance Car Mercedes-AMG GT
-Driver Daniel finished the race at position 6 with the Performance Car Porsche Panamera
+Driver Vinicius finished the race at position 6 with the Monster Truck Swamp Thing
+Driver Karim finished the race at position 13 with the Monster Truck Sudden Impact
+Driver Carlo finished the race at position 5 with the Monster Truck Batman
 
 Day End in North FNCD
-Intern Audrey quit the FNCD
-Hired a new Intern Lillian
 
 Day End in South FNCD
-Intern Mackenzie quit the FNCD
-Hired a new Intern Sarah
+Salesperson Jaden quit the FNCD
+Hired a new Intern Paige
 
 Total sales for the day in North FNCD: 0
 Total sales for the day in South FNCD: 0

@@ -1,47 +1,51 @@
-Current Budget in North FNCD: 2048459
-Current Budget in South FNCD: 2046998
+Current Budget in North FNCD: 1691348
+Current Budget in South FNCD: 1803909
 
 Washing in North FNCD
-Intern Bianca washed a Dirty Budget Car Suzuki Swift using Elbow Grease method and made it Clean
-Intern Bianca washed a Clean Luxury Car Mercedes-Benz E-Class using Elbow Grease method but made it Dirty
-Intern Natalie washed a Dirty Car Kia Sorento using Detailed method and made it Clean
-Intern Natalie washed a Clean Budget Car Suzuki Swift using Detailed method but made it Dirty
-Intern Naomi washed a Dirty Motorcycle Jeep Cherokee using Detailed method and made it Sparkling (and earned bonus of $50)
-Intern Naomi washed a Clean Car Kia Forte using Detailed method but it was still Clean
+Intern Alyssa washed a Dirty Monster Truck Iron Outlaw using Elbow Grease method and made it Clean
+Intern Alyssa washed a Clean Monster Truck Bear Foot F-150 using Elbow Grease method but it was still Clean
+Intern Ariel washed a Dirty Motorcycle Maserati Levante using Chemical method and made it Clean
+Intern Ariel washed a Clean Motorcycle Porsche Taycan using Chemical method but it was still Clean
+Intern Lila washed a Dirty Motorcycle Lamborghini Huracan using Elbow Grease method but it was still Dirty
+Intern Lila washed a Clean Budget Car Nissan Versa using Elbow Grease method but made it Dirty
 
 Washing in South FNCD
-Intern Katherine washed a Dirty Budget Car Dodge Grand Caravan using Chemical method and made it Clean
-Intern Katherine washed a Clean Budget Car Honda Fit using Chemical method but it was still Clean
-Intern Luis washed a Dirty Motorcycle Nissan Altima using Elbow Grease method and made it Clean
-Intern Luis washed a Clean Electric Car Audi R8 using Elbow Grease method but made it Dirty
-Intern Carter washed a Dirty Pickup Nissan Frontier using Chemical method and made it Clean
-Intern Carter washed a Clean Budget Car Nissan Rogue Sport using Chemical method but it was still Clean
+Intern Connor washed a Dirty Budget Car Chevrolet Trax using Elbow Grease method and made it Clean
+Intern Connor washed a Clean Super Car Bugatti Veyron using Elbow Grease method but it was still Clean
+Intern Sophie washed a Dirty Budget Car Tesla Model Y using Elbow Grease method and made it Sparkling (and earned bonus of $50)
+The Tesla Model Y has become Like New
+Intern Sophie washed a Clean Monster Truck Batman using Elbow Grease method but it was still Clean
+The Batman has become Like New
+Intern Valeria washed a Dirty Electric Car Kia Soul using Chemical method and made it Clean
+Intern Valeria washed a Clean Super Car Bugatti Veyron using Chemical method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Broken Luxury Car BMW 7 Series and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Haytham repaired a Used Motorcycle Jeep Cherokee but it was still Used and the vehicle became Clean
-Mechanic Altair repaired a Used Motorcycle Jeep Cherokee and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Altair repaired a Used Luxury Car BMW 7 Series and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Super Car Honda Pilot but it was still Broken and the vehicle became Dirty
+Mechanic Haytham repaired a Broken Super Car Honda Pilot and made it Used (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ellie repaired a Used Super Car Honda Pilot and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Used Budget Car Ford EcoSport and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Miranda repaired a Broken Luxury Car Mercedes-Benz E-Class but it was still Broken and the vehicle became Dirty
-Mechanic Cole repaired a Used Budget Car Dodge Grand Caravan and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Cole repaired a Broken Luxury Car Mercedes-Benz E-Class and made it Used (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Nathan repaired a Used Luxury Car Mercedes-Benz E-Class and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Nathan repaired a Broken Luxury Car Lexus LS and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Broken Pickup GMC Canyon and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Pickup GMC Canyon and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic David repaired a Broken Pickup Ram 1500 Classic and made it Used (and earned a bonus of $125) and the vehicle became Clean
+Mechanic David repaired a Used Pickup Ram 1500 Classic and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Selling in North FNCD
 
 Selling in South FNCD
+Sales Price of the Monster Truck Mohawk Warrior increased from $62887 to $75464 after adding on Extended Warranty
+Salesperson Luka has sold a Clean Like New Monster Truck Mohawk Warrior to Buyer1 for $75464 (and earned a bonus of $175)
 
 Day End in North FNCD
-Mechanic Altair quit the FNCD
-Hired a new Intern Gabriella
+Intern Alyssa quit the FNCD
+Hired a new Intern Aria
 
 Day End in South FNCD
-Mechanic Nathan quit the FNCD
-Hired a new Intern Ashley
+Mechanic David quit the FNCD
+Salesperson Federico quit the FNCD
+Hired a new Intern Jaden
+Hired a new Intern Vincent
+Bought Monster Truck Bear Foot 2xtreme for $30718
 
 Total sales for the day in North FNCD: 0
-Total sales for the day in South FNCD: 0
+Total sales for the day in South FNCD: 75464

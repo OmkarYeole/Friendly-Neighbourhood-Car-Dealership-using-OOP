@@ -1,61 +1,64 @@
-Current Budget in North FNCD: 3834578
-Current Budget in South FNCD: 3137770
+Current Budget in North FNCD: 3388473
+Current Budget in South FNCD: 2718536
 
 Washing in North FNCD
-Intern Lillian washed a Dirty Budget Car Tesla Model S using Detailed method but it was still Dirty
-Intern Lillian washed a Clean Pickup Ram 1500 Classic using Detailed method but it was still Clean
-Intern Brooklyn washed a Dirty Budget Car Tesla Model S using Chemical method and made it Clean
-Intern Brooklyn washed a Clean Electric Car Polestar 2 using Chemical method but it was still Clean
-The Polestar 2 has become Broken
-Intern Aaliyah washed a Dirty Budget Car Cadillac Escalade using Detailed method and made it Clean
-Intern Aaliyah washed a Clean Performance Car Chevrolet Blazer using Detailed method but it was still Clean
+Intern Nova washed a Dirty Super Car Honda Pilot using Detailed method and made it Clean
+Intern Nova washed a Clean Pickup Ram 1500 Classic using Detailed method but it was still Clean
+Intern Riley washed a Dirty Pickup Ford EcoSport using Chemical method and made it Clean
+The Ford EcoSport has become Broken
+Intern Riley washed a Clean Budget Car Jeep Compass using Chemical method but it was still Clean
+Intern Aurora washed a Dirty Pickup Jeep Grand Cherokee using Chemical method and made it Clean
+Intern Aurora washed a Clean Performance Car Mercedes-Benz GLE using Chemical method and made it Sparkling (and earned bonus of $100)
 
 Washing in South FNCD
-Intern Sophie washed a Dirty Budget Car Dodge Grand Caravan using Chemical method and made it Clean
-Intern Sophie washed a Clean Motorcycle Suzuki Hayabusa using Chemical method but it was still Clean
-Intern Leah washed a Dirty Pickup Maserati Levante using Chemical method and made it Sparkling (and earned bonus of $75)
-Intern Leah washed a Clean Car Kia Forte using Chemical method and made it Sparkling (and earned bonus of $50)
-Intern Julia washed a Dirty Super Car Ferrari 812 Superfast using Elbow Grease method but it was still Dirty
-Intern Julia washed a Clean Budget Car Nissan Rogue Sport using Elbow Grease method but it was still Clean
+Intern Paige washed a Dirty Performance Car Mercedes-Benz S-Class using Chemical method but it was still Dirty
+Intern Paige washed a Clean Monster Truck Swamp Thing using Chemical method but it was still Clean
+Intern Christian washed a Dirty Luxury Car Mercedes-Benz E-Class using Chemical method and made it Clean
+Intern Christian washed a Clean Luxury Car Subaru Ascent using Chemical method but it was still Clean
+Intern Joseph washed a Dirty Monster Truck Grinder using Detailed method and made it Clean
+Intern Joseph washed a Clean Monster Truck Swamp Thing using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Natalie repaired a Used Performance Car Toyota C-HR but it was still Used and the vehicle became Dirty
-Mechanic Natalie repaired a Used Performance Car Toyota C-HR and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Naomi repaired a Broken Motorcycle Ford Mustang and made it Used (and earned a bonus of $100) and the vehicle became Dirty
-Mechanic Naomi repaired a Used Pickup Toyota Camry and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
-Mechanic Abigail repaired a Broken Performance Car BMW X5 and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Abigail repaired a Used Super Car Hyundai Kona and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Ellie repaired a Broken Pickup Ford EcoSport and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Ellie repaired a Used Car BMW X7 but it was still Used and the vehicle became Dirty
+Mechanic Aria repaired a Broken Luxury Car Honda Ridgeline and made it Used (and earned a bonus of $125) and the vehicle became Dirty
+Mechanic Aria repaired a Used Pickup Ford EcoSport but it was still Used and the vehicle became Dirty
+Mechanic Naomi repaired a Used Budget Car Ford F-150 but it was still Used and the vehicle became Dirty
+Mechanic Naomi repaired a Used Pickup Ford EcoSport and made it Like New (and earned a bonus of $125) and the vehicle became Dirty
 
 Repairing in South FNCD
-Mechanic Miranda repaired a Broken Performance Car Toyota Corolla Cross but it was still Broken and the vehicle became Dirty
-Mechanic Miranda repaired a Broken Performance Car Toyota Corolla Cross and made it Used (and earned a bonus of $150) and the vehicle became Dirty
-Mechanic Sarah repaired a Used Performance Car Toyota Corolla Cross but it was still Used and the vehicle became Dirty
-Mechanic Sarah repaired a Used Performance Car Toyota Corolla Cross but it was still Used and the vehicle became Dirty
-Mechanic Ethan repaired a Used Performance Car Toyota Corolla Cross and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Electric Car Dodge Charger and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Thibaut repaired a Used Motorcycle Subaru Forester and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling in North FNCD
-Salesperson Arianna has sold a Sparkling Like New Car Honda Accord to Buyer2 for $52031 (and earned a bonus of $150)
+Sales Price of the Car Nissan Sentra increased from $39600 to $47520 after adding on Extended Warranty
+Sales Price of the Car Nissan Sentra increased from $47520 to $49896 after adding on Satellite Radio
+Salesperson Jacob has sold a Sparkling Like New Car Nissan Sentra to Buyer1 for $49896 (and earned a bonus of $150)
+Salesperson Ariel has sold a Clean Like New Monster Truck Sudden Impact to Buyer2 for $87318 (and earned a bonus of $175)
 
 Selling in South FNCD
-Salesperson Carter has sold a Clean Like New Motorcycle Audi Q5 to Buyer1 for $54847 (and earned a bonus of $150)
 
 Racing in North FNCD
-Driver Alexios finished the race at position 6 with the Monster Truck Swamp Thing
-Driver Eivor finished the race at position 7 with the Monster Truck Sudden Impact
-Driver Skylar finished the race at position 11 with the Monster Truck Bear Foot F-150
+Driver Bayek finished the race at position 13 with the Motorcycle Lamborghini Huracan
+Driver Isabella finished the race at position 17 with the Motorcycle Porsche Taycan and the Vehicle became Broken 
+Driver Luna finished the race at position 6 with the Motorcycle Suzuki Hayabusa
 
 Racing in South FNCD
-Driver Karim finished the race at position 11 with the Monster Truck Swamp Thing
-Driver Carlo finished the race at position 3 with the Monster Truck Sudden Impact and Won the race (and earned a bonus of $275)
-Driver Daniel finished the race at position 4 with the Monster Truck Iron Outlaw
+Driver Vinicius finished the race at position 6 with the Luxury Car Rolls-Royce Phantom
+Driver Karim finished the race at position 18 with the Luxury Car Lexus LS and the Vehicle became Broken 
+Driver Carlo finished the race at position 4 with the Luxury Car Mercedes-Benz E-Class
 
 Day End in North FNCD
-Intern Aaliyah quit the FNCD
-Hired a new Intern Sofia
-Bought Car Jeep Grand Wagoneer for $13216
+Mechanic Ellie quit the FNCD
+Salesperson Ariel quit the FNCD
+Hired a new Intern Layla
+Hired a new Intern Madalyn
+Bought Car Lexus RX for $7196
+Bought Monster Truck Bad News Travels Fast for $17352
 
 Day End in South FNCD
-Bought Motorcycle Hyundai Kona for $18815
+Salesperson Luka quit the FNCD
+Hired a new Intern Haley
 
-Total sales for the day in North FNCD: 52031
-Total sales for the day in South FNCD: 54847
+Total sales for the day in North FNCD: 137214
+Total sales for the day in South FNCD: 0

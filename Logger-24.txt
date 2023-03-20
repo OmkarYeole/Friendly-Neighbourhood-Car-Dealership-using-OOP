@@ -1,61 +1,58 @@
-Current Budget in North FNCD: 3047905
-Current Budget in South FNCD: 2220570
+Current Budget in North FNCD: 2505042
+Current Budget in South FNCD: 2080079
 
 Washing in North FNCD
-Intern Abigail washed a Dirty Budget Car Suzuki Swift using Elbow Grease method and made it Clean
-Intern Abigail washed a Clean Pickup Ram 1500 Classic using Elbow Grease method but it was still Clean
-Intern Lillian washed a Dirty Super Car Jeep Compass using Elbow Grease method but it was still Dirty
-Intern Lillian washed a Clean Budget Car Suzuki Swift using Elbow Grease method but it was still Clean
-Intern Layla washed a Dirty Performance Car Chevrolet Blazer using Detailed method and made it Clean
-Intern Layla washed a Clean Monster Truck Iron Outlaw using Detailed method but it was still Clean
+Intern Aria washed a Dirty Budget Car Kia Soul using Detailed method and made it Sparkling (and earned bonus of $50)
+Intern Aria washed a Clean Motorcycle Porsche Taycan using Detailed method but it was still Clean
+Intern Naomi washed a Dirty Performance Car Toyota 4Runner using Chemical method and made it Clean
+Intern Naomi washed a Clean Monster Truck Swamp Thing using Chemical method but it was still Clean
+Intern Nova washed a Dirty Luxury Car BMW 7 Series using Detailed method and made it Sparkling (and earned bonus of $75)
+Intern Nova washed a Clean Car Dodge Charger using Detailed method and made it Sparkling (and earned bonus of $50)
 
 Washing in South FNCD
-Intern Ashley washed a Dirty Budget Car Dodge Charger using Elbow Grease method and made it Clean
-Intern Ashley washed a Clean Car Chevrolet Spark using Elbow Grease method but it was still Clean
-Intern Sarah washed a Dirty Electric Car Audi R8 using Elbow Grease method and made it Clean
-Intern Sarah washed a Clean Car Chevrolet Spark using Elbow Grease method and made it Sparkling (and earned bonus of $50)
-Intern Patrick washed a Dirty Pickup Lincoln Navigator using Chemical method and made it Clean
-Intern Patrick washed a Clean Budget Car Dodge Charger using Chemical method but made it Dirty
+Intern Paige washed a Dirty Electric Car Mazda CX-5 using Detailed method but it was still Dirty
+Intern Paige washed a Clean Pickup Ram 1500 Classic using Detailed method but it was still Clean
+Intern Christian washed a Dirty Electric Car Mazda CX-5 using Chemical method and made it Clean
+Intern Christian washed a Clean Motorcycle McLaren Artura using Chemical method but it was still Clean
+Intern Joseph washed a Dirty Electric Car Mercedes-AMG GT 4-Door Coupe using Detailed method and made it Sparkling (and earned bonus of $100)
+Intern Joseph washed a Clean Electric Car Kia Soul using Detailed method but it was still Clean
 
 Repairing in North FNCD
-Mechanic Haytham repaired a Used Budget Car Tesla Model S and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Performance Car Toyota 4Runner and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
+Mechanic Haytham repaired a Used Performance Car Koenigsegg Jesko but it was still Used and the vehicle became Dirty
+Mechanic Ellie repaired a Used Performance Car Koenigsegg Jesko and made it Like New (and earned a bonus of $150) and the vehicle became Dirty
 
 Repairing in South FNCD
+Mechanic Thibaut repaired a Used Budget Car Bugatti Chiron but it was still Used and the vehicle became Clean
+Mechanic Thibaut repaired a Used Budget Car Bugatti Chiron and made it Like New (and earned a bonus of $100) and the vehicle became Dirty
 
 Selling in North FNCD
-Sales Price of the Super Car Pagani Huayra increased from $219003 to $262803 after adding on Extended Warranty
-Sales Price of the Super Car Pagani Huayra increased from $262803 to $275943 after adding on Satellite Radio
-Salesperson Gabriella has sold a Dirty Like New Super Car Pagani Huayra to Buyer1 for $275943 (and earned a bonus of $200)
+Sales Price of the Motorcycle Maserati Levante increased from $58387 to $61306 after adding on Satellite Radio
+Salesperson Jacob has sold a Sparkling Like New Motorcycle Maserati Levante to Buyer1 for $61306 (and earned a bonus of $150)
 
 Selling in South FNCD
-Sales Price of the Electric Car Bentley Continental GT increased from $156941 to $188329 after adding on Extended Warranty
-Salesperson Luis has sold a Clean Like New Electric Car Bentley Continental GT to Buyer2 for $188329 (and earned a bonus of $200)
-Salesperson Luis has sold a Clean Like New Luxury Car Mercedes-Benz E-Class to Buyer4 for $159312 (and earned a bonus of $175)
+Salesperson Patrick has sold a Dirty Like New Car Hyundai Elantra to Buyer1 for $47767 (and earned a bonus of $150)
+Sales Price of the Monster Truck Swamp Thing 2 increased from $142342 to $170810 after adding on Extended Warranty
+Salesperson Luka has sold a Dirty Like New Monster Truck Swamp Thing 2 to Buyer3 for $170810 (and earned a bonus of $175)
 
 Racing in North FNCD
-Driver Bayek finished the race at position 20 with the Monster Truck Swamp Thing and the Vehicle became Broken 
-Driver Bayek got injured and quit the FNCD
-Driver Alexios finished the race at position 8 with the Monster Truck Sudden Impact
-Driver Eivor finished the race at position 10 with the Monster Truck Bear Foot F-150
+Driver Bayek finished the race at position 19 with the Motorcycle Aston Martin Vantage and the Vehicle became Broken 
+Driver Isabella finished the race at position 16 with the Motorcycle Lamborghini Huracan and the Vehicle became Broken 
+Driver Luna finished the race at position 9 with the Motorcycle Porsche Taycan
 
 Racing in South FNCD
-Driver Karim finished the race at position 11 with the Luxury Car BMW 7 Series
-Driver Carlo finished the race at position 2 with the Luxury Car Acura RLX and Won the race (and earned a bonus of $300)
-Driver Daniel finished the race at position 3 with the Luxury Car Jeep Compass and Won the race (and earned a bonus of $300)
+Driver Vinicius finished the race at position 20 with the Motorcycle McLaren Artura and the Vehicle became Broken 
+Driver Karim finished the race at position 3 with the Motorcycle Lamborghini Huracan and Won the race (and earned a bonus of $250)
+Driver Carlo finished the race at position 15 with the Motorcycle Porsche Taycan
 
 Day End in North FNCD
-Hired a new Driver Skylar
-Bought Car Koenigsegg Jesko for $11763
+Mechanic Haytham quit the FNCD
+Hired a new Intern Aaliyah
+Bought Motorcycle Kia Telluride for $11726
 
 Day End in South FNCD
-Intern Ashley quit the FNCD
-Mechanic Katherine quit the FNCD
-Salesperson Mason quit the FNCD
-Hired a new Intern Ethan
-Hired a new Intern Sophie
-Hired a new Intern Kaitlyn
-Bought Electric Car Land Rover Defender for $32623
-Bought Car Ford Mustang for $6930
+Bought Car Audi Q7 for $9128
+Bought Monster Truck Grinder for $21176
 
-Total sales for the day in North FNCD: 275943
-Total sales for the day in South FNCD: 347641
+Total sales for the day in North FNCD: 61306
+Total sales for the day in South FNCD: 218577
