@@ -34,7 +34,7 @@ Assumptions made in the code:
 
 14) For vehicle ArrayLists vehicle[5] represents ElectricCars.
 
-15) For all the variables from Vehicle class such as vehicle, status, cost_price, sales_price 0th ArrayList will correspond to Cars, 1st ArrayList will correspond to Pickup, 2nd ArrayList will correspond to PerformanceCar, 3rd ArrayList will correspond to Motorcycles, 4th ArrayList will correspond to MonsterTrucks, 5th ArrayList will correspond to ElectricCars.
+15) For all the variables from Vehicle class such as vehicle, status, cost_price, sales_price 0th ArrayList will correspond to Cars, 1st ArrayList will correspond to Pickup, 2nd ArrayList will correspond to PerformanceCar, 3rd ArrayList will correspond to Motorcycles, 4th ArrayList will correspond to MonsterTrucks, 5th ArrayList will correspond to ElectricCars, 6th Arraylist will correspond to BudgetCar, 7th Arraylist will correspond to LuxuryCar and 8th Arraylist will correspond to SuperCar.
 
 16) Bonus is decided based on the car type. Pickup gets 200, PerformanceCar 225, Motorcycles 250, Monster Trucks 275.
 
@@ -49,3 +49,5 @@ Assumptions made in the code:
 21) After the driver gets injured and quits, driver details are also removed from active drivers.
 
 22) Sale bonus for Motorcycles, Monster Trucks and Electric Cars is 150, 175, 200.
+
+23) BudgetCar does not enter Race Events while LuxuryCar and SuperCar enter Race Events.
