@@ -10,7 +10,7 @@ The Friendly Neighborhood Car Dealership (FNCD) Simulation is a Java-based proje
 
 **Maintenance Services:** Include car repair and cleaning operations.
 
-**Racing Events:** Users can participate in racing events to test car performance.
+**Racing Events:** Users can participate in racing events to check which racer is the best.
 
 **Design Patterns:** Utilizes design patterns such as Observer, Strategy, Decorator, Factory, Singleton, and Command for modular and maintainable code.
 
@@ -83,7 +83,7 @@ Java version - 19.0.1
 
 **Repair and Clean Cars:** Perform maintenance tasks to keep cars in top condition.
 
-**Race Cars:** Engage in racing events to evaluate car performance.
+**Race Cars:** Engage in racing events to evaluate driver performance.
 
 **View Results:** After running the simulation, check the SimResults.txt file for a summary of the 30-day simulation activities.
 
