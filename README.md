@@ -1,8 +1,8 @@
-# Friendly Neighbourhood Car Dealership (FNCD) Simulation in Java
+# Car Dealership Simulation in Java
 
 ## Overview
 
-The Friendly Neighborhood Car Dealership (FNCD) Simulation is a Java-based project that simulates the operations of a car dealership. Users can engage in activities such as buying, selling, repairing, cleaning, and racing cars. The simulation leverages Object-Oriented Programming (OOP) principles and incorporates several common software design patterns.
+The Car Dealership Simulation is a Java-based project that simulates the operations of a car dealership. Users can engage in activities such as buying, selling, repairing, cleaning, and racing cars. The simulation leverages Object-Oriented Programming (OOP) principles and incorporates several common software design patterns.
 
 # Features
 
@@ -99,6 +99,6 @@ The project includes UML diagrams that provide a visual representation of the sy
 
 # Contact
 
-For any questions or further information, you can reach me at omkar.yeole@colorado.edu.
+For any questions or further information, you can reach me at omkaryeole@gmail.com.
 
-Thank you for visiting the Friendly Neighborhood Car Dealership (FNCD) Simulation project!
+Thank you for visiting the Car Dealership Simulation project!
